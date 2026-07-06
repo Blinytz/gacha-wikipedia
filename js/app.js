@@ -82,6 +82,8 @@ async function demarrer() {
   if (donnees.provisoire) {
     console.warn('DONNÉES PROVISOIRES — raretés/PV non définitifs (étape 2 à venir).');
   }
+  // Accès console pour le débogage (projet perso) — pas utilisé par l'app.
+  window.gachaDebug = { etat, donnees, sauvegarderMaintenant, afficherEcran };
   sauvegarderMaintenant();
 }
 

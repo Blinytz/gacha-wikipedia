@@ -8,7 +8,7 @@ const CACHE = 'gacha-wikipedia-v1';
 const COQUILLE = [
   './', './index.html', './manifest.json', './css/app.css',
   './js/app.js', './js/etat.js', './js/config.js', './js/donnees.js',
-  './js/ui.js', './js/eclats.js', './js/ecran-paquets.js',
+  './js/ui.js', './js/eclats.js', './js/carte.js', './js/ecran-paquets.js',
   './js/ecran-collection.js', './js/ecran-station.js', './js/ecran-reglages.js',
   './data/collections.json',
   './icons/icon-192.png', './icons/icon-512.png',
