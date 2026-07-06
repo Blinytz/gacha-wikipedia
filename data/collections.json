@@ -1,0 +1,198 @@
+{
+ "provisoire": true,
+ "note": "PAGEVIEWS ALÉATOIRES — à régénérer par generate_cards.py (étape 2)",
+ "collections": [
+  {
+   "slug": "merveilles-du-monde",
+   "nom": "Merveilles du monde",
+   "nbCartes": 14,
+   "fichier": "data/merveilles-du-monde.json"
+  },
+  {
+   "slug": "pilotes-f1-champions-du-monde",
+   "nom": "Pilotes F1 champions du monde",
+   "nbCartes": 35,
+   "fichier": "data/pilotes-f1-champions-du-monde.json"
+  },
+  {
+   "slug": "elements-chimiques",
+   "nom": "Elements chimiques",
+   "nbCartes": 118,
+   "fichier": "data/elements-chimiques.json"
+  },
+  {
+   "slug": "corps-celestes",
+   "nom": "Corps celestes",
+   "nbCartes": 49,
+   "fichier": "data/corps-celestes.json"
+  },
+  {
+   "slug": "dieux-et-figures-mythologiques-grecques",
+   "nom": "Dieux et figures mythologiques grecques",
+   "nbCartes": 42,
+   "fichier": "data/dieux-et-figures-mythologiques-grecques.json"
+  },
+  {
+   "slug": "grands-dirigeants",
+   "nom": "Grands dirigeants",
+   "nbCartes": 67,
+   "fichier": "data/grands-dirigeants.json"
+  },
+  {
+   "slug": "constellations",
+   "nom": "Constellations",
+   "nbCartes": 85,
+   "fichier": "data/constellations.json"
+  },
+  {
+   "slug": "monuments-emblematiques",
+   "nom": "Monuments emblematiques",
+   "nbCartes": 50,
+   "fichier": "data/monuments-emblematiques.json"
+  },
+  {
+   "slug": "dynasties-et-empires-historiques",
+   "nom": "Dynasties et empires historiques",
+   "nbCartes": 42,
+   "fichier": "data/dynasties-et-empires-historiques.json"
+  },
+  {
+   "slug": "grandes-batailles-historiques",
+   "nom": "Grandes batailles historiques",
+   "nbCartes": 44,
+   "fichier": "data/grandes-batailles-historiques.json"
+  },
+  {
+   "slug": "grandes-guerres",
+   "nom": "Grandes guerres",
+   "nbCartes": 35,
+   "fichier": "data/grandes-guerres.json"
+  },
+  {
+   "slug": "dinosaures-celebres",
+   "nom": "Dinosaures celebres",
+   "nbCartes": 50,
+   "fichier": "data/dinosaures-celebres.json"
+  },
+  {
+   "slug": "grands-explorateurs",
+   "nom": "Grands explorateurs",
+   "nbCartes": 50,
+   "fichier": "data/grands-explorateurs.json"
+  },
+  {
+   "slug": "auteurs-celebres",
+   "nom": "Auteurs celebres",
+   "nbCartes": 141,
+   "fichier": "data/auteurs-celebres.json"
+  },
+  {
+   "slug": "scientifiques-celebres",
+   "nom": "Scientifiques celebres",
+   "nbCartes": 120,
+   "fichier": "data/scientifiques-celebres.json"
+  },
+  {
+   "slug": "grands-peintres",
+   "nom": "Grands peintres",
+   "nbCartes": 71,
+   "fichier": "data/grands-peintres.json"
+  },
+  {
+   "slug": "tableaux-celebres",
+   "nom": "Tableaux celebres",
+   "nbCartes": 59,
+   "fichier": "data/tableaux-celebres.json"
+  },
+  {
+   "slug": "inventions-importantes",
+   "nom": "Inventions importantes",
+   "nbCartes": 70,
+   "fichier": "data/inventions-importantes.json"
+  },
+  {
+   "slug": "aviateurs-celebres",
+   "nom": "Aviateurs celebres",
+   "nbCartes": 41,
+   "fichier": "data/aviateurs-celebres.json"
+  },
+  {
+   "slug": "mammiferes",
+   "nom": "Mammiferes",
+   "nbCartes": 106,
+   "fichier": "data/mammiferes.json"
+  },
+  {
+   "slug": "oiseaux",
+   "nom": "Oiseaux",
+   "nbCartes": 71,
+   "fichier": "data/oiseaux.json"
+  },
+  {
+   "slug": "reptiles-et-amphibiens",
+   "nom": "Reptiles et amphibiens",
+   "nbCartes": 45,
+   "fichier": "data/reptiles-et-amphibiens.json"
+  },
+  {
+   "slug": "poissons-et-vie-marine",
+   "nom": "Poissons et vie marine",
+   "nbCartes": 55,
+   "fichier": "data/poissons-et-vie-marine.json"
+  },
+  {
+   "slug": "insectes",
+   "nom": "Insectes",
+   "nbCartes": 56,
+   "fichier": "data/insectes.json"
+  },
+  {
+   "slug": "races-de-chien",
+   "nom": "Races de chien",
+   "nbCartes": 117,
+   "fichier": "data/races-de-chien.json"
+  },
+  {
+   "slug": "coupes-du-monde-fifa",
+   "nom": "Coupes du monde FIFA",
+   "nbCartes": 22,
+   "fichier": "data/coupes-du-monde-fifa.json"
+  },
+  {
+   "slug": "plus-grands-joueurs-de-football",
+   "nom": "Plus grands joueurs de football",
+   "nbCartes": 180,
+   "fichier": "data/plus-grands-joueurs-de-football.json"
+  },
+  {
+   "slug": "mythologies-du-monde-hors-grece",
+   "nom": "Mythologies du monde (hors Grece)",
+   "nbCartes": 58,
+   "fichier": "data/mythologies-du-monde-hors-grece.json"
+  },
+  {
+   "slug": "creatures-et-legendes",
+   "nom": "Creatures et legendes",
+   "nbCartes": 46,
+   "fichier": "data/creatures-et-legendes.json"
+  },
+  {
+   "slug": "personnages-de-fiction-celebres",
+   "nom": "Personnages de fiction celebres",
+   "nbCartes": 173,
+   "fichier": "data/personnages-de-fiction-celebres.json"
+  },
+  {
+   "slug": "jeux-video-cultes",
+   "nom": "Jeux video cultes",
+   "nbCartes": 95,
+   "fichier": "data/jeux-video-cultes.json"
+  },
+  {
+   "slug": "films-cultes",
+   "nom": "Films cultes",
+   "nbCartes": 121,
+   "fichier": "data/films-cultes.json"
+  }
+ ]
+}

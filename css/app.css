@@ -1,0 +1,146 @@
+/* Gacha Wikipedia — thème sombre gacha, mobile-first (360-430 px). */
+
+:root {
+  --fond: #12121c;
+  --fond-2: #1b1b2a;
+  --fond-3: #242438;
+  --texte: #eceaf6;
+  --texte-doux: #9a97b0;
+  --accent: #7c5cff;
+  --accent-2: #46c8ff;
+  --or: #ffd166;
+  --danger: #ff5c7a;
+  --rayon: 14px;
+  --nav-h: 62px;
+  --entete-h: 54px;
+
+  --c-commune: #8a93a6;
+  --c-rare: #4aa8ff;
+  --c-epique: #b05cff;
+  --c-mythique: #ff5cd0;
+  --c-legendaire: #ffd166;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--fond);
+  color: var(--texte);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100dvh;
+  overscroll-behavior-y: none;
+}
+
+/* ---------- entête ---------- */
+#entete {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 20;
+  height: calc(var(--entete-h) + env(safe-area-inset-top));
+  padding: env(safe-area-inset-top) 14px 0;
+  display: flex; align-items: center; justify-content: space-between;
+  background: linear-gradient(180deg, #191927 0%, #16162280 100%);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #ffffff12;
+}
+.titre-app { font-weight: 800; font-size: 18px; letter-spacing: .3px; }
+.titre-app span {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+#chip-eclats {
+  display: flex; align-items: center; gap: 5px;
+  background: var(--fond-3); color: var(--texte);
+  border: 1px solid #ffffff1c; border-radius: 999px;
+  padding: 6px 12px; font-size: 14px; font-weight: 700; cursor: pointer;
+}
+#chip-eclats .gemme { color: var(--accent-2); }
+#chip-eclats small { color: var(--texte-doux); font-weight: 600; }
+
+/* ---------- structure ---------- */
+#contenu {
+  padding: calc(var(--entete-h) + env(safe-area-inset-top) + 10px) 12px
+           calc(var(--nav-h) + env(safe-area-inset-bottom) + 14px);
+  max-width: 560px; margin: 0 auto;
+}
+.ecran { display: none; }
+.ecran.visible { display: block; animation: apparition .18s ease-out; }
+@keyframes apparition { from { opacity: 0; transform: translateY(6px); } }
+
+#chargement { text-align: center; padding: 60px 0; color: var(--texte-doux); }
+
+.carte-panneau {
+  background: var(--fond-2);
+  border: 1px solid #ffffff10;
+  border-radius: var(--rayon);
+  padding: 16px;
+  margin-bottom: 14px;
+}
+.carte-panneau h2 { margin: 0 0 8px; font-size: 16px; }
+.texte-doux { color: var(--texte-doux); font-size: 14px; margin: 6px 0; }
+
+.bandeau-alerte {
+  background: #4d3a10; border: 1px solid #ffd16640; color: #ffe4a3;
+  border-radius: 10px; padding: 10px 12px; font-size: 13px; margin-bottom: 12px;
+}
+
+/* ---------- navigation basse ---------- */
+#navbar {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
+  height: calc(var(--nav-h) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  background: #161622f2; backdrop-filter: blur(10px);
+  border-top: 1px solid #ffffff12;
+}
+#navbar button {
+  background: none; border: none; color: var(--texte-doux);
+  font-size: 11px; font-weight: 600; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 3px; padding: 6px 0;
+}
+#navbar button .ico { font-size: 20px; filter: grayscale(.6) opacity(.7); }
+#navbar button.actif { color: var(--texte); }
+#navbar button.actif .ico { filter: none; transform: scale(1.08); }
+
+/* ---------- boutons & formulaires ---------- */
+.btn {
+  background: var(--fond-3); color: var(--texte);
+  border: 1px solid #ffffff20; border-radius: 10px;
+  padding: 10px 16px; font-size: 14px; font-weight: 700; cursor: pointer;
+}
+.btn:active { transform: scale(.97); }
+.btn-primaire {
+  background: linear-gradient(135deg, var(--accent), #5a3df0);
+  border-color: transparent;
+}
+.btn-danger { background: #3a1622; border-color: var(--danger); color: var(--danger); }
+.btn-discret { font-size: 12px; padding: 7px 12px; color: var(--texte-doux); margin-top: 10px; }
+.rangee-boutons { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+
+.ligne-pref { display: flex; gap: 10px; align-items: center; font-size: 14px; padding: 6px 0; }
+.ligne-param { display: block; padding: 8px 0; border-top: 1px solid #ffffff0d; }
+.ligne-param .nom-param { font-family: monospace; font-size: 13px; color: var(--accent-2); }
+.ligne-param input {
+  width: 100%; margin: 6px 0 4px;
+  background: var(--fond); color: var(--texte);
+  border: 1px solid #ffffff22; border-radius: 8px; padding: 8px 10px; font-size: 15px;
+}
+.ligne-param .aide-param { display: block; font-size: 12px; color: var(--texte-doux); }
+.zone-danger { border-color: #ff5c7a30; }
+
+/* ---------- images de cartes / placeholder ---------- */
+.img-carte {
+  position: relative; overflow: hidden; border-radius: 8px;
+  background:
+    radial-gradient(120% 100% at 20% 0%, hsl(var(--h) 60% 38%) 0%, transparent 60%),
+    linear-gradient(160deg, hsl(var(--h) 45% 30%), hsl(calc(var(--h) + 50) 50% 18%));
+  display: flex; align-items: center; justify-content: center;
+}
+.img-carte .initiale {
+  font-size: 34px; font-weight: 800; color: #ffffff70; user-select: none;
+}
+.img-carte img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; opacity: 0; transition: opacity .2s;
+}
+.img-carte.chargee img { opacity: 1; }
+.img-carte.chargee .initiale { visibility: hidden; }

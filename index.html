@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12121c">
+<title>Gacha Wikipedia</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header id="entete">
+  <div class="titre-app">Gacha <span>Wikipedia</span></div>
+  <button id="chip-eclats" title="Éclats">
+    <span class="gemme">◆</span><span id="eclats-total">0</span>
+    <small id="eclats-taux">×1.00</small>
+  </button>
+</header>
+
+<main id="contenu">
+  <section id="ecran-paquets" class="ecran"></section>
+  <section id="ecran-collection" class="ecran"></section>
+  <section id="ecran-station" class="ecran"></section>
+  <section id="ecran-reglages" class="ecran"></section>
+  <div id="chargement">Chargement des collections…</div>
+</main>
+
+<nav id="navbar">
+  <button data-ecran="paquets" class="actif"><span class="ico">🎁</span>Paquets</button>
+  <button data-ecran="collection"><span class="ico">🃏</span>Collection</button>
+  <button data-ecran="station"><span class="ico">🔬</span>Station</button>
+  <button data-ecran="reglages"><span class="ico">⚙️</span>Réglages</button>
+</nav>
+
+<div id="overlays"></div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
