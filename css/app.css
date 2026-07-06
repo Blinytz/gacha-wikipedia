@@ -344,3 +344,95 @@ body {
   0%, 100% { box-shadow: 0 12px 34px #000a, 0 0 16px #ff5cd044; }
   50% { box-shadow: 0 12px 34px #000a, 0 0 34px #ff5cd07a; }
 }
+
+/* ---------- écran Paquets ---------- */
+.btn-large { width: 100%; padding: 14px; font-size: 16px; margin-top: 6px; }
+.centre { text-align: center; }
+.panneau-chargement { text-align: center; }
+.zone-progres { position: relative; width: 180px; margin: 10px auto; }
+.anneau-progres { width: 100%; transform: rotate(-90deg); }
+.anneau-fond, .anneau-valeur { fill: none; stroke-width: 7; }
+.anneau-fond { stroke: #ffffff14; }
+.anneau-valeur {
+  stroke: url(#degrade-anneau), var(--accent);
+  stroke: var(--accent);
+  stroke-linecap: round;
+  stroke-dasharray: 283;
+  transition: stroke-dashoffset .9s linear;
+  filter: drop-shadow(0 0 6px #7c5cff88);
+}
+.centre-progres {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+}
+.paquet-emoji { font-size: 40px; }
+#pct-paquet { font-weight: 800; font-size: 18px; margin-top: 2px; }
+
+/* ---------- révélation de paquet ---------- */
+.overlay-ouverture {
+  position: fixed; inset: 0; z-index: 60;
+  background: radial-gradient(120% 100% at 50% 0%, #1d1d31, #0b0b12 70%);
+  display: flex; align-items: center; justify-content: center;
+}
+.scene-ouverture {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 14px; width: 100%; height: 100%; padding: 20px; position: relative;
+  overflow-y: auto;
+}
+.paquet-a-ouvrir {
+  font-size: 110px; background: none; border: none; cursor: pointer;
+  animation: tremblement 1.6s ease-in-out infinite;
+  filter: drop-shadow(0 10px 30px #7c5cff66);
+}
+@keyframes tremblement {
+  0%, 100% { transform: rotate(-3deg) scale(1); }
+  50% { transform: rotate(3deg) scale(1.06); }
+}
+.compteur-ouverture { color: var(--texte-doux); font-weight: 700; }
+.badge-nouvelle {
+  background: linear-gradient(90deg, var(--or), #ffb14e); color: #241a00;
+  font-weight: 900; font-size: 12px; letter-spacing: 1px;
+  padding: 4px 14px; border-radius: 999px;
+  animation: apparition-badge .4s cubic-bezier(.2,1.6,.4,1);
+}
+@keyframes apparition-badge { from { transform: scale(0); } }
+.conteneur-revelation .carte-jeu { animation: arrivee-carte .35s ease-out; }
+@keyframes arrivee-carte {
+  from { transform: translateY(26px) scale(.92); opacity: 0; }
+}
+
+/* halo d'ambiance selon la rareté révélée + flash à la révélation */
+.scene-ouverture.aura-rare       { background: radial-gradient(80% 60% at 50% 45%, #4aa8ff22, transparent 70%); }
+.scene-ouverture.aura-epique     { background: radial-gradient(80% 60% at 50% 45%, #b05cff2e, transparent 70%); }
+.scene-ouverture.aura-mythique   { background: radial-gradient(80% 60% at 50% 45%, #ff5cd033, transparent 70%); }
+.scene-ouverture.aura-legendaire { background: radial-gradient(80% 60% at 50% 45%, #ffd16640, transparent 70%); }
+.scene-ouverture.flash::after {
+  content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(60% 45% at 50% 45%, #ffffffd9, transparent 70%);
+  animation: eclair .55s ease-out forwards;
+}
+@keyframes eclair { from { opacity: 1; } to { opacity: 0; } }
+
+/* bilan de fin de paquet */
+.bilan-ouverture h2 { margin: 6px 0 0; }
+.grille-bilan {
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px;
+  width: 100%; max-width: 420px;
+}
+.mini-carte {
+  position: relative; background: var(--fond-2);
+  border: 1.5px solid var(--couleur-rarete, #ffffff18);
+  border-radius: 8px; padding: 4px; text-align: center;
+  display: flex; flex-direction: column; gap: 3px;
+}
+.mini-carte .img-carte { aspect-ratio: 1; }
+.mini-carte .img-carte .initiale { font-size: 18px; }
+.nom-mini {
+  font-size: 8.5px; font-weight: 600; line-height: 1.2; min-height: 2.4em;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.rarete-mini { font-size: 7.5px; color: var(--couleur-rarete); font-weight: 800; text-transform: uppercase; }
+.pastille-nouvelle {
+  position: absolute; top: -5px; right: -5px; color: var(--or);
+  font-size: 14px; text-shadow: 0 0 6px #000;
+}
