@@ -1,0 +1,6 @@
+{
+  "name": "gacha-wikipedia",
+  "private": true,
+  "type": "module",
+  "description": "PWA gacha de cartes Wikipedia — le champ type:module permet aussi d'importer les moteurs js/ dans Node pour les simulations d'équilibrage (build/simulate_boosts.js)."
+}

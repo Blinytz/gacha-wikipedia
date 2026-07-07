@@ -13,19 +13,21 @@ export const DEFAUTS = {
 
   // --- Rareté et PV (utilisés à la génération des données, informatif ici)
   seuilLegendaire: { valeur: 0.02, section: 'Rareté et PV',
-    aide: 'Fraction de la collection en Légendaire (appliqué à la régénération des données).' },
+    aide: 'Fraction de la collection en Légendaire. ⚠️ N’agit qu’à la régénération des données de cartes, jamais sur les cartes existantes.' },
   seuilMythique:   { valeur: 0.06, section: 'Rareté et PV',
-    aide: 'Fraction de la collection en Mythique.' },
+    aide: 'Fraction de la collection en Mythique. ⚠️ Régénération des données uniquement.' },
   seuilEpique:     { valeur: 0.16, section: 'Rareté et PV',
-    aide: 'Fraction de la collection en Épique.' },
+    aide: 'Fraction de la collection en Épique. ⚠️ Régénération des données uniquement.' },
   seuilRare:       { valeur: 0.26, section: 'Rareté et PV',
-    aide: 'Fraction de la collection en Rare.' },
-  pvMin: { valeur: 20,  section: 'Rareté et PV', aide: 'PV de la carte la moins populaire.' },
-  pvMax: { valeur: 340, section: 'Rareté et PV', aide: 'PV de la carte la plus populaire.' },
+    aide: 'Fraction de la collection en Rare. ⚠️ Régénération des données uniquement.' },
+  pvMin: { valeur: 20,  section: 'Rareté et PV',
+    aide: 'PV de la carte la moins populaire. ⚠️ Régénération des données uniquement.' },
+  pvMax: { valeur: 340, section: 'Rareté et PV',
+    aide: 'PV de la carte la plus populaire. ⚠️ Régénération des données uniquement.' },
 
   // --- Module 1 — Calibrage 3D
-  vitesseDeriveCible: { valeur: 1.5, section: 'Module 1 — Calibrage 3D',
-    aide: "Vitesse de déplacement de la cible cachée (% de l'espace par seconde)." },
+  vitesseDeriveCible: { valeur: 0.25, section: 'Module 1 — Calibrage 3D',
+    aide: "Vitesse max de la cible cachée (% de l'espace par seconde). Plus c'est haut, plus le calibrage se périme vite entre deux visites." },
   inertieCible: { valeur: 0.5, section: 'Module 1 — Calibrage 3D',
     aide: 'Résistance de la cible aux changements de direction (0 = nerveuse, 1 = très inerte).' },
   amplitudeBruitSignal: { valeur: 15, section: 'Module 1 — Calibrage 3D',
@@ -56,8 +58,8 @@ export const DEFAUTS = {
     aide: 'Débit maximal de Collecte à 100% de capacité (unités/min).' },
   debitMaxTraitement: { valeur: 40, section: 'Module 2 — Chaîne',
     aide: 'Débit maximal de Traitement à 100% de capacité (unités/min).' },
-  intensiteBoostParRaffinage: { valeur: 1, section: 'Module 2 — Chaîne',
-    aide: 'Constante K : boost = 1 + raffinage% × K.' },
+  intensiteBoostParRaffinage: { valeur: 1.5, section: 'Module 2 — Chaîne',
+    aide: 'Constante K : boost = 1 + raffinage% × K (à 1.5 : raffinage 100% = ×2.5).' },
   consommationStockParRaffinage: { valeur: 20, section: 'Module 2 — Chaîne',
     aide: 'Consommation du stock traité à Raffinage 100% (unités/min).' },
 
@@ -80,9 +82,9 @@ export const DEFAUTS = {
     aide: 'Borne haute du taux de conversion Durée.' },
   vitesseDeriveTauxConversion: { valeur: 21600, section: 'Module 3 — Marché',
     aide: 'Durée caractéristique (s) de dérive des taux de conversion (6h = 21600).' },
-  echelleIntensiteM3: { valeur: 0.005, section: 'Module 3 — Marché',
+  echelleIntensiteM3: { valeur: 0.08, section: 'Module 3 — Marché',
     aide: 'Intensité de boost obtenue par unité de capital engagée (à taux ×1).' },
-  echelleDureeM3: { valeur: 120, section: 'Module 3 — Marché',
+  echelleDureeM3: { valeur: 1080, section: 'Module 3 — Marché',
     aide: 'Secondes de durée de boost par unité de capital engagée (à taux ×1).' },
 
   // --- Éclats
@@ -107,8 +109,21 @@ export const config = {
   },
   set(cle, valeur) {
     if (!(cle in DEFAUTS)) throw new Error(`Paramètre inconnu : ${cle}`);
-    etat.configUtilisateur[cle] = valeur;
+    // Revenir à la valeur par défaut = plus de surcharge à stocker.
+    if (valeur === DEFAUTS[cle].valeur) delete etat.configUtilisateur[cle];
+    else etat.configUtilisateur[cle] = valeur;
     sauvegarder();
+  },
+  estSurcharge(cle) {
+    return etat.configUtilisateur?.[cle] !== undefined
+        && etat.configUtilisateur[cle] !== null;
+  },
+  sections() {
+    const s = {};
+    for (const [cle, def] of Object.entries(DEFAUTS)) {
+      (s[def.section] ??= []).push(cle);
+    }
+    return s;
   },
   reinitialiserSection(section) {
     for (const [cle, def] of Object.entries(DEFAUTS)) {

@@ -7,10 +7,39 @@ import { donnees } from './donnees.js';
 import { esc, confirmer, formaterNombre } from './ui.js';
 import { tauxActuel, svgHistorique, consommerEclats } from './eclats.js';
 
-// Paramètres exposés dès maintenant (utile pour tester sans attendre 24h).
-const PARAMS_VISIBLES = ['dureeBaseSecondes', 'tailleDuPaquet'];
+function htmlSectionsParametres() {
+  return Object.entries(config.sections()).map(([section, cles]) => {
+    const nbSurcharges = cles.filter(c => config.estSurcharge(c)).length;
+    const badge = nbSurcharges
+      ? `<span class="badge-surcharge">${nbSurcharges} modifié${nbSurcharges > 1 ? 's' : ''}</span>` : '';
+    return `
+    <details class="section-params" data-section="${esc(section)}">
+      <summary>${esc(section)} ${badge}</summary>
+      ${cles.map(cle => {
+        const def = DEFAUTS[cle];
+        const surcharge = config.estSurcharge(cle);
+        return `
+        <label class="ligne-param ${surcharge ? 'surchargee' : ''}">
+          <span class="nom-param">${cle}
+            ${surcharge ? '<span class="puce-surcharge">●</span>' : ''}</span>
+          <input type="number" data-param="${cle}" value="${config.get(cle)}"
+                 step="any" inputmode="decimal">
+          <span class="aide-param">${esc(def.aide)}
+            <em class="rappel-defaut">défaut : ${def.valeur}</em></span>
+        </label>`;
+      }).join('')}
+      <button class="btn btn-discret" data-reset-section="${esc(section)}">
+        ↺ Réinitialiser « ${esc(section)} » aux valeurs par défaut</button>
+    </details>`;
+  }).join('');
+}
 
 export function rendreEcranReglages(section) {
+  // Conserve les accordéons ouverts à travers les re-rendus.
+  const ouvertes = new Set(
+    [...section.querySelectorAll('details.section-params[open]')]
+      .map(d => d.dataset.section));
+
   const avertissement = donnees.provisoire
     ? `<div class="bandeau-alerte">⚠️ Données de cartes PROVISOIRES (raretés/PV
        aléatoires) — les définitives arrivent avec l'étape 2.</div>` : '';
@@ -58,20 +87,20 @@ export function rendreEcranReglages(section) {
 
     <div class="carte-panneau">
       <h2>Paramètres</h2>
-      <p class="texte-doux">Réglages d'équilibrage (liste complète en phase D).</p>
-      ${PARAMS_VISIBLES.map(cle => `
-        <label class="ligne-param">
-          <span class="nom-param">${cle}</span>
-          <input type="number" data-param="${cle}" value="${config.get(cle)}" step="any">
-          <span class="aide-param">${esc(DEFAUTS[cle].aide)}</span>
-        </label>`).join('')}
-      <button id="btn-reset-params" class="btn btn-discret">Réinitialiser ces paramètres</button>
+      <p class="texte-doux">Tout l'équilibrage du jeu est réglable ici, section
+      par section. Un point violet ● signale une valeur modifiée par rapport au
+      défaut. Les changements s'appliquent immédiatement (sauf mention ⚠️).</p>
+      ${htmlSectionsParametres()}
     </div>
 
     <div class="carte-panneau zone-danger">
       <h2>Zone dangereuse</h2>
       <button id="btn-reset-tout" class="btn btn-danger">🗑️ Tout réinitialiser</button>
     </div>`;
+
+  for (const d of section.querySelectorAll('details.section-params')) {
+    if (ouvertes.has(d.dataset.section)) d.open = true;
+  }
 
   section.querySelector('#btn-consommer').addEventListener('click', () => {
     const champ = section.querySelector('#conso-montant');
@@ -119,14 +148,22 @@ export function rendreEcranReglages(section) {
   for (const input of section.querySelectorAll('input[data-param]')) {
     input.addEventListener('change', () => {
       const v = Number(input.value);
-      if (Number.isFinite(v) && v > 0) config.set(input.dataset.param, v);
-      else input.value = config.get(input.dataset.param);
+      // ≥ 0 : les seuils/taux < 1 sont légitimes ; jamais de négatif ni NaN.
+      if (Number.isFinite(v) && v >= 0) {
+        config.set(input.dataset.param, v);
+        rendreEcranReglages(section);   // rafraîchit puces et badges
+      } else {
+        input.value = config.get(input.dataset.param);
+      }
     });
   }
-  section.querySelector('#btn-reset-params').addEventListener('click', () => {
-    config.reinitialiserSection('Tirage et paquets');
-    rendreEcranReglages(section);
-  });
+  for (const btn of section.querySelectorAll('[data-reset-section]')) {
+    btn.addEventListener('click', () => {
+      if (!confirmer(`Réinitialiser tous les paramètres de « ${btn.dataset.resetSection} » ?`)) return;
+      config.reinitialiserSection(btn.dataset.resetSection);
+      rendreEcranReglages(section);
+    });
+  }
 
   section.querySelector('#btn-reset-tout').addEventListener('click', () => {
     if (!confirmer('Vraiment tout effacer ? Cartes, Éclats, réglages — irréversible sans export.')) return;
