@@ -36,6 +36,9 @@ export function initStation() {
     };
     sauvegarder();
   }
+  // Migration des stubs de développement (modules livrés étape par étape).
+  if (etat.station.m2?.stub) { etat.station.m2 = initM2(maintenant); sauvegarder(); }
+  if (etat.station.m3?.stub) { etat.station.m3 = initM3(maintenant); sauvegarder(); }
 }
 
 export function boosts() {

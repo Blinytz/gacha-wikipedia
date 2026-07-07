@@ -5,7 +5,12 @@
 import { etat, sauvegarder } from './etat.js';
 import { boosts, vitesseTotale, initStation } from './station.js';
 import { signalAffiche, annonceFenetre } from './station-m1.js';
+import { reglerCurseurM2, quantiteEnFile, tensionRegime,
+         prochainePeremption } from './station-m2.js';
+import { formaterDuree } from './ui.js';
 import { config } from './config.js';
+
+const NOMS_REGIME_FLUX = { faible: 'Faible', modere: 'Modéré', fort: 'Fort' };
 
 let ongletActif = 'm1';
 
@@ -103,9 +108,64 @@ function rendreM1(conteneur) {
 /* ---------------- Modules 2 et 3 (étapes 9 et 10) ---------------- */
 
 function rendreM2(conteneur) {
-  conteneur.innerHTML = `<div class="carte-panneau">
-    <h2>Chaîne Collecte / Traitement / Raffinage</h2>
-    <p class="texte-doux">🏭 En construction — étape 9.</p></div>`;
+  const m2 = etat.station.m2;
+  const capFile = config.get('capaciteMaxFileAttente');
+  const capStock = config.get('capaciteMaxStockTraite');
+  const enFile = quantiteEnFile(m2);
+
+  conteneur.innerHTML = `
+    <div class="carte-panneau">
+      <h2>Chaîne de production</h2>
+      <div class="ligne-regime-flux">
+        <span>Flux entrant : <b id="m2-regime">${NOMS_REGIME_FLUX[m2.regime.type]}</b>
+          <small id="m2-flux">(${(m2.fluxActuel * 60).toFixed(1)} u/min)</small></span>
+      </div>
+      <div class="libelle-jauge">Tension du régime
+        <small>(un changement approche quand elle monte)</small></div>
+      <div class="jauge-tension"><div id="m2-tension"
+        style="width:${(tensionRegime(m2, Date.now()) * 100).toFixed(0)}%"></div></div>
+
+      ${['collecte', 'traitement', 'raffinage'].map(nom => `
+        <label class="ligne-curseur">
+          <span class="nom-curseur">${nom[0].toUpperCase() + nom.slice(1)}</span>
+          <input type="range" min="0" max="100" step="1" data-curseur-m2="${nom}"
+                 value="${m2.curseurs[nom]}">
+          <span class="valeur-curseur" id="m2-val-${nom}">${m2.curseurs[nom]}%</span>
+        </label>`).join('')}
+      <p class="texte-doux">Budget partagé : monter un curseur prend au suivant
+      du cycle (Collecte → Traitement → Raffinage → Collecte).</p>
+    </div>
+
+    <div class="carte-panneau">
+      <h2>Matière</h2>
+      <div class="libelle-jauge">File d'attente (périssable)
+        <span><span id="m2-file">${Math.round(enFile)}</span> / ${capFile}</span></div>
+      <div class="jauge-file"><div id="m2-jauge-file" style="width:${100 * enFile / capFile}%"></div></div>
+      <p class="texte-doux" id="m2-peremption">${textePeremption(m2)}</p>
+      <div class="libelle-jauge">Stock traité (impérissable)
+        <span><span id="m2-stock">${Math.round(m2.stock)}</span> / ${capStock}</span></div>
+      <div class="jauge-stock"><div id="m2-jauge-stock" style="width:${100 * m2.stock / capStock}%"></div></div>
+      <p class="texte-doux">Boost actuel : <b id="m2-boost">×${boosts().m2.toFixed(2)}</b>
+      — le Raffinage consomme le stock ; à sec, le boost retombe à ×1 net.</p>
+    </div>`;
+
+  for (const input of conteneur.querySelectorAll('input[data-curseur-m2]')) {
+    input.addEventListener('input', () => {
+      reglerCurseurM2(m2, input.dataset.curseurM2, Number(input.value));
+      for (const nom of ['collecte', 'traitement', 'raffinage']) {
+        const el = conteneur.querySelector(`input[data-curseur-m2="${nom}"]`);
+        if (el !== input) el.value = m2.curseurs[nom];
+        conteneur.querySelector(`#m2-val-${nom}`).textContent = `${m2.curseurs[nom]}%`;
+      }
+      sauvegarder();
+    });
+  }
+}
+
+function textePeremption(m2) {
+  const s = prochainePeremption(m2, Date.now());
+  return s === null ? 'File vide — rien à périmer.'
+    : `Prochain lot périmé dans ${formaterDuree(s)} s'il n'est pas traité.`;
 }
 
 function rendreM3(conteneur) {
@@ -134,5 +194,23 @@ export function majStationUI(section) {
     section.querySelector('#m1-energie').style.width = `${100 * m1.energie / eMax}%`;
     section.querySelector('#m1-energie-txt').textContent =
       `${Math.round(m1.energie)} / ${eMax}`;
+  }
+
+  const m2 = etat.station.m2;
+  const jaugeFile = section.querySelector('#m2-jauge-file');
+  if (jaugeFile && m2 && !m2.stub) {
+    const capFile = config.get('capaciteMaxFileAttente');
+    const capStock = config.get('capaciteMaxStockTraite');
+    const enFile = quantiteEnFile(m2);
+    section.querySelector('#m2-regime').textContent = NOMS_REGIME_FLUX[m2.regime.type];
+    section.querySelector('#m2-flux').textContent = `(${(m2.fluxActuel * 60).toFixed(1)} u/min)`;
+    section.querySelector('#m2-tension').style.width =
+      `${(tensionRegime(m2, Date.now()) * 100).toFixed(0)}%`;
+    section.querySelector('#m2-file').textContent = Math.round(enFile);
+    jaugeFile.style.width = `${100 * enFile / capFile}%`;
+    section.querySelector('#m2-peremption').textContent = textePeremption(m2);
+    section.querySelector('#m2-stock').textContent = Math.round(m2.stock);
+    section.querySelector('#m2-jauge-stock').style.width = `${100 * m2.stock / capStock}%`;
+    section.querySelector('#m2-boost').textContent = `×${b.m2.toFixed(2)}`;
   }
 }

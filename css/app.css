@@ -530,6 +530,27 @@ body {
   background: linear-gradient(135deg, #b8860b, var(--or));
 }
 
+/* Station — Module 2 */
+.ligne-regime-flux { font-size: 14px; margin: 4px 0 10px; }
+.ligne-regime-flux b { color: var(--accent-2); }
+.ligne-regime-flux small { color: var(--texte-doux); }
+.jauge-tension, .jauge-file, .jauge-stock {
+  height: 12px; background: #0d0d16; border: 1px solid #ffffff14;
+  border-radius: 999px; overflow: hidden; margin-bottom: 12px;
+}
+.jauge-tension div {
+  height: 100%; background: linear-gradient(90deg, #3f8f4f, #d9a624, #cf4444);
+  transition: width .9s linear;
+}
+.jauge-file div {
+  height: 100%; background: linear-gradient(90deg, #2b6b8f, var(--accent-2));
+  transition: width .9s linear;
+}
+.jauge-stock div {
+  height: 100%; background: linear-gradient(90deg, #5a3df0, var(--accent));
+  transition: width .9s linear;
+}
+
 /* vente de doublons (détail de carte) */
 .panneau-vente { width: 100%; text-align: center; }
 .btn-vendre {
