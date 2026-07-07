@@ -9,12 +9,6 @@
 import { etat, sauvegarder } from './etat.js';
 import { config } from './config.js';
 
-const LISSAGE = 0.035;            // rapprochement de la cible par tick
-const BRUIT = 0.004;              // écart-type du bruit par tick
-const PAS_ECHANTILLON = 300_000;  // un point d'historique toutes les 5 min
-const MAX_HISTORIQUE = 2200;      // ~7,6 jours de points
-const MAX_RATTRAPAGE_MS = 7 * 86400_000;
-
 function msParTick() {
   return config.get('frequenceRafraichissementTauxEclats') * 1000;
 }
@@ -34,17 +28,22 @@ function gauss() {
 
 function nouveauRegime(quand) {
   const { min, portee } = bornes();
-  const r = Math.random();
+  const pBas = config.get('probaRegimeBas');
+  const pHaut = config.get('probaRegimeHaut');
+  const total = pBas + pHaut + config.get('probaRegimeNeutre') || 1;
+  const r = Math.random() * total;
   let type, cible;
-  if (r < 0.4) {          // crash : zone basse ~0.70-0.85
+  if (r < pBas) {                 // crash : dérive vers la zone basse
     type = 'bas';
-    cible = min + portee * (0.21 * Math.random());
-  } else if (r < 0.8) {   // période intéressante : zone haute ~1.20-1.40
+    cible = min + portee * (config.get('zoneBasseMax') * Math.random());
+  } else if (r < pBas + pHaut) {  // période intéressante : zone haute
     type = 'haut';
-    cible = min + portee * (0.71 + 0.29 * Math.random());
-  } else {                // zone neutre intermédiaire (casse la prévisibilité)
+    const zMin = config.get('zoneHauteMin');
+    cible = min + portee * (zMin + (1 - zMin) * Math.random());
+  } else {                        // zone neutre (casse la prévisibilité)
     type = 'neutre';
-    cible = min + portee * (0.36 + 0.21 * Math.random());
+    const zMin = config.get('zoneNeutreMin');
+    cible = min + portee * (zMin + (config.get('zoneNeutreMax') - zMin) * Math.random());
   }
   const dMin = config.get('dureeRegimeEclatsMin');
   const dMax = config.get('dureeRegimeEclatsMax');
@@ -55,13 +54,15 @@ function nouveauRegime(quand) {
 function unTick(te, quand) {
   if (quand >= te.regime.finTs) te.regime = nouveauRegime(quand);
   const { min, max } = bornes();
-  te.taux += (te.regime.cible - te.taux) * LISSAGE + gauss() * BRUIT;
+  te.taux += (te.regime.cible - te.taux) * config.get('lissageTauxEclats')
+             + gauss() * config.get('bruitTauxEclats');
   te.taux = Math.min(max, Math.max(min, te.taux));
-  if (quand - te.dernierEchantillon >= PAS_ECHANTILLON) {
+  if (quand - te.dernierEchantillon >= config.get('echantillonnageTauxEclats') * 1000) {
     te.historique.push([quand, Number(te.taux.toFixed(4))]);
     te.dernierEchantillon = quand;
-    if (te.historique.length > MAX_HISTORIQUE) {
-      te.historique.splice(0, te.historique.length - MAX_HISTORIQUE);
+    const plafond = config.get('maxHistoriqueTauxEclats');
+    if (te.historique.length > plafond) {
+      te.historique.splice(0, te.historique.length - plafond);
     }
   }
 }
@@ -88,8 +89,9 @@ export function tickEclats() {
   let maintenant = Date.now();
   // Absence très longue : inutile de simuler plus loin que la fenêtre
   // conservée — on saute au début de la fenêtre de rattrapage.
-  if (maintenant - te.lastTick > MAX_RATTRAPAGE_MS) {
-    te.lastTick = maintenant - MAX_RATTRAPAGE_MS;
+  const maxRattrapage = config.get('maxRattrapageEclats') * 1000;
+  if (maintenant - te.lastTick > maxRattrapage) {
+    te.lastTick = maintenant - maxRattrapage;
     te.dernierEchantillon = te.lastTick;
   }
   let avance = false;
@@ -126,7 +128,8 @@ export function consommerEclats(montant) {
 }
 
 // Courbe SVG de l'historique (fenêtre en heures) — sans bibliothèque.
-export function svgHistorique(heures = 6, largeur = 320, hauteur = 110) {
+export function svgHistorique(heures = null, largeur = 320, hauteur = 110) {
+  heures = heures ?? config.get('fenetreGraphiqueEclats');
   const te = etat.tauxEclats;
   const { min, max } = bornes();
   const depuis = Date.now() - heures * 3600_000;
@@ -141,8 +144,8 @@ export function svgHistorique(heures = 6, largeur = 320, hauteur = 110) {
   const x = t => 4 + (largeur - 8) * (t - t0) / Math.max(1, t1 - t0);
   const y = v => hauteur - 16 - (hauteur - 30) * (v - min) / (max - min);
   const ligne = pts.map(([t, v]) => `${x(t).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
-  const seuilHaut = y(min + (max - min) * 0.71);
-  const seuilBas = y(min + (max - min) * 0.21);
+  const seuilHaut = y(min + (max - min) * config.get('zoneHauteMin'));
+  const seuilBas = y(min + (max - min) * config.get('zoneBasseMax'));
   return `
   <svg viewBox="0 0 ${largeur} ${hauteur}" class="graphe-taux" preserveAspectRatio="none">
     <line x1="0" x2="${largeur}" y1="${seuilHaut}" y2="${seuilHaut}" class="seuil seuil-haut"/>

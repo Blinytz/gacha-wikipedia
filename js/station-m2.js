@@ -7,15 +7,33 @@
 import { config } from './config.js';
 import { gauss } from './station.js';
 
-const REGIMES_FLUX = {
-  faible: { niveau: 0.22, suivantes: ['modere', 'modere', 'fort'] },
-  modere: { niveau: 0.55, suivantes: ['faible', 'fort', 'fort'] },
-  fort:   { niveau: 1.0,  suivantes: ['modere', 'modere', 'faible'] },
+function niveauFlux(type) {
+  return config.get({ faible: 'niveauFluxFaible', modere: 'niveauFluxModere',
+                      fort: 'niveauFluxFort' }[type]);
+}
+
+// Transitions pondérées (poids normalisés, ajustables dans les Réglages).
+const TRANSITIONS = {
+  faible: [['modere', 'transFaibleVersModere'], ['fort', 'transFaibleVersFort']],
+  modere: [['faible', 'transModereVersFaible'], ['fort', 'transModereVersFort']],
+  fort:   [['modere', 'transFortVersModere'], ['faible', 'transFortVersFaible']],
 };
-const DUREE_REGIME_MIN = 2 * 3600, DUREE_REGIME_MAX = 5 * 3600;   // s
+
+function regimeSuivant(type) {
+  const branches = TRANSITIONS[type].map(([vers, cle]) => [vers, config.get(cle)]);
+  const total = branches.reduce((a, [, p]) => a + p, 0) || 1;
+  let r = Math.random() * total;
+  for (const [vers, p] of branches) {
+    r -= p;
+    if (r <= 0) return vers;
+  }
+  return branches[branches.length - 1][0];
+}
 
 function nouveauRegimeFlux(type, quand) {
-  const duree = (DUREE_REGIME_MIN + Math.random() * (DUREE_REGIME_MAX - DUREE_REGIME_MIN)) * 1000;
+  const dMin = config.get('dureeRegimeFluxMin');
+  const dMax = config.get('dureeRegimeFluxMax');
+  const duree = (dMin + Math.random() * (dMax - dMin)) * 1000;
   return { type, debutTs: quand, finTs: quand + duree, bruit: 0 };
 }
 
@@ -55,16 +73,16 @@ export function reglerCurseurM2(m2, nom, valeurVoulue) {
 export function stepM2(m2, dt, simNow) {
   // --- régime de flux entrant
   if (simNow >= m2.regime.finTs) {
-    const suivantes = REGIMES_FLUX[m2.regime.type].suivantes;
-    m2.regime = nouveauRegimeFlux(
-      suivantes[Math.floor(Math.random() * suivantes.length)], simNow);
+    m2.regime = nouveauRegimeFlux(regimeSuivant(m2.regime.type), simNow);
   }
   // bruit léger autour du niveau de base (marche lente bornée)
-  m2.regime.bruit = Math.max(-0.12, Math.min(0.12,
-    m2.regime.bruit + gauss() * 0.01 * dt - m2.regime.bruit * 0.02 * dt));
+  const amplBruit = config.get('amplitudeBruitFlux');
+  m2.regime.bruit = Math.max(-amplBruit, Math.min(amplBruit,
+    m2.regime.bruit + gauss() * config.get('incrementBruitFlux') * dt
+    - m2.regime.bruit * config.get('rappelBruitFlux') * dt));
   const debitMaxC = config.get('debitMaxCollecte') / 60;       // unités/s
   const debitMaxT = config.get('debitMaxTraitement') / 60;
-  const flux = debitMaxC * (REGIMES_FLUX[m2.regime.type].niveau + m2.regime.bruit);
+  const flux = debitMaxC * (niveauFlux(m2.regime.type) + m2.regime.bruit);
   m2.fluxActuel = Math.max(0, flux);
 
   // --- collecte : capacité = curseur % du débit max ; le surplus est perdu
@@ -84,8 +102,9 @@ export function stepM2(m2, dt, simNow) {
   if (collecte > 0) {
     const expireTs = simNow + config.get('dureeDeVieLot') * 1000;
     const dernier = m2.file[m2.file.length - 1];
-    // agrégation par minute d'expiration pour borner la taille de la file
-    if (dernier && expireTs - dernier.expireTs < 60_000) dernier.q += collecte;
+    // agrégation par tranche d'expiration pour borner la taille de la file
+    if (dernier && expireTs - dernier.expireTs <
+        config.get('granulariteLotsM2') * 1000) dernier.q += collecte;
     else m2.file.push({ q: collecte, expireTs });
   }
 

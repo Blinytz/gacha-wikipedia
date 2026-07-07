@@ -1,0 +1,28 @@
+Simulation 48h, pas 5s — valeurs de config actuelles
+
+— Module 1 —
+  M1 passif (curseurs immobiles)
+    boost moyen ×1.52 (min ×1.18, max ×1.95)
+  M1 assidu (recadrage ~5×/jour + énergie gérée)
+    boost moyen ×1.86 (min ×1.00, max ×3.13)
+  M1 optimal (recadrage 20 min, énergie agressive)
+    boost moyen ×2.54 (min ×1.39, max ×3.98)
+— Module 2 —
+  M2 passif (34/33/33 sans retouche)
+    boost moyen ×1.50 (min ×1.50, max ×1.50)
+  M2 équilibre soutenu (30/30/40)
+    boost moyen ×1.60 (min ×1.60, max ×1.60)
+  M2 cycle accumulation 4h / raffinage fort 1h
+    boost moyen ×1.20 (min ×1.00, max ×2.05)
+— Module 3 —
+  M3 passif (500 sur Stable, dividendes seuls ≈2.5/j)
+    +0.10 pendant 0.38h -> apport moyen +0.00
+  M3 actif (trading ≈15/j + dividendes ≈2.5/j)
+    +0.70 pendant 2.63h -> apport moyen +0.08
+  M3 intense (30/j, cumulés 2 jours, taux favorables ×1.6)
+    +3.84 pendant 14.40h -> apport moyen +1.15
+
+— Vitesse totale estimée (produit des moyens) —
+  passif  : ×2.27
+  assidu  : ×3.21
+  intense : ×6.53  (hors pics de boost M3)

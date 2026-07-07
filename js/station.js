@@ -9,14 +9,10 @@
 // actuelle appliquée rétroactivement).
 
 import { etat, sauvegarder } from './etat.js';
+import { config } from './config.js';
 import { initM1, stepM1, boostM1 } from './station-m1.js';
 import { initM2, stepM2, boostM2 } from './station-m2.js';
 import { initM3, stepM3, boostM3 } from './station-m3.js';
-
-const PAS_FIN = 1;        // s — simulation au fil de l'eau (app ouverte)
-const PAS_GROS = 60;      // s — replay accéléré des longues absences
-const SEUIL_GROS = 300;   // s de retard au-delà desquels on passe en pas gros
-const MAX_RATTRAPAGE = 7 * 86400; // s — au-delà, on saute (états convergés)
 
 export function gauss() {
   let u = 0, v = 0;
@@ -58,17 +54,21 @@ export function rejouerStation(surPas) {
   initStation();
   const s = etat.station;
   const maintenant = Date.now();
+  const pasFin = config.get('pasFinStation');
+  const pasGros = config.get('pasGrosStation');
+  const seuilGros = config.get('seuilGrosStation');
+  const maxRattrapage = config.get('maxRattrapageStation');
   let retard = (maintenant - s.lastTick) / 1000;
   if (retard <= 0) return;
-  if (retard > MAX_RATTRAPAGE) {
-    s.lastTick = maintenant - MAX_RATTRAPAGE * 1000;
-    retard = MAX_RATTRAPAGE;
+  if (retard > maxRattrapage) {
+    s.lastTick = maintenant - maxRattrapage * 1000;
+    retard = maxRattrapage;
   }
   let garde = 0;
-  while ((maintenant - s.lastTick) / 1000 >= PAS_FIN && garde < 700_000) {
+  while ((maintenant - s.lastTick) / 1000 >= pasFin && garde < 700_000) {
     garde += 1;
     const enRetard = (maintenant - s.lastTick) / 1000;
-    const dt = enRetard > SEUIL_GROS ? Math.min(PAS_GROS, enRetard - 60) : PAS_FIN;
+    const dt = enRetard > seuilGros ? Math.min(pasGros, enRetard - 60) : pasFin;
     const vitesse = vitesseTotale();      // vitesse au début du pas
     s.lastTick += dt * 1000;
     const simNow = s.lastTick;

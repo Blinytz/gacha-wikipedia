@@ -1,0 +1,1594 @@
+{
+ "Merveilles du monde|Statue de Zeus a Olympie": {
+  "collection": "Merveilles du monde",
+  "numero": 3,
+  "nom": "Statue de Zeus a Olympie",
+  "note": "ok",
+  "valide": true
+ },
+ "Merveilles du monde|Petra": {
+  "collection": "Merveilles du monde",
+  "numero": 9,
+  "nom": "Petra",
+  "note": "ok",
+  "valide": true
+ },
+ "Merveilles du monde|Christ Redempteur": {
+  "collection": "Merveilles du monde",
+  "numero": 10,
+  "nom": "Christ Redempteur",
+  "note": "ok",
+  "valide": true
+ },
+ "Merveilles du monde|Colisee de Rome": {
+  "collection": "Merveilles du monde",
+  "numero": 13,
+  "nom": "Colisee de Rome",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Neon": {
+  "collection": "Elements chimiques",
+  "numero": 10,
+  "nom": "Neon",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Manganese": {
+  "collection": "Elements chimiques",
+  "numero": 25,
+  "nom": "Manganese",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Selenium": {
+  "collection": "Elements chimiques",
+  "numero": 34,
+  "nom": "Selenium",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Etain": {
+  "collection": "Elements chimiques",
+  "numero": 50,
+  "nom": "Etain",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Xenon": {
+  "collection": "Elements chimiques",
+  "numero": 54,
+  "nom": "Xenon",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Tantale": {
+  "collection": "Elements chimiques",
+  "numero": 73,
+  "nom": "Tantale",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Mercure": {
+  "collection": "Elements chimiques",
+  "numero": 80,
+  "nom": "Mercure",
+  "note": "ok",
+  "valide": true
+ },
+ "Elements chimiques|Polonium": {
+  "collection": "Elements chimiques",
+  "numero": 84,
+  "nom": "Polonium",
+  "note": "https://tse4.mm.bing.net/th/id/OIP.Wgjnml67VpWrIurTrIWunwHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+ },
+ "Elements chimiques|Radon": {
+  "collection": "Elements chimiques",
+  "numero": 86,
+  "nom": "Radon",
+  "note": "https://th.bing.com/th/id/R.f3998f01c62d5fda866a691b3681121b?rik=PR1NwVwZdy5stg&riu=http%3a%2f%2fwww.periodictable.com%2fSamples%2f086.4%2fs13.JPG&ehk=zKfvrGl9c6KqlKQWDL8Mv24Fy2cSr2wJPIbFhS0n2%2f4%3d&risl=&pid=ImgRaw&r=0"
+ },
+ "Elements chimiques|Francium": {
+  "collection": "Elements chimiques",
+  "numero": 87,
+  "nom": "Francium",
+  "note": "https://tse2.mm.bing.net/th/id/OIP.HZSKluocPSNVkESp2cQuDQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+ },
+ "Elements chimiques|Actinium": {
+  "collection": "Elements chimiques",
+  "numero": 89,
+  "nom": "Actinium",
+  "note": "https://th.bing.com/th/id/R.804e99b674fc648fe5b195f00c24cec0?rik=IBMRhk%2bVA%2f1Ppg&riu=http%3a%2f%2fwww.periodictable.com%2fSamples%2f089.4%2fs13.JPG&ehk=LailsptJu%2f3TCAb4TzXzkvQXdmwgKYmVzQKcJszsTwk%3d&risl=&pid=ImgRaw&r=0"
+ },
+ "Elements chimiques|Neptunium": {
+  "collection": "Elements chimiques",
+  "numero": 93,
+  "nom": "Neptunium",
+  "note": "https://tse3.mm.bing.net/th/id/OIP.2lNVofLsv5n_1I24-ZsP-AHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+ },
+ "Elements chimiques|Fermium": {
+  "collection": "Elements chimiques",
+  "numero": 100,
+  "nom": "Fermium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Mendelevium": {
+  "collection": "Elements chimiques",
+  "numero": 101,
+  "nom": "Mendelevium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Nobelium": {
+  "collection": "Elements chimiques",
+  "numero": 102,
+  "nom": "Nobelium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Lawrencium": {
+  "collection": "Elements chimiques",
+  "numero": 103,
+  "nom": "Lawrencium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Rutherfordium": {
+  "collection": "Elements chimiques",
+  "numero": 104,
+  "nom": "Rutherfordium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Dubnium": {
+  "collection": "Elements chimiques",
+  "numero": 105,
+  "nom": "Dubnium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Seaborgium": {
+  "collection": "Elements chimiques",
+  "numero": 106,
+  "nom": "Seaborgium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Bohrium": {
+  "collection": "Elements chimiques",
+  "numero": 107,
+  "nom": "Bohrium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Hassium": {
+  "collection": "Elements chimiques",
+  "numero": 108,
+  "nom": "Hassium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Meitnerium": {
+  "collection": "Elements chimiques",
+  "numero": 109,
+  "nom": "Meitnerium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Darmstadtium": {
+  "collection": "Elements chimiques",
+  "numero": 110,
+  "nom": "Darmstadtium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Roentgenium": {
+  "collection": "Elements chimiques",
+  "numero": 111,
+  "nom": "Roentgenium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Copernicium": {
+  "collection": "Elements chimiques",
+  "numero": 112,
+  "nom": "Copernicium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Nihonium": {
+  "collection": "Elements chimiques",
+  "numero": 113,
+  "nom": "Nihonium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Flerovium": {
+  "collection": "Elements chimiques",
+  "numero": 114,
+  "nom": "Flerovium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Moscovium": {
+  "collection": "Elements chimiques",
+  "numero": 115,
+  "nom": "Moscovium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Livermorium": {
+  "collection": "Elements chimiques",
+  "numero": 116,
+  "nom": "Livermorium",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Tennesse": {
+  "collection": "Elements chimiques",
+  "numero": 117,
+  "nom": "Tennesse",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Elements chimiques|Oganesson": {
+  "collection": "Elements chimiques",
+  "numero": 118,
+  "nom": "Oganesson",
+  "note": "Utiliser les images utilisées dans memo.html",
+  "memoImage": true
+ },
+ "Corps celestes|Eris (planete naine)": {
+  "collection": "Corps celestes",
+  "numero": 13,
+  "nom": "Eris (planete naine)",
+  "note": "(136199) Éris — Wikipédia",
+  "page": "(136199) Éris",
+  "titreCorrige": "(136199) Éris"
+ },
+ "Corps celestes|La Lune": {
+  "collection": "Corps celestes",
+  "numero": 14,
+  "nom": "La Lune",
+  "note": "Ce n'est pas la bonne page. La bonne page est la suivante : \nLune — Wikipédia",
+  "page": "Lune"
+ },
+ "Dieux et figures mythologiques grecques|Zagreus": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 1,
+  "nom": "Zagreus",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Hades": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 2,
+  "nom": "Hades",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Persephone": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 3,
+  "nom": "Persephone",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Nyx": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 4,
+  "nom": "Nyx",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Chaos (mythologie)": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 5,
+  "nom": "Chaos (mythologie)",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Erebe": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 6,
+  "nom": "Erebe",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée\nSi pas d'image dans Hadès / Hadès II, utiliser celle-ci :\nhttps://img.magnific.com/photos-premium/dieu-grec-mythologique-tenebres-erebus-entoure-par-univers-fond-sombre-divinite-primordiale-erebos-place-entre-terre-hades-puissante-entite-divine-nuit-ai-generative_892235-3493.jpg?w=2000",
+  "imageUrl": "https://img.magnific.com/photos-premium/dieu-grec-mythologique-tenebres-erebus-entoure-par-univers-fond-sombre-divinite-primordiale-erebos-place-entre-terre-hades-puissante-entite-divine-nuit-ai-generative_892235-3493.jpg?w=2000",
+  "memoImage": true,
+  "imageFallback": "https://img.magnific.com/photos-premium/dieu-grec-mythologique-tenebres-erebus-entoure-par-univers-fond-sombre-divinite-primordiale-erebos-place-entre-terre-hades-puissante-entite-divine-nuit-ai-generative_892235-3493.jpg?w=2000"
+ },
+ "Dieux et figures mythologiques grecques|Zeus": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 7,
+  "nom": "Zeus",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Poseidon": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 8,
+  "nom": "Poseidon",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Hera": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 9,
+  "nom": "Hera",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Athena": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 10,
+  "nom": "Athena",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Ares": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 11,
+  "nom": "Ares",
+  "note": "Mauvais lien à corriger.\nhttps://fr.wikipedia.org/wiki/Ar%C3%A8s\nUtiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "page": "Arès",
+  "memoImage": true,
+  "titreCorrige": "Arès"
+ },
+ "Dieux et figures mythologiques grecques|Aphrodite": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 12,
+  "nom": "Aphrodite",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Apollon": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 13,
+  "nom": "Apollon",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Artemis": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 14,
+  "nom": "Artemis",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Dionysos": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 15,
+  "nom": "Dionysos",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Demeter": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 16,
+  "nom": "Demeter",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Hermes": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 17,
+  "nom": "Hermes",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Hestia": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 18,
+  "nom": "Hestia",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Hecate": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 19,
+  "nom": "Hecate",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Selene": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 20,
+  "nom": "Selene",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Eris (deesse)": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 21,
+  "nom": "Eris (deesse)",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Nemesis": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 22,
+  "nom": "Nemesis",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Moros": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 23,
+  "nom": "Moros",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Chronos": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 24,
+  "nom": "Chronos",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Promethee": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 25,
+  "nom": "Promethee",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Echidna (mythologie)": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 26,
+  "nom": "Echidna (mythologie)",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Typhon (mythologie)": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 27,
+  "nom": "Typhon (mythologie)",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Meduse (mythologie)": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 28,
+  "nom": "Meduse (mythologie)",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Scylla": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 29,
+  "nom": "Scylla",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Chiron": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 30,
+  "nom": "Chiron",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Achille": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 31,
+  "nom": "Achille",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Patrocle": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 32,
+  "nom": "Patrocle",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Sisyphe": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 33,
+  "nom": "Sisyphe",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Orphee": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 34,
+  "nom": "Orphee",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Eurydice": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 35,
+  "nom": "Eurydice",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Charon (mythologie)": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 36,
+  "nom": "Charon (mythologie)",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Cerbere": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 37,
+  "nom": "Cerbere",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Hypnos": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 38,
+  "nom": "Hypnos",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Thanatos": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 39,
+  "nom": "Thanatos",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Megere": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 40,
+  "nom": "Megere",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Tisiphone": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 41,
+  "nom": "Tisiphone",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Dieux et figures mythologiques grecques|Alecto": {
+  "collection": "Dieux et figures mythologiques grecques",
+  "numero": 42,
+  "nom": "Alecto",
+  "note": "Utiliser les images de Hadès et Hadès II. Voir dans memo.html, les images y ont déjà été récupérée",
+  "memoImage": true
+ },
+ "Grands dirigeants|Montezuma": {
+  "collection": "Grands dirigeants",
+  "numero": 19,
+  "nom": "Montezuma",
+  "note": "Mauvais lien à corriger\nhttps://fr.wikipedia.org/wiki/Moctezuma_Ier",
+  "page": "Moctezuma Ier",
+  "titreCorrige": "Moctezuma Ier"
+ },
+ "Grands dirigeants|Pacal le Grand": {
+  "collection": "Grands dirigeants",
+  "numero": 21,
+  "nom": "Pacal le Grand",
+  "note": "On garde le titre de Pacal le Grand qui est un nom uitilisé et moins compliqué.",
+  "titreCorrige": "Pacal le Grand"
+ },
+ "Grands dirigeants|Pedro II": {
+  "collection": "Grands dirigeants",
+  "numero": 22,
+  "nom": "Pedro II",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Pierre_II_(empereur_du_Br%C3%A9sil)",
+  "page": "Pierre II (empereur du Brésil)",
+  "titreCorrige": "Pedro II"
+ },
+ "Grands dirigeants|Askia": {
+  "collection": "Grands dirigeants",
+  "numero": 23,
+  "nom": "Askia",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Askia_Mohammed",
+  "page": "Askia Mohammed",
+  "titreCorrige": "Askia Mohammed"
+ },
+ "Grands dirigeants|Gilgamesh": {
+  "collection": "Grands dirigeants",
+  "numero": 48,
+  "nom": "Gilgamesh",
+  "note": "Il manque l'image, voici un lien  : https://images.theconversation.com/files/161902/original/image-20170321-5408-12bnkph.JPG?ixlib=rb-1.1.0&q=15&auto=format&w=754&h=1341&fit=crop&dpr=3",
+  "imageUrl": "https://images.theconversation.com/files/161902/original/image-20170321-5408-12bnkph.JPG?ixlib=rb-1.1.0&q=15&auto=format&w=754&h=1341&fit=crop&dpr=3"
+ },
+ "Grands dirigeants|Marie-Therese": {
+  "collection": "Grands dirigeants",
+  "numero": 54,
+  "nom": "Marie-Therese",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Marie-Th%C3%A9r%C3%A8se_d%27Autriche_(1717-1780)",
+  "page": "Marie-Thérèse d'Autriche (1717-1780)",
+  "titreCorrige": "Marie-Thérèse d'Autriche"
+ },
+ "Grands dirigeants|Sundiata Keita": {
+  "collection": "Grands dirigeants",
+  "numero": 62,
+  "nom": "Sundiata Keita",
+  "note": "Lien d'une meilleure image : https://th.bing.com/th/id/R.4d6a83ba6943f80b1532495e544394c5?rik=fClJX9ZQmJzoCw&pid=ImgRaw&r=0",
+  "imageUrl": "https://th.bing.com/th/id/R.4d6a83ba6943f80b1532495e544394c5?rik=fClJX9ZQmJzoCw&pid=ImgRaw&r=0"
+ },
+ "Grands dirigeants|Nzinga Mbandi": {
+  "collection": "Grands dirigeants",
+  "numero": 63,
+  "nom": "Nzinga Mbandi",
+  "note": "Corrigé. Le lien n'est pas bon : https://fr.wikipedia.org/wiki/Njinga_du_Ndongo_et_du_Matamba",
+  "page": "Njinga du Ndongo et du Matamba",
+  "titreCorrige": "Ana de Sousa Nzinga Mbande"
+ },
+ "Constellations|Doradus": {
+  "collection": "Constellations",
+  "numero": 33,
+  "nom": "Doradus",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Dorade_(constellation)",
+  "page": "Dorade (constellation)",
+  "titreCorrige": "Dorade (constellation)"
+ },
+ "Constellations|Serpentaire": {
+  "collection": "Constellations",
+  "numero": 58,
+  "nom": "Serpentaire",
+  "note": "Pas le bon lien  : https://fr.wikipedia.org/wiki/Ophiuchus",
+  "page": "Ophiuchus",
+  "titreCorrige": "Serpentaire (Ophiuchus)"
+ },
+ "Monuments emblematiques|Moais de l'ile de Paques": {
+  "collection": "Monuments emblematiques",
+  "numero": 26,
+  "nom": "Moais de l'ile de Paques",
+  "note": "Pas le bon lien : \nhttps://fr.wikipedia.org/wiki/Moa%C3%AF",
+  "page": "Moaï",
+  "titreCorrige": "Moaïs de l'ile de Paques"
+ },
+ "Monuments emblematiques|Bourj Al Arab": {
+  "collection": "Monuments emblematiques",
+  "numero": 42,
+  "nom": "Bourj Al Arab",
+  "note": "Pas le bon lien : \nhttps://fr.wikipedia.org/wiki/Ougarit",
+  "anomalie": "correction écartée (erreur signalée par l’utilisateur)"
+ },
+ "Dynasties et empires historiques|Ancien Empire egyptien": {
+  "collection": "Dynasties et empires historiques",
+  "numero": 22,
+  "nom": "Ancien Empire egyptien",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Ancien_Empire",
+  "page": "Ancien Empire",
+  "titreCorrige": "Ancien Empire egyptien"
+ },
+ "Dynasties et empires historiques|Moyen Empire egyptien": {
+  "collection": "Dynasties et empires historiques",
+  "numero": 23,
+  "nom": "Moyen Empire egyptien",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Moyen_Empire",
+  "page": "Moyen Empire",
+  "titreCorrige": "Moyen Empire egyptien"
+ },
+ "Dynasties et empires historiques|Nouvel Empire egyptien": {
+  "collection": "Dynasties et empires historiques",
+  "numero": 24,
+  "nom": "Nouvel Empire egyptien",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Nouvel_Empire",
+  "page": "Nouvel Empire",
+  "titreCorrige": "Nouvel Empire egyptien"
+ },
+ "Dynasties et empires historiques|Empire assyrien": {
+  "collection": "Dynasties et empires historiques",
+  "numero": 25,
+  "nom": "Empire assyrien",
+  "note": "",
+  "titreCorrige": "Empire assyrien"
+ },
+ "Dynasties et empires historiques|Empire hittite": {
+  "collection": "Dynasties et empires historiques",
+  "numero": 27,
+  "nom": "Empire hittite",
+  "note": "",
+  "titreCorrige": "Empire hittite"
+ },
+ "Grandes batailles historiques|Bataille de Cannes (216 av. J.-C.)": {
+  "collection": "Grandes batailles historiques",
+  "numero": 5,
+  "nom": "Bataille de Cannes (216 av. J.-C.)",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Bataille_de_Cannes",
+  "page": "Bataille de Cannes",
+  "titreCorrige": "Bataille de Cannes (216 av. J.-C.)"
+ },
+ "Grandes batailles historiques|Bataille des eperons d'or": {
+  "collection": "Grandes batailles historiques",
+  "numero": 15,
+  "nom": "Bataille des eperons d'or",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Bataille_de_Courtrai_(1302)",
+  "page": "Bataille de Courtrai (1302)",
+  "titreCorrige": "Bataille des Eperons d'or"
+ },
+ "Grandes batailles historiques|Premiere bataille de la Marne": {
+  "collection": "Grandes batailles historiques",
+  "numero": 35,
+  "nom": "Premiere bataille de la Marne",
+  "note": "Image à mettre : https://www.bpi.fr/content/uploads/sites/4/2014/11/carte27-ro-1-resize1280x835.jpg",
+  "imageUrl": "https://www.bpi.fr/content/uploads/sites/4/2014/11/carte27-ro-1-resize1280x835.jpg"
+ },
+ "Grandes guerres|Guerre d'independance americaine": {
+  "collection": "Grandes guerres",
+  "numero": 13,
+  "nom": "Guerre d'independance americaine",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Guerre_d%27ind%C3%A9pendance_des_%C3%89tats-Unis",
+  "page": "Guerre d'indépendance des États-Unis"
+ },
+ "Auteurs celebres|Antoine de Saint-Exupery": {
+  "collection": "Auteurs celebres",
+  "numero": 72,
+  "nom": "Antoine de Saint-Exupery",
+  "note": "Doublon à supprimer",
+  "supprimer": true
+ },
+ "Grands peintres|Leonard de Vinci": {
+  "collection": "Grands peintres",
+  "numero": 3,
+  "nom": "Leonard de Vinci",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Tableaux celebres|Les Demoiselles d'Avignon": {
+  "collection": "Tableaux celebres",
+  "numero": 24,
+  "nom": "Les Demoiselles d'Avignon",
+  "note": "Lien de l'image : https://www.singulart.com/blog/wp-content/uploads/2019/12/cri_000000438452-1.jpg",
+  "imageUrl": "https://www.singulart.com/blog/wp-content/uploads/2019/12/cri_000000438452-1.jpg"
+ },
+ "Tableaux celebres|La Persistance de la memoire": {
+  "collection": "Tableaux celebres",
+  "numero": 26,
+  "nom": "La Persistance de la memoire",
+  "note": "Lien de l'image : https://th.bing.com/th/id/R.1896903046bc74cac48f7c036f7277d9?rik=QHZHeZHE75RNWg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-PvJEJurGY2I%2fUuZ5VXbRf8I%2fAAAAAAAAALM%2fH-QpJ674dVQ%2fs1600%2fSalvador-Dali-The-Persistence-of-Memory-1931.jpg&ehk=%2bm1jbZsJ8f4HHo4diWRM4ANDicZ%2fRd1bspUBjG5PnII%3d&risl=&pid=ImgRaw&r=0",
+  "imageUrl": "https://th.bing.com/th/id/R.1896903046bc74cac48f7c036f7277d9?rik=QHZHeZHE75RNWg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-PvJEJurGY2I%2fUuZ5VXbRf8I%2fAAAAAAAAALM%2fH-QpJ674dVQ%2fs1600%2fSalvador-Dali-The-Persistence-of-Memory-1931.jpg&ehk=%2bm1jbZsJ8f4HHo4diWRM4ANDicZ%2fRd1bspUBjG5PnII%3d&risl=&pid=ImgRaw&r=0"
+ },
+ "Tableaux celebres|Le Fils de l'homme": {
+  "collection": "Tableaux celebres",
+  "numero": 27,
+  "nom": "Le Fils de l'homme",
+  "note": "Lien de l'image : https://th.bing.com/th/id/R.6b5c887ded06c72d9223950f39e853ae?rik=hFwg1NkpyGQ0BA&riu=http%3a%2f%2fgeorgetownframeshoppe.com%2fcdn%2fshop%2ffiles%2fRene-Magritte-after-Le-Fils-de-lHomme.jpg%3fv%3d1725650209&ehk=N1C6raKUNO4H8QEzzy4nYjkLQAeFuNqjuDcY7ddcBU4%3d&risl=&pid=ImgRaw&r=0",
+  "imageUrl": "https://th.bing.com/th/id/R.6b5c887ded06c72d9223950f39e853ae?rik=hFwg1NkpyGQ0BA&riu=http%3a%2f%2fgeorgetownframeshoppe.com%2fcdn%2fshop%2ffiles%2fRene-Magritte-after-Le-Fils-de-lHomme.jpg%3fv%3d1725650209&ehk=N1C6raKUNO4H8QEzzy4nYjkLQAeFuNqjuDcY7ddcBU4%3d&risl=&pid=ImgRaw&r=0"
+ },
+ "Tableaux celebres|Le Baiser": {
+  "collection": "Tableaux celebres",
+  "numero": 34,
+  "nom": "Le Baiser",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Le_Baiser_(Klimt)",
+  "page": "Le Baiser (Klimt)",
+  "titreCorrige": "Le Baiser (Klimt)"
+ },
+ "Tableaux celebres|Guitare et compotier": {
+  "collection": "Tableaux celebres",
+  "numero": 36,
+  "nom": "Guitare et compotier",
+  "note": "Lien de l'image : https://media.mutualart.com/Images/2024_03/05/22/224550144/georges-braque-le-gueridon-noir---louvre-U5VO8-570.Jpeg",
+  "imageUrl": "https://media.mutualart.com/Images/2024_03/05/22/224550144/georges-braque-le-gueridon-noir---louvre-U5VO8-570.Jpeg"
+ },
+ "Tableaux celebres|Judith decapitant Holopherne": {
+  "collection": "Tableaux celebres",
+  "numero": 44,
+  "nom": "Judith decapitant Holopherne",
+  "note": "Lien de l'image : https://www.kunstkopie.de/kunst/artemisia_gentileschi_577/Judith-mit-dem-Haupt-des-Holofernes-Artemisia-Gentileschi.jpg",
+  "imageUrl": "https://www.kunstkopie.de/kunst/artemisia_gentileschi_577/Judith-mit-dem-Haupt-des-Holofernes-Artemisia-Gentileschi.jpg"
+ },
+ "Tableaux celebres|Les Fusillades du 3 mai 1808": {
+  "collection": "Tableaux celebres",
+  "numero": 49,
+  "nom": "Les Fusillades du 3 mai 1808",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/El_tres_de_mayo_de_1808_en_Madrid",
+  "page": "El tres de mayo de 1808 en Madrid",
+  "titreCorrige": "Le trois mai 1808 à Madrid"
+ },
+ "Tableaux celebres|Les Deux Frida": {
+  "collection": "Tableaux celebres",
+  "numero": 52,
+  "nom": "Les Deux Frida",
+  "note": "Lien de l'image : https://tse1.mm.bing.net/th/id/OIP.rrgu9eWiPNk6C4qrmnKjUgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "imageUrl": "https://tse1.mm.bing.net/th/id/OIP.rrgu9eWiPNk6C4qrmnKjUgHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+ },
+ "Tableaux celebres|La Colonne brisee": {
+  "collection": "Tableaux celebres",
+  "numero": 53,
+  "nom": "La Colonne brisee",
+  "note": "Lien de l'image : https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/the-shattered-column-akg7494027-frida-kahlo.jpg",
+  "imageUrl": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/the-shattered-column-akg7494027-frida-kahlo.jpg"
+ },
+ "Tableaux celebres|Autoportrait au collier d'epines": {
+  "collection": "Tableaux celebres",
+  "numero": 54,
+  "nom": "Autoportrait au collier d'epines",
+  "note": "Lien de l'image : https://64.media.tumblr.com/3a5cdb8a31afd395862455b081d260cd/9290d17d01c936b7-6c/s1280x1920/33f77536918c654a609bf37d07aa865f07b16d9a.jpg",
+  "imageUrl": "https://64.media.tumblr.com/3a5cdb8a31afd395862455b081d260cd/9290d17d01c936b7-6c/s1280x1920/33f77536918c654a609bf37d07aa865f07b16d9a.jpg"
+ },
+ "Tableaux celebres|Girl with Balloon": {
+  "collection": "Tableaux celebres",
+  "numero": 57,
+  "nom": "Girl with Balloon",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/La_Petite_Fille_au_ballon\nLien de l'image : https://www.lecadeauartistique.com/img/produits/decoration-murale/affiche-banksy-girl-with-balloon-30x30.jpg",
+  "page": "La Petite Fille au ballon",
+  "imageUrl": "https://www.lecadeauartistique.com/img/produits/decoration-murale/affiche-banksy-girl-with-balloon-30x30.jpg",
+  "titreCorrige": "La petite fille au ballon"
+ },
+ "Tableaux celebres|Sous la pluie (Shower)": {
+  "collection": "Tableaux celebres",
+  "numero": 58,
+  "nom": "Sous la pluie (Shower)",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Inventions importantes|La roue": {
+  "collection": "Inventions importantes",
+  "numero": 1,
+  "nom": "La roue",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Roue",
+  "page": "Roue",
+  "titreCorrige": "La Roue"
+ },
+ "Inventions importantes|La boussole": {
+  "collection": "Inventions importantes",
+  "numero": 4,
+  "nom": "La boussole",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Boussole",
+  "page": "Boussole"
+ },
+ "Inventions importantes|La poudre a canon": {
+  "collection": "Inventions importantes",
+  "numero": 5,
+  "nom": "La poudre a canon",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Poudre_noire",
+  "page": "Poudre noire",
+  "titreCorrige": "La pourdre à canon"
+ },
+ "Inventions importantes|Le papier": {
+  "collection": "Inventions importantes",
+  "numero": 6,
+  "nom": "Le papier",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Papier",
+  "page": "Papier"
+ },
+ "Inventions importantes|La machine a vapeur": {
+  "collection": "Inventions importantes",
+  "numero": 10,
+  "nom": "La machine a vapeur",
+  "note": "",
+  "titreCorrige": "La machine à vapeur"
+ },
+ "Inventions importantes|Le telegraphe": {
+  "collection": "Inventions importantes",
+  "numero": 13,
+  "nom": "Le telegraphe",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone",
+  "page": "Téléphone"
+ },
+ "Inventions importantes|La photographie": {
+  "collection": "Inventions importantes",
+  "numero": 14,
+  "nom": "La photographie",
+  "note": "",
+  "titreCorrige": "La Photographie"
+ },
+ "Inventions importantes|L'ampoule electrique": {
+  "collection": "Inventions importantes",
+  "numero": 16,
+  "nom": "L'ampoule electrique",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Lampe_%C3%A0_incandescence",
+  "page": "Lampe à incandescence",
+  "titreCorrige": "Ampoule Electrique"
+ },
+ "Inventions importantes|La dynamo": {
+  "collection": "Inventions importantes",
+  "numero": 18,
+  "nom": "La dynamo",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Dynamo",
+  "page": "Dynamo",
+  "titreCorrige": "La Dynamo"
+ },
+ "Inventions importantes|La voiture automobile": {
+  "collection": "Inventions importantes",
+  "numero": 19,
+  "nom": "La voiture automobile",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Automobile",
+  "page": "Automobile",
+  "titreCorrige": "Automobile"
+ },
+ "Inventions importantes|La bicyclette": {
+  "collection": "Inventions importantes",
+  "numero": 22,
+  "nom": "La bicyclette",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/V%C3%A9lo",
+  "page": "Vélo",
+  "titreCorrige": "La Bicyclette"
+ },
+ "Inventions importantes|L'avion": {
+  "collection": "Inventions importantes",
+  "numero": 23,
+  "nom": "L'avion",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Avion",
+  "page": "Avion",
+  "titreCorrige": "Avion"
+ },
+ "Inventions importantes|La radio": {
+  "collection": "Inventions importantes",
+  "numero": 24,
+  "nom": "La radio",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Radiocommunication",
+  "page": "Radiocommunication",
+  "titreCorrige": "Radio"
+ },
+ "Inventions importantes|Le cinema": {
+  "collection": "Inventions importantes",
+  "numero": 25,
+  "nom": "Le cinema",
+  "note": "Pas le bon lien :  https://fr.wikipedia.org/wiki/Cin%C3%A9ma",
+  "page": "Cinéma",
+  "titreCorrige": "Cinéma"
+ },
+ "Inventions importantes|La television": {
+  "collection": "Inventions importantes",
+  "numero": 26,
+  "nom": "La television",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision",
+  "page": "Télévision",
+  "titreCorrige": "Télévision"
+ },
+ "Inventions importantes|La machine a laver": {
+  "collection": "Inventions importantes",
+  "numero": 28,
+  "nom": "La machine a laver",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Lave-linge",
+  "page": "Lave-linge",
+  "titreCorrige": "Lave-linge"
+ },
+ "Inventions importantes|L'aspirateur": {
+  "collection": "Inventions importantes",
+  "numero": 29,
+  "nom": "L'aspirateur",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Aspirateur",
+  "page": "Aspirateur",
+  "titreCorrige": "Aspirateur"
+ },
+ "Inventions importantes|Le laser": {
+  "collection": "Inventions importantes",
+  "numero": 31,
+  "nom": "Le laser",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Laser",
+  "page": "Laser",
+  "titreCorrige": "Laser"
+ },
+ "Inventions importantes|Le transistor": {
+  "collection": "Inventions importantes",
+  "numero": 32,
+  "nom": "Le transistor",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Transistor",
+  "page": "Transistor",
+  "titreCorrige": "Transistor"
+ },
+ "Inventions importantes|L'ordinateur personnel": {
+  "collection": "Inventions importantes",
+  "numero": 34,
+  "nom": "L'ordinateur personnel",
+  "note": "Lien de l'image : https://www.renderhub.com/face-the-edge/90s-pc-desktop-style-02/90s-pc-desktop-style-02-09.jpg",
+  "imageUrl": "https://www.renderhub.com/face-the-edge/90s-pc-desktop-style-02/90s-pc-desktop-style-02-09.jpg"
+ },
+ "Inventions importantes|La penicilline": {
+  "collection": "Inventions importantes",
+  "numero": 40,
+  "nom": "La penicilline",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/P%C3%A9nicilline",
+  "page": "Pénicilline",
+  "titreCorrige": "Péniciline"
+ },
+ "Inventions importantes|L'IRM": {
+  "collection": "Inventions importantes",
+  "numero": 43,
+  "nom": "L'IRM",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Imagerie_par_r%C3%A9sonance_magn%C3%A9tique",
+  "page": "Imagerie par résonance magnétique",
+  "titreCorrige": "IRM"
+ },
+ "Inventions importantes|L'ascenseur": {
+  "collection": "Inventions importantes",
+  "numero": 55,
+  "nom": "L'ascenseur",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Ascenseur",
+  "page": "Ascenseur"
+ },
+ "Inventions importantes|La navette spatiale": {
+  "collection": "Inventions importantes",
+  "numero": 63,
+  "nom": "La navette spatiale",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Navette_spatiale",
+  "page": "Navette spatiale",
+  "titreCorrige": "Navette spatiale"
+ },
+ "Inventions importantes|Le moteur electrique": {
+  "collection": "Inventions importantes",
+  "numero": 64,
+  "nom": "Le moteur electrique",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Machine_%C3%A9lectrique",
+  "page": "Machine électrique",
+  "titreCorrige": "Machine électrique"
+ },
+ "Inventions importantes|La turbine": {
+  "collection": "Inventions importantes",
+  "numero": 65,
+  "nom": "La turbine",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Turbine",
+  "page": "Turbine",
+  "titreCorrige": "Turbine"
+ },
+ "Inventions importantes|L'intelligence artificielle": {
+  "collection": "Inventions importantes",
+  "numero": 69,
+  "nom": "L'intelligence artificielle",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Intelligence_artificielle_g%C3%A9n%C3%A9rative",
+  "page": "Intelligence artificielle générative",
+  "titreCorrige": "L'Intelligence Artificielle"
+ },
+ "Inventions importantes|L'imprimante 3D": {
+  "collection": "Inventions importantes",
+  "numero": 70,
+  "nom": "L'imprimante 3D",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Impression_3D",
+  "page": "Impression 3D",
+  "titreCorrige": "Impression 3D"
+ },
+ "Aviateurs celebres|Youri Gagarine": {
+  "collection": "Aviateurs celebres",
+  "numero": 17,
+  "nom": "Youri Gagarine",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Aviateurs celebres|Neil Armstrong": {
+  "collection": "Aviateurs celebres",
+  "numero": 19,
+  "nom": "Neil Armstrong",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Aviateurs celebres|Buzz Aldrin": {
+  "collection": "Aviateurs celebres",
+  "numero": 20,
+  "nom": "Buzz Aldrin",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Aviateurs celebres|Kelly Johnson": {
+  "collection": "Aviateurs celebres",
+  "numero": 35,
+  "nom": "Kelly Johnson",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Clarence_Johnson",
+  "page": "Clarence Johnson"
+ },
+ "Mammiferes|Loutre de mer": {
+  "collection": "Mammiferes",
+  "numero": 65,
+  "nom": "Loutre de mer",
+  "note": "Supprimer la ligne",
+  "supprimer": true
+ },
+ "Mammiferes|Loutre d'Europe": {
+  "collection": "Mammiferes",
+  "numero": 66,
+  "nom": "Loutre d'Europe",
+  "note": "",
+  "titreCorrige": "Loutre"
+ },
+ "Mammiferes|Elan": {
+  "collection": "Mammiferes",
+  "numero": 93,
+  "nom": "Elan",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Alces",
+  "page": "Alces",
+  "titreCorrige": "Elan"
+ },
+ "Oiseaux|Kiwi": {
+  "collection": "Oiseaux",
+  "numero": 18,
+  "nom": "Kiwi",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Kiwi_austral",
+  "page": "Kiwi austral",
+  "titreCorrige": "Kiwi"
+ },
+ "Oiseaux|Roadrunner": {
+  "collection": "Oiseaux",
+  "numero": 68,
+  "nom": "Roadrunner",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Grand_G%C3%A9ocoucou",
+  "page": "Grand Géocoucou",
+  "titreCorrige": "Grand Géocoucou (Roadrunner)"
+ },
+ "Oiseaux|Kookaburra": {
+  "collection": "Oiseaux",
+  "numero": 69,
+  "nom": "Kookaburra",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Martin-chasseur_g%C3%A9ant",
+  "page": "Martin-chasseur géant",
+  "titreCorrige": "Kookaburra (Martin-Chasseur Géant)"
+ },
+ "Reptiles et amphibiens|Gecko diurne de Madagascar": {
+  "collection": "Reptiles et amphibiens",
+  "numero": 22,
+  "nom": "Gecko diurne de Madagascar",
+  "note": "Supprime la carte",
+  "supprimer": true
+ },
+ "Reptiles et amphibiens|Grenouille doree de Colombie": {
+  "collection": "Reptiles et amphibiens",
+  "numero": 32,
+  "nom": "Grenouille doree de Colombie",
+  "note": "Supprime la carte",
+  "supprimer": true
+ },
+ "Reptiles et amphibiens|Grenouille arboricole aux yeux rouges": {
+  "collection": "Reptiles et amphibiens",
+  "numero": 34,
+  "nom": "Grenouille arboricole aux yeux rouges",
+  "note": "Supprime la carte",
+  "supprimer": true
+ },
+ "Reptiles et amphibiens|Cecilie": {
+  "collection": "Reptiles et amphibiens",
+  "numero": 41,
+  "nom": "Cecilie",
+  "note": "Supprime la carte",
+  "supprimer": true
+ },
+ "Reptiles et amphibiens|Xenope lisse": {
+  "collection": "Reptiles et amphibiens",
+  "numero": 42,
+  "nom": "Xenope lisse",
+  "note": "Supprime la carte",
+  "supprimer": true
+ },
+ "Poissons et vie marine|Requin marteau": {
+  "collection": "Poissons et vie marine",
+  "numero": 3,
+  "nom": "Requin marteau",
+  "note": "",
+  "titreCorrige": "Requin marteau"
+ },
+ "Poissons et vie marine|Requin-nourrice": {
+  "collection": "Poissons et vie marine",
+  "numero": 6,
+  "nom": "Requin-nourrice",
+  "note": "",
+  "titreCorrige": "Requin-nourrice"
+ },
+ "Poissons et vie marine|Roussette (poisson)": {
+  "collection": "Poissons et vie marine",
+  "numero": 8,
+  "nom": "Roussette (poisson)",
+  "note": "",
+  "titreCorrige": "Roussette"
+ },
+ "Poissons et vie marine|Raie manta": {
+  "collection": "Poissons et vie marine",
+  "numero": 9,
+  "nom": "Raie manta",
+  "note": "",
+  "titreCorrige": "Raie manta"
+ },
+ "Poissons et vie marine|Raie pastenague": {
+  "collection": "Poissons et vie marine",
+  "numero": 10,
+  "nom": "Raie pastenague",
+  "note": "",
+  "titreCorrige": "Raie pastenague"
+ },
+ "Poissons et vie marine|Poisson-chirurgien": {
+  "collection": "Poissons et vie marine",
+  "numero": 13,
+  "nom": "Poisson-chirurgien",
+  "note": "",
+  "titreCorrige": "Poisson-chirurgien"
+ },
+ "Poissons et vie marine|Poisson-lion": {
+  "collection": "Poissons et vie marine",
+  "numero": 14,
+  "nom": "Poisson-lion",
+  "note": "",
+  "titreCorrige": "Poisson-lion"
+ },
+ "Poissons et vie marine|Poisson-scie": {
+  "collection": "Poissons et vie marine",
+  "numero": 17,
+  "nom": "Poisson-scie",
+  "note": "",
+  "titreCorrige": "Poisson-scie"
+ },
+ "Poissons et vie marine|Poisson volant": {
+  "collection": "Poissons et vie marine",
+  "numero": 18,
+  "nom": "Poisson volant",
+  "note": "",
+  "titreCorrige": "Poisson volant"
+ },
+ "Poissons et vie marine|Carpe koi": {
+  "collection": "Poissons et vie marine",
+  "numero": 25,
+  "nom": "Carpe koi",
+  "note": "",
+  "titreCorrige": "Carpe koi"
+ },
+ "Poissons et vie marine|Hippocampe": {
+  "collection": "Poissons et vie marine",
+  "numero": 28,
+  "nom": "Hippocampe",
+  "note": "",
+  "titreCorrige": "Hippocampe"
+ },
+ "Poissons et vie marine|Murene": {
+  "collection": "Poissons et vie marine",
+  "numero": 29,
+  "nom": "Murene",
+  "note": "",
+  "titreCorrige": "Murene"
+ },
+ "Poissons et vie marine|Baliste": {
+  "collection": "Poissons et vie marine",
+  "numero": 30,
+  "nom": "Baliste",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Balistes_(poisson)",
+  "page": "Balistes (poisson)"
+ },
+ "Poissons et vie marine|Poisson-perroquet": {
+  "collection": "Poissons et vie marine",
+  "numero": 31,
+  "nom": "Poisson-perroquet",
+  "note": "",
+  "titreCorrige": "Poisson-perroquet"
+ },
+ "Poissons et vie marine|Barracuda": {
+  "collection": "Poissons et vie marine",
+  "numero": 33,
+  "nom": "Barracuda",
+  "note": "",
+  "titreCorrige": "Barracuda"
+ },
+ "Poissons et vie marine|Oursin": {
+  "collection": "Poissons et vie marine",
+  "numero": 36,
+  "nom": "Oursin",
+  "note": "",
+  "titreCorrige": "Oursin"
+ },
+ "Poissons et vie marine|Concombre de mer": {
+  "collection": "Poissons et vie marine",
+  "numero": 37,
+  "nom": "Concombre de mer",
+  "note": "",
+  "titreCorrige": "Concombre de mer"
+ },
+ "Poissons et vie marine|Poulpe commun": {
+  "collection": "Poissons et vie marine",
+  "numero": 38,
+  "nom": "Poulpe commun",
+  "note": "",
+  "titreCorrige": "Poulpe"
+ },
+ "Poissons et vie marine|Seiche": {
+  "collection": "Poissons et vie marine",
+  "numero": 41,
+  "nom": "Seiche",
+  "note": "",
+  "titreCorrige": "Seiche"
+ },
+ "Poissons et vie marine|Corail corne d'elan": {
+  "collection": "Poissons et vie marine",
+  "numero": 47,
+  "nom": "Corail corne d'elan",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Acropora_palmata",
+  "page": "Acropora palmata",
+  "titreCorrige": "Corail corne d'elan"
+ },
+ "Poissons et vie marine|Diable de mer": {
+  "collection": "Poissons et vie marine",
+  "numero": 55,
+  "nom": "Diable de mer",
+  "note": "",
+  "titreCorrige": "Diable de mer"
+ },
+ "Insectes|Scarabee goliath": {
+  "collection": "Insectes",
+  "numero": 22,
+  "nom": "Scarabee goliath",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Goliathus_regius",
+  "page": "Goliathus regius",
+  "titreCorrige": "Scarabée goliath"
+ },
+ "Insectes|Scarabee sacre": {
+  "collection": "Insectes",
+  "numero": 23,
+  "nom": "Scarabee sacre",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Bousier_sacr%C3%A9",
+  "page": "Bousier sacré",
+  "titreCorrige": "Scarabée sacré"
+ },
+ "Insectes|Luciole": {
+  "collection": "Insectes",
+  "numero": 29,
+  "nom": "Luciole",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Luciola",
+  "page": "Luciola",
+  "titreCorrige": "Luciole"
+ },
+ "Insectes|Guepe des figuiers": {
+  "collection": "Insectes",
+  "numero": 55,
+  "nom": "Guepe des figuiers",
+  "note": "Lien pour l'image : https://tse1.mm.bing.net/th/id/OIP.mv6HSfxOxa9WPUOEe_1fVAHaGU?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "imageUrl": "https://tse1.mm.bing.net/th/id/OIP.mv6HSfxOxa9WPUOEe_1fVAHaGU?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+ },
+ "Insectes|Ephemere": {
+  "collection": "Insectes",
+  "numero": 56,
+  "nom": "Ephemere",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Ephemeroptera",
+  "page": "Ephemeroptera",
+  "titreCorrige": "Ephémère"
+ },
+ "Races de chien|Bulldog francais": {
+  "collection": "Races de chien",
+  "numero": 9,
+  "nom": "Bulldog francais",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Bouledogue",
+  "page": "Bouledogue",
+  "titreCorrige": "Bouledogue français"
+ },
+ "Races de chien|Bloodhound": {
+  "collection": "Races de chien",
+  "numero": 25,
+  "nom": "Bloodhound",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Chien_de_Saint-Hubert",
+  "page": "Chien de Saint-Hubert",
+  "titreCorrige": "Chien de Saint-Hubert"
+ },
+ "Races de chien|Greyhound": {
+  "collection": "Races de chien",
+  "numero": 39,
+  "nom": "Greyhound",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Races de chien|Pitbull": {
+  "collection": "Races de chien",
+  "numero": 59,
+  "nom": "Pitbull",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/American_Pit_Bull_Terrier",
+  "page": "American Pit Bull Terrier",
+  "titreCorrige": "Pitbull"
+ },
+ "Races de chien|Epagneul Nain Continental": {
+  "collection": "Races de chien",
+  "numero": 85,
+  "nom": "Epagneul Nain Continental",
+  "note": "Lien pour l'image : https://www.canibest.com/www/canibest/static/images/illustrations/fiche-race-chien-epagneul-nain-continental.jpg",
+  "imageUrl": "https://www.canibest.com/www/canibest/static/images/illustrations/fiche-race-chien-epagneul-nain-continental.jpg"
+ },
+ "Races de chien|Caniche nain": {
+  "collection": "Races de chien",
+  "numero": 99,
+  "nom": "Caniche nain",
+  "note": "Supprimer le doublon",
+  "supprimer": true
+ },
+ "Races de chien|Briard": {
+  "collection": "Races de chien",
+  "numero": 103,
+  "nom": "Briard",
+  "note": "Lien pour l'image : https://th.bing.com/th/id/R.f114b45d9f2b302fdb6af6a4475ff2b1?rik=g35p2xSxnyQevw&pid=ImgRaw&r=0",
+  "imageUrl": "https://th.bing.com/th/id/R.f114b45d9f2b302fdb6af6a4475ff2b1?rik=g35p2xSxnyQevw&pid=ImgRaw&r=0"
+ },
+ "Races de chien|Berger polonais de Vallee": {
+  "collection": "Races de chien",
+  "numero": 104,
+  "nom": "Berger polonais de Vallee",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/Berger_polonais_de_plaine",
+  "page": "Berger polonais de plaine",
+  "titreCorrige": "Berger polonais de Vallée"
+ },
+ "Races de chien|Plott Hound": {
+  "collection": "Races de chien",
+  "numero": 114,
+  "nom": "Plott Hound",
+  "note": "supprimer cette carte",
+  "supprimer": true
+ },
+ "Coupes du monde FIFA|Uruguay 1930": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 1,
+  "nom": "Uruguay 1930",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Italie 1934": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 2,
+  "nom": "Italie 1934",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|France 1938": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 3,
+  "nom": "France 1938",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Bresil 1950": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 4,
+  "nom": "Bresil 1950",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Suisse 1954": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 5,
+  "nom": "Suisse 1954",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Suede 1958": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 6,
+  "nom": "Suede 1958",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Chili 1962": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 7,
+  "nom": "Chili 1962",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Angleterre 1966": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 8,
+  "nom": "Angleterre 1966",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Mexique 1970": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 9,
+  "nom": "Mexique 1970",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Allemagne 1974": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 10,
+  "nom": "Allemagne 1974",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Argentine 1978": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 11,
+  "nom": "Argentine 1978",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Espagne 1982": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 12,
+  "nom": "Espagne 1982",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Mexique 1986": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 13,
+  "nom": "Mexique 1986",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Italie 1990": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 14,
+  "nom": "Italie 1990",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Etats-Unis 1994": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 15,
+  "nom": "Etats-Unis 1994",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|France 1998": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 16,
+  "nom": "France 1998",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Coree-Japon 2002": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 17,
+  "nom": "Coree-Japon 2002",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Allemagne 2006": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 18,
+  "nom": "Allemagne 2006",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Afrique du Sud 2010": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 19,
+  "nom": "Afrique du Sud 2010",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Bresil 2014": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 20,
+  "nom": "Bresil 2014",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Russie 2018": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 21,
+  "nom": "Russie 2018",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Coupes du monde FIFA|Qatar 2022": {
+  "collection": "Coupes du monde FIFA",
+  "numero": 22,
+  "nom": "Qatar 2022",
+  "note": "Utiliser le logo de la compétition qui est déjà utilisée dans memo.html\nRechercher sur wikipédia \"Coupe du monde de football…\" suivi du pays et de l'année pour avoir un meilleur résulat",
+  "memoImage": true
+ },
+ "Mythologies du monde (hors Grece)|Tyr": {
+  "collection": "Mythologies du monde (hors Grece)",
+  "numero": 7,
+  "nom": "Tyr",
+  "note": "Lien pour l'image : https://cdn.mythnerd.com/wp-content/uploads/2023/01/Was-Tyr-the-Strongest-God.jpg",
+  "imageUrl": "https://cdn.mythnerd.com/wp-content/uploads/2023/01/Was-Tyr-the-Strongest-God.jpg"
+ },
+ "Mythologies du monde (hors Grece)|Hathor": {
+  "collection": "Mythologies du monde (hors Grece)",
+  "numero": 20,
+  "nom": "Hathor",
+  "note": "Lien vers l'image : https://img.magnific.com/premium-vector/hathor-egyptian-goddess-sky-deity-with-sun-cow-horns-ancient-egyptian-god-illustration_144101-299.jpg?w=2000",
+  "imageUrl": "https://img.magnific.com/premium-vector/hathor-egyptian-goddess-sky-deity-with-sun-cow-horns-ancient-egyptian-god-illustration_144101-299.jpg?w=2000"
+ },
+ "Mythologies du monde (hors Grece)|Sekhmet": {
+  "collection": "Mythologies du monde (hors Grece)",
+  "numero": 21,
+  "nom": "Sekhmet",
+  "note": "Lien vers l'image : https://tse2.mm.bing.net/th/id/OIP.UQoROP_saBPFobWREb7y3wHaLV?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+  "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.UQoROP_saBPFobWREb7y3wHaLV?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+ },
+ "Mythologies du monde (hors Grece)|Dagda": {
+  "collection": "Mythologies du monde (hors Grece)",
+  "numero": 37,
+  "nom": "Dagda",
+  "note": "Lien vers l'image : https://static.wikia.nocookie.net/cards-the-universe-and-everything/images/7/7b/API_Sack_Man.jpg/revision/latest?cb=20230830065713",
+  "imageUrl": "https://static.wikia.nocookie.net/cards-the-universe-and-everything/images/7/7b/API_Sack_Man.jpg/revision/latest?cb=20230830065713"
+ },
+ "Mythologies du monde (hors Grece)|Susanoo": {
+  "collection": "Mythologies du monde (hors Grece)",
+  "numero": 43,
+  "nom": "Susanoo",
+  "note": "Lien vers l'image : https://study.com/cimages/multimages/16/1susanoo6211975733284512791.jpg",
+  "imageUrl": "https://study.com/cimages/multimages/16/1susanoo6211975733284512791.jpg"
+ },
+ "Mythologies du monde (hors Grece)|Perun": {
+  "collection": "Mythologies du monde (hors Grece)",
+  "numero": 53,
+  "nom": "Perun",
+  "note": "Pas le bon lien : https://fr.wikipedia.org/wiki/P%C3%A9roun",
+  "page": "Péroun",
+  "titreCorrige": "Péroun"
+ }
+}

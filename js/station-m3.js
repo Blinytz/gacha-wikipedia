@@ -7,17 +7,35 @@
 import { config } from './config.js';
 import { gauss } from './station.js';
 
+// Métadonnées fixes ; les valeurs numériques des profils vivent dans la
+// config (deriveHoraire*/volatiliteHoraire*/facteurAgite*/probaChoc*/
+// amplitudeChoc* par indice) et se lisent via profilDyn().
 export const PROFILS = {
-  stable:  { nom: 'Stable',  deriveH: 0.003, volH: 0.0025, facteurAgite: 1.3,
-             probaChoc: 0.00005, ampChoc: 0.012, dividende: true },
-  modere:  { nom: 'Modéré',  deriveH: 0.010, volH: 0.010,  facteurAgite: 1.8,
-             probaChoc: 0.0001,  ampChoc: 0.035, dividende: false },
-  volatil: { nom: 'Volatil', deriveH: 0.025, volH: 0.030,  facteurAgite: 2.5,
-             probaChoc: 0.0003,  ampChoc: 0.09,  dividende: false },
+  stable:  { nom: 'Stable',  suffixe: 'Stable',  dividende: true },
+  modere:  { nom: 'Modéré',  suffixe: 'Modere',  dividende: false },
+  volatil: { nom: 'Volatil', suffixe: 'Volatil', dividende: false },
 };
 
-const PAS_ECHANTILLON = 300_000;   // un point de courbe / 5 min
-const MAX_POINTS = 600;            // ~2 jours
+function profilDyn(cle) {
+  const s = PROFILS[cle].suffixe;
+  return {
+    deriveH: config.get('deriveHoraire' + s),
+    volH: config.get('volatiliteHoraire' + s),
+    facteurAgite: config.get('facteurAgite' + s),
+    probaChoc: config.get('probaChoc' + s),
+    ampChoc: config.get('amplitudeChoc' + s),
+  };
+}
+
+function tirerPondere(branches) {
+  const total = branches.reduce((a, [, p]) => a + p, 0) || 1;
+  let r = Math.random() * total;
+  for (const [v, p] of branches) {
+    r -= p;
+    if (r <= 0) return v;
+  }
+  return branches[branches.length - 1][0];
+}
 
 /* ------------------------------------------------ génération procédurale */
 
@@ -40,24 +58,35 @@ function tirerSansRepetition(banque, recents) {
   return mot;
 }
 
-// Fiabilité calibrée par tier d'impact (spec) :
-const TIERS_IMPACT = {
-  faible: { pRetournement: 0.15, pFausseAlerte: 0.08, saut: [0.01, 0.02] },
-  moyen:  { pRetournement: 0.08, pFausseAlerte: 0.05, saut: [0.03, 0.06] },
-  fort:   { pRetournement: 0.02, pFausseAlerte: 0.03, saut: [0.08, 0.14] },
-};
+// Fiabilité calibrée par tier d'impact — valeurs dans la config.
+const SUFFIXE_IMPACT = { faible: 'Faible', moyen: 'Moyen', fort: 'Fort' };
+
+function tierImpact(impact) {
+  const s = SUFFIXE_IMPACT[impact];
+  return {
+    pRetournement: config.get('retournement' + s),
+    pFausseAlerte: config.get('fausseAlerte' + s),
+    saut: [config.get(`saut${s}Min`), config.get(`saut${s}Max`)],
+  };
+}
 
 function nouvelEvenement(m3, quand) {
   const indices = Object.keys(PROFILS);
-  const impacts = ['faible', 'faible', 'faible', 'moyen', 'moyen', 'fort'];
+  const impact = tirerPondere([
+    ['faible', config.get('poidsImpactFaible')],
+    ['moyen', config.get('poidsImpactMoyen')],
+    ['fort', config.get('poidsImpactFort')],
+  ]);
+  const fMin = config.get('fenetreResolutionMin');
+  const fMax = config.get('fenetreResolutionMax');
   return {
     titre: `${tirerSansRepetition('sujets', m3.recents)} ` +
            `${tirerSansRepetition('verbes', m3.recents)} ` +
            `${tirerSansRepetition('complements', m3.recents)}`,
     indice: indices[Math.floor(Math.random() * 3)],
     direction: Math.random() < 0.5 ? 1 : -1,
-    impact: impacts[Math.floor(Math.random() * impacts.length)],
-    resolutionTs: Math.round(quand + (2 + Math.random() * 4) * 3600_000),
+    impact,
+    resolutionTs: Math.round(quand + (fMin + Math.random() * (fMax - fMin)) * 1000),
   };
 }
 
@@ -92,23 +121,33 @@ export function initM3(maintenant) {
     historiqueEvenements: [],
     recents: { sujets: [], verbes: [], complements: [] },
   };
-  while (m3.evenements.length < 4) m3.evenements.push(nouvelEvenement(m3, maintenant));
+  while (m3.evenements.length < config.get('nbEcheances')) {
+    m3.evenements.push(nouvelEvenement(m3, maintenant));
+  }
   return m3;
 }
 
 /* ------------------------------------------------ simulation */
 
-function stepIndice(ind, profil, dt, simNow) {
+function stepIndice(ind, cle, dt, simNow) {
+  const profil = profilDyn(cle);
   const dtH = dt / 3600;
   if (simNow >= ind.regime.finTs) {
-    const dirs = [-1, -1, 0, 1, 1];
-    ind.regime = { dir: dirs[Math.floor(Math.random() * dirs.length)],
-                   finTs: simNow + (2 + Math.random() * 4) * 3600_000 };
+    const dir = tirerPondere([
+      [-1, config.get('poidsRegimeBaissier')],
+      [0, config.get('poidsRegimeStable')],
+      [1, config.get('poidsRegimeHaussier')],
+    ]);
+    const dMin = config.get('dureeRegimeIndiceMin');
+    const dMax = config.get('dureeRegimeIndiceMax');
+    ind.regime = { dir, finTs: simNow + (dMin + Math.random() * (dMax - dMin)) * 1000 };
   }
   if (simNow >= ind.agiteFinTs) {
     ind.agite = !ind.agite;
-    const duree = ind.agite ? (0.3 + Math.random() * 0.7) : (1 + Math.random() * 2);
-    ind.agiteFinTs = simNow + duree * 3600_000;
+    const [dMin, dMax] = ind.agite
+      ? [config.get('dureeAgiteMin'), config.get('dureeAgiteMax')]
+      : [config.get('dureeCalmeMin'), config.get('dureeCalmeMax')];
+    ind.agiteFinTs = simNow + (dMin + Math.random() * (dMax - dMin)) * 1000;
   }
   const sigma = profil.volH * (ind.agite ? profil.facteurAgite : 1);
   let facteur = 1 + profil.deriveH * ind.regime.dir * dtH
@@ -116,13 +155,16 @@ function stepIndice(ind, profil, dt, simNow) {
   if (Math.random() < profil.probaChoc * dt) {
     facteur *= 1 + (Math.random() < 0.5 ? -1 : 1) * profil.ampChoc * (0.5 + Math.random());
   }
-  ind.prix = Math.max(5, ind.prix * facteur);
-  ind.prix += (ind.mm - ind.prix) * Math.min(1, 0.1 * dtH);   // mean reversion légère
-  ind.mm += (ind.prix - ind.mm) * Math.min(1, dtH / 3);       // MM ~3h
-  if (simNow - ind.dernierEch >= PAS_ECHANTILLON) {
+  const plancher = config.get('prixPlancherM3');
+  ind.prix = Math.max(plancher, ind.prix * facteur);
+  // mean reversion légère vers la moyenne mobile
+  ind.prix += (ind.mm - ind.prix) * Math.min(1, config.get('meanReversionHoraire') * dtH);
+  ind.mm += (ind.prix - ind.mm) * Math.min(1, dt / config.get('periodeMoyenneMobile'));
+  if (simNow - ind.dernierEch >= config.get('echantillonnageIndices') * 1000) {
     ind.histo.push([simNow, Number(ind.prix.toFixed(3))]);
     ind.dernierEch = simNow;
-    if (ind.histo.length > MAX_POINTS) ind.histo.splice(0, ind.histo.length - MAX_POINTS);
+    const plafond = config.get('maxPointsIndices');
+    if (ind.histo.length > plafond) ind.histo.splice(0, ind.histo.length - plafond);
   }
 }
 
@@ -142,7 +184,7 @@ export function stepM3(m3, dt, simNow) {
   const dtJour = dt / 86400;
 
   for (const [cle, ind] of Object.entries(m3.indices)) {
-    stepIndice(ind, PROFILS[cle], dt, simNow);
+    stepIndice(ind, cle, dt, simNow);
   }
 
   // filet de sécurité passif + dividendes du Stable (→ Capital de gains)
@@ -166,7 +208,7 @@ export function stepM3(m3, dt, simNow) {
   for (const ev of [...m3.evenements]) {
     if (simNow < ev.resolutionTs) continue;
     m3.evenements.splice(m3.evenements.indexOf(ev), 1);
-    const tier = TIERS_IMPACT[ev.impact];
+    const tier = tierImpact(ev.impact);
     const r = Math.random();
     let effet;
     if (r < tier.pFausseAlerte) {
@@ -176,8 +218,10 @@ export function stepM3(m3, dt, simNow) {
       const [a, b] = tier.saut;
       const saut = (a + Math.random() * (b - a)) * dir;
       const ind = m3.indices[ev.indice];
-      ind.prix = Math.max(5, ind.prix * (1 + saut));
-      ind.regime = { dir, finTs: simNow + (1 + Math.random() * 2) * 3600_000 };
+      ind.prix = Math.max(config.get('prixPlancherM3'), ind.prix * (1 + saut));
+      const pMin = config.get('dureeRegimePostEvenementMin');
+      const pMax = config.get('dureeRegimePostEvenementMax');
+      ind.regime = { dir, finTs: simNow + (pMin + Math.random() * (pMax - pMin)) * 1000 };
       effet = `${saut > 0 ? '+' : ''}${(saut * 100).toFixed(1)}%`
               + (dir !== ev.direction ? ' (retournement !)' : '');
     }
@@ -187,7 +231,9 @@ export function stepM3(m3, dt, simNow) {
     });
     if (m3.historiqueEvenements.length > 10) m3.historiqueEvenements.pop();
   }
-  while (m3.evenements.length < 4) m3.evenements.push(nouvelEvenement(m3, simNow));
+  while (m3.evenements.length < config.get('nbEcheances')) {
+    m3.evenements.push(nouvelEvenement(m3, simNow));
+  }
 }
 
 export function boostM3(m3) {
@@ -237,7 +283,7 @@ export function convertirM3(m3, montant, repartition) {
                     * config.get('echelleIntensiteM3');
   const dureeS = montant * (1 - repartition) * m3.tauxDuree.val
                  * config.get('echelleDureeM3');
-  if (intensite <= 0 || dureeS < 30) return null;   // conversion inutilisable
+  if (intensite <= 0 || dureeS < config.get('dureeMinConversionM3')) return null;
   m3.capitalGains -= montant;
   m3.boosts.push({ intensite, finTs: Date.now() + dureeS * 1000 });
   return { intensite, dureeS };

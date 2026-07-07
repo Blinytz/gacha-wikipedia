@@ -11,7 +11,8 @@ const COQUILLE = [
   './js/ui.js', './js/eclats.js', './js/carte.js', './js/paquets.js',
   './js/vente.js', './js/station.js', './js/station-m1.js',
   './js/station-m2.js', './js/station-m3.js', './js/ecran-paquets.js',
-  './js/ecran-collection.js', './js/ecran-station.js', './js/ecran-reglages.js',
+  './js/ecran-collection.js', './js/ecran-station.js', './js/ecran-eclats.js',
+  './js/ecran-reglages.js',
   './data/collections.json',
   './icons/icon-192.png', './icons/icon-512.png',
 ];

@@ -8,14 +8,15 @@ import { rendreEcranCollection } from './ecran-collection.js';
 import { rendreEcranStation, majStationUI } from './ecran-station.js';
 import { initStation } from './station.js';
 import { rendreEcranReglages } from './ecran-reglages.js';
+import { rendreEcranEclats, majEclatsUI } from './ecran-eclats.js';
 import { initEclats, tickEclats, tauxActuel } from './eclats.js';
-import { majEclatsUI } from './ecran-reglages.js';
 import './vente.js';   // branche la vente de doublons sur le détail de carte
 
 const ecrans = {
   paquets: rendreEcranPaquets,
   collection: rendreEcranCollection,
   station: rendreEcranStation,
+  eclats: rendreEcranEclats,
   reglages: rendreEcranReglages,
 };
 
@@ -55,7 +56,7 @@ async function demarrer() {
     btn.addEventListener('click', () => afficherEcran(btn.dataset.ecran));
   }
   document.getElementById('chip-eclats').addEventListener('click',
-    () => afficherEcran('reglages'));
+    () => afficherEcran('eclats'));
 
   afficherEcran('paquets');
   rafraichirEntete();
@@ -67,8 +68,8 @@ async function demarrer() {
     if (ecranActif === 'paquets') {
       rendreEcranPaquets(document.getElementById('ecran-paquets'), { tick: true });
     }
-    if (ecranActif === 'reglages') {
-      majEclatsUI(document.getElementById('ecran-reglages'));
+    if (ecranActif === 'eclats') {
+      majEclatsUI(document.getElementById('ecran-eclats'));
     }
     if (ecranActif === 'station') {
       majStationUI(document.getElementById('ecran-station'));

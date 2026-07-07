@@ -7,8 +7,6 @@
 import { config } from './config.js';
 import { gauss } from './station.js';
 
-const DIST_ZERO = 100;    // distance à laquelle la proximité tombe à 0
-
 export function initM1(maintenant) {
   return {
     curseurs: { x: 50, y: 50, z: 50 },
@@ -27,14 +25,17 @@ export function initM1(maintenant) {
 
 function prochaineFenetre(depuis) {
   const moyenne = config.get('dureeMoyenneFenetreStabilite') * 1000;
-  return depuis + moyenne * (0.6 + Math.random() * 0.8);   // ±40 %
+  const v = config.get('variationIntervalleFenetre');
+  return depuis + moyenne * (1 - v + Math.random() * 2 * v);
 }
 
 // Facteur d'agitation de la cible selon la fenêtre en cours.
 function facteurAgitation(m1, simNow) {
   const f = m1.fenetre;
   if (f.active && simNow < f.active.finTs) {
-    return { normale: 0.15, jackpot: 0.03, turbulence: 3 }[f.active.type];
+    return { normale: config.get('agitationFenetreNormale'),
+             jackpot: config.get('agitationJackpot'),
+             turbulence: config.get('agitationTurbulence') }[f.active.type];
   }
   return 1;
 }
@@ -45,10 +46,15 @@ export function stepM1(m1, dt, simNow) {
   if (f.active && simNow >= f.active.finTs) f.active = null;
   if (!f.active && simNow >= f.prochaineTs) {
     const dureeBase = config.get('dureeFenetreStabilite') * 1000;
-    let type = 'normale', duree = dureeBase * (0.8 + Math.random() * 0.6);
+    const entre = (a, b) => dureeBase * (config.get(a) +
+      Math.random() * (config.get(b) - config.get(a)));
+    let type = 'normale', duree = entre('dureeNormaleMin', 'dureeNormaleMax');
     if (Math.random() < config.get('probabiliteEvenementRadical')) {
-      if (Math.random() < 0.5) { type = 'jackpot'; duree = dureeBase * (2 + Math.random() * 2); }
-      else { type = 'turbulence'; duree = dureeBase * (1 + Math.random()); }
+      if (Math.random() < config.get('probaJackpot')) {
+        type = 'jackpot'; duree = entre('dureeJackpotMin', 'dureeJackpotMax');
+      } else {
+        type = 'turbulence'; duree = entre('dureeTurbulenceMin', 'dureeTurbulenceMax');
+      }
     }
     f.active = { type, finTs: simNow + duree };
     f.prochaineTs = prochaineFenetre(simNow + duree);
@@ -58,21 +64,25 @@ export function stepM1(m1, dt, simNow) {
   const vMax = config.get('vitesseDeriveCible') * facteurAgitation(m1, simNow);
   const inertie = Math.min(0.98, Math.max(0, config.get('inertieCible')));
   const c = m1.cible;
+  const accel = config.get('facteurAccelerationCibleM1');
+  const rebond = config.get('amortissementRebondM1');
   for (const axe of ['x', 'y', 'z']) {
     const va = 'v' + axe;
-    c[va] = c[va] * (inertie ** dt) + gauss() * vMax * (1 - inertie) * dt * 3;
+    c[va] = c[va] * (inertie ** dt) + gauss() * vMax * (1 - inertie) * dt * accel;
     c[va] = Math.max(-vMax, Math.min(vMax, c[va]));
     c[axe] += c[va] * dt;
-    if (c[axe] < 0) { c[axe] = -c[axe] * 0.5; c[va] = Math.abs(c[va]) * 0.5; }
-    if (c[axe] > 100) { c[axe] = 100 - (c[axe] - 100) * 0.5; c[va] = -Math.abs(c[va]) * 0.5; }
+    if (c[axe] < 0) { c[axe] = -c[axe] * rebond; c[va] = Math.abs(c[va]) * rebond; }
+    if (c[axe] > 100) { c[axe] = 100 - (c[axe] - 100) * rebond; c[va] = -Math.abs(c[va]) * rebond; }
   }
 
   // --- bruit du signal : petite marche aléatoire bornée
   const ampli = config.get('amplitudeBruitSignal');
   const tau = Math.max(1, config.get('vitesseDeriveBruit'));
-  m1.bruitV += gauss() * (ampli / tau) * dt * 0.8 - m1.bruitV * Math.min(1, dt / tau);
+  const gain = config.get('amortissementBruitM1');
+  const decroissance = config.get('decroissanceBruitM1');
+  m1.bruitV += gauss() * (ampli / tau) * dt * gain - m1.bruitV * Math.min(1, dt / tau);
   m1.bruit += m1.bruitV * dt;
-  m1.bruit = Math.max(-ampli, Math.min(ampli, m1.bruit * (1 - 0.02 * dt)));
+  m1.bruit = Math.max(-ampli, Math.min(ampli, m1.bruit * (1 - decroissance * dt)));
 
   // --- énergie
   const tauxE = config.get('tauxEnergieParSeconde');
@@ -91,7 +101,7 @@ export function proximiteReelle(m1) {
   const { x, y, z } = m1.curseurs;
   const c = m1.cible;
   const d = Math.hypot(x - c.x, y - c.y, z - c.z);
-  return Math.max(0, 100 * (1 - d / DIST_ZERO));
+  return Math.max(0, 100 * (1 - d / config.get('porteeProximiteM1')));
 }
 
 export function signalAffiche(m1) {

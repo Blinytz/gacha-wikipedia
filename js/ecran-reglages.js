@@ -4,8 +4,7 @@
 import { etat, exporterJSON, importerJSON, reinitialiserTout, sauvegarder } from './etat.js';
 import { config, DEFAUTS } from './config.js';
 import { donnees } from './donnees.js';
-import { esc, confirmer, formaterNombre } from './ui.js';
-import { tauxActuel, svgHistorique, consommerEclats } from './eclats.js';
+import { esc, confirmer } from './ui.js';
 
 function htmlSectionsParametres() {
   return Object.entries(config.sections()).map(([section, cles]) => {
@@ -47,26 +46,6 @@ export function rendreEcranReglages(section) {
   section.innerHTML = `
     ${avertissement}
     <div class="carte-panneau">
-      <h2>Éclats</h2>
-      <div class="ligne-eclats">
-        <div class="total-eclats"><span class="gemme">◆</span>
-          <b id="regl-eclats-total">${formaterNombre(etat.eclats)}</b></div>
-        <div class="taux-eclats">taux <b id="regl-taux">×${tauxActuel().toFixed(2)}</b></div>
-      </div>
-      <div id="regl-graphe">${svgHistorique(6)}</div>
-      <p class="texte-doux">La courbe montre les 6 dernières heures : régime haut
-      (vendre !), bas (attendre) ou neutre. Mise à jour toutes les 10 s, même
-      pendant que l'app est fermée (rattrapage au retour).</p>
-      <div class="rangee-boutons">
-        <input type="number" id="conso-montant" min="1" step="1"
-               placeholder="Quantité…" class="champ-conso">
-        <button id="btn-consommer" class="btn">Consommer des Éclats</button>
-      </div>
-      <p class="texte-doux">La consommation retire simplement du compteur —
-      la conversion en valeur réelle reste à ta discrétion, hors de l'app.</p>
-    </div>
-
-    <div class="carte-panneau">
       <h2>Sauvegarde</h2>
       <p class="texte-doux">L'état complet du jeu (cartes, Éclats, réglages) vit
       uniquement sur cet appareil. Exporte régulièrement !</p>
@@ -87,10 +66,16 @@ export function rendreEcranReglages(section) {
 
     <div class="carte-panneau">
       <h2>Paramètres</h2>
-      <p class="texte-doux">Tout l'équilibrage du jeu est réglable ici, section
-      par section. Un point violet ● signale une valeur modifiée par rapport au
-      défaut. Les changements s'appliquent immédiatement (sauf mention ⚠️).</p>
+      <p class="texte-doux">Tout l'équilibrage du jeu est réglable ici
+      (${Object.keys(DEFAUTS).length} paramètres,
+      <b id="nb-modifies">${Object.keys(DEFAUTS).filter(c => config.estSurcharge(c)).length}</b>
+      modifié(s)). Un point violet ● signale une valeur modifiée. Les changements
+      s'appliquent immédiatement (sauf mention ⚠️).</p>
+      <input type="search" id="filtre-params" class="champ-conso champ-filtre"
+             placeholder="🔍 Filtrer les paramètres (nom ou description)…">
       ${htmlSectionsParametres()}
+      <button id="btn-reset-global" class="btn btn-danger btn-discret">
+        ↺ Réinitialiser TOUS les paramètres aux valeurs par défaut</button>
     </div>
 
     <div class="carte-panneau zone-danger">
@@ -102,16 +87,28 @@ export function rendreEcranReglages(section) {
     if (ouvertes.has(d.dataset.section)) d.open = true;
   }
 
-  section.querySelector('#btn-consommer').addEventListener('click', () => {
-    const champ = section.querySelector('#conso-montant');
-    const montant = Math.floor(Number(champ.value));
-    if (!Number.isFinite(montant) || montant <= 0) { alert('Quantité invalide.'); return; }
-    if (montant > etat.eclats) { alert(`Tu n'as que ${formaterNombre(etat.eclats)} Éclats.`); return; }
-    if (!confirmer(`Consommer ${formaterNombre(montant)} Éclats ? (simple décompte, irréversible)`)) return;
-    consommerEclats(montant);
-    champ.value = '';
-    document.dispatchEvent(new CustomEvent('gacha:eclats-changes'));
-    majEclatsUI(section);
+  // --- filtre des paramètres (nom + texte d'aide)
+  const champFiltre = section.querySelector('#filtre-params');
+  champFiltre.addEventListener('input', () => {
+    const q = champFiltre.value.trim().toLowerCase();
+    for (const det of section.querySelectorAll('details.section-params')) {
+      let visibles = 0;
+      for (const ligne of det.querySelectorAll('.ligne-param')) {
+        const texte = ligne.textContent.toLowerCase();
+        const ok = !q || texte.includes(q);
+        ligne.style.display = ok ? '' : 'none';
+        if (ok) visibles += 1;
+      }
+      det.style.display = visibles ? '' : 'none';
+      if (q && visibles) det.open = true;
+    }
+  });
+
+  section.querySelector('#btn-reset-global').addEventListener('click', () => {
+    if (!confirmer('Réinitialiser TOUS les paramètres aux valeurs par défaut ? (les cartes, Éclats et progressions ne sont pas touchés)')) return;
+    etat.configUtilisateur = {};
+    sauvegarder();
+    rendreEcranReglages(section);
   });
 
   section.querySelector('#btn-export').addEventListener('click', () => {
@@ -170,15 +167,4 @@ export function rendreEcranReglages(section) {
     reinitialiserTout();
     location.reload();
   });
-}
-
-// Rafraîchissement léger (compteur, taux, courbe) appelé à chaque tick quand
-// l'écran Réglages est visible — sans re-render complet (les champs restent
-// éditables).
-export function majEclatsUI(section) {
-  const total = section.querySelector('#regl-eclats-total');
-  if (!total) return;
-  total.textContent = formaterNombre(etat.eclats);
-  section.querySelector('#regl-taux').textContent = `×${tauxActuel().toFixed(2)}`;
-  section.querySelector('#regl-graphe').innerHTML = svgHistorique(6);
 }

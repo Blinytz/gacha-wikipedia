@@ -87,7 +87,7 @@ body {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 20;
   height: calc(var(--nav-h) + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom);
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(5, 1fr);
   background: #161622f2; backdrop-filter: blur(10px);
   border-top: 1px solid #ffffff12;
 }
@@ -143,6 +143,10 @@ body {
 .puce-surcharge { color: var(--accent); margin-left: 4px; }
 .ligne-param.surchargee input { border-color: var(--accent); }
 .rappel-defaut { display: block; color: #6e6b85; font-style: normal; margin-top: 2px; }
+.champ-filtre { width: 100%; margin: 4px 0 10px; }
+.choix-fenetre { gap: 6px; margin-top: 8px; }
+.choix-fenetre .btn { margin-top: 0; }
+.actif-fenetre { border-color: var(--accent); color: var(--texte); }
 
 /* ---------- images de cartes / placeholder ---------- */
 .img-carte {

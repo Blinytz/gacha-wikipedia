@@ -1,6 +1,4 @@
 {
- "provisoire": true,
- "note": "PAGEVIEWS ALÉATOIRES — à régénérer par generate_cards.py (étape 2)",
  "collections": [
   {
    "slug": "merveilles-du-monde",
@@ -29,7 +27,7 @@
   {
    "slug": "dieux-et-figures-mythologiques-grecques",
    "nom": "Dieux et figures mythologiques grecques",
-   "nbCartes": 42,
+   "nbCartes": 40,
    "fichier": "data/dieux-et-figures-mythologiques-grecques.json"
   },
   {
@@ -83,25 +81,25 @@
   {
    "slug": "auteurs-celebres",
    "nom": "Auteurs celebres",
-   "nbCartes": 141,
+   "nbCartes": 140,
    "fichier": "data/auteurs-celebres.json"
   },
   {
    "slug": "scientifiques-celebres",
    "nom": "Scientifiques celebres",
-   "nbCartes": 120,
+   "nbCartes": 118,
    "fichier": "data/scientifiques-celebres.json"
   },
   {
    "slug": "grands-peintres",
    "nom": "Grands peintres",
-   "nbCartes": 71,
+   "nbCartes": 70,
    "fichier": "data/grands-peintres.json"
   },
   {
    "slug": "tableaux-celebres",
    "nom": "Tableaux celebres",
-   "nbCartes": 59,
+   "nbCartes": 57,
    "fichier": "data/tableaux-celebres.json"
   },
   {
@@ -113,13 +111,13 @@
   {
    "slug": "aviateurs-celebres",
    "nom": "Aviateurs celebres",
-   "nbCartes": 41,
+   "nbCartes": 38,
    "fichier": "data/aviateurs-celebres.json"
   },
   {
    "slug": "mammiferes",
    "nom": "Mammiferes",
-   "nbCartes": 106,
+   "nbCartes": 105,
    "fichier": "data/mammiferes.json"
   },
   {
@@ -131,7 +129,7 @@
   {
    "slug": "reptiles-et-amphibiens",
    "nom": "Reptiles et amphibiens",
-   "nbCartes": 45,
+   "nbCartes": 40,
    "fichier": "data/reptiles-et-amphibiens.json"
   },
   {
@@ -149,7 +147,7 @@
   {
    "slug": "races-de-chien",
    "nom": "Races de chien",
-   "nbCartes": 117,
+   "nbCartes": 114,
    "fichier": "data/races-de-chien.json"
   },
   {
@@ -173,13 +171,13 @@
   {
    "slug": "creatures-et-legendes",
    "nom": "Creatures et legendes",
-   "nbCartes": 46,
+   "nbCartes": 45,
    "fichier": "data/creatures-et-legendes.json"
   },
   {
    "slug": "personnages-de-fiction-celebres",
    "nom": "Personnages de fiction celebres",
-   "nbCartes": 173,
+   "nbCartes": 170,
    "fichier": "data/personnages-de-fiction-celebres.json"
   },
   {
