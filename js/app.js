@@ -8,6 +8,8 @@ import { rendreEcranCollection } from './ecran-collection.js';
 import { rendreEcranStation } from './ecran-station.js';
 import { rendreEcranReglages } from './ecran-reglages.js';
 import { initEclats, tickEclats, tauxActuel } from './eclats.js';
+import { majEclatsUI } from './ecran-reglages.js';
+import './vente.js';   // branche la vente de doublons sur le détail de carte
 
 const ecrans = {
   paquets: rendreEcranPaquets,
@@ -63,8 +65,13 @@ async function demarrer() {
     if (ecranActif === 'paquets') {
       rendreEcranPaquets(document.getElementById('ecran-paquets'), { tick: true });
     }
+    if (ecranActif === 'reglages') {
+      majEclatsUI(document.getElementById('ecran-reglages'));
+    }
     rafraichirEntete();
   }, 1000);
+
+  document.addEventListener('gacha:eclats-changes', rafraichirEntete);
 
   // Retour au premier plan : rattrapage immédiat.
   document.addEventListener('visibilitychange', () => {

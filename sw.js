@@ -9,7 +9,7 @@ const COQUILLE = [
   './', './index.html', './manifest.json', './css/app.css',
   './js/app.js', './js/etat.js', './js/config.js', './js/donnees.js',
   './js/ui.js', './js/eclats.js', './js/carte.js', './js/paquets.js',
-  './js/ecran-paquets.js',
+  './js/vente.js', './js/ecran-paquets.js',
   './js/ecran-collection.js', './js/ecran-station.js', './js/ecran-reglages.js',
   './data/collections.json',
   './icons/icon-192.png', './icons/icon-512.png',

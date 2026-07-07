@@ -436,3 +436,45 @@ body {
   position: absolute; top: -5px; right: -5px; color: var(--or);
   font-size: 14px; text-shadow: 0 0 6px #000;
 }
+
+/* ---------- Éclats ---------- */
+.ligne-eclats {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin: 4px 0 10px;
+}
+.total-eclats { font-size: 26px; font-weight: 800; }
+.total-eclats .gemme { color: var(--accent-2); margin-right: 4px; }
+.taux-eclats { color: var(--texte-doux); font-size: 14px; }
+.taux-eclats b { color: var(--or); font-size: 18px; }
+
+.graphe-taux {
+  width: 100%; height: 120px; background: #0d0d16;
+  border: 1px solid #ffffff10; border-radius: 10px; display: block;
+}
+.courbe-taux {
+  fill: none; stroke: var(--accent-2); stroke-width: 1.8;
+  stroke-linejoin: round; stroke-linecap: round;
+  filter: drop-shadow(0 0 4px #46c8ff66);
+}
+.point-taux { fill: var(--or); }
+.seuil { stroke-dasharray: 4 4; stroke-width: 1; }
+.seuil-haut { stroke: #6dff9e55; }
+.seuil-bas { stroke: #ff5c7a55; }
+.txt-graphe { fill: var(--texte-doux); font-size: 9px; }
+
+.champ-conso {
+  flex: 1; min-width: 110px;
+  background: var(--fond); color: var(--texte);
+  border: 1px solid #ffffff22; border-radius: 10px; padding: 10px 12px; font-size: 15px;
+}
+
+/* vente de doublons (détail de carte) */
+.panneau-vente { width: 100%; text-align: center; }
+.btn-vendre {
+  width: 100%; padding: 12px; font-size: 15px; font-weight: 800;
+  background: linear-gradient(135deg, #1d3a4d, #14506b);
+  color: var(--texte); border: 1px solid var(--accent-2); border-radius: 12px;
+  cursor: pointer;
+}
+.btn-vendre small { display: block; font-weight: 600; color: var(--texte-doux); margin-top: 2px; }
+.note-vente { color: var(--texte-doux); font-size: 11px; margin: 8px 0 0; }

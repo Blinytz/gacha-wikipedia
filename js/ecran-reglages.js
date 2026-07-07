@@ -4,7 +4,8 @@
 import { etat, exporterJSON, importerJSON, reinitialiserTout, sauvegarder } from './etat.js';
 import { config, DEFAUTS } from './config.js';
 import { donnees } from './donnees.js';
-import { esc, confirmer } from './ui.js';
+import { esc, confirmer, formaterNombre } from './ui.js';
+import { tauxActuel, svgHistorique, consommerEclats } from './eclats.js';
 
 // Paramètres exposés dès maintenant (utile pour tester sans attendre 24h).
 const PARAMS_VISIBLES = ['dureeBaseSecondes', 'tailleDuPaquet'];
@@ -16,6 +17,26 @@ export function rendreEcranReglages(section) {
 
   section.innerHTML = `
     ${avertissement}
+    <div class="carte-panneau">
+      <h2>Éclats</h2>
+      <div class="ligne-eclats">
+        <div class="total-eclats"><span class="gemme">◆</span>
+          <b id="regl-eclats-total">${formaterNombre(etat.eclats)}</b></div>
+        <div class="taux-eclats">taux <b id="regl-taux">×${tauxActuel().toFixed(2)}</b></div>
+      </div>
+      <div id="regl-graphe">${svgHistorique(6)}</div>
+      <p class="texte-doux">La courbe montre les 6 dernières heures : régime haut
+      (vendre !), bas (attendre) ou neutre. Mise à jour toutes les 10 s, même
+      pendant que l'app est fermée (rattrapage au retour).</p>
+      <div class="rangee-boutons">
+        <input type="number" id="conso-montant" min="1" step="1"
+               placeholder="Quantité…" class="champ-conso">
+        <button id="btn-consommer" class="btn">Consommer des Éclats</button>
+      </div>
+      <p class="texte-doux">La consommation retire simplement du compteur —
+      la conversion en valeur réelle reste à ta discrétion, hors de l'app.</p>
+    </div>
+
     <div class="carte-panneau">
       <h2>Sauvegarde</h2>
       <p class="texte-doux">L'état complet du jeu (cartes, Éclats, réglages) vit
@@ -51,6 +72,18 @@ export function rendreEcranReglages(section) {
       <h2>Zone dangereuse</h2>
       <button id="btn-reset-tout" class="btn btn-danger">🗑️ Tout réinitialiser</button>
     </div>`;
+
+  section.querySelector('#btn-consommer').addEventListener('click', () => {
+    const champ = section.querySelector('#conso-montant');
+    const montant = Math.floor(Number(champ.value));
+    if (!Number.isFinite(montant) || montant <= 0) { alert('Quantité invalide.'); return; }
+    if (montant > etat.eclats) { alert(`Tu n'as que ${formaterNombre(etat.eclats)} Éclats.`); return; }
+    if (!confirmer(`Consommer ${formaterNombre(montant)} Éclats ? (simple décompte, irréversible)`)) return;
+    consommerEclats(montant);
+    champ.value = '';
+    document.dispatchEvent(new CustomEvent('gacha:eclats-changes'));
+    majEclatsUI(section);
+  });
 
   section.querySelector('#btn-export').addEventListener('click', () => {
     const blob = new Blob([exporterJSON()], { type: 'application/json' });
@@ -100,4 +133,15 @@ export function rendreEcranReglages(section) {
     reinitialiserTout();
     location.reload();
   });
+}
+
+// Rafraîchissement léger (compteur, taux, courbe) appelé à chaque tick quand
+// l'écran Réglages est visible — sans re-render complet (les champs restent
+// éditables).
+export function majEclatsUI(section) {
+  const total = section.querySelector('#regl-eclats-total');
+  if (!total) return;
+  total.textContent = formaterNombre(etat.eclats);
+  section.querySelector('#regl-taux').textContent = `×${tauxActuel().toFixed(2)}`;
+  section.querySelector('#regl-graphe').innerHTML = svgHistorique(6);
 }
