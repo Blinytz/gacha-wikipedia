@@ -81,12 +81,16 @@ def accentuer(nom_excel, titre):
     data = rt.api_get(dict(action='opensearch', search=nom_excel, limit=8,
                            redirects='return'))
     if data and len(data) > 1:
+        # préférer une forme RÉELLEMENT accentuée (différente du nom brut) —
+        # les redirections sans accents existent et ne nous apprennent rien
+        egal = None
         for cand in data[1]:
-            if norm(cand) == norm(nom_excel):
-                return cand
-            if norm(base_title(cand)) == norm(nom_excel):
-                return base_title(cand)
-    return None   # pas de forme accentuée sûre
+            for forme in (cand, base_title(cand)):
+                if norm(forme) == norm(nom_excel):
+                    if forme != nom_excel:
+                        return forme
+                    egal = egal or forme
+    return None   # pas de forme accentuée sûre (accentuer_tokens prendra le relais)
 
 
 def main():

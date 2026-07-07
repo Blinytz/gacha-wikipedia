@@ -16,10 +16,10 @@ Rapport données définitives — pageviews 20250601->20260630
   top  : Zeus (254,064 vues, legendaire, 340PV) | Athéna (250,772 vues, mythique, 332PV) | Artémis (218,388 vues, mythique, 324PV)
   flop : Hypnos (30,256 vues, 36PV) | Échidna (29,546 vues, 28PV) | Moros (10,850 vues, 20PV)
 == Grands dirigeants (67 cartes) L:1 M:4 E:11 R:17 C:34
-  top  : Cleopatre (1,575,205 vues, legendaire, 340PV) | Napoléon (1,168,283 vues, mythique, 335PV) | Louis XIV (1,059,134 vues, mythique, 330PV)
+  top  : Cléopâtre (1,575,205 vues, legendaire, 340PV) | Napoléon (1,168,283 vues, mythique, 335PV) | Louis XIV (1,059,134 vues, mythique, 330PV)
   flop : Piye (3,695 vues, 30PV) | Jayavarman VII (3,615 vues, 25PV) | Amanitore (1,970 vues, 20PV)
 == Constellations (85 cartes) L:2 M:5 E:14 R:22 C:42
-  top  : Renard (94,965 vues, legendaire, 340PV) | Orion (82,991 vues, legendaire, 336PV) | Grande Ourse (73,257 vues, mythique, 332PV)
+  top  : Orion (82,991 vues, legendaire, 340PV) | Grande Ourse (73,257 vues, legendaire, 336PV) | Cassiopée (40,676 vues, mythique, 332PV)
   flop : Indien (1,665 vues, 28PV) | Microscope (1,472 vues, 24PV) | Télescope (1,329 vues, 20PV)
 == Monuments emblematiques (50 cartes) L:1 M:3 E:8 R:13 C:25
   top  : Sagrada Família (578,960 vues, legendaire, 340PV) | Tour Eiffel (546,010 vues, mythique, 333PV) | Statue de la Liberté (471,282 vues, mythique, 327PV)
@@ -34,7 +34,7 @@ Rapport données définitives — pageviews 20250601->20260630
   top  : Première Guerre mondiale (732,290 vues, legendaire, 340PV) | Seconde Guerre mondiale (676,356 vues, mythique, 331PV) | Guerre du Vietnam (417,586 vues, mythique, 321PV)
   flop : Guerre civile chinoise (41,980 vues, 39PV) | Guerres de la Révolution française (37,379 vues, 29PV) | Guerres civiles romaines (12,763 vues, 20PV)
 == Dinosaures celebres (50 cartes) L:1 M:3 E:8 R:13 C:25
-  top  : Tyrannosaurus rex (124,547 vues, legendaire, 340PV) | Spinosaurus (69,847 vues, mythique, 333PV) | Velociraptor (66,463 vues, mythique, 327PV)
+  top  : Tyrannosaurus Rex (124,547 vues, legendaire, 340PV) | Spinosaurus (69,847 vues, mythique, 333PV) | Velociraptor (66,463 vues, mythique, 327PV)
   flop : Euoplocephalus (1,872 vues, 33PV) | Nodosaurus (1,767 vues, 27PV) | Segnosaurus (1,339 vues, 20PV)
 == Grands explorateurs (50 cartes) L:1 M:3 E:8 R:13 C:25
   top  : Christophe Colomb (556,162 vues, legendaire, 340PV) | Ferdinand Magellan (332,353 vues, mythique, 333PV) | Neil Armstrong (236,090 vues, mythique, 327PV)
@@ -47,7 +47,7 @@ Rapport données définitives — pageviews 20250601->20260630
   flop : Shen Kuo (2,006 vues, 25PV) | Alan Guth (1,271 vues, 23PV) | Har Gobind Khorana (427 vues, 20PV)
 == Grands peintres (70 cartes) L:1 M:4 E:11 R:18 C:36
   top  : Michel-Ange (2,119,940 vues, legendaire, 340PV) | Frida Kahlo (713,537 vues, mythique, 335PV) | Vincent van Gogh (406,282 vues, mythique, 331PV)
-  flop : Francisco Zurbaran (17,260 vues, 29PV) | Frans Hals (13,101 vues, 25PV) | J.M.W. Turner (2,580 vues, 20PV)
+  flop : Francisco Zurbarán (17,260 vues, 29PV) | Frans Hals (13,101 vues, 25PV) | J.M.W. Turner (2,580 vues, 20PV)
 == Tableaux celebres (57 cartes) L:1 M:3 E:9 R:15 C:29
   top  : La Joconde (398,361 vues, legendaire, 340PV) | Guernica (316,319 vues, mythique, 334PV) | La Grande Vague de Kanagawa (265,112 vues, mythique, 329PV)
   flop : Composition avec rouge jaune et bleu (1,236 vues, 31PV) | Autoportrait (1,215 vues, 26PV) | Guitare et Compotier (94 vues, 20PV)
@@ -62,7 +62,7 @@ Rapport données définitives — pageviews 20250601->20260630
   flop : Cachalot (2,990 vues, 26PV) | Loutre (1,741 vues, 23PV) | Wallaby de Bennett (1,168 vues, 20PV)
 == Oiseaux (71 cartes) L:1 M:4 E:11 R:18 C:37
   top  : Huppe fasciée (289,806 vues, legendaire, 340PV) | Pinson des arbres (273,709 vues, mythique, 335PV) | Merle noir (268,373 vues, mythique, 331PV)
-  flop : Manchot Adélie (8,677 vues, 29PV) | Fregate (7,381 vues, 25PV) | Emeu (450 vues, 20PV)
+  flop : Manchot Adélie (8,677 vues, 29PV) | Frégate (7,381 vues, 25PV) | Emeu (450 vues, 20PV)
 == Reptiles et amphibiens (40 cartes) L:1 M:2 E:6 R:10 C:21
   top  : Axolotl (220,285 vues, legendaire, 340PV) | Dragon de Komodo (173,410 vues, mythique, 332PV) | Mamba noir (70,341 vues, mythique, 324PV)
   flop : Salamandre tachetée (3,946 vues, 36PV) | Tortue boîte (1,927 vues, 28PV) | Iguane à queue épineuse (1,656 vues, 20PV)
@@ -70,17 +70,17 @@ Rapport données définitives — pageviews 20250601->20260630
   top  : Poulpe (113,515 vues, legendaire, 340PV) | Requin blanc (109,651 vues, mythique, 334PV) | Requin-baleine (91,706 vues, mythique, 328PV)
   flop : Corail cerveau (699 vues, 32PV) | Corail corne d'elan (616 vues, 26PV) | Diable de mer (124 vues, 20PV)
 == Insectes (56 cartes) L:1 M:3 E:9 R:15 C:28
-  top  : Frelon asiatique (179,523 vues, legendaire, 340PV) | Lucane cerf-volant (139,320 vues, mythique, 334PV) | Moustique tigre (128,091 vues, mythique, 328PV)
-  flop : Fourmi charpentiere (5,592 vues, 32PV) | Scarabée goliath (2,208 vues, 26PV) | Morpho bleu (779 vues, 20PV)
+  top  : Frelon asiatique (179,523 vues, legendaire, 340PV) | Lucane Cerf-Volant (139,320 vues, mythique, 334PV) | Moustique tigre (128,091 vues, mythique, 328PV)
+  flop : Fourmi charpentiere (5,592 vues, 32PV) | Scarabée goliath (2,208 vues, 26PV) | Morpho Bleu (779 vues, 20PV)
 == Races de chien (114 cartes) L:2 M:7 E:18 R:30 C:57
-  top  : Berger belge malinois (180,250 vues, legendaire, 340PV) | Golden retriever (175,826 vues, legendaire, 337PV) | Cane Corso (171,487 vues, mythique, 334PV)
+  top  : Berger belge Malinois (180,250 vues, legendaire, 340PV) | Golden retriever (175,826 vues, legendaire, 337PV) | Cane Corso (171,487 vues, mythique, 334PV)
   flop : Sealyham Terrier (2,345 vues, 26PV) | Épagneul nain continental (1,897 vues, 23PV) | Kangal (426 vues, 20PV)
 == Coupes du monde FIFA (22 cartes) L:1 M:1 E:4 R:6 C:10
   top  : Qatar 2022 (542,072 vues, legendaire, 340PV) | Russie 2018 (330,802 vues, mythique, 325PV) | Brésil 2014 (303,560 vues, epique, 310PV)
   flop : Italie 1934 (57,259 vues, 50PV) | Brésil 1950 (52,621 vues, 35PV) | Chili 1962 (51,356 vues, 20PV)
 == Plus grands joueurs de football (180 cartes) L:4 M:11 E:29 R:47 C:89
   top  : Kylian Mbappé (2,633,634 vues, legendaire, 340PV) | Cristiano Ronaldo (2,592,291 vues, legendaire, 338PV) | Lionel Messi (1,880,539 vues, legendaire, 336PV)
-  flop : Dušan Tadić (25,937 vues, 24PV) | Tim Cahill (17,832 vues, 22PV) | Falcao (10,439 vues, 20PV)
+  flop : Dušan Tadić (25,937 vues, 24PV) | Tim Cahill (17,832 vues, 22PV) | Falcão (10,439 vues, 20PV)
 == Mythologies du monde (hors Grece) (58 cartes) L:1 M:3 E:9 R:15 C:30
   top  : Shiva (124,642 vues, legendaire, 340PV) | Odin (107,706 vues, mythique, 334PV) | Horus (107,132 vues, mythique, 329PV)
   flop : Vélès (4,948 vues, 31PV) | Xochiquetzal (3,080 vues, 26PV) | Coyote (2,263 vues, 20PV)

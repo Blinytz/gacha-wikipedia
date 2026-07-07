@@ -1,8 +1,8 @@
 {
  "Merveilles du monde|Grande Pyramide de Gizeh": {
   "nomCarte": "Grande Pyramide de Gizeh",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Merveilles du monde|Jardins suspendus de Babylone": {
   "nomCarte": "Jardins suspendus de Babylone",
@@ -36,8 +36,8 @@
  },
  "Merveilles du monde|Grande Muraille de Chine": {
   "nomCarte": "Grande Muraille de Chine",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Merveilles du monde|Petra": {
   "nomCarte": "Pétra",
@@ -875,7 +875,7 @@
   "aVerifier": false
  },
  "Corps celestes|Ceres": {
-  "nomCarte": "Ceres",
+  "nomCarte": "CERES",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -885,13 +885,13 @@
   "aVerifier": false
  },
  "Corps celestes|Haumea": {
-  "nomCarte": "Haumea",
+  "nomCarte": "Hauméa",
   "source": "wikipedia",
   "aVerifier": false
  },
  "Corps celestes|Makemake": {
-  "nomCarte": "Makemake",
-  "source": "wikipedia",
+  "nomCarte": "Makémaké",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Corps celestes|Eris (planete naine)": {
@@ -1101,8 +1101,8 @@
  },
  "Dieux et figures mythologiques grecques|Chaos (mythologie)": {
   "nomCarte": "Chaos",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dieux et figures mythologiques grecques|Erebe": {
   "nomCarte": "Érèbe",
@@ -1276,8 +1276,8 @@
  },
  "Dieux et figures mythologiques grecques|Megere": {
   "nomCarte": "Megere",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dieux et figures mythologiques grecques|Tisiphone": {
   "nomCarte": "Érinyes",
@@ -1286,8 +1286,8 @@
  },
  "Dieux et figures mythologiques grecques|Alecto": {
   "nomCarte": "Alecto",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Abraham Lincoln": {
   "nomCarte": "Abraham Lincoln",
@@ -1296,8 +1296,8 @@
  },
  "Grands dirigeants|Elizabeth Ire": {
   "nomCarte": "Elizabeth Ire",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Napoleon": {
   "nomCarte": "Napoléon",
@@ -1320,8 +1320,8 @@
   "aVerifier": false
  },
  "Grands dirigeants|Cleopatre": {
-  "nomCarte": "Cleopatre",
-  "source": "wikipedia",
+  "nomCarte": "Cléopâtre",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Grands dirigeants|Ramses II": {
@@ -1351,8 +1351,8 @@
  },
  "Grands dirigeants|Gandhi": {
   "nomCarte": "Gandhi",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Tokugawa Ieyasu": {
   "nomCarte": "Tokugawa Ieyasu",
@@ -1406,12 +1406,12 @@
  },
  "Grands dirigeants|Shaka": {
   "nomCarte": "Shaka",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Haile Selassie": {
-  "nomCarte": "Haile Selassie",
-  "source": "wikipedia",
+  "nomCarte": "Haïlé Sélassié",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Grands dirigeants|Christine de Suede": {
@@ -1431,13 +1431,13 @@
  },
  "Grands dirigeants|Guillaume d'Orange": {
   "nomCarte": "Guillaume d'Orange",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Isabelle Ire": {
   "nomCarte": "Isabelle Ire",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Marie Ire": {
   "nomCarte": "Marie Ire",
@@ -1446,8 +1446,8 @@
  },
  "Grands dirigeants|Casimir III": {
   "nomCarte": "Casimir III",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Soliman le Magnifique": {
   "nomCarte": "Soliman le Magnifique",
@@ -1481,17 +1481,17 @@
  },
  "Grands dirigeants|Mvemba a Nzinga": {
   "nomCarte": "Mvemba a Nzinga",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Robert Ier d'Ecosse": {
   "nomCarte": "Robert Ier d'Ecosse",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Tamar de Georgie": {
-  "nomCarte": "Tamar de Georgie",
-  "source": "wikipedia",
+  "nomCarte": "Tamar de Géorgie",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Grands dirigeants|Matthias Corvin": {
@@ -1510,7 +1510,7 @@
   "aVerifier": false
  },
  "Grands dirigeants|Boadicee": {
-  "nomCarte": "Boadicee",
+  "nomCarte": "Boadicée",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -1546,8 +1546,8 @@
  },
  "Grands dirigeants|Pierre le Grand": {
   "nomCarte": "Pierre le Grand",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Ivan le Terrible": {
   "nomCarte": "Ivan le Terrible",
@@ -1591,8 +1591,8 @@
  },
  "Grands dirigeants|Harun al-Rashid": {
   "nomCarte": "Harun al-Rashid",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Sundiata Keita": {
   "nomCarte": "Sundiata Keïta",
@@ -1606,8 +1606,8 @@
  },
  "Grands dirigeants|Piye": {
   "nomCarte": "Piye",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands dirigeants|Simon Bolivar": {
   "nomCarte": "Simón Bolívar",
@@ -1676,8 +1676,8 @@
  },
  "Constellations|Camelopardalis": {
   "nomCarte": "Camelopardalis",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Constellations|Cancer": {
   "nomCarte": "Cancer",
@@ -1981,8 +1981,8 @@
  },
  "Constellations|Bouclier": {
   "nomCarte": "Bouclier",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Constellations|Serpent": {
   "nomCarte": "Serpent",
@@ -2046,8 +2046,8 @@
  },
  "Constellations|Renard": {
   "nomCarte": "Renard",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|Tour Eiffel": {
   "nomCarte": "Tour Eiffel",
@@ -2116,8 +2116,8 @@
  },
  "Monuments emblematiques|Alhambra de Grenade": {
   "nomCarte": "Alhambra de Grenade",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|Stonehenge": {
   "nomCarte": "Stonehenge",
@@ -2141,11 +2141,11 @@
  },
  "Monuments emblematiques|Notre-Dame de Paris": {
   "nomCarte": "Notre-Dame de Paris",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|Mont-Saint-Michel": {
-  "nomCarte": "Mont-Saint-Michel",
+  "nomCarte": "Mont Saint-Michel",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -2181,13 +2181,13 @@
  },
  "Monuments emblematiques|Golden Gate Bridge": {
   "nomCarte": "Golden Gate Bridge",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|CN Tower": {
   "nomCarte": "CN Tower",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|Chateau d'Edimbourg": {
   "nomCarte": "Château d'Édimbourg",
@@ -2236,12 +2236,12 @@
  },
  "Monuments emblematiques|Table Mountain": {
   "nomCarte": "Table Mountain",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|Pantheon de Rome": {
-  "nomCarte": "Pantheon de Rome",
-  "source": "wikipedia",
+  "nomCarte": "Panthéon de Rome",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Monuments emblematiques|Chateau de Prague": {
@@ -2261,8 +2261,8 @@
  },
  "Monuments emblematiques|Temple de Karnak": {
   "nomCarte": "Temple de Karnak",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Monuments emblematiques|Vallee des Rois": {
   "nomCarte": "Vallée des Rois",
@@ -2326,8 +2326,8 @@
  },
  "Dynasties et empires historiques|Empire sassanide": {
   "nomCarte": "Empire sassanide",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dynasties et empires historiques|Dynastie Qin": {
   "nomCarte": "Dynastie Qin",
@@ -2426,8 +2426,8 @@
  },
  "Dynasties et empires historiques|Empire babylonien": {
   "nomCarte": "Empire babylonien",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dynasties et empires historiques|Empire hittite": {
   "nomCarte": "Empire hittite",
@@ -2456,13 +2456,13 @@
  },
  "Dynasties et empires historiques|Empire zoulou": {
   "nomCarte": "Empire zoulou",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dynasties et empires historiques|Empire d'Aksoum": {
   "nomCarte": "Empire d'Aksoum",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dynasties et empires historiques|Empire khmer": {
   "nomCarte": "Empire khmer",
@@ -2486,8 +2486,8 @@
  },
  "Dynasties et empires historiques|Empire portugais": {
   "nomCarte": "Empire portugais",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Dynasties et empires historiques|Empire colonial francais": {
   "nomCarte": "Empire colonial français",
@@ -2506,8 +2506,8 @@
  },
  "Dynasties et empires historiques|Empire austro-hongrois": {
   "nomCarte": "Empire austro-hongrois",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grandes batailles historiques|Bataille de Marathon": {
   "nomCarte": "Bataille de Marathon",
@@ -2676,12 +2676,12 @@
  },
  "Grandes batailles historiques|Bataille de Sedan (1870)": {
   "nomCarte": "Bataille de Sedan",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grandes batailles historiques|Premiere bataille de la Marne": {
-  "nomCarte": "Premiere bataille de la Marne",
-  "source": "wikipedia",
+  "nomCarte": "Première Bataille de la Marne",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Grandes batailles historiques|Bataille de Verdun": {
@@ -2756,8 +2756,8 @@
  },
  "Grandes guerres|Croisades": {
   "nomCarte": "Croisades",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grandes guerres|Guerre de Cent Ans": {
   "nomCarte": "Guerre de Cent Ans",
@@ -2811,8 +2811,8 @@
  },
  "Grandes guerres|Guerre franco-prussienne": {
   "nomCarte": "Guerre franco-prussienne",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grandes guerres|Guerre des Boers": {
   "nomCarte": "Guerre des Boers",
@@ -2831,8 +2831,8 @@
  },
  "Grandes guerres|Guerre civile espagnole": {
   "nomCarte": "Guerre civile espagnole",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grandes guerres|Seconde Guerre mondiale": {
   "nomCarte": "Seconde Guerre mondiale",
@@ -2846,8 +2846,8 @@
  },
  "Grandes guerres|Guerre sino-japonaise": {
   "nomCarte": "Guerre sino-japonaise",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grandes guerres|Guerre russo-japonaise": {
   "nomCarte": "Guerre russo-japonaise",
@@ -2905,7 +2905,7 @@
   "aVerifier": false
  },
  "Dinosaures celebres|Tyrannosaurus rex": {
-  "nomCarte": "Tyrannosaurus rex",
+  "nomCarte": "Tyrannosaurus Rex",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -3166,8 +3166,8 @@
  },
  "Grands explorateurs|Ferdinand Magellan": {
   "nomCarte": "Ferdinand Magellan",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands explorateurs|Marco Polo": {
   "nomCarte": "Marco Polo",
@@ -3281,8 +3281,8 @@
  },
  "Grands explorateurs|John Cabot": {
   "nomCarte": "John Cabot",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands explorateurs|Bartolomeu Dias": {
   "nomCarte": "Bartolomeu Dias",
@@ -3571,8 +3571,8 @@
  },
  "Auteurs celebres|Nikolai Gogol": {
   "nomCarte": "Nikolai Gogol",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|Ivan Tourgueniev": {
   "nomCarte": "Ivan Tourgueniev",
@@ -3661,8 +3661,8 @@
  },
  "Auteurs celebres|D.H. Lawrence": {
   "nomCarte": "D.H. Lawrence",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|Thomas Mann": {
   "nomCarte": "Thomas Mann",
@@ -3711,18 +3711,18 @@
  },
  "Auteurs celebres|J.R.R. Tolkien": {
   "nomCarte": "J.R.R. Tolkien",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|C.S. Lewis": {
   "nomCarte": "C.S. Lewis",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|H.P. Lovecraft": {
   "nomCarte": "H.P. Lovecraft",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|Jules Verne": {
   "nomCarte": "Jules Verne",
@@ -3731,8 +3731,8 @@
  },
  "Auteurs celebres|H.G. Wells": {
   "nomCarte": "H.G. Wells",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|Mary Shelley": {
   "nomCarte": "Mary Shelley",
@@ -3846,8 +3846,8 @@
  },
  "Auteurs celebres|J.K. Rowling": {
   "nomCarte": "J.K. Rowling",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|George R.R. Martin": {
   "nomCarte": "George R.R. Martin",
@@ -4016,8 +4016,8 @@
  },
  "Auteurs celebres|T.S. Eliot": {
   "nomCarte": "T.S. Eliot",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Auteurs celebres|W.B. Yeats": {
   "nomCarte": "W.B. Yeats",
@@ -4141,13 +4141,13 @@
  },
  "Scientifiques celebres|Ibn Sina": {
   "nomCarte": "Ibn Sina",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Ibn al-Haytham": {
   "nomCarte": "Ibn al-Haytham",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Leonard de Vinci": {
   "nomCarte": "Léonard de Vinci",
@@ -4191,8 +4191,8 @@
  },
  "Scientifiques celebres|Gottfried Leibniz": {
   "nomCarte": "Gottfried Leibniz",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Robert Hooke": {
   "nomCarte": "Robert Hooke",
@@ -4391,8 +4391,8 @@
  },
  "Scientifiques celebres|Karl Benz": {
   "nomCarte": "Karl Benz",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Rudolf Diesel": {
   "nomCarte": "Rudolf Diesel",
@@ -4411,8 +4411,8 @@
  },
  "Scientifiques celebres|Carl Jung": {
   "nomCarte": "Carl Jung",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Ivan Pavlov": {
   "nomCarte": "Ivan Pavlov",
@@ -4451,8 +4451,8 @@
  },
  "Scientifiques celebres|James Watson": {
   "nomCarte": "James Watson",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Francis Crick": {
   "nomCarte": "Francis Crick",
@@ -4606,8 +4606,8 @@
  },
  "Scientifiques celebres|Jocelyn Bell Burnell": {
   "nomCarte": "Jocelyn Bell Burnell",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Vera Rubin": {
   "nomCarte": "Vera Rubin",
@@ -4686,8 +4686,8 @@
  },
  "Scientifiques celebres|Dorothy Hodgkin": {
   "nomCarte": "Dorothy Hodgkin",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Scientifiques celebres|Rita Levi-Montalcini": {
   "nomCarte": "Rita Levi-Montalcini",
@@ -4706,8 +4706,8 @@
  },
  "Grands peintres|Giotto": {
   "nomCarte": "Giotto",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|Sandro Botticelli": {
   "nomCarte": "Sandro Botticelli",
@@ -4781,8 +4781,8 @@
  },
  "Grands peintres|J.M.W. Turner": {
   "nomCarte": "J.M.W. Turner",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|John Constable": {
   "nomCarte": "John Constable",
@@ -4810,7 +4810,7 @@
   "aVerifier": false
  },
  "Grands peintres|Pierre-Auguste Renoir": {
-  "nomCarte": "Pierre-Auguste Renoir",
+  "nomCarte": "Pierre Auguste Renoir",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -4886,8 +4886,8 @@
  },
  "Grands peintres|Wassily Kandinsky": {
   "nomCarte": "Wassily Kandinsky",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|Piet Mondrian": {
   "nomCarte": "Piet Mondrian",
@@ -4991,13 +4991,13 @@
  },
  "Grands peintres|Katsushika Hokusai": {
   "nomCarte": "Katsushika Hokusai",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|Utagawa Hiroshige": {
   "nomCarte": "Utagawa Hiroshige",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|Artemisia Gentileschi": {
   "nomCarte": "Artemisia Gentileschi",
@@ -5016,12 +5016,12 @@
  },
  "Grands peintres|El Greco": {
   "nomCarte": "El Greco",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|Francisco Zurbaran": {
-  "nomCarte": "Francisco Zurbaran",
-  "source": "wikipedia",
+  "nomCarte": "Francisco Zurbarán",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Grands peintres|Nicolas Poussin": {
@@ -5036,8 +5036,8 @@
  },
  "Grands peintres|Jean-Antoine Watteau": {
   "nomCarte": "Jean-Antoine Watteau",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Grands peintres|William Blake": {
   "nomCarte": "William Blake",
@@ -5211,8 +5211,8 @@
  },
  "Tableaux celebres|Number 1": {
   "nomCarte": "Number 1",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Tableaux celebres|Les Nympheas": {
   "nomCarte": "Les Nymphéas",
@@ -5235,7 +5235,7 @@
   "aVerifier": false
  },
  "Tableaux celebres|Autoportrait a l'oreille bandee": {
-  "nomCarte": "Autoportrait a l'oreille bandee",
+  "nomCarte": "Autoportrait à l'oreille bandée",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -5811,8 +5811,8 @@
  },
  "Aviateurs celebres|Juan de la Cierva": {
   "nomCarte": "Juan de la Cierva",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Aviateurs celebres|Geoffrey de Havilland": {
   "nomCarte": "Geoffrey de Havilland",
@@ -5846,13 +5846,13 @@
  },
  "Aviateurs celebres|Jimmy Doolittle": {
   "nomCarte": "Jimmy Doolittle",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Aviateurs celebres|Kelly Johnson": {
   "nomCarte": "Kelly Johnson",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Aviateurs celebres|Chesley Sullenberger": {
   "nomCarte": "Chesley Sullenberger",
@@ -5861,8 +5861,8 @@
  },
  "Aviateurs celebres|Scott Crossfield": {
   "nomCarte": "Scott Crossfield",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Aviateurs celebres|Sally Ride": {
   "nomCarte": "Sally Ride",
@@ -5941,8 +5941,8 @@
  },
  "Mammiferes|Ours polaire": {
   "nomCarte": "Ours polaire",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Ours brun": {
   "nomCarte": "Ours brun",
@@ -5966,8 +5966,8 @@
  },
  "Mammiferes|Panda roux": {
   "nomCarte": "Panda roux",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Elephant d'Afrique": {
   "nomCarte": "Éléphant d'Afrique",
@@ -5996,13 +5996,13 @@
  },
  "Mammiferes|Hippopotame": {
   "nomCarte": "Hippopotame",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Hippopotame nain": {
   "nomCarte": "Hippopotame nain",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Girafe": {
   "nomCarte": "Girafe",
@@ -6046,8 +6046,8 @@
  },
  "Mammiferes|Loup gris": {
   "nomCarte": "Loup gris",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Loup a criniere": {
   "nomCarte": "Loup à crinière",
@@ -6116,8 +6116,8 @@
  },
  "Mammiferes|Gibbon": {
   "nomCarte": "Gibbon",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Babouin": {
   "nomCarte": "Babouin",
@@ -6196,8 +6196,8 @@
  },
  "Mammiferes|Pangolin": {
   "nomCarte": "Pangolin",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Fourmilier geant": {
   "nomCarte": "Fourmilier géant",
@@ -6211,8 +6211,8 @@
  },
  "Mammiferes|Castor": {
   "nomCarte": "Castor",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Blaireau europeen": {
   "nomCarte": "Blaireau européen",
@@ -6241,8 +6241,8 @@
  },
  "Mammiferes|Chauve-souris vampire": {
   "nomCarte": "Chauve-souris vampire",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Baleine bleue": {
   "nomCarte": "Baleine bleue",
@@ -6256,8 +6256,8 @@
  },
  "Mammiferes|Cachalot": {
   "nomCarte": "Cachalot",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Orque": {
   "nomCarte": "Orque",
@@ -6291,8 +6291,8 @@
  },
  "Mammiferes|Otarie": {
   "nomCarte": "Otarie",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Morse": {
   "nomCarte": "Morse",
@@ -6321,8 +6321,8 @@
  },
  "Mammiferes|Belette": {
   "nomCarte": "Belette",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Sanglier": {
   "nomCarte": "Sanglier",
@@ -6336,8 +6336,8 @@
  },
  "Mammiferes|Renne": {
   "nomCarte": "Renne",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Elan": {
   "nomCarte": "Elan",
@@ -6391,18 +6391,18 @@
  },
  "Mammiferes|Capybara": {
   "nomCarte": "Capybara",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Numbat": {
   "nomCarte": "Numbat",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Wallaby de Bennett": {
   "nomCarte": "Wallaby de Bennett",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mammiferes|Rat-taupe nu": {
   "nomCarte": "Rat-taupe nu",
@@ -6465,8 +6465,8 @@
   "aVerifier": false
  },
  "Oiseaux|Chouette effraie": {
-  "nomCarte": "Chouette effraie",
-  "source": "wikipedia",
+  "nomCarte": "Chouette Effraie",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Oiseaux|Chouette hulotte": {
@@ -6486,13 +6486,13 @@
  },
  "Oiseaux|Emeu": {
   "nomCarte": "Emeu",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Oiseaux|Nandou": {
   "nomCarte": "Nandou",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Oiseaux|Kiwi": {
   "nomCarte": "Kiwi",
@@ -6501,8 +6501,8 @@
  },
  "Oiseaux|Casoar": {
   "nomCarte": "Casoar",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Oiseaux|Manchot empereur": {
   "nomCarte": "Manchot empereur",
@@ -6565,8 +6565,8 @@
   "aVerifier": false
  },
  "Oiseaux|Perroquet gris du Gabon": {
-  "nomCarte": "Perroquet gris du Gabon",
-  "source": "wikipedia",
+  "nomCarte": "Perroquet Gris du Gabon",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Oiseaux|Perruche ondulee": {
@@ -6600,8 +6600,8 @@
   "aVerifier": false
  },
  "Oiseaux|Fregate": {
-  "nomCarte": "Fregate",
-  "source": "wikipedia",
+  "nomCarte": "Frégate",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Oiseaux|Fou de Bassan": {
@@ -6721,8 +6721,8 @@
  },
  "Oiseaux|Kakapo": {
   "nomCarte": "Kakapo",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Oiseaux|Dodo": {
   "nomCarte": "Dodo",
@@ -6756,8 +6756,8 @@
  },
  "Oiseaux|Oiseau-lyre": {
   "nomCarte": "Oiseau-lyre",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Oiseaux|Quetzal resplendissant": {
   "nomCarte": "Quetzal resplendissant",
@@ -6791,8 +6791,8 @@
  },
  "Reptiles et amphibiens|Anaconda vert": {
   "nomCarte": "Anaconda vert",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Python reticule": {
   "nomCarte": "Python réticulé",
@@ -6821,8 +6821,8 @@
  },
  "Reptiles et amphibiens|Mamba noir": {
   "nomCarte": "Mamba noir",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Vipere a cornes": {
   "nomCarte": "Vipère à cornes",
@@ -6846,8 +6846,8 @@
  },
  "Reptiles et amphibiens|Iguane vert": {
   "nomCarte": "Iguane vert",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Iguane marin des Galapagos": {
   "nomCarte": "Iguane marin des Galapagos",
@@ -6855,8 +6855,8 @@
   "aVerifier": false
  },
  "Reptiles et amphibiens|Cameleon panthere": {
-  "nomCarte": "Cameleon panthere",
-  "source": "wikipedia",
+  "nomCarte": "Caméléon panthère",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Reptiles et amphibiens|Cameleon commun": {
@@ -6891,8 +6891,8 @@
  },
  "Reptiles et amphibiens|Tortue caouanne": {
   "nomCarte": "Tortue caouanne",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Tortue de Floride": {
   "nomCarte": "Tortue de Floride",
@@ -6906,18 +6906,18 @@
  },
  "Reptiles et amphibiens|Basilic vert": {
   "nomCarte": "Basilic vert",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Agame barbu": {
   "nomCarte": "Agame barbu",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Grenouille taureau": {
   "nomCarte": "Grenouille taureau",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Crapaud commun": {
   "nomCarte": "Crapaud commun",
@@ -6926,8 +6926,8 @@
  },
  "Reptiles et amphibiens|Crapaud buffle": {
   "nomCarte": "Crapaud buffle",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Reptiles et amphibiens|Salamandre geante du Japon": {
   "nomCarte": "Salamandre géante du Japon",
@@ -6966,8 +6966,8 @@
  },
  "Poissons et vie marine|Requin blanc": {
   "nomCarte": "Requin blanc",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Requin-baleine": {
   "nomCarte": "Requin-baleine",
@@ -7066,8 +7066,8 @@
  },
  "Poissons et vie marine|Marlin": {
   "nomCarte": "Marlin",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Thon rouge": {
   "nomCarte": "Thon rouge",
@@ -7096,8 +7096,8 @@
  },
  "Poissons et vie marine|Anguille commune": {
   "nomCarte": "Anguille commune",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Hippocampe": {
   "nomCarte": "Hippocampe",
@@ -7111,8 +7111,8 @@
  },
  "Poissons et vie marine|Baliste": {
   "nomCarte": "Baliste",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Poisson-perroquet": {
   "nomCarte": "Poisson-perroquet",
@@ -7191,8 +7191,8 @@
  },
  "Poissons et vie marine|Corail cerveau": {
   "nomCarte": "Corail cerveau",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Corail corne d'elan": {
   "nomCarte": "Corail corne d'elan",
@@ -7216,13 +7216,13 @@
  },
  "Poissons et vie marine|Langouste": {
   "nomCarte": "Langouste",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Crevette-mante": {
   "nomCarte": "Crevette-mante",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Poissons et vie marine|Eponge de mer": {
   "nomCarte": "Éponge de mer",
@@ -7241,8 +7241,8 @@
  },
  "Insectes|Abeille domestique": {
   "nomCarte": "Abeille domestique",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Bourdon terrestre": {
   "nomCarte": "Bourdon terrestre",
@@ -7261,18 +7261,18 @@
  },
  "Insectes|Frelon asiatique": {
   "nomCarte": "Frelon asiatique",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Fourmi noire des jardins": {
   "nomCarte": "Fourmi noire des jardins",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Fourmi rousse des bois": {
   "nomCarte": "Fourmi rousse des bois",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Fourmi charpentiere": {
   "nomCarte": "Fourmi charpentiere",
@@ -7290,8 +7290,8 @@
   "aVerifier": false
  },
  "Insectes|Papillon monarque": {
-  "nomCarte": "Papillon monarque",
-  "source": "wikipedia",
+  "nomCarte": "Papillon Monarque",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Insectes|Paon-du-jour": {
@@ -7316,11 +7316,11 @@
  },
  "Insectes|Sphinx colibri": {
   "nomCarte": "Sphinx colibri",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Morpho bleu": {
-  "nomCarte": "Morpho bleu",
+  "nomCarte": "Morpho Bleu",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -7330,8 +7330,8 @@
   "aVerifier": true
  },
  "Insectes|Ver a soie": {
-  "nomCarte": "Ver a soie",
-  "source": "wikipedia",
+  "nomCarte": "Ver à soie",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Insectes|Coccinelle a sept points": {
@@ -7341,8 +7341,8 @@
  },
  "Insectes|Scarabee rhinoceros": {
   "nomCarte": "Scarabee rhinoceros",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Scarabee goliath": {
   "nomCarte": "Scarabée goliath",
@@ -7356,8 +7356,8 @@
  },
  "Insectes|Hanneton": {
   "nomCarte": "Hanneton",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Bousier": {
   "nomCarte": "Bousier",
@@ -7370,8 +7370,8 @@
   "aVerifier": false
  },
  "Insectes|Lucane cerf-volant": {
-  "nomCarte": "Lucane cerf-volant",
-  "source": "wikipedia",
+  "nomCarte": "Lucane Cerf-Volant",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Insectes|Carabe dore": {
@@ -7396,8 +7396,8 @@
  },
  "Insectes|Grillon domestique": {
   "nomCarte": "Grillon domestique",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Mante religieuse": {
   "nomCarte": "Mante religieuse",
@@ -7416,8 +7416,8 @@
  },
  "Insectes|Demoiselle (insecte)": {
   "nomCarte": "Demoiselle",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Cigale commune": {
   "nomCarte": "Cigale commune",
@@ -7426,33 +7426,33 @@
  },
  "Insectes|Punaise verte": {
   "nomCarte": "Punaise verte",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Punaise diabolique": {
   "nomCarte": "Punaise diabolique",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Puceron": {
   "nomCarte": "Puceron",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Cochenille": {
   "nomCarte": "Cochenille",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Moustique commun": {
   "nomCarte": "Moustique commun",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Moustique tigre": {
   "nomCarte": "Moustique tigre",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Mouche domestique": {
   "nomCarte": "Mouche domestique",
@@ -7466,13 +7466,13 @@
  },
  "Insectes|Taon": {
   "nomCarte": "Taon",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Puce du chat": {
   "nomCarte": "Puce du chat",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Pou de tete": {
   "nomCarte": "Pou de tête",
@@ -7480,7 +7480,7 @@
   "aVerifier": false
  },
  "Insectes|Perce-oreille": {
-  "nomCarte": "Perce-oreille",
+  "nomCarte": "Perce oreille",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -7506,8 +7506,8 @@
  },
  "Insectes|Fourmilion": {
   "nomCarte": "Fourmilion",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Insectes|Guepe des figuiers": {
   "nomCarte": "Guêpe des figuiers",
@@ -7535,8 +7535,8 @@
   "aVerifier": false
  },
  "Races de chien|Berger belge malinois": {
-  "nomCarte": "Berger belge malinois",
-  "source": "wikipedia",
+  "nomCarte": "Berger belge Malinois",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Races de chien|Border Collie": {
@@ -7595,14 +7595,14 @@
   "aVerifier": false
  },
  "Races de chien|Husky siberien": {
-  "nomCarte": "Husky siberien",
-  "source": "wikipedia",
+  "nomCarte": "Husky sibérien",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Races de chien|Malamute d'Alaska": {
   "nomCarte": "Malamute d'Alaska",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Samoyede": {
   "nomCarte": "Samoyède",
@@ -7611,13 +7611,13 @@
  },
  "Races de chien|Akita Inu": {
   "nomCarte": "Akita Inu",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Shiba Inu": {
   "nomCarte": "Shiba Inu",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Chow Chow": {
   "nomCarte": "Chow-chow",
@@ -7701,8 +7701,8 @@
  },
  "Races de chien|Whippet": {
   "nomCarte": "Whippet",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Levrier Afghan": {
   "nomCarte": "Lévrier afghan",
@@ -7721,13 +7721,13 @@
  },
  "Races de chien|Weimaraner": {
   "nomCarte": "Weimaraner",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Braque allemand": {
   "nomCarte": "Braque allemand",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Epagneul Breton": {
   "nomCarte": "Épagneul breton",
@@ -7761,8 +7761,8 @@
  },
  "Races de chien|Berger des Shetland": {
   "nomCarte": "Berger des Shetland",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Berger Blanc Suisse": {
   "nomCarte": "Berger blanc suisse",
@@ -7856,8 +7856,8 @@
  },
  "Races de chien|Papillon (chien)": {
   "nomCarte": "Papillon",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Lhassa Apso": {
   "nomCarte": "Lhassa Apso",
@@ -7871,8 +7871,8 @@
  },
  "Races de chien|Boston Terrier": {
   "nomCarte": "Boston Terrier",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Griffon Bruxellois": {
   "nomCarte": "Griffon bruxellois",
@@ -7901,8 +7901,8 @@
  },
  "Races de chien|Rhodesian Ridgeback": {
   "nomCarte": "Rhodesian Ridgeback",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Boerboel": {
   "nomCarte": "Boerboel",
@@ -7916,8 +7916,8 @@
  },
  "Races de chien|Berger d'Anatolie": {
   "nomCarte": "Berger d'Anatolie",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Berger de Beauce": {
   "nomCarte": "Berger de Beauce",
@@ -7941,8 +7941,8 @@
  },
  "Races de chien|Scottish Terrier": {
   "nomCarte": "Scottish Terrier",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Cairn Terrier": {
   "nomCarte": "Cairn terrier",
@@ -7986,13 +7986,13 @@
  },
  "Races de chien|Kerry Blue Terrier": {
   "nomCarte": "Kerry Blue Terrier",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Irish Terrier": {
   "nomCarte": "Irish Terrier",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Welsh Terrier": {
   "nomCarte": "Welsh terrier",
@@ -8021,8 +8021,8 @@
  },
  "Races de chien|Briard": {
   "nomCarte": "Briard",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Berger polonais de Vallee": {
   "nomCarte": "Berger polonais de Vallée",
@@ -8071,8 +8071,8 @@
  },
  "Races de chien|Otterhound": {
   "nomCarte": "Otterhound",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Races de chien|Coonhound": {
   "nomCarte": "Coonhound",
@@ -8196,8 +8196,8 @@
  },
  "Coupes du monde FIFA|Qatar 2022": {
   "nomCarte": "Qatar 2022",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Plus grands joueurs de football|Pele": {
   "nomCarte": "Pelé",
@@ -8260,7 +8260,7 @@
   "aVerifier": false
  },
  "Plus grands joueurs de football|Falcao": {
-  "nomCarte": "Falcao",
+  "nomCarte": "Falcão",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -8465,8 +8465,8 @@
   "aVerifier": false
  },
  "Plus grands joueurs de football|Xavi Hernandez": {
-  "nomCarte": "Xavi Hernandez",
-  "source": "wikipedia",
+  "nomCarte": "Xavi Hernández",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Plus grands joueurs de football|Andres Iniesta": {
@@ -8500,7 +8500,7 @@
   "aVerifier": false
  },
  "Plus grands joueurs de football|Raul Gonzalez": {
-  "nomCarte": "Raul Gonzalez",
+  "nomCarte": "Raúl González",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -9150,8 +9150,8 @@
   "aVerifier": false
  },
  "Mythologies du monde (hors Grece)|Jormungandr": {
-  "nomCarte": "Jormungandr",
-  "source": "wikipedia",
+  "nomCarte": "Jörmungandr",
+  "source": "accents-restaures",
   "aVerifier": false
  },
  "Mythologies du monde (hors Grece)|Hel (mythologie nordique)": {
@@ -9246,8 +9246,8 @@
  },
  "Mythologies du monde (hors Grece)|Durga": {
   "nomCarte": "Durga",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mythologies du monde (hors Grece)|Kali": {
   "nomCarte": "Kali",
@@ -9291,8 +9291,8 @@
  },
  "Mythologies du monde (hors Grece)|Lugh": {
   "nomCarte": "Lugh",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Mythologies du monde (hors Grece)|Brigid": {
   "nomCarte": "Brigid",
@@ -9391,13 +9391,13 @@
  },
  "Creatures et legendes|Dragon occidental": {
   "nomCarte": "Dragon occidental",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Creatures et legendes|Dragon chinois": {
   "nomCarte": "Dragon chinois",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Creatures et legendes|Phenix": {
   "nomCarte": "Phénix",
@@ -9425,7 +9425,7 @@
   "aVerifier": false
  },
  "Creatures et legendes|Loup-garou": {
-  "nomCarte": "Loup-garou",
+  "nomCarte": "Loup Garou",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -9486,8 +9486,8 @@
  },
  "Creatures et legendes|Mothman": {
   "nomCarte": "Mothman",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Creatures et legendes|Wendigo": {
   "nomCarte": "Wendigo",
@@ -9516,8 +9516,8 @@
  },
  "Creatures et legendes|Roc": {
   "nomCarte": "Roc",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Creatures et legendes|Kappa": {
   "nomCarte": "Kappa",
@@ -9536,8 +9536,8 @@
  },
  "Creatures et legendes|Kitsune": {
   "nomCarte": "Kitsune",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Creatures et legendes|Baba Yaga": {
   "nomCarte": "Baba Yaga",
@@ -9546,8 +9546,8 @@
  },
  "Creatures et legendes|Rusalka": {
   "nomCarte": "Rusalka",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Creatures et legendes|Selkie": {
   "nomCarte": "Selkie",
@@ -9635,14 +9635,14 @@
   "aVerifier": true
  },
  "Personnages de fiction celebres|Dr Jekyll et Mr Hyde": {
-  "nomCarte": "Dr Jekyll et Mr Hyde",
+  "nomCarte": "Dr. Jekyll et Mr. Hyde",
   "source": "wikipedia",
   "aVerifier": false
  },
  "Personnages de fiction celebres|Dorian Gray": {
   "nomCarte": "Dorian Gray",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Robinson Crusoe": {
   "nomCarte": "Robinson Crusoé",
@@ -9651,8 +9651,8 @@
  },
  "Personnages de fiction celebres|Gulliver": {
   "nomCarte": "Gulliver",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Don Quichotte": {
   "nomCarte": "Don Quichotte",
@@ -9726,8 +9726,8 @@
  },
  "Personnages de fiction celebres|Ebenezer Scrooge": {
   "nomCarte": "Ebenezer Scrooge",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Oliver Twist": {
   "nomCarte": "Oliver Twist",
@@ -9886,8 +9886,8 @@
  },
  "Personnages de fiction celebres|Thor (Marvel)": {
   "nomCarte": "Thor",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Wolverine": {
   "nomCarte": "Wolverine",
@@ -9901,8 +9901,8 @@
  },
  "Personnages de fiction celebres|Doctor Strange": {
   "nomCarte": "Doctor Strange",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Deadpool": {
   "nomCarte": "Deadpool",
@@ -9971,8 +9971,8 @@
  },
  "Personnages de fiction celebres|Tintin": {
   "nomCarte": "Tintin",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Capitaine Haddock": {
   "nomCarte": "Capitaine Haddock",
@@ -10046,8 +10046,8 @@
  },
  "Personnages de fiction celebres|Woody (Toy Story)": {
   "nomCarte": "Woody",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Buzz l'Eclair": {
   "nomCarte": "Buzz l'Éclair",
@@ -10131,8 +10131,8 @@
  },
  "Personnages de fiction celebres|Zelda (personnage)": {
   "nomCarte": "Zelda",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Ganon": {
   "nomCarte": "Ganon",
@@ -10141,8 +10141,8 @@
  },
  "Personnages de fiction celebres|Sonic the Hedgehog": {
   "nomCarte": "Sonic the Hedgehog",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Pac-Man": {
   "nomCarte": "Pac-Man",
@@ -10161,8 +10161,8 @@
  },
  "Personnages de fiction celebres|Master Chief": {
   "nomCarte": "Master Chief",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Lara Croft": {
   "nomCarte": "Lara Croft",
@@ -10236,8 +10236,8 @@
  },
  "Personnages de fiction celebres|Agent 47": {
   "nomCarte": "Agent 47",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Nathan Drake": {
   "nomCarte": "Nathan Drake",
@@ -10291,8 +10291,8 @@
  },
  "Personnages de fiction celebres|Sangohan": {
   "nomCarte": "Sangohan",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Vegeta": {
   "nomCarte": "Vegeta",
@@ -10321,8 +10321,8 @@
  },
  "Personnages de fiction celebres|Edward Elric": {
   "nomCarte": "Edward Elric",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Totoro": {
   "nomCarte": "Totoro",
@@ -10335,7 +10335,7 @@
   "aVerifier": false
  },
  "Personnages de fiction celebres|Astroboy": {
-  "nomCarte": "Astroboy",
+  "nomCarte": "AstroBoy",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -10351,8 +10351,8 @@
  },
  "Personnages de fiction celebres|Dark Vador": {
   "nomCarte": "Dark Vador",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Luke Skywalker": {
   "nomCarte": "Luke Skywalker",
@@ -10366,8 +10366,8 @@
  },
  "Personnages de fiction celebres|Princesse Leia": {
   "nomCarte": "Princesse Leia",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Yoda": {
   "nomCarte": "Yoda",
@@ -10386,8 +10386,8 @@
  },
  "Personnages de fiction celebres|Terminator": {
   "nomCarte": "Terminator",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Ellen Ripley": {
   "nomCarte": "Ellen Ripley",
@@ -10436,13 +10436,13 @@
  },
  "Personnages de fiction celebres|Wednesday Addams": {
   "nomCarte": "Wednesday Addams",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Gomez Addams": {
   "nomCarte": "Gomez Addams",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Personnages de fiction celebres|Walter White": {
   "nomCarte": "Walter White",
@@ -10651,8 +10651,8 @@
  },
  "Jeux video cultes|Command & Conquer": {
   "nomCarte": "Command & Conquer",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Jeux video cultes|Final Fantasy VII": {
   "nomCarte": "Final Fantasy VII",
@@ -10741,8 +10741,8 @@
  },
  "Jeux video cultes|The Sims": {
   "nomCarte": "The Sims",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Jeux video cultes|Half-Life 2": {
   "nomCarte": "Half-Life 2",
@@ -10911,8 +10911,8 @@
  },
  "Jeux video cultes|Baldur's Gate 3": {
   "nomCarte": "Baldur's Gate 3",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Jeux video cultes|Hades": {
   "nomCarte": "Hades",
@@ -11031,8 +11031,8 @@
  },
  "Films cultes|Sunset Boulevard": {
   "nomCarte": "Sunset Boulevard",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Chantons sous la pluie": {
   "nomCarte": "Chantons sous la pluie",
@@ -11046,8 +11046,8 @@
  },
  "Films cultes|Vertigo": {
   "nomCarte": "Vertigo",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Douze Hommes en colere": {
   "nomCarte": "Douze Hommes en colère",
@@ -11066,8 +11066,8 @@
  },
  "Films cultes|Psychose (film, 1960)": {
   "nomCarte": "Psychose",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Lawrence d'Arabie": {
   "nomCarte": "Lawrence d'Arabie",
@@ -11101,8 +11101,8 @@
  },
  "Films cultes|Le Parrain 2": {
   "nomCarte": "Parrain 2",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Orange mecanique": {
   "nomCarte": "Orange mécanique",
@@ -11176,8 +11176,8 @@
  },
  "Films cultes|Ghostbusters": {
   "nomCarte": "Ghostbusters",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Die Hard": {
   "nomCarte": "Die Hard",
@@ -11326,13 +11326,13 @@
  },
  "Films cultes|The Dark Knight": {
   "nomCarte": "The Dark Knight",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Pan's Labyrinth": {
   "nomCarte": "Pan's Labyrinth",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|WALL-E": {
   "nomCarte": "WALL-E",
@@ -11356,8 +11356,8 @@
  },
  "Films cultes|Whiplash (film)": {
   "nomCarte": "Whiplash",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|La La Land": {
   "nomCarte": "La Land",
@@ -11371,8 +11371,8 @@
  },
  "Films cultes|Parasite (film)": {
   "nomCarte": "Parasite",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Get Out (film)": {
   "nomCarte": "Get Out",
@@ -11465,7 +11465,7 @@
   "aVerifier": false
  },
  "Films cultes|Les 400 Coups": {
-  "nomCarte": "400 Coups",
+  "nomCarte": "400 coups",
   "source": "wikipedia",
   "aVerifier": false
  },
@@ -11481,8 +11481,8 @@
  },
  "Films cultes|8 1/2": {
   "nomCarte": "8 1/2",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Amarcord": {
   "nomCarte": "Amarcord",
@@ -11501,8 +11501,8 @@
  },
  "Films cultes|Tokyo Story": {
   "nomCarte": "Tokyo Story",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Vivre (film, 1952)": {
   "nomCarte": "Vivre",
@@ -11521,8 +11521,8 @@
  },
  "Films cultes|Amores Perros": {
   "nomCarte": "Amores Perros",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|La Vie d'Adele": {
   "nomCarte": "Vie d'Adele",
@@ -11551,8 +11551,8 @@
  },
  "Films cultes|The Handmaiden": {
   "nomCarte": "The Handmaiden",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  },
  "Films cultes|Memories of Murder": {
   "nomCarte": "Memories of Murder",
@@ -11561,7 +11561,7 @@
  },
  "Films cultes|Train to Busan": {
   "nomCarte": "Train to Busan",
-  "source": "wikipedia",
-  "aVerifier": false
+  "source": "excel-brut",
+  "aVerifier": true
  }
 }

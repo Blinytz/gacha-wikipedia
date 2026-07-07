@@ -1,12 +1,12 @@
 ﻿collection;nom_excel;titre_page;nom_carte;source;a_verifier
-Merveilles du monde;Grande Pyramide de Gizeh;Pyramide de Khéops;Grande Pyramide de Gizeh;wikipedia;
+Merveilles du monde;Grande Pyramide de Gizeh;Pyramide de Khéops;Grande Pyramide de Gizeh;excel-brut;X
 Merveilles du monde;Jardins suspendus de Babylone;Jardins suspendus de Babylone;Jardins suspendus de Babylone;wikipedia;
 Merveilles du monde;Statue de Zeus a Olympie;Statue chryséléphantine de Zeus à Olympie;Statue de Zeus à Olympie;accents-restaures;
 Merveilles du monde;Temple d'Artemis a Ephese;Temple d'Artémis à Éphèse;Temple d'Artémis à Éphèse;wikipedia;
 Merveilles du monde;Mausolee d'Halicarnasse;Mausolée d'Halicarnasse;Mausolée d'Halicarnasse;wikipedia;
 Merveilles du monde;Colosse de Rhodes;Colosse de Rhodes;Colosse de Rhodes;wikipedia;
 Merveilles du monde;Phare d'Alexandrie;Phare d'Alexandrie;Phare d'Alexandrie;wikipedia;
-Merveilles du monde;Grande Muraille de Chine;Grande Muraille;Grande Muraille de Chine;wikipedia;
+Merveilles du monde;Grande Muraille de Chine;Grande Muraille;Grande Muraille de Chine;excel-brut;X
 Merveilles du monde;Petra;Pétra;Pétra;wikipedia;
 Merveilles du monde;Christ Redempteur;Statue du Christ Rédempteur;Christ rédempteur;wikipedia;
 Merveilles du monde;Machu Picchu;Machu Picchu;Machu Picchu;wikipedia;
@@ -174,10 +174,10 @@ Corps celestes;Jupiter;Jupiter (planète);Jupiter;wikipedia;
 Corps celestes;Saturne;Saturne (planète);Saturne;wikipedia;
 Corps celestes;Uranus;Uranus (planète);Uranus;wikipedia;
 Corps celestes;Neptune;Neptune (planète);Neptune;wikipedia;
-Corps celestes;Ceres;(1) Cérès;Ceres;wikipedia;
+Corps celestes;Ceres;(1) Cérès;CERES;wikipedia;
 Corps celestes;Pluton;Pluton (planète naine);Pluton;wikipedia;
-Corps celestes;Haumea;(136108) Hauméa;Haumea;wikipedia;
-Corps celestes;Makemake;(136472) Makémaké;Makemake;wikipedia;
+Corps celestes;Haumea;(136108) Hauméa;Hauméa;wikipedia;
+Corps celestes;Makemake;(136472) Makémaké;Makémaké;accents-restaures;
 Corps celestes;Eris (planete naine);(136199) Éris;Éris;utilisateur;
 Corps celestes;La Lune;Lune;Lune;wikipedia;
 Corps celestes;Phobos;Phobos (lune);Phobos;wikipedia;
@@ -219,7 +219,7 @@ Dieux et figures mythologiques grecques;Zagreus;Zagreus;Zagreus;wikipedia;
 Dieux et figures mythologiques grecques;Hades;Hadès;Hadès;wikipedia;
 Dieux et figures mythologiques grecques;Persephone;Perséphone;Perséphone;wikipedia;
 Dieux et figures mythologiques grecques;Nyx;Nyx;Nyx;wikipedia;
-Dieux et figures mythologiques grecques;Chaos (mythologie);Chaos (cosmogonie);Chaos;wikipedia;
+Dieux et figures mythologiques grecques;Chaos (mythologie);Chaos (cosmogonie);Chaos;excel-brut;X
 Dieux et figures mythologiques grecques;Erebe;Érèbe;Érèbe;wikipedia;
 Dieux et figures mythologiques grecques;Zeus;Zeus;Zeus;wikipedia;
 Dieux et figures mythologiques grecques;Poseidon;Poséidon;Poséidon;wikipedia;
@@ -254,22 +254,22 @@ Dieux et figures mythologiques grecques;Charon (mythologie);Charon (mythologie);
 Dieux et figures mythologiques grecques;Cerbere;Cerbère;Cerbère;wikipedia;
 Dieux et figures mythologiques grecques;Hypnos;Hypnos;Hypnos;wikipedia;
 Dieux et figures mythologiques grecques;Thanatos;Thanatos;Thanatos;wikipedia;
-Dieux et figures mythologiques grecques;Megere;Érinyes;Megere;wikipedia;
+Dieux et figures mythologiques grecques;Megere;Érinyes;Megere;excel-brut;X
 Dieux et figures mythologiques grecques;Tisiphone;Érinyes;Érinyes;utilisateur;
-Dieux et figures mythologiques grecques;Alecto;(465) Alecto;Alecto;wikipedia;
+Dieux et figures mythologiques grecques;Alecto;(465) Alecto;Alecto;excel-brut;X
 Grands dirigeants;Abraham Lincoln;Abraham Lincoln;Abraham Lincoln;wikipedia;
-Grands dirigeants;Elizabeth Ire;Élisabeth Ire (impératrice de Russie);Elizabeth Ire;wikipedia;
+Grands dirigeants;Elizabeth Ire;Élisabeth Ire (impératrice de Russie);Elizabeth Ire;excel-brut;X
 Grands dirigeants;Napoleon;Napoléon Ier;Napoléon;wikipedia;
 Grands dirigeants;Otto von Bismarck;Otto von Bismarck;Otto von Bismarck;wikipedia;
 Grands dirigeants;Catherine II;Catherine II;Catherine II;wikipedia;
 Grands dirigeants;Qin Shi Huang;Qin Shi Huang;Qin Shi Huang;wikipedia;
-Grands dirigeants;Cleopatre;Cléopâtre VII;Cleopatre;wikipedia;
+Grands dirigeants;Cleopatre;Cléopâtre VII;Cléopâtre;accents-restaures;
 Grands dirigeants;Ramses II;Ramsès II;Ramsès II;wikipedia;
 Grands dirigeants;Pericles;Périclès;Périclès;wikipedia;
 Grands dirigeants;Alexandre le Grand;Alexandre le Grand;Alexandre le Grand;wikipedia;
 Grands dirigeants;Auguste;Auguste;Auguste;wikipedia;
 Grands dirigeants;Trajan;Trajan;Trajan;wikipedia;
-Grands dirigeants;Gandhi;Mohandas Karamchand Gandhi;Gandhi;wikipedia;
+Grands dirigeants;Gandhi;Mohandas Karamchand Gandhi;Gandhi;excel-brut;X
 Grands dirigeants;Tokugawa Ieyasu;Tokugawa Ieyasu;Tokugawa Ieyasu;wikipedia;
 Grands dirigeants;Saladin;Saladin;Saladin;wikipedia;
 Grands dirigeants;Darius Ier;Darius Ier;Darius Ier;wikipedia;
@@ -280,35 +280,35 @@ Grands dirigeants;Pachacuti;Pachacutec;Pachacuti;excel-brut;X
 Grands dirigeants;Pacal le Grand;K'inich Janaab' Pakal Ier;Pacal le Grand;utilisateur;
 Grands dirigeants;Pedro II;Pierre II (empereur du Brésil);Pedro II;utilisateur;
 Grands dirigeants;Askia;Askia Mohammed;Askia Mohammed;utilisateur;
-Grands dirigeants;Shaka;Chaka (roi zoulou);Shaka;wikipedia;
-Grands dirigeants;Haile Selassie;Haïlé Sélassié Ier;Haile Selassie;wikipedia;
+Grands dirigeants;Shaka;Chaka (roi zoulou);Shaka;excel-brut;X
+Grands dirigeants;Haile Selassie;Haïlé Sélassié Ier;Haïlé Sélassié;accents-restaures;
 Grands dirigeants;Christine de Suede;Christine de Suède;Christine de Suède;wikipedia;
 Grands dirigeants;Harald Hardrada;Harald Hardrada;Harald Hardrada;wikipedia;
 Grands dirigeants;Harald a la Dent bleue;Harald à la Dent bleue;Harald à la Dent bleue;wikipedia;
-Grands dirigeants;Guillaume d'Orange;Guillaume Ier d'Orange-Nassau;Guillaume d'Orange;wikipedia;
-Grands dirigeants;Isabelle Ire;Isabelle la Catholique;Isabelle Ire;wikipedia;
+Grands dirigeants;Guillaume d'Orange;Guillaume Ier d'Orange-Nassau;Guillaume d'Orange;excel-brut;X
+Grands dirigeants;Isabelle Ire;Isabelle la Catholique;Isabelle Ire;excel-brut;X
 Grands dirigeants;Marie Ire;Marie Ire (reine d'Angleterre);Marie Ire;wikipedia;
-Grands dirigeants;Casimir III;Casimir III le Grand;Casimir III;wikipedia;
+Grands dirigeants;Casimir III;Casimir III le Grand;Casimir III;excel-brut;X
 Grands dirigeants;Soliman le Magnifique;Soliman le Magnifique;Soliman le Magnifique;wikipedia;
 Grands dirigeants;Justinien Ier;Justinien Ier;Justinien Ier;wikipedia;
 Grands dirigeants;Theodora;Théodora (impératrice, épouse de Justinien Ier);Théodora;wikipedia;
 Grands dirigeants;Sejong le Grand;Sejong le Grand;Sejong le Grand;wikipedia;
 Grands dirigeants;Jayavarman VII;Jayavarman VII;Jayavarman VII;wikipedia;
 Grands dirigeants;Amanitore;Amanitore;Amanitore;wikipedia;
-Grands dirigeants;Mvemba a Nzinga;Alphonse Ier (manikongo);Mvemba a Nzinga;wikipedia;
-Grands dirigeants;Robert Ier d'Ecosse;Robert Ier (roi d'Écosse);Robert Ier d'Ecosse;wikipedia;
-Grands dirigeants;Tamar de Georgie;Tamar Ire;Tamar de Georgie;wikipedia;
+Grands dirigeants;Mvemba a Nzinga;Alphonse Ier (manikongo);Mvemba a Nzinga;excel-brut;X
+Grands dirigeants;Robert Ier d'Ecosse;Robert Ier (roi d'Écosse);Robert Ier d'Ecosse;excel-brut;X
+Grands dirigeants;Tamar de Georgie;Tamar Ire;Tamar de Géorgie;accents-restaures;
 Grands dirigeants;Matthias Corvin;Matthias Corvin;Matthias Corvin;wikipedia;
 Grands dirigeants;Mansa Moussa;Mansa Moussa;Mansa Moussa;wikipedia;
 Grands dirigeants;Hannibal Barca;Hannibal Barca;Hannibal Barca;wikipedia;
-Grands dirigeants;Boadicee;Boudica;Boadicee;wikipedia;
+Grands dirigeants;Boadicee;Boudica;Boadicée;wikipedia;
 Grands dirigeants;Vercingetorix;Vercingétorix;Vercingétorix;wikipedia;
 Grands dirigeants;Didon;Didon;Didon;wikipedia;
 Grands dirigeants;Gilgamesh;Gilgamesh;Gilgamesh;wikipedia;
 Grands dirigeants;Louis XIV;Louis XIV;Louis XIV;wikipedia;
 Grands dirigeants;Charlemagne;Charlemagne;Charlemagne;wikipedia;
 Grands dirigeants;Frederic II le Grand;Frédéric II (roi de Prusse);Frédéric II le Grand;wikipedia;
-Grands dirigeants;Pierre le Grand;Pierre Ier le Grand;Pierre le Grand;wikipedia;
+Grands dirigeants;Pierre le Grand;Pierre Ier le Grand;Pierre le Grand;excel-brut;X
 Grands dirigeants;Ivan le Terrible;Ivan le Terrible;Ivan le Terrible;wikipedia;
 Grands dirigeants;Marie-Therese;Marie-Thérèse d'Autriche (1717-1780);Marie-Thérèse d'Autriche;utilisateur;
 Grands dirigeants;Victoria;Victoria (reine);Victoria;wikipedia;
@@ -317,10 +317,10 @@ Grands dirigeants;Kubilai Khan;Kubilai Khan;Kubilai Khan;wikipedia;
 Grands dirigeants;Ashoka;Ashoka;Ashoka;wikipedia;
 Grands dirigeants;Akbar;Akbar;Akbar;wikipedia;
 Grands dirigeants;Attila;Attila;Attila;wikipedia;
-Grands dirigeants;Harun al-Rashid;Hâroun ar-Rachîd;Harun al-Rashid;wikipedia;
+Grands dirigeants;Harun al-Rashid;Hâroun ar-Rachîd;Harun al-Rashid;excel-brut;X
 Grands dirigeants;Sundiata Keita;Soundiata Keïta;Sundiata Keïta;accents-restaures;
 Grands dirigeants;Nzinga Mbandi;Njinga du Ndongo et du Matamba;Ana de Sousa Nzinga Mbande;utilisateur;
-Grands dirigeants;Piye;Piânkhy;Piye;wikipedia;
+Grands dirigeants;Piye;Piânkhy;Piye;excel-brut;X
 Grands dirigeants;Simon Bolivar;Simón Bolívar;Simón Bolívar;wikipedia;
 Grands dirigeants;Tecumseh;Tecumseh;Tecumseh;wikipedia;
 Grands dirigeants;Kamehameha Ier;Kamehameha Ier;Kamehameha Ier;wikipedia;
@@ -334,7 +334,7 @@ Constellations;Belier;Bélier (constellation);Bélier;wikipedia;
 Constellations;Cocher;Cocher (constellation);Cocher;wikipedia;
 Constellations;Bouvier;Bouvier (constellation);Bouvier;wikipedia;
 Constellations;Burin;Burin (constellation);Burin;wikipedia;
-Constellations;Camelopardalis;Girafe (constellation);Camelopardalis;wikipedia;
+Constellations;Camelopardalis;Girafe (constellation);Camelopardalis;excel-brut;X
 Constellations;Cancer;Cancer (constellation);Cancer;wikipedia;
 Constellations;Chiens de chasse;Chiens de chasse;Chiens de chasse;wikipedia;
 Constellations;Grand Chien;Grand Chien;Grand Chien;wikipedia;
@@ -395,7 +395,7 @@ Constellations;Reticule;Réticule (constellation);Réticule;wikipedia;
 Constellations;Sagittaire;Sagittaire (constellation);Sagittaire;wikipedia;
 Constellations;Scorpion;Scorpion (constellation);Scorpion;wikipedia;
 Constellations;Sculpteur;Sculpteur (constellation);Sculpteur;wikipedia;
-Constellations;Bouclier;Écu de Sobieski;Bouclier;wikipedia;
+Constellations;Bouclier;Écu de Sobieski;Bouclier;excel-brut;X
 Constellations;Serpent;Serpent (constellation);Serpent;wikipedia;
 Constellations;Sextant;Sextant (constellation);Sextant;wikipedia;
 Constellations;Taureau;Taureau (constellation);Taureau;wikipedia;
@@ -408,7 +408,7 @@ Constellations;Petite Ourse;Petite Ourse;Petite Ourse;wikipedia;
 Constellations;Voiles;Voiles (constellation);Voiles;wikipedia;
 Constellations;Vierge;Vierge (constellation);Vierge;wikipedia;
 Constellations;Poisson volant;Poisson volant (constellation);Poisson volant;wikipedia;
-Constellations;Renard;Renard;Renard;wikipedia;
+Constellations;Renard;Petit Renard;Renard;excel-brut;X
 Monuments emblematiques;Tour Eiffel;Tour Eiffel;Tour Eiffel;wikipedia;
 Monuments emblematiques;Statue de la Liberte;Statue de la Liberté;Statue de la Liberté;wikipedia;
 Monuments emblematiques;Big Ben;Big Ben;Big Ben;wikipedia;
@@ -422,21 +422,21 @@ Monuments emblematiques;Empire State Building;Empire State Building;Empire State
 Monuments emblematiques;Burj Khalifa;Burj Khalifa;Burj Khalifa;wikipedia;
 Monuments emblematiques;Angkor Vat;Angkor Vat;Angkor Vat;wikipedia;
 Monuments emblematiques;Cite interdite;Cité interdite;Cité interdite;wikipedia;
-Monuments emblematiques;Alhambra de Grenade;Alhambra (Grenade);Alhambra de Grenade;wikipedia;
+Monuments emblematiques;Alhambra de Grenade;Alhambra (Grenade);Alhambra de Grenade;excel-brut;X
 Monuments emblematiques;Stonehenge;Stonehenge;Stonehenge;wikipedia;
 Monuments emblematiques;Chateau de Himeji;Château de Himeji;Château de Himeji;wikipedia;
 Monuments emblematiques;Porte de Brandebourg;Porte de Brandebourg;Porte de Brandebourg;wikipedia;
 Monuments emblematiques;Tour de Pise;Tour de Pise;Tour de Pise;wikipedia;
-Monuments emblematiques;Notre-Dame de Paris;Cathédrale Notre-Dame de Paris;Notre-Dame de Paris;wikipedia;
-Monuments emblematiques;Mont-Saint-Michel;Le Mont-Saint-Michel;Mont-Saint-Michel;wikipedia;
+Monuments emblematiques;Notre-Dame de Paris;Cathédrale Notre-Dame de Paris;Notre-Dame de Paris;excel-brut;X
+Monuments emblematiques;Mont-Saint-Michel;Le Mont-Saint-Michel;Mont Saint-Michel;wikipedia;
 Monuments emblematiques;Chateau de Versailles;Château de Versailles;Château de Versailles;wikipedia;
 Monuments emblematiques;Mosquee bleue;Mosquée bleue;Mosquée bleue;wikipedia;
 Monuments emblematiques;Sainte-Sophie;Sainte-Sophie (Constantinople);Sainte-Sophie;wikipedia;
 Monuments emblematiques;Palais de Topkapi;Palais de Topkapı;Palais de Topkapi;excel-brut;X
 Monuments emblematiques;Teotihuacan;Teotihuacan;Teotihuacan;wikipedia;
 Monuments emblematiques;Moais de l'ile de Paques;Moaï;Moaïs de l'ile de Paques;utilisateur;
-Monuments emblematiques;Golden Gate Bridge;Pont du Golden Gate;Golden Gate Bridge;wikipedia;
-Monuments emblematiques;CN Tower;Tour CN;CN Tower;wikipedia;
+Monuments emblematiques;Golden Gate Bridge;Pont du Golden Gate;Golden Gate Bridge;excel-brut;X
+Monuments emblematiques;CN Tower;Tour CN;CN Tower;excel-brut;X
 Monuments emblematiques;Chateau d'Edimbourg;Château d'Édimbourg;Château d'Édimbourg;wikipedia;
 Monuments emblematiques;Palais de Buckingham;Palais de Buckingham;Palais de Buckingham;wikipedia;
 Monuments emblematiques;Cathedrale de Cologne;Cathédrale de Cologne;Cathédrale de Cologne;wikipedia;
@@ -446,12 +446,12 @@ Monuments emblematiques;Chateau de Chambord;Château de Chambord;Château de Cha
 Monuments emblematiques;Grande Mosquee de Djenne;Grande mosquée de Djenné;Grande mosquée de Djenné;wikipedia;
 Monuments emblematiques;Temple du Ciel;Temple du Ciel;Temple du Ciel;wikipedia;
 Monuments emblematiques;Armee de terre cuite de Xi'an;Armée de terre cuite;Armée de terre cuite de Xi'an;accents-restaures;
-Monuments emblematiques;Table Mountain;Montagne de la Table;Table Mountain;wikipedia;
-Monuments emblematiques;Pantheon de Rome;Panthéon (Rome);Pantheon de Rome;wikipedia;
+Monuments emblematiques;Table Mountain;Montagne de la Table;Table Mountain;excel-brut;X
+Monuments emblematiques;Pantheon de Rome;Panthéon (Rome);Panthéon de Rome;accents-restaures;
 Monuments emblematiques;Chateau de Prague;Château de Prague;Château de Prague;wikipedia;
 Monuments emblematiques;Palais du Potala;Palais du Potala;Palais du Potala;wikipedia;
 Monuments emblematiques;Bourj Al Arab;Burj al-Arab;Bourj Al Arab;excel-brut;X
-Monuments emblematiques;Temple de Karnak;Karnak;Temple de Karnak;wikipedia;
+Monuments emblematiques;Temple de Karnak;Karnak;Temple de Karnak;excel-brut;X
 Monuments emblematiques;Vallee des Rois;Vallée des Rois;Vallée des Rois;wikipedia;
 Monuments emblematiques;Abou Simbel;Abou Simbel;Abou Simbel;wikipedia;
 Monuments emblematiques;Kinkaku-ji;Kinkaku-ji;Kinkaku-ji;wikipedia;
@@ -464,7 +464,7 @@ Dynasties et empires historiques;Empire byzantin;Empire byzantin;Empire byzantin
 Dynasties et empires historiques;Empire ottoman;Empire ottoman;Empire ottoman;wikipedia;
 Dynasties et empires historiques;Empire perse achemenide;Achéménides;Empire perse achéménide;wikipedia;
 Dynasties et empires historiques;Empire parthe;Empire parthe;Empire parthe;wikipedia;
-Dynasties et empires historiques;Empire sassanide;Sassanides;Empire sassanide;wikipedia;
+Dynasties et empires historiques;Empire sassanide;Sassanides;Empire sassanide;excel-brut;X
 Dynasties et empires historiques;Dynastie Qin;Dynastie Qin;Dynastie Qin;wikipedia;
 Dynasties et empires historiques;Dynastie Han;Dynastie Han;Dynastie Han;wikipedia;
 Dynasties et empires historiques;Dynastie Tang;Dynastie Tang;Dynastie Tang;wikipedia;
@@ -484,23 +484,23 @@ Dynasties et empires historiques;Ancien Empire egyptien;Ancien Empire;Ancien Emp
 Dynasties et empires historiques;Moyen Empire egyptien;Moyen Empire;Moyen Empire egyptien;utilisateur;
 Dynasties et empires historiques;Nouvel Empire egyptien;Nouvel Empire;Nouvel Empire egyptien;utilisateur;
 Dynasties et empires historiques;Empire assyrien;Assyrie;Empire assyrien;utilisateur;
-Dynasties et empires historiques;Empire babylonien;Empire néo-babylonien;Empire babylonien;wikipedia;
+Dynasties et empires historiques;Empire babylonien;Empire néo-babylonien;Empire babylonien;excel-brut;X
 Dynasties et empires historiques;Empire hittite;Hittites;Empire hittite;utilisateur;
 Dynasties et empires historiques;Royaume de Koush;Royaume de Koush;Royaume de Koush;wikipedia;
 Dynasties et empires historiques;Empire du Mali;Empire du Mali;Empire du Mali;wikipedia;
 Dynasties et empires historiques;Empire Songhai;Empire songhaï;Empire songhaï;wikipedia;
 Dynasties et empires historiques;Empire du Ghana;Empire du Ghana;Empire du Ghana;wikipedia;
-Dynasties et empires historiques;Empire zoulou;Royaume zoulou;Empire zoulou;wikipedia;
-Dynasties et empires historiques;Empire d'Aksoum;Royaume d'Aksoum;Empire d'Aksoum;wikipedia;
+Dynasties et empires historiques;Empire zoulou;Royaume zoulou;Empire zoulou;excel-brut;X
+Dynasties et empires historiques;Empire d'Aksoum;Royaume d'Aksoum;Empire d'Aksoum;excel-brut;X
 Dynasties et empires historiques;Empire khmer;Empire khmer;Empire khmer;wikipedia;
 Dynasties et empires historiques;Shogunat Tokugawa;Shogunat Tokugawa;Shogunat Tokugawa;wikipedia;
 Dynasties et empires historiques;Empire britannique;Empire britannique;Empire britannique;wikipedia;
 Dynasties et empires historiques;Empire espagnol;Empire espagnol;Empire espagnol;wikipedia;
-Dynasties et empires historiques;Empire portugais;Empire colonial portugais;Empire portugais;wikipedia;
+Dynasties et empires historiques;Empire portugais;Empire colonial portugais;Empire portugais;excel-brut;X
 Dynasties et empires historiques;Empire colonial francais;Empire colonial français;Empire colonial français;wikipedia;
 Dynasties et empires historiques;Empire russe;Empire russe;Empire russe;wikipedia;
 Dynasties et empires historiques;Saint-Empire romain germanique;Saint-Empire romain germanique;Saint-Empire romain germanique;wikipedia;
-Dynasties et empires historiques;Empire austro-hongrois;Autriche-Hongrie;Empire austro-hongrois;wikipedia;
+Dynasties et empires historiques;Empire austro-hongrois;Autriche-Hongrie;Empire austro-hongrois;excel-brut;X
 Grandes batailles historiques;Bataille de Marathon;Bataille de Marathon;Bataille de Marathon;wikipedia;
 Grandes batailles historiques;Bataille des Thermopyles;Bataille des Thermopyles;Bataille des Thermopyles;wikipedia;
 Grandes batailles historiques;Bataille de Salamine;Bataille de Salamine;Bataille de Salamine;wikipedia;
@@ -534,8 +534,8 @@ Grandes batailles historiques;Bataille de Trafalgar;Bataille de Trafalgar;Batail
 Grandes batailles historiques;Bataille de Waterloo;Bataille de Waterloo;Bataille de Waterloo;wikipedia;
 Grandes batailles historiques;Siege de Sebastopol (1854-1855);Siège de Sébastopol (1854-1855);Siège de Sébastopol;wikipedia;
 Grandes batailles historiques;Bataille de Gettysburg;Bataille de Gettysburg;Bataille de Gettysburg;wikipedia;
-Grandes batailles historiques;Bataille de Sedan (1870);Bataille de Sedan;Bataille de Sedan;wikipedia;
-Grandes batailles historiques;Premiere bataille de la Marne;Bataille de la Marne (1914);Premiere bataille de la Marne;wikipedia;
+Grandes batailles historiques;Bataille de Sedan (1870);Bataille de Sedan;Bataille de Sedan;excel-brut;X
+Grandes batailles historiques;Premiere bataille de la Marne;Bataille de la Marne (1914);Première Bataille de la Marne;accents-restaures;
 Grandes batailles historiques;Bataille de Verdun;Bataille de Verdun;Bataille de Verdun;wikipedia;
 Grandes batailles historiques;Bataille de la Somme;Bataille de la Somme;Bataille de la Somme;wikipedia;
 Grandes batailles historiques;Bataille de Stalingrad;Bataille de Stalingrad;Bataille de Stalingrad;wikipedia;
@@ -550,7 +550,7 @@ Grandes guerres;Guerres puniques;Guerres puniques;Guerres puniques;wikipedia;
 Grandes guerres;Guerre du Peloponnese;Guerre du Péloponnèse;Guerre du Péloponnèse;wikipedia;
 Grandes guerres;Guerre des Gaules;Guerre des Gaules;Guerre des Gaules;wikipedia;
 Grandes guerres;Guerres civiles romaines;Guerres civiles romaines;Guerres civiles romaines;wikipedia;
-Grandes guerres;Croisades;Croisade;Croisades;wikipedia;
+Grandes guerres;Croisades;Croisade;Croisades;excel-brut;X
 Grandes guerres;Guerre de Cent Ans;Guerre de Cent Ans;Guerre de Cent Ans;wikipedia;
 Grandes guerres;Guerre des Deux-Roses;Guerre des Deux-Roses;Guerre des Deux-Roses;wikipedia;
 Grandes guerres;Guerres de religion francaises;Guerres de Religion (France);Guerres de Religion francaises;accents-restaures;
@@ -561,14 +561,14 @@ Grandes guerres;Guerre d'independance americaine;Guerre d'indépendance des Éta
 Grandes guerres;Guerres de la Revolution francaise;Guerres de la Révolution française;Guerres de la Révolution française;wikipedia;
 Grandes guerres;Guerres napoleoniennes;Guerres napoléoniennes;Guerres napoléoniennes;wikipedia;
 Grandes guerres;Guerre de Secession;Guerre de Sécession;Guerre de Sécession;wikipedia;
-Grandes guerres;Guerre franco-prussienne;Guerre franco-allemande de 1870;Guerre franco-prussienne;wikipedia;
+Grandes guerres;Guerre franco-prussienne;Guerre franco-allemande de 1870;Guerre franco-prussienne;excel-brut;X
 Grandes guerres;Guerre des Boers;Guerre des Boers;Guerre des Boers;wikipedia;
 Grandes guerres;Premiere Guerre mondiale;Première Guerre mondiale;Première Guerre mondiale;wikipedia;
 Grandes guerres;Guerre civile russe;Guerre civile russe;Guerre civile russe;wikipedia;
-Grandes guerres;Guerre civile espagnole;Guerre d'Espagne;Guerre civile espagnole;wikipedia;
+Grandes guerres;Guerre civile espagnole;Guerre d'Espagne;Guerre civile espagnole;excel-brut;X
 Grandes guerres;Seconde Guerre mondiale;Seconde Guerre mondiale;Seconde Guerre mondiale;wikipedia;
 Grandes guerres;Guerre civile chinoise;Guerre civile chinoise;Guerre civile chinoise;wikipedia;
-Grandes guerres;Guerre sino-japonaise;Seconde guerre sino-japonaise;Guerre sino-japonaise;wikipedia;
+Grandes guerres;Guerre sino-japonaise;Seconde guerre sino-japonaise;Guerre sino-japonaise;excel-brut;X
 Grandes guerres;Guerre russo-japonaise;Guerre russo-japonaise;Guerre russo-japonaise;wikipedia;
 Grandes guerres;Guerre de Coree;Guerre de Corée;Guerre de Corée;wikipedia;
 Grandes guerres;Guerre du Vietnam;Guerre du Vietnam;Guerre du Vietnam;wikipedia;
@@ -580,7 +580,7 @@ Grandes guerres;Guerre du Golfe;Guerre du Golfe;Guerre du Golfe;wikipedia;
 Grandes guerres;Guerre d'Irak;Guerre d'Irak;Guerre d'Irak;wikipedia;
 Grandes guerres;Guerre d'Afghanistan;Guerre d'Afghanistan (1979-1989);Guerre d'Afghanistan;wikipedia;
 Grandes guerres;Guerre des Malouines;Guerre des Malouines;Guerre des Malouines;wikipedia;
-Dinosaures celebres;Tyrannosaurus rex;Tyrannosaurus;Tyrannosaurus rex;wikipedia;
+Dinosaures celebres;Tyrannosaurus rex;Tyrannosaurus;Tyrannosaurus Rex;wikipedia;
 Dinosaures celebres;Velociraptor;Velociraptor;Velociraptor;wikipedia;
 Dinosaures celebres;Triceratops;Triceratops;Triceratops;wikipedia;
 Dinosaures celebres;Stegosaurus;Stegosaurus;Stegosaurus;wikipedia;
@@ -632,7 +632,7 @@ Dinosaures celebres;Eoraptor;Eoraptor;Eoraptor;wikipedia;
 Dinosaures celebres;Plateosaurus;Plateosaurus;Plateosaurus;wikipedia;
 Grands explorateurs;Christophe Colomb;Christophe Colomb;Christophe Colomb;wikipedia;
 Grands explorateurs;Vasco de Gama;Vasco de Gama;Vasco de Gama;wikipedia;
-Grands explorateurs;Ferdinand Magellan;Fernand de Magellan;Ferdinand Magellan;wikipedia;
+Grands explorateurs;Ferdinand Magellan;Fernand de Magellan;Ferdinand Magellan;excel-brut;X
 Grands explorateurs;Marco Polo;Marco Polo;Marco Polo;wikipedia;
 Grands explorateurs;James Cook;James Cook;James Cook;wikipedia;
 Grands explorateurs;Amerigo Vespucci;Amerigo Vespucci;Amerigo Vespucci;wikipedia;
@@ -655,7 +655,7 @@ Grands explorateurs;Alexander von Humboldt;Alexander von Humboldt;Alexander von 
 Grands explorateurs;Francis Drake;Francis Drake;Francis Drake;wikipedia;
 Grands explorateurs;Willem Barentsz;Willem Barentsz;Willem Barentsz;wikipedia;
 Grands explorateurs;Henry Hudson;Henry Hudson;Henry Hudson;wikipedia;
-Grands explorateurs;John Cabot;Jean Cabot;John Cabot;wikipedia;
+Grands explorateurs;John Cabot;Jean Cabot;John Cabot;excel-brut;X
 Grands explorateurs;Bartolomeu Dias;Bartolomeu Dias;Bartolomeu Dias;wikipedia;
 Grands explorateurs;Pedro Alvares Cabral;Pedro Álvares Cabral;Pedro Álvares Cabral;wikipedia;
 Grands explorateurs;Jean-Francois de La Perouse;Jean-François de La Pérouse;Jean-François de La Pérouse;wikipedia;
@@ -713,7 +713,7 @@ Auteurs celebres;Emily Bronte;Emily Brontë;Emily Brontë;wikipedia;
 Auteurs celebres;Nathaniel Hawthorne;Nathaniel Hawthorne;Nathaniel Hawthorne;wikipedia;
 Auteurs celebres;Edgar Allan Poe;Edgar Allan Poe;Edgar Allan Poe;wikipedia;
 Auteurs celebres;Herman Melville;Herman Melville;Herman Melville;wikipedia;
-Auteurs celebres;Nikolai Gogol;Nicolas Gogol;Nikolai Gogol;wikipedia;
+Auteurs celebres;Nikolai Gogol;Nicolas Gogol;Nikolai Gogol;excel-brut;X
 Auteurs celebres;Ivan Tourgueniev;Ivan Tourgueniev;Ivan Tourgueniev;wikipedia;
 Auteurs celebres;Fiodor Dostoievski;Fiodor Dostoïevski;Fiodor Dostoïevski;wikipedia;
 Auteurs celebres;Leon Tolstoi;Léon Tolstoï;Léon Tolstoï;wikipedia;
@@ -731,7 +731,7 @@ Auteurs celebres;Marcel Proust;Marcel Proust;Marcel Proust;wikipedia;
 Auteurs celebres;Franz Kafka;Franz Kafka;Franz Kafka;wikipedia;
 Auteurs celebres;James Joyce;James Joyce;James Joyce;wikipedia;
 Auteurs celebres;Virginia Woolf;Virginia Woolf;Virginia Woolf;wikipedia;
-Auteurs celebres;D.H. Lawrence;D. H. Lawrence;D.H. Lawrence;wikipedia;
+Auteurs celebres;D.H. Lawrence;D. H. Lawrence;D.H. Lawrence;excel-brut;X
 Auteurs celebres;Thomas Mann;Thomas Mann;Thomas Mann;wikipedia;
 Auteurs celebres;Hermann Hesse;Hermann Hesse;Hermann Hesse;wikipedia;
 Auteurs celebres;F. Scott Fitzgerald;F. Scott Fitzgerald;F. Scott Fitzgerald;wikipedia;
@@ -741,11 +741,11 @@ Auteurs celebres;John Steinbeck;John Steinbeck;John Steinbeck;wikipedia;
 Auteurs celebres;George Orwell;George Orwell;George Orwell;wikipedia;
 Auteurs celebres;Aldous Huxley;Aldous Huxley;Aldous Huxley;wikipedia;
 Auteurs celebres;Agatha Christie;Agatha Christie;Agatha Christie;wikipedia;
-Auteurs celebres;J.R.R. Tolkien;J. R. R. Tolkien;J.R.R. Tolkien;wikipedia;
-Auteurs celebres;C.S. Lewis;C. S. Lewis;C.S. Lewis;wikipedia;
-Auteurs celebres;H.P. Lovecraft;H. P. Lovecraft;H.P. Lovecraft;wikipedia;
+Auteurs celebres;J.R.R. Tolkien;J. R. R. Tolkien;J.R.R. Tolkien;excel-brut;X
+Auteurs celebres;C.S. Lewis;C. S. Lewis;C.S. Lewis;excel-brut;X
+Auteurs celebres;H.P. Lovecraft;H. P. Lovecraft;H.P. Lovecraft;excel-brut;X
 Auteurs celebres;Jules Verne;Jules Verne;Jules Verne;wikipedia;
-Auteurs celebres;H.G. Wells;H. G. Wells;H.G. Wells;wikipedia;
+Auteurs celebres;H.G. Wells;H. G. Wells;H.G. Wells;excel-brut;X
 Auteurs celebres;Mary Shelley;Mary Shelley;Mary Shelley;wikipedia;
 Auteurs celebres;Bram Stoker;Bram Stoker;Bram Stoker;wikipedia;
 Auteurs celebres;Albert Camus;Albert Camus;Albert Camus;wikipedia;
@@ -768,7 +768,7 @@ Auteurs celebres;Ray Bradbury;Ray Bradbury;Ray Bradbury;wikipedia;
 Auteurs celebres;Arthur C. Clarke;Arthur C. Clarke;Arthur C. Clarke;wikipedia;
 Auteurs celebres;Ursula K. Le Guin;Ursula K. Le Guin;Ursula K. Le Guin;wikipedia;
 Auteurs celebres;Stephen King;Stephen King;Stephen King;wikipedia;
-Auteurs celebres;J.K. Rowling;J. K. Rowling;J.K. Rowling;wikipedia;
+Auteurs celebres;J.K. Rowling;J. K. Rowling;J.K. Rowling;excel-brut;X
 Auteurs celebres;George R.R. Martin;George R. R. Martin;George R.R. Martin;excel-brut;X
 Auteurs celebres;Terry Pratchett;Terry Pratchett;Terry Pratchett;wikipedia;
 Auteurs celebres;Neil Gaiman;Neil Gaiman;Neil Gaiman;wikipedia;
@@ -802,7 +802,7 @@ Auteurs celebres;Paul Verlaine;Paul Verlaine;Paul Verlaine;wikipedia;
 Auteurs celebres;Stephane Mallarme;Stéphane Mallarmé;Stéphane Mallarmé;wikipedia;
 Auteurs celebres;Guillaume Apollinaire;Guillaume Apollinaire;Guillaume Apollinaire;wikipedia;
 Auteurs celebres;Rainer Maria Rilke;Rainer Maria Rilke;Rainer Maria Rilke;wikipedia;
-Auteurs celebres;T.S. Eliot;T. S. Eliot;T.S. Eliot;wikipedia;
+Auteurs celebres;T.S. Eliot;T. S. Eliot;T.S. Eliot;excel-brut;X
 Auteurs celebres;W.B. Yeats;William Butler Yeats;W.B. Yeats;excel-brut;X
 Auteurs celebres;Federico Garcia Lorca;Federico García Lorca;Federico García Lorca;wikipedia;
 Auteurs celebres;Octavio Paz;Octavio Paz;Octavio Paz;wikipedia;
@@ -827,8 +827,8 @@ Scientifiques celebres;Pythagore;Pythagore;Pythagore;wikipedia;
 Scientifiques celebres;Hippocrate;Hippocrate;Hippocrate;wikipedia;
 Scientifiques celebres;Ptolemee;Claude Ptolémée;Ptolémée;accents-restaures;
 Scientifiques celebres;Al-Khwarizmi;Al-Khwârizmî;Al-Khwârizmî;wikipedia;
-Scientifiques celebres;Ibn Sina;Avicenne;Ibn Sina;wikipedia;
-Scientifiques celebres;Ibn al-Haytham;Alhazen;Ibn al-Haytham;wikipedia;
+Scientifiques celebres;Ibn Sina;Avicenne;Ibn Sina;excel-brut;X
+Scientifiques celebres;Ibn al-Haytham;Alhazen;Ibn al-Haytham;excel-brut;X
 Scientifiques celebres;Leonard de Vinci;Léonard de Vinci;Léonard de Vinci;wikipedia;
 Scientifiques celebres;Nicolas Copernic;Nicolas Copernic;Nicolas Copernic;wikipedia;
 Scientifiques celebres;Galilee;Galilée (savant);Galilée;wikipedia;
@@ -837,7 +837,7 @@ Scientifiques celebres;Francis Bacon;Francis Bacon (philosophe);Francis Bacon;wi
 Scientifiques celebres;Rene Descartes;René Descartes;René Descartes;wikipedia;
 Scientifiques celebres;Blaise Pascal;Blaise Pascal;Blaise Pascal;wikipedia;
 Scientifiques celebres;Isaac Newton;Isaac Newton;Isaac Newton;wikipedia;
-Scientifiques celebres;Gottfried Leibniz;Gottfried Wilhelm Leibniz;Gottfried Leibniz;wikipedia;
+Scientifiques celebres;Gottfried Leibniz;Gottfried Wilhelm Leibniz;Gottfried Leibniz;excel-brut;X
 Scientifiques celebres;Robert Hooke;Robert Hooke;Robert Hooke;wikipedia;
 Scientifiques celebres;Antonie van Leeuwenhoek;Antoni van Leeuwenhoek;Antonie van Leeuwenhoek;excel-brut;X
 Scientifiques celebres;Carl Linne;Carl von Linné;Carl Linné;wikipedia;
@@ -877,11 +877,11 @@ Scientifiques celebres;Alexander Graham Bell;Alexander Graham Bell;Alexander Gra
 Scientifiques celebres;Guglielmo Marconi;Guglielmo Marconi;Guglielmo Marconi;wikipedia;
 Scientifiques celebres;Wilbur Wright;Wilbur Wright;Wilbur Wright;wikipedia;
 Scientifiques celebres;Orville Wright;Orville Wright;Orville Wright;wikipedia;
-Scientifiques celebres;Karl Benz;Carl Benz;Karl Benz;wikipedia;
+Scientifiques celebres;Karl Benz;Carl Benz;Karl Benz;excel-brut;X
 Scientifiques celebres;Rudolf Diesel;Rudolf Diesel;Rudolf Diesel;wikipedia;
 Scientifiques celebres;Henry Ford;Henry Ford;Henry Ford;wikipedia;
 Scientifiques celebres;Sigmund Freud;Sigmund Freud;Sigmund Freud;wikipedia;
-Scientifiques celebres;Carl Jung;Carl Gustav Jung;Carl Jung;wikipedia;
+Scientifiques celebres;Carl Jung;Carl Gustav Jung;Carl Jung;excel-brut;X
 Scientifiques celebres;Ivan Pavlov;Ivan Pavlov;Ivan Pavlov;wikipedia;
 Scientifiques celebres;Jean Piaget;Jean Piaget;Jean Piaget;wikipedia;
 Scientifiques celebres;Alexander Fleming;Alexander Fleming;Alexander Fleming;wikipedia;
@@ -889,7 +889,7 @@ Scientifiques celebres;Robert Koch;Robert Koch;Robert Koch;wikipedia;
 Scientifiques celebres;Edward Jenner;Edward Jenner;Edward Jenner;wikipedia;
 Scientifiques celebres;Florence Nightingale;Florence Nightingale;Florence Nightingale;wikipedia;
 Scientifiques celebres;Rosalind Franklin;Rosalind Franklin;Rosalind Franklin;wikipedia;
-Scientifiques celebres;James Watson;James Dewey Watson;James Watson;wikipedia;
+Scientifiques celebres;James Watson;James Dewey Watson;James Watson;excel-brut;X
 Scientifiques celebres;Francis Crick;Francis Crick;Francis Crick;wikipedia;
 Scientifiques celebres;Barbara McClintock;Barbara McClintock;Barbara McClintock;wikipedia;
 Scientifiques celebres;Jane Goodall;Jane Goodall;Jane Goodall;wikipedia;
@@ -920,7 +920,7 @@ Scientifiques celebres;Alan Guth;Alan Guth;Alan Guth;wikipedia;
 Scientifiques celebres;Peter Higgs;Peter Higgs;Peter Higgs;wikipedia;
 Scientifiques celebres;Roger Penrose;Roger Penrose;Roger Penrose;wikipedia;
 Scientifiques celebres;Kip Thorne;Kip Thorne;Kip Thorne;wikipedia;
-Scientifiques celebres;Jocelyn Bell Burnell;Jocelyn Bell;Jocelyn Bell Burnell;wikipedia;
+Scientifiques celebres;Jocelyn Bell Burnell;Jocelyn Bell;Jocelyn Bell Burnell;excel-brut;X
 Scientifiques celebres;Vera Rubin;Vera Rubin;Vera Rubin;wikipedia;
 Scientifiques celebres;Katalin Kariko;Katalin Karikó;Katalin Karikó;wikipedia;
 Scientifiques celebres;Jennifer Doudna;Jennifer Doudna;Jennifer Doudna;wikipedia;
@@ -936,11 +936,11 @@ Scientifiques celebres;Al-Jazari;Al-Jazari;Al-Jazari;wikipedia;
 Scientifiques celebres;Zhang Heng;Zhang Heng;Zhang Heng;wikipedia;
 Scientifiques celebres;Shen Kuo;Shen Kuo;Shen Kuo;wikipedia;
 Scientifiques celebres;Ada Yonath;Ada Yonath;Ada Yonath;wikipedia;
-Scientifiques celebres;Dorothy Hodgkin;Dorothy Crowfoot Hodgkin;Dorothy Hodgkin;wikipedia;
+Scientifiques celebres;Dorothy Hodgkin;Dorothy Crowfoot Hodgkin;Dorothy Hodgkin;excel-brut;X
 Scientifiques celebres;Rita Levi-Montalcini;Rita Levi-Montalcini;Rita Levi-Montalcini;wikipedia;
 Scientifiques celebres;Barbara Liskov;Barbara Liskov;Barbara Liskov;wikipedia;
 Scientifiques celebres;Hedy Lamarr;Hedy Lamarr;Hedy Lamarr;wikipedia;
-Grands peintres;Giotto;Giotto di Bondone;Giotto;wikipedia;
+Grands peintres;Giotto;Giotto di Bondone;Giotto;excel-brut;X
 Grands peintres;Sandro Botticelli;Sandro Botticelli;Sandro Botticelli;wikipedia;
 Grands peintres;Michel-Ange;Michel-Ange;Michel-Ange;wikipedia;
 Grands peintres;Raphael;Raphaël (peintre);Raphaël;wikipedia;
@@ -955,13 +955,13 @@ Grands peintres;Diego Velasquez;Diego Vélasquez;Diego Vélasquez;wikipedia;
 Grands peintres;Francisco de Goya;Francisco de Goya;Francisco de Goya;wikipedia;
 Grands peintres;Jacques-Louis David;Jacques-Louis David;Jacques-Louis David;wikipedia;
 Grands peintres;Eugene Delacroix;Eugène Delacroix;Eugène Delacroix;wikipedia;
-Grands peintres;J.M.W. Turner;William Turner;J.M.W. Turner;wikipedia;
+Grands peintres;J.M.W. Turner;William Turner;J.M.W. Turner;excel-brut;X
 Grands peintres;John Constable;John Constable;John Constable;wikipedia;
 Grands peintres;Gustave Courbet;Gustave Courbet;Gustave Courbet;wikipedia;
 Grands peintres;Edouard Manet;Édouard Manet;Édouard Manet;wikipedia;
 Grands peintres;Claude Monet;Claude Monet;Claude Monet;wikipedia;
 Grands peintres;Edgar Degas;Edgar Degas;Edgar Degas;wikipedia;
-Grands peintres;Pierre-Auguste Renoir;Auguste Renoir;Pierre-Auguste Renoir;wikipedia;
+Grands peintres;Pierre-Auguste Renoir;Auguste Renoir;Pierre Auguste Renoir;wikipedia;
 Grands peintres;Paul Cezanne;Paul Cézanne;Paul Cézanne;wikipedia;
 Grands peintres;Camille Pissarro;Camille Pissarro;Camille Pissarro;wikipedia;
 Grands peintres;Berthe Morisot;Berthe Morisot;Berthe Morisot;wikipedia;
@@ -976,7 +976,7 @@ Grands peintres;Pablo Picasso;Pablo Picasso;Pablo Picasso;wikipedia;
 Grands peintres;Georges Braque;Georges Braque;Georges Braque;wikipedia;
 Grands peintres;Amedeo Modigliani;Amedeo Modigliani;Amedeo Modigliani;wikipedia;
 Grands peintres;Marc Chagall;Marc Chagall;Marc Chagall;wikipedia;
-Grands peintres;Wassily Kandinsky;Vassily Kandinsky;Wassily Kandinsky;wikipedia;
+Grands peintres;Wassily Kandinsky;Vassily Kandinsky;Wassily Kandinsky;excel-brut;X
 Grands peintres;Piet Mondrian;Piet Mondrian;Piet Mondrian;wikipedia;
 Grands peintres;Paul Klee;Paul Klee;Paul Klee;wikipedia;
 Grands peintres;Egon Schiele;Egon Schiele;Egon Schiele;wikipedia;
@@ -997,16 +997,16 @@ Grands peintres;David Hockney;David Hockney;David Hockney;wikipedia;
 Grands peintres;Jean-Michel Basquiat;Jean-Michel Basquiat;Jean-Michel Basquiat;wikipedia;
 Grands peintres;Keith Haring;Keith Haring;Keith Haring;wikipedia;
 Grands peintres;Banksy;Banksy;Banksy;wikipedia;
-Grands peintres;Katsushika Hokusai;Hokusai;Katsushika Hokusai;wikipedia;
-Grands peintres;Utagawa Hiroshige;Hiroshige;Utagawa Hiroshige;wikipedia;
+Grands peintres;Katsushika Hokusai;Hokusai;Katsushika Hokusai;excel-brut;X
+Grands peintres;Utagawa Hiroshige;Hiroshige;Utagawa Hiroshige;excel-brut;X
 Grands peintres;Artemisia Gentileschi;Artemisia Gentileschi;Artemisia Gentileschi;wikipedia;
 Grands peintres;Frans Hals;Frans Hals;Frans Hals;wikipedia;
 Grands peintres;Anthony van Dyck;Antoine van Dyck;Anthony van Dyck;excel-brut;X
-Grands peintres;El Greco;Le Greco;El Greco;wikipedia;
-Grands peintres;Francisco Zurbaran;Francisco de Zurbarán;Francisco Zurbaran;wikipedia;
+Grands peintres;El Greco;Le Greco;El Greco;excel-brut;X
+Grands peintres;Francisco Zurbaran;Francisco de Zurbarán;Francisco Zurbarán;accents-restaures;
 Grands peintres;Nicolas Poussin;Nicolas Poussin;Nicolas Poussin;wikipedia;
 Grands peintres;Jean-Honore Fragonard;Jean-Honoré Fragonard;Jean-Honoré Fragonard;wikipedia;
-Grands peintres;Jean-Antoine Watteau;Antoine Watteau;Jean-Antoine Watteau;wikipedia;
+Grands peintres;Jean-Antoine Watteau;Antoine Watteau;Jean-Antoine Watteau;excel-brut;X
 Grands peintres;William Blake;William Blake;William Blake;wikipedia;
 Grands peintres;Caspar David Friedrich;Caspar David Friedrich;Caspar David Friedrich;wikipedia;
 Grands peintres;Gustave Moreau;Gustave Moreau;Gustave Moreau;wikipedia;
@@ -1041,12 +1041,12 @@ Tableaux celebres;Composition VIII;Composition VIII;Composition VIII;wikipedia;
 Tableaux celebres;American Gothic;American Gothic (Wood);American Gothic;wikipedia;
 Tableaux celebres;Nighthawks;Nighthawks;Nighthawks;wikipedia;
 Tableaux celebres;Campbell's Soup Cans;Campbell's Soup Cans;Campbell's Soup Cans;wikipedia;
-Tableaux celebres;Number 1;Number 1, 1950 (Lavender Mist);Number 1;wikipedia;
+Tableaux celebres;Number 1;Number 1, 1950 (Lavender Mist);Number 1;excel-brut;X
 Tableaux celebres;Les Nympheas;Les Nymphéas;Les Nymphéas;wikipedia;
 Tableaux celebres;Le Baiser;Le Baiser (Klimt);Le Baiser;utilisateur;
 Tableaux celebres;Composition avec rouge jaune et bleu;Composition avec jaune, bleu et rouge;Composition avec rouge jaune et bleu;excel-brut;X
 Tableaux celebres;Guitare et compotier;Guitare et Compotier (Paris);Guitare et Compotier;wikipedia;
-Tableaux celebres;Autoportrait a l'oreille bandee;Autoportrait à l'oreille bandée et à la pipe;Autoportrait a l'oreille bandee;wikipedia;
+Tableaux celebres;Autoportrait a l'oreille bandee;Autoportrait à l'oreille bandée et à la pipe;Autoportrait à l'oreille bandée;wikipedia;
 Tableaux celebres;La Chute d'Icare;La Chute d'Icare;La Chute d'Icare;wikipedia;
 Tableaux celebres;La Tour de Babel;La Tour de Babel (Brueghel);La Tour de Babel;wikipedia;
 Tableaux celebres;Le Triomphe de la mort;Le Triomphe de la mort (Nussbaum);Le Triomphe de la mort;wikipedia;
@@ -1161,17 +1161,17 @@ Aviateurs celebres;Bessie Coleman;Bessie Coleman;Bessie Coleman;wikipedia;
 Aviateurs celebres;Harriet Quimby;Harriet Quimby;Harriet Quimby;wikipedia;
 Aviateurs celebres;Igor Sikorsky;Igor Sikorsky;Igor Sikorsky;wikipedia;
 Aviateurs celebres;Glenn Curtiss;Glenn Curtiss;Glenn Curtiss;wikipedia;
-Aviateurs celebres;Juan de la Cierva;Juan de la Cierva y Codorníu;Juan de la Cierva;wikipedia;
+Aviateurs celebres;Juan de la Cierva;Juan de la Cierva y Codorníu;Juan de la Cierva;excel-brut;X
 Aviateurs celebres;Geoffrey de Havilland;Geoffrey de Havilland;Geoffrey de Havilland;wikipedia;
 Aviateurs celebres;Willy Messerschmitt;Willy Messerschmitt;Willy Messerschmitt;wikipedia;
 Aviateurs celebres;Ernst Udet;Ernst Udet;Ernst Udet;wikipedia;
 Aviateurs celebres;Douglas Bader;Douglas Bader;Douglas Bader;wikipedia;
 Aviateurs celebres;Pancho Barnes;Pancho Barnes;Pancho Barnes;wikipedia;
 Aviateurs celebres;Jacqueline Cochran;Jacqueline Cochran;Jacqueline Cochran;wikipedia;
-Aviateurs celebres;Jimmy Doolittle;James H. Doolittle;Jimmy Doolittle;wikipedia;
-Aviateurs celebres;Kelly Johnson;Clarence Johnson;Kelly Johnson;wikipedia;
+Aviateurs celebres;Jimmy Doolittle;James H. Doolittle;Jimmy Doolittle;excel-brut;X
+Aviateurs celebres;Kelly Johnson;Clarence Johnson;Kelly Johnson;excel-brut;X
 Aviateurs celebres;Chesley Sullenberger;Chesley Sullenberger;Chesley Sullenberger;wikipedia;
-Aviateurs celebres;Scott Crossfield;Albert Scott Crossfield;Scott Crossfield;wikipedia;
+Aviateurs celebres;Scott Crossfield;Albert Scott Crossfield;Scott Crossfield;excel-brut;X
 Aviateurs celebres;Sally Ride;Sally Ride;Sally Ride;wikipedia;
 Aviateurs celebres;Eileen Collins;Eileen Collins;Eileen Collins;wikipedia;
 Aviateurs celebres;Chris Hadfield;Chris Hadfield;Chris Hadfield;wikipedia;
@@ -1187,19 +1187,19 @@ Mammiferes;Ocelot;Ocelot;Ocelot;wikipedia;
 Mammiferes;Serval;Serval;Serval;wikipedia;
 Mammiferes;Caracal;Caracal;Caracal;wikipedia;
 Mammiferes;Chat des sables;Chat des sables;Chat des sables;wikipedia;
-Mammiferes;Ours polaire;Ours blanc;Ours polaire;wikipedia;
+Mammiferes;Ours polaire;Ours blanc;Ours polaire;excel-brut;X
 Mammiferes;Ours brun;Ours brun;Ours brun;wikipedia;
 Mammiferes;Ours noir americain;Ours noir d'Amérique;Ours noir americain;excel-brut;X
 Mammiferes;Ours a lunettes;Ours à lunettes;Ours à lunettes;wikipedia;
 Mammiferes;Panda geant;Panda géant;Panda géant;wikipedia;
-Mammiferes;Panda roux;Ailurus;Panda roux;wikipedia;
+Mammiferes;Panda roux;Ailurus;Panda roux;excel-brut;X
 Mammiferes;Elephant d'Afrique;Éléphant d'Afrique;Éléphant d'Afrique;wikipedia;
 Mammiferes;Elephant d'Asie;Éléphant d'Asie;Éléphant d'Asie;wikipedia;
 Mammiferes;Rhinoceros noir;Rhinocéros noir;Rhinocéros noir;wikipedia;
 Mammiferes;Rhinoceros blanc;Rhinocéros blanc;Rhinocéros blanc;wikipedia;
 Mammiferes;Rhinoceros de Java;Rhinocéros de Java;Rhinocéros de Java;wikipedia;
-Mammiferes;Hippopotame;Hippopotamidae;Hippopotame;wikipedia;
-Mammiferes;Hippopotame nain;Hexaprotodon liberiensis;Hippopotame nain;wikipedia;
+Mammiferes;Hippopotame;Hippopotamidae;Hippopotame;excel-brut;X
+Mammiferes;Hippopotame nain;Hexaprotodon liberiensis;Hippopotame nain;excel-brut;X
 Mammiferes;Girafe;Girafe;Girafe;wikipedia;
 Mammiferes;Okapi;Okapi;Okapi;wikipedia;
 Mammiferes;Zebre de Grevy;Zèbre de Grévy;Zèbre de Grévy;wikipedia;
@@ -1208,7 +1208,7 @@ Mammiferes;Gnou;Gnou;Gnou;wikipedia;
 Mammiferes;Buffle d'Afrique;Buffle d'Afrique;Buffle d'Afrique;wikipedia;
 Mammiferes;Bison d'Amerique;Bison d'Amérique;Bison d'Amérique;wikipedia;
 Mammiferes;Bison europeen;Bison d'Europe;Bison européen;wikipedia;
-Mammiferes;Loup gris;Canis lupus;Loup gris;wikipedia;
+Mammiferes;Loup gris;Canis lupus;Loup gris;excel-brut;X
 Mammiferes;Loup a criniere;Loup à crinière;Loup à crinière;wikipedia;
 Mammiferes;Loup rouge;Loup rouge;Loup rouge;wikipedia;
 Mammiferes;Renard roux;Renard roux;Renard roux;wikipedia;
@@ -1222,7 +1222,7 @@ Mammiferes;Gorille des plaines;Gorille de l'Ouest;Gorille des plaines;excel-brut
 Mammiferes;Chimpanze;Chimpanzé;Chimpanzé;wikipedia;
 Mammiferes;Bonobo;Bonobo;Bonobo;wikipedia;
 Mammiferes;Orang-outan;Orang-outan;Orang-outan;wikipedia;
-Mammiferes;Gibbon;Hylobatidae;Gibbon;wikipedia;
+Mammiferes;Gibbon;Hylobatidae;Gibbon;excel-brut;X
 Mammiferes;Babouin;Babouin;Babouin;wikipedia;
 Mammiferes;Macaque;Macaque;Macaque;wikipedia;
 Mammiferes;Colobe;Colobe;Colobe;wikipedia;
@@ -1238,35 +1238,35 @@ Mammiferes;Ornithorynque;Ornithorynque;Ornithorynque;wikipedia;
 Mammiferes;Echidne;Échidné;Échidné;wikipedia;
 Mammiferes;Paresseux a trois doigts;Paresseux à trois doigts;Paresseux à trois doigts;wikipedia;
 Mammiferes;Tatou geant;Priodontes maximus;Tatou géant;wikipedia;
-Mammiferes;Pangolin;Manidae;Pangolin;wikipedia;
+Mammiferes;Pangolin;Manidae;Pangolin;excel-brut;X
 Mammiferes;Fourmilier geant;Tamanoir;Fourmilier géant;wikipedia;
 Mammiferes;Loutre d'Europe;Lutrinae;Loutre;utilisateur;
-Mammiferes;Castor;Castor d'Europe;Castor;wikipedia;
+Mammiferes;Castor;Castor d'Europe;Castor;excel-brut;X
 Mammiferes;Blaireau europeen;Blaireau européen;Blaireau européen;wikipedia;
 Mammiferes;Ecureuil roux;Écureuil roux;Écureuil roux;wikipedia;
 Mammiferes;Ecureuil volant;Écureuil volant;Écureuil volant;wikipedia;
 Mammiferes;Herisson;Hérisson;Hérisson;wikipedia;
 Mammiferes;Roussette;Roussette (mammifère);Roussette;wikipedia;
-Mammiferes;Chauve-souris vampire;Desmodontinae;Chauve-souris vampire;wikipedia;
+Mammiferes;Chauve-souris vampire;Desmodontinae;Chauve-souris vampire;excel-brut;X
 Mammiferes;Baleine bleue;Baleine bleue;Baleine bleue;wikipedia;
 Mammiferes;Baleine a bosse;Baleine à bosse;Baleine à bosse;wikipedia;
-Mammiferes;Cachalot;Physeteroidea;Cachalot;wikipedia;
+Mammiferes;Cachalot;Physeteroidea;Cachalot;excel-brut;X
 Mammiferes;Orque;Orque;Orque;wikipedia;
 Mammiferes;Grand dauphin;Grand dauphin;Grand dauphin;wikipedia;
 Mammiferes;Narval;Narval;Narval;wikipedia;
 Mammiferes;Beluga;Béluga (cétacé);Béluga;wikipedia;
 Mammiferes;Phoque commun;Phoque commun;Phoque commun;wikipedia;
 Mammiferes;Elephant de mer;Éléphant de mer;Éléphant de mer;wikipedia;
-Mammiferes;Otarie;Otariidae;Otarie;wikipedia;
+Mammiferes;Otarie;Otariidae;Otarie;excel-brut;X
 Mammiferes;Morse;Morse (animal);Morse;wikipedia;
 Mammiferes;Suricate;Suricate;Suricate;wikipedia;
 Mammiferes;Furet;Furet;Furet;wikipedia;
 Mammiferes;Civette;Civette;Civette;wikipedia;
 Mammiferes;Hermine;Hermine;Hermine;wikipedia;
-Mammiferes;Belette;Mustela nivalis;Belette;wikipedia;
+Mammiferes;Belette;Mustela nivalis;Belette;excel-brut;X
 Mammiferes;Sanglier;Sanglier;Sanglier;wikipedia;
 Mammiferes;Cerf elaphe;Cerf élaphe;Cerf élaphe;wikipedia;
-Mammiferes;Renne;Rangifer tarandus;Renne;wikipedia;
+Mammiferes;Renne;Rangifer tarandus;Renne;excel-brut;X
 Mammiferes;Elan;Alces;Elan;utilisateur;
 Mammiferes;Chevreuil;Chevreuil;Chevreuil;wikipedia;
 Mammiferes;Antilope saiga;Saïga;Antilope saïga;wikipedia;
@@ -1277,9 +1277,9 @@ Mammiferes;Dromadaire;Dromadaire;Dromadaire;wikipedia;
 Mammiferes;Lama;Lama (animal);Lama;wikipedia;
 Mammiferes;Alpaga;Alpaga;Alpaga;wikipedia;
 Mammiferes;Cheval de Przewalski;Cheval de Przewalski;Cheval de Przewalski;wikipedia;
-Mammiferes;Capybara;Hydrochoerus hydrochaeris;Capybara;wikipedia;
-Mammiferes;Numbat;Myrmecobius fasciatus;Numbat;wikipedia;
-Mammiferes;Wallaby de Bennett;Notamacropus rufogriseus;Wallaby de Bennett;wikipedia;
+Mammiferes;Capybara;Hydrochoerus hydrochaeris;Capybara;excel-brut;X
+Mammiferes;Numbat;Myrmecobius fasciatus;Numbat;excel-brut;X
+Mammiferes;Wallaby de Bennett;Notamacropus rufogriseus;Wallaby de Bennett;excel-brut;X
 Mammiferes;Rat-taupe nu;Rat-taupe nu;Rat-taupe nu;wikipedia;
 Oiseaux;Aigle royal;Aigle royal;Aigle royal;wikipedia;
 Oiseaux;Aigle pecheur;Balbuzard pêcheur;Aigle pêcheur;wikipedia;
@@ -1292,14 +1292,14 @@ Oiseaux;Condor des Andes;Condor des Andes;Condor des Andes;wikipedia;
 Oiseaux;Vautour fauve;Vautour fauve;Vautour fauve;wikipedia;
 Oiseaux;Vautour percnoptere;Vautour percnoptère;Vautour percnoptère;wikipedia;
 Oiseaux;Hibou grand-duc;Hibou grand-duc;Hibou grand-duc;wikipedia;
-Oiseaux;Chouette effraie;Effraie des clochers;Chouette effraie;wikipedia;
+Oiseaux;Chouette effraie;Effraie des clochers;Chouette Effraie;accents-restaures;
 Oiseaux;Chouette hulotte;Chouette hulotte;Chouette hulotte;wikipedia;
 Oiseaux;Harfang des neiges;Harfang des neiges;Harfang des neiges;wikipedia;
 Oiseaux;Autruche;Autruche;Autruche;wikipedia;
-Oiseaux;Emeu;Dromaius;Emeu;wikipedia;
-Oiseaux;Nandou;Rhea;Nandou;wikipedia;
+Oiseaux;Emeu;Dromaius;Emeu;excel-brut;X
+Oiseaux;Nandou;Rhea;Nandou;excel-brut;X
 Oiseaux;Kiwi;Kiwi austral;Kiwi;utilisateur;
-Oiseaux;Casoar;Casoar à casque;Casoar;wikipedia;
+Oiseaux;Casoar;Casoar à casque;Casoar;excel-brut;X
 Oiseaux;Manchot empereur;Manchot empereur;Manchot empereur;wikipedia;
 Oiseaux;Manchot Adelie;Manchot Adélie;Manchot Adélie;wikipedia;
 Oiseaux;Manchot papou;Manchot papou;Manchot papou;wikipedia;
@@ -1312,14 +1312,14 @@ Oiseaux;Paon bleu;Paon bleu;Paon bleu;wikipedia;
 Oiseaux;Toucan toco;Toucan toco;Toucan toco;wikipedia;
 Oiseaux;Ara bleu;Ara bleu;Ara bleu;wikipedia;
 Oiseaux;Ara rouge;Ara rouge;Ara rouge;wikipedia;
-Oiseaux;Perroquet gris du Gabon;Perroquet jaco;Perroquet gris du Gabon;wikipedia;
+Oiseaux;Perroquet gris du Gabon;Perroquet jaco;Perroquet Gris du Gabon;accents-restaures;
 Oiseaux;Perruche ondulee;Perruche ondulée;Perruche ondulée;wikipedia;
 Oiseaux;Cacatoes;Cacatoès;Cacatoès;wikipedia;
 Oiseaux;Colibri;Colibri;Colibri;wikipedia;
 Oiseaux;Martin-pecheur;Martin-pêcheur d'Europe;Martin-pêcheur;accents-restaures;
 Oiseaux;Pelican blanc;Pélican blanc;Pélican blanc;wikipedia;
 Oiseaux;Albatros hurleur;Albatros hurleur;Albatros hurleur;wikipedia;
-Oiseaux;Fregate;Frégate superbe;Fregate;wikipedia;
+Oiseaux;Fregate;Frégate superbe;Frégate;accents-restaures;
 Oiseaux;Fou de Bassan;Fou de Bassan;Fou de Bassan;wikipedia;
 Oiseaux;Grue du Japon;Grue du Japon;Grue du Japon;wikipedia;
 Oiseaux;Grue cendree;Grue cendrée;Grue cendrée;wikipedia;
@@ -1343,48 +1343,48 @@ Oiseaux;Coucou gris;Coucou gris;Coucou gris;wikipedia;
 Oiseaux;Pic epeiche;Pic épeiche;Pic épeiche;wikipedia;
 Oiseaux;Pic vert;Pic vert;Pic vert;wikipedia;
 Oiseaux;Huppe fasciee;Huppe fasciée;Huppe fasciée;wikipedia;
-Oiseaux;Kakapo;Strigops kakapo;Kakapo;wikipedia;
+Oiseaux;Kakapo;Strigops kakapo;Kakapo;excel-brut;X
 Oiseaux;Dodo;Dodo (oiseau);Dodo;wikipedia;
 Oiseaux;Grand pingouin;Grand Pingouin;Grand Pingouin;wikipedia;
 Oiseaux;Colombe;Colombe;Colombe;wikipedia;
 Oiseaux;Pigeon voyageur;Pigeon voyageur;Pigeon voyageur;wikipedia;
 Oiseaux;Roadrunner;Grand Géocoucou;Grand Géocoucou;utilisateur;
 Oiseaux;Kookaburra;Martin-chasseur géant;Kookaburra;utilisateur;
-Oiseaux;Oiseau-lyre;Menura;Oiseau-lyre;wikipedia;
+Oiseaux;Oiseau-lyre;Menura;Oiseau-lyre;excel-brut;X
 Oiseaux;Quetzal resplendissant;Quetzal resplendissant;Quetzal resplendissant;wikipedia;
 Reptiles et amphibiens;Crocodile du Nil;Crocodile du Nil;Crocodile du Nil;wikipedia;
 Reptiles et amphibiens;Crocodile marin;Crocodile marin;Crocodile marin;wikipedia;
 Reptiles et amphibiens;Alligator americain;Alligator d'Amérique;Alligator américain;wikipedia;
 Reptiles et amphibiens;Caiman a lunettes;Caïman à lunettes;Caïman à lunettes;wikipedia;
 Reptiles et amphibiens;Gavial du Gange;Gavial du Gange;Gavial du Gange;wikipedia;
-Reptiles et amphibiens;Anaconda vert;Eunectes murinus;Anaconda vert;wikipedia;
+Reptiles et amphibiens;Anaconda vert;Eunectes murinus;Anaconda vert;excel-brut;X
 Reptiles et amphibiens;Python reticule;Python réticulé;Python réticulé;wikipedia;
 Reptiles et amphibiens;Python molure;Python molurus;Python molure;excel-brut;X
 Reptiles et amphibiens;Boa constrictor;Boa constricteur;Boa constrictor;excel-brut;X
 Reptiles et amphibiens;Cobra royal;Cobra royal;Cobra royal;wikipedia;
 Reptiles et amphibiens;Cobra cracheur;Cobra cracheur;Cobra cracheur;wikipedia;
-Reptiles et amphibiens;Mamba noir;Dendroaspis polylepis;Mamba noir;wikipedia;
+Reptiles et amphibiens;Mamba noir;Dendroaspis polylepis;Mamba noir;excel-brut;X
 Reptiles et amphibiens;Vipere a cornes;Vipère à cornes;Vipère à cornes;wikipedia;
 Reptiles et amphibiens;Vipere heurtante;Vipère heurtante;Vipère heurtante;wikipedia;
 Reptiles et amphibiens;Crotale diamantin;Crotale diamantin;Crotale diamantin;wikipedia;
 Reptiles et amphibiens;Couleuvre a collier;Couleuvre à collier;Couleuvre à collier;wikipedia;
-Reptiles et amphibiens;Iguane vert;Iguana iguana;Iguane vert;wikipedia;
+Reptiles et amphibiens;Iguane vert;Iguana iguana;Iguane vert;excel-brut;X
 Reptiles et amphibiens;Iguane marin des Galapagos;Iguane marin des Galapagos;Iguane marin des Galapagos;wikipedia;
-Reptiles et amphibiens;Cameleon panthere;Furcifer pardalis;Cameleon panthere;wikipedia;
+Reptiles et amphibiens;Cameleon panthere;Furcifer pardalis;Caméléon panthère;accents-restaures;
 Reptiles et amphibiens;Cameleon commun;Caméléon commun;Caméléon commun;wikipedia;
 Reptiles et amphibiens;Gecko leopard;Gecko léopard;Gecko léopard;wikipedia;
 Reptiles et amphibiens;Varan du Nil;Varan du Nil;Varan du Nil;wikipedia;
 Reptiles et amphibiens;Dragon de Komodo;Dragon de Komodo;Dragon de Komodo;wikipedia;
 Reptiles et amphibiens;Tortue geante des Galapagos;Tortue géante des Galápagos;Tortue géante des Galápagos;wikipedia;
 Reptiles et amphibiens;Tortue luth;Tortue luth;Tortue luth;wikipedia;
-Reptiles et amphibiens;Tortue caouanne;Caretta caretta;Tortue caouanne;wikipedia;
+Reptiles et amphibiens;Tortue caouanne;Caretta caretta;Tortue caouanne;excel-brut;X
 Reptiles et amphibiens;Tortue de Floride;Tortue de Floride;Tortue de Floride;wikipedia;
 Reptiles et amphibiens;Tortue-boite;Tortue boîte;Tortue boîte;wikipedia;
-Reptiles et amphibiens;Basilic vert;Basiliscus plumifrons;Basilic vert;wikipedia;
-Reptiles et amphibiens;Agame barbu;Pogona vitticeps;Agame barbu;wikipedia;
-Reptiles et amphibiens;Grenouille taureau;Ouaouaron;Grenouille taureau;wikipedia;
+Reptiles et amphibiens;Basilic vert;Basiliscus plumifrons;Basilic vert;excel-brut;X
+Reptiles et amphibiens;Agame barbu;Pogona vitticeps;Agame barbu;excel-brut;X
+Reptiles et amphibiens;Grenouille taureau;Ouaouaron;Grenouille taureau;excel-brut;X
 Reptiles et amphibiens;Crapaud commun;Crapaud commun;Crapaud commun;wikipedia;
-Reptiles et amphibiens;Crapaud buffle;Rhinella marina;Crapaud buffle;wikipedia;
+Reptiles et amphibiens;Crapaud buffle;Rhinella marina;Crapaud buffle;excel-brut;X
 Reptiles et amphibiens;Salamandre geante du Japon;Andrias japonicus;Salamandre géante du Japon;wikipedia;
 Reptiles et amphibiens;Salamandre tachetee;Salamandre maculée;Salamandre tachetée;wikipedia;
 Reptiles et amphibiens;Axolotl;Axolotl;Axolotl;wikipedia;
@@ -1392,7 +1392,7 @@ Reptiles et amphibiens;Triton alpestre;Triton alpestre;Triton alpestre;wikipedia
 Reptiles et amphibiens;Rainette verte;Rainette verte;Rainette verte;wikipedia;
 Reptiles et amphibiens;Iguane a queue epineuse;Ctenosaura similis;Iguane à queue épineuse;accents-restaures;
 Reptiles et amphibiens;Lezard a collerette;Lézard à collerette;Lézard à collerette;wikipedia;
-Poissons et vie marine;Requin blanc;Grand requin blanc;Requin blanc;wikipedia;
+Poissons et vie marine;Requin blanc;Grand requin blanc;Requin blanc;excel-brut;X
 Poissons et vie marine;Requin-baleine;Requin-baleine;Requin-baleine;wikipedia;
 Poissons et vie marine;Requin marteau;Sphyrnidae;Requin marteau;utilisateur;
 Poissons et vie marine;Requin tigre;Requin-tigre;Requin-tigre;wikipedia;
@@ -1412,16 +1412,16 @@ Poissons et vie marine;Poisson-scie;Pristidae;Poisson-scie;utilisateur;
 Poissons et vie marine;Poisson volant;Exocoetidae;Poisson volant;utilisateur;
 Poissons et vie marine;Piranha;Piranha;Piranha;wikipedia;
 Poissons et vie marine;Espadon;Espadon;Espadon;wikipedia;
-Poissons et vie marine;Marlin;Istiophoridae;Marlin;wikipedia;
+Poissons et vie marine;Marlin;Istiophoridae;Marlin;excel-brut;X
 Poissons et vie marine;Thon rouge;Thon rouge;Thon rouge;wikipedia;
 Poissons et vie marine;Saumon atlantique;Saumon atlantique;Saumon atlantique;wikipedia;
 Poissons et vie marine;Truite arc-en-ciel;Truite arc-en-ciel;Truite arc-en-ciel;wikipedia;
 Poissons et vie marine;Carpe koi;Koï;Carpe koi;utilisateur;
 Poissons et vie marine;Anguille electrique;Anguille électrique;Anguille électrique;wikipedia;
-Poissons et vie marine;Anguille commune;Anguille d'Europe;Anguille commune;wikipedia;
+Poissons et vie marine;Anguille commune;Anguille d'Europe;Anguille commune;excel-brut;X
 Poissons et vie marine;Hippocampe;Hippocampe (poisson);Hippocampe;utilisateur;
 Poissons et vie marine;Murene;Murène commune;Murene;utilisateur;
-Poissons et vie marine;Baliste;Balistes (poisson);Baliste;wikipedia;
+Poissons et vie marine;Baliste;Balistes (poisson);Baliste;excel-brut;X
 Poissons et vie marine;Poisson-perroquet;Scaridae;Poisson-perroquet;utilisateur;
 Poissons et vie marine;Poisson-ange;Poisson-ange;Poisson-ange;wikipedia;
 Poissons et vie marine;Barracuda;Sphyraena;Barracuda;utilisateur;
@@ -1437,76 +1437,76 @@ Poissons et vie marine;Nautile;Nautile (sous-marin de poche);Nautile;wikipedia;
 Poissons et vie marine;Meduse-boite;Cubozoa;Méduse-boîte;wikipedia;
 Poissons et vie marine;Meduse lune;Aurelia aurita;Méduse lune;wikipedia;
 Poissons et vie marine;Anemone de mer;Anémone de mer;Anémone de mer;wikipedia;
-Poissons et vie marine;Corail cerveau;Faviidae;Corail cerveau;wikipedia;
+Poissons et vie marine;Corail cerveau;Faviidae;Corail cerveau;excel-brut;X
 Poissons et vie marine;Corail corne d'elan;Acropora palmata;Corail corne d'elan;utilisateur;
 Poissons et vie marine;Crabe royal;Crabe royal;Crabe royal;wikipedia;
 Poissons et vie marine;Crabe-araignee geant du Japon;Macrocheira kaempferi;Crabe-araignée géant du Japon;wikipedia;
 Poissons et vie marine;Homard;Homard;Homard;wikipedia;
-Poissons et vie marine;Langouste;Palinuridae;Langouste;wikipedia;
-Poissons et vie marine;Crevette-mante;Stomatopoda;Crevette-mante;wikipedia;
+Poissons et vie marine;Langouste;Palinuridae;Langouste;excel-brut;X
+Poissons et vie marine;Crevette-mante;Stomatopoda;Crevette-mante;excel-brut;X
 Poissons et vie marine;Eponge de mer;Porifera;Éponge de mer;wikipedia;
 Poissons et vie marine;Corail rouge;Corail rouge;Corail rouge;wikipedia;
 Poissons et vie marine;Diable de mer;Mobulinae;Diable de mer;utilisateur;
-Insectes;Abeille domestique;Apis mellifera;Abeille domestique;wikipedia;
+Insectes;Abeille domestique;Apis mellifera;Abeille domestique;excel-brut;X
 Insectes;Bourdon terrestre;Bourdon terrestre;Bourdon terrestre;wikipedia;
 Insectes;Guepe commune;Vespula vulgaris;Guêpe commune;wikipedia;
 Insectes;Frelon europeen;Vespa crabro;Frelon européen;wikipedia;
-Insectes;Frelon asiatique;Vespa velutina;Frelon asiatique;wikipedia;
-Insectes;Fourmi noire des jardins;Lasius niger;Fourmi noire des jardins;wikipedia;
-Insectes;Fourmi rousse des bois;Formica rufa;Fourmi rousse des bois;wikipedia;
+Insectes;Frelon asiatique;Vespa velutina;Frelon asiatique;excel-brut;X
+Insectes;Fourmi noire des jardins;Lasius niger;Fourmi noire des jardins;excel-brut;X
+Insectes;Fourmi rousse des bois;Formica rufa;Fourmi rousse des bois;excel-brut;X
 Insectes;Fourmi charpentiere;Camponotus;Fourmi charpentiere;excel-brut;X
 Insectes;Fourmi legionnaire;Fourmi légionnaire;Fourmi légionnaire;wikipedia;
 Insectes;Termite;Termite;Termite;wikipedia;
-Insectes;Papillon monarque;Monarque (papillon);Papillon monarque;wikipedia;
+Insectes;Papillon monarque;Monarque (papillon);Papillon Monarque;accents-restaures;
 Insectes;Paon-du-jour;Paon-du-jour;Paon-du-jour;wikipedia;
 Insectes;Machaon;Machaon (papillon);Machaon;wikipedia;
 Insectes;Pieride du chou;Piéride du chou;Piéride du chou;wikipedia;
 Insectes;Sphinx tete de mort;Sphinx tête de mort;Sphinx tête de mort;wikipedia;
-Insectes;Sphinx colibri;Moro-sphinx;Sphinx colibri;wikipedia;
-Insectes;Morpho bleu;Morpho helenor;Morpho bleu;wikipedia;
+Insectes;Sphinx colibri;Moro-sphinx;Sphinx colibri;excel-brut;X
+Insectes;Morpho bleu;Morpho helenor;Morpho Bleu;wikipedia;
 Insectes;Papillon Atlas;Attacus atlas;Papillon Atlas;excel-brut;X
-Insectes;Ver a soie;Bombyx du mûrier;Ver a soie;wikipedia;
+Insectes;Ver a soie;Bombyx du mûrier;Ver à soie;accents-restaures;
 Insectes;Coccinelle a sept points;Coccinella septempunctata;Coccinelle à sept points;wikipedia;
-Insectes;Scarabee rhinoceros;Dynastinae;Scarabee rhinoceros;wikipedia;
+Insectes;Scarabee rhinoceros;Dynastinae;Scarabee rhinoceros;excel-brut;X
 Insectes;Scarabee goliath;Goliathus regius;Scarabée goliath;utilisateur;
 Insectes;Scarabee sacre;Bousier sacré;Scarabée sacré;utilisateur;
-Insectes;Hanneton;Melolonthinae;Hanneton;wikipedia;
+Insectes;Hanneton;Melolonthinae;Hanneton;excel-brut;X
 Insectes;Bousier;Bousier;Bousier;wikipedia;
 Insectes;Cetoine doree;Cétoine dorée;Cétoine dorée;wikipedia;
-Insectes;Lucane cerf-volant;Lucanus cervus;Lucane cerf-volant;wikipedia;
+Insectes;Lucane cerf-volant;Lucanus cervus;Lucane Cerf-Volant;accents-restaures;
 Insectes;Carabe dore;Carabe doré;Carabe doré;wikipedia;
 Insectes;Luciole;Luciola;Luciole;utilisateur;
 Insectes;Criquet migrateur;Criquet migrateur;Criquet migrateur;wikipedia;
 Insectes;Sauterelle verte;Tettigonia viridissima;Sauterelle verte;excel-brut;X
-Insectes;Grillon domestique;Acheta domesticus;Grillon domestique;wikipedia;
+Insectes;Grillon domestique;Acheta domesticus;Grillon domestique;excel-brut;X
 Insectes;Mante religieuse;Mante religieuse;Mante religieuse;wikipedia;
 Insectes;Phasme baton;Phasme;Phasme bâton;wikipedia;
 Insectes;Libellule empereur;Anax empereur;Libellule empereur;excel-brut;X
-Insectes;Demoiselle (insecte);Zygoptera;Demoiselle;wikipedia;
+Insectes;Demoiselle (insecte);Zygoptera;Demoiselle;excel-brut;X
 Insectes;Cigale commune;Cicadidae;Cigale commune;excel-brut;X
-Insectes;Punaise verte;Palomena prasina;Punaise verte;wikipedia;
-Insectes;Punaise diabolique;Halyomorpha halys;Punaise diabolique;wikipedia;
-Insectes;Puceron;Aphidoidea;Puceron;wikipedia;
-Insectes;Cochenille;Coccoidea;Cochenille;wikipedia;
-Insectes;Moustique commun;Culex pipiens;Moustique commun;wikipedia;
-Insectes;Moustique tigre;Aedes albopictus;Moustique tigre;wikipedia;
+Insectes;Punaise verte;Palomena prasina;Punaise verte;excel-brut;X
+Insectes;Punaise diabolique;Halyomorpha halys;Punaise diabolique;excel-brut;X
+Insectes;Puceron;Aphidoidea;Puceron;excel-brut;X
+Insectes;Cochenille;Coccoidea;Cochenille;excel-brut;X
+Insectes;Moustique commun;Culex pipiens;Moustique commun;excel-brut;X
+Insectes;Moustique tigre;Aedes albopictus;Moustique tigre;excel-brut;X
 Insectes;Mouche domestique;Mouche domestique;Mouche domestique;wikipedia;
 Insectes;Mouche tse-tse;Mouche tsé-tsé;Mouche tsé-tsé;wikipedia;
-Insectes;Taon;Tabanidae;Taon;wikipedia;
-Insectes;Puce du chat;Ctenocephalides felis;Puce du chat;wikipedia;
+Insectes;Taon;Tabanidae;Taon;excel-brut;X
+Insectes;Puce du chat;Ctenocephalides felis;Puce du chat;excel-brut;X
 Insectes;Pou de tete;Pou de tête;Pou de tête;wikipedia;
-Insectes;Perce-oreille;Dermaptera;Perce-oreille;wikipedia;
+Insectes;Perce-oreille;Dermaptera;Perce oreille;wikipedia;
 Insectes;Blatte americaine;Blatte américaine;Blatte américaine;wikipedia;
 Insectes;Charancon du ble;Charançon du blé;Charançon du blé;wikipedia;
 Insectes;Doryphore;Doryphore;Doryphore;wikipedia;
 Insectes;Chrysope verte;Chrysope verte;Chrysope verte;wikipedia;
-Insectes;Fourmilion;Myrmeleontidae;Fourmilion;wikipedia;
+Insectes;Fourmilion;Myrmeleontidae;Fourmilion;excel-brut;X
 Insectes;Guepe des figuiers;Agaonidae;Guêpe des figuiers;accents-restaures;
 Insectes;Ephemere;Ephemeroptera;Ephémère;utilisateur;
 Races de chien;Labrador Retriever;Labrador retriever;Labrador retriever;wikipedia;
 Races de chien;Golden Retriever;Golden retriever;Golden retriever;wikipedia;
 Races de chien;Berger allemand;Berger allemand;Berger allemand;wikipedia;
-Races de chien;Berger belge malinois;Malinois (chien);Berger belge malinois;wikipedia;
+Races de chien;Berger belge malinois;Malinois (chien);Berger belge Malinois;accents-restaures;
 Races de chien;Border Collie;Border collie;Border collie;wikipedia;
 Races de chien;Colley;Colley;Colley;wikipedia;
 Races de chien;Caniche;Caniche;Caniche;wikipedia;
@@ -1518,11 +1518,11 @@ Races de chien;Doberman;Dobermann;Doberman;excel-brut;X
 Races de chien;Dogue allemand;Dogue allemand;Dogue allemand;wikipedia;
 Races de chien;Saint-Bernard;Saint-bernard;Saint-bernard;wikipedia;
 Races de chien;Terre-Neuve;Terre-neuve (chien);Terre-neuve;wikipedia;
-Races de chien;Husky siberien;Husky de Sibérie;Husky siberien;wikipedia;
-Races de chien;Malamute d'Alaska;Malamute de l'Alaska;Malamute d'Alaska;wikipedia;
+Races de chien;Husky siberien;Husky de Sibérie;Husky sibérien;accents-restaures;
+Races de chien;Malamute d'Alaska;Malamute de l'Alaska;Malamute d'Alaska;excel-brut;X
 Races de chien;Samoyede;Samoyède (chien);Samoyède;wikipedia;
-Races de chien;Akita Inu;Akita (chien);Akita Inu;wikipedia;
-Races de chien;Shiba Inu;Shiba (chien);Shiba Inu;wikipedia;
+Races de chien;Akita Inu;Akita (chien);Akita Inu;excel-brut;X
+Races de chien;Shiba Inu;Shiba (chien);Shiba Inu;excel-brut;X
 Races de chien;Chow Chow;Chow-chow;Chow-chow;wikipedia;
 Races de chien;Shar Pei;Shar Pei;Shar Pei;wikipedia;
 Races de chien;Basset Hound;Basset hound;Basset hound;wikipedia;
@@ -1539,19 +1539,19 @@ Races de chien;Chihuahua;Chihuahua (chien);Chihuahua;wikipedia;
 Races de chien;Pekinois;Pékinois (chien);Pékinois;wikipedia;
 Races de chien;Carlin;Carlin;Carlin;wikipedia;
 Races de chien;Teckel;Teckel;Teckel;wikipedia;
-Races de chien;Whippet;Lévrier whippet;Whippet;wikipedia;
+Races de chien;Whippet;Lévrier whippet;Whippet;excel-brut;X
 Races de chien;Levrier Afghan;Lévrier afghan;Lévrier afghan;wikipedia;
 Races de chien;Levrier Irlandais;Irish wolfhound;Lévrier irlandais;wikipedia;
 Races de chien;Dalmatien;Dalmatien;Dalmatien;wikipedia;
-Races de chien;Weimaraner;Braque de Weimar;Weimaraner;wikipedia;
-Races de chien;Braque allemand;Braque allemand à poil court;Braque allemand;wikipedia;
+Races de chien;Weimaraner;Braque de Weimar;Weimaraner;excel-brut;X
+Races de chien;Braque allemand;Braque allemand à poil court;Braque allemand;excel-brut;X
 Races de chien;Epagneul Breton;Épagneul breton;Épagneul breton;wikipedia;
 Races de chien;Epagneul Francais;Épagneul français;Épagneul français;wikipedia;
 Races de chien;Setter Anglais;Setter anglais;Setter anglais;wikipedia;
 Races de chien;Setter Irlandais;Setter irlandais rouge;Setter irlandais;wikipedia;
 Races de chien;Pointer Anglais;Pointer anglais;Pointer anglais;wikipedia;
 Races de chien;Berger Australien;Berger australien;Berger australien;wikipedia;
-Races de chien;Berger des Shetland;Shetland (chien);Berger des Shetland;wikipedia;
+Races de chien;Berger des Shetland;Shetland (chien);Berger des Shetland;excel-brut;X
 Races de chien;Berger Blanc Suisse;Berger blanc suisse;Berger blanc suisse;wikipedia;
 Races de chien;Bouvier Bernois;Bouvier bernois;Bouvier bernois;wikipedia;
 Races de chien;Bouvier des Flandres;Bouvier des Flandres;Bouvier des Flandres;wikipedia;
@@ -1570,24 +1570,24 @@ Races de chien;Leonberg;Leonberg (chien);Leonberg;wikipedia;
 Races de chien;Spitz allemand;Spitz allemand;Spitz allemand;wikipedia;
 Races de chien;Spitz japonais;Spitz japonais;Spitz japonais;wikipedia;
 Races de chien;Spitz nain (Pomeranien);Spitz nain;Spitz nain;excel-brut;X
-Races de chien;Papillon (chien);Épagneul nain continental papillon;Papillon;wikipedia;
+Races de chien;Papillon (chien);Épagneul nain continental papillon;Papillon;excel-brut;X
 Races de chien;Lhassa Apso;Lhassa Apso;Lhassa Apso;wikipedia;
 Races de chien;Shih Tzu;Shih tzu;Shih tzu;wikipedia;
-Races de chien;Boston Terrier;Terrier de Boston;Boston Terrier;wikipedia;
+Races de chien;Boston Terrier;Terrier de Boston;Boston Terrier;excel-brut;X
 Races de chien;Griffon Bruxellois;Griffon bruxellois;Griffon bruxellois;wikipedia;
 Races de chien;King Charles Spaniel;King Charles Spaniel;King Charles Spaniel;wikipedia;
 Races de chien;Basenji;Basenji;Basenji;wikipedia;
 Races de chien;Xoloitzcuintle;Xoloitzcuintle;Xoloitzcuintle;wikipedia;
 Races de chien;Chien nu peruvien;Chien nu du Pérou;Chien nu peruvien;excel-brut;X
-Races de chien;Rhodesian Ridgeback;Chien de Rhodésie à crête dorsale;Rhodesian Ridgeback;wikipedia;
+Races de chien;Rhodesian Ridgeback;Chien de Rhodésie à crête dorsale;Rhodesian Ridgeback;excel-brut;X
 Races de chien;Boerboel;Boerboel;Boerboel;wikipedia;
 Races de chien;Kangal;Kangal (ville);Kangal;wikipedia;
-Races de chien;Berger d'Anatolie;Berger Kangal;Berger d'Anatolie;wikipedia;
+Races de chien;Berger d'Anatolie;Berger Kangal;Berger d'Anatolie;excel-brut;X
 Races de chien;Berger de Beauce;Berger de Beauce;Berger de Beauce;wikipedia;
 Races de chien;Berger Picard;Berger picard;Berger picard;wikipedia;
 Races de chien;Barbet;Barbet (chien);Barbet;wikipedia;
 Races de chien;Epagneul Nain Continental;Épagneul nain continental;Épagneul nain continental;wikipedia;
-Races de chien;Scottish Terrier;Terrier écossais;Scottish Terrier;wikipedia;
+Races de chien;Scottish Terrier;Terrier écossais;Scottish Terrier;excel-brut;X
 Races de chien;Cairn Terrier;Cairn terrier;Cairn terrier;wikipedia;
 Races de chien;West Highland White Terrier;West Highland white terrier;West Highland white terrier;wikipedia;
 Races de chien;Sealyham Terrier;Sealyham Terrier;Sealyham Terrier;wikipedia;
@@ -1596,14 +1596,14 @@ Races de chien;Norwich Terrier;Norwich Terrier;Norwich Terrier;wikipedia;
 Races de chien;Skye Terrier;Skye terrier;Skye terrier;wikipedia;
 Races de chien;Border Terrier;Border Terrier;Border Terrier;wikipedia;
 Races de chien;Bedlington Terrier;Bedlington terrier;Bedlington terrier;wikipedia;
-Races de chien;Kerry Blue Terrier;Terrier Kerry Blue;Kerry Blue Terrier;wikipedia;
-Races de chien;Irish Terrier;Terrier irlandais;Irish Terrier;wikipedia;
+Races de chien;Kerry Blue Terrier;Terrier Kerry Blue;Kerry Blue Terrier;excel-brut;X
+Races de chien;Irish Terrier;Terrier irlandais;Irish Terrier;excel-brut;X
 Races de chien;Welsh Terrier;Welsh terrier;Welsh terrier;wikipedia;
 Races de chien;Manchester Terrier;Manchester terrier;Manchester terrier;wikipedia;
 Races de chien;Havanais;Bichon havanais;Havanais;excel-brut;X
 Races de chien;Coton de Tulear;Coton de Tuléar;Coton de Tuléar;wikipedia;
 Races de chien;Berger Hollandais;Berger hollandais;Berger hollandais;wikipedia;
-Races de chien;Briard;Berger de Brie;Briard;wikipedia;
+Races de chien;Briard;Berger de Brie;Briard;excel-brut;X
 Races de chien;Berger polonais de Vallee;Berger polonais de plaine;Berger polonais de Vallée;utilisateur;
 Races de chien;Puli;Puli;Puli;wikipedia;
 Races de chien;Komondor;Komondor;Komondor;wikipedia;
@@ -1613,7 +1613,7 @@ Races de chien;Basset fauve de Bretagne;Basset fauve de Bretagne;Basset fauve de
 Races de chien;Basset bleu de Gascogne;Basset bleu de Gascogne;Basset bleu de Gascogne;wikipedia;
 Races de chien;Grand bleu de Gascogne;Grand bleu de Gascogne;Grand bleu de Gascogne;wikipedia;
 Races de chien;Beagle Harrier;Beagle-harrier;Beagle-harrier;wikipedia;
-Races de chien;Otterhound;Chien à loutre;Otterhound;wikipedia;
+Races de chien;Otterhound;Chien à loutre;Otterhound;excel-brut;X
 Races de chien;Coonhound;Chien noir et feu pour la chasse au raton laveur;Coonhound;excel-brut;X
 Races de chien;Foxhound americain;Foxhound américain;Foxhound américain;wikipedia;
 Races de chien;Foxhound anglais;Foxhound anglais;Foxhound anglais;wikipedia;
@@ -1638,7 +1638,7 @@ Coupes du monde FIFA;Allemagne 2006;Coupe du monde de football 2006;Allemagne 20
 Coupes du monde FIFA;Afrique du Sud 2010;Coupe du monde de football 2010;Afrique du Sud 2010;excel-brut;X
 Coupes du monde FIFA;Bresil 2014;Coupe du monde de football 2014;Brésil 2014;wikipedia;
 Coupes du monde FIFA;Russie 2018;Coupe du monde de football 2018;Russie 2018;excel-brut;X
-Coupes du monde FIFA;Qatar 2022;Coupe du monde de football 2022;Qatar 2022;wikipedia;
+Coupes du monde FIFA;Qatar 2022;Coupe du monde de football 2022;Qatar 2022;excel-brut;X
 Plus grands joueurs de football;Pele;Pelé;Pelé;wikipedia;
 Plus grands joueurs de football;Diego Maradona;Diego Maradona;Diego Maradona;wikipedia;
 Plus grands joueurs de football;Johan Cruyff;Johan Cruyff;Johan Cruyff;wikipedia;
@@ -1651,7 +1651,7 @@ Plus grands joueurs de football;Gerd Muller;Gerd Müller;Gerd Müller;wikipedia;
 Plus grands joueurs de football;Michel Platini;Michel Platini;Michel Platini;wikipedia;
 Plus grands joueurs de football;Zico;Zico;Zico;wikipedia;
 Plus grands joueurs de football;Socrates;Sócrates;Sócrates;wikipedia;
-Plus grands joueurs de football;Falcao;Paulo Roberto Falcão;Falcao;wikipedia;
+Plus grands joueurs de football;Falcao;Paulo Roberto Falcão;Falcão;wikipedia;
 Plus grands joueurs de football;Marco van Basten;Marco van Basten;Marco van Basten;wikipedia;
 Plus grands joueurs de football;Ruud Gullit;Ruud Gullit;Ruud Gullit;wikipedia;
 Plus grands joueurs de football;Frank Rijkaard;Frank Rijkaard;Frank Rijkaard;wikipedia;
@@ -1692,14 +1692,14 @@ Plus grands joueurs de football;Francesco Totti;Francesco Totti;Francesco Totti;
 Plus grands joueurs de football;Alessandro Del Piero;Alessandro Del Piero;Alessandro Del Piero;wikipedia;
 Plus grands joueurs de football;Fabio Cannavaro;Fabio Cannavaro;Fabio Cannavaro;wikipedia;
 Plus grands joueurs de football;Gianluigi Buffon;Gianluigi Buffon;Gianluigi Buffon;wikipedia;
-Plus grands joueurs de football;Xavi Hernandez;Xavi;Xavi Hernandez;wikipedia;
+Plus grands joueurs de football;Xavi Hernandez;Xavi;Xavi Hernández;accents-restaures;
 Plus grands joueurs de football;Andres Iniesta;Andrés Iniesta;Andrés Iniesta;wikipedia;
 Plus grands joueurs de football;Sergio Ramos;Sergio Ramos;Sergio Ramos;wikipedia;
 Plus grands joueurs de football;Iker Casillas;Iker Casillas;Iker Casillas;wikipedia;
 Plus grands joueurs de football;Carles Puyol;Carles Puyol;Carles Puyol;wikipedia;
 Plus grands joueurs de football;David Villa;David Villa;David Villa;wikipedia;
 Plus grands joueurs de football;Fernando Torres;Fernando Torres;Fernando Torres;wikipedia;
-Plus grands joueurs de football;Raul Gonzalez;Raúl (football);Raul Gonzalez;wikipedia;
+Plus grands joueurs de football;Raul Gonzalez;Raúl (football);Raúl González;wikipedia;
 Plus grands joueurs de football;Luis Figo;Luís Figo;Luís Figo;wikipedia;
 Plus grands joueurs de football;Cristiano Ronaldo;Cristiano Ronaldo;Cristiano Ronaldo;wikipedia;
 Plus grands joueurs de football;Lionel Messi;Lionel Messi;Lionel Messi;wikipedia;
@@ -1829,7 +1829,7 @@ Mythologies du monde (hors Grece);Tyr;Týr;Týr;wikipedia;
 Mythologies du monde (hors Grece);Heimdall;Heimdall;Heimdall;wikipedia;
 Mythologies du monde (hors Grece);Frigg;Frigg;Frigg;wikipedia;
 Mythologies du monde (hors Grece);Fenrir;Fenrir;Fenrir;wikipedia;
-Mythologies du monde (hors Grece);Jormungandr;Jörmungand;Jormungandr;wikipedia;
+Mythologies du monde (hors Grece);Jormungandr;Jörmungand;Jörmungandr;accents-restaures;
 Mythologies du monde (hors Grece);Hel (mythologie nordique);Hel (déesse);Hel;excel-brut;X
 Mythologies du monde (hors Grece);Re (dieu egyptien);Rê;Rê;accents-restaures;
 Mythologies du monde (hors Grece);Osiris;Osiris;Osiris;wikipedia;
@@ -1848,7 +1848,7 @@ Mythologies du monde (hors Grece);Vishnu;Vishnou;Vishnu;excel-brut;X
 Mythologies du monde (hors Grece);Shiva;Shiva;Shiva;wikipedia;
 Mythologies du monde (hors Grece);Ganesh;Ganesh;Ganesh;wikipedia;
 Mythologies du monde (hors Grece);Hanuman;Hanumān;Hanumān;wikipedia;
-Mythologies du monde (hors Grece);Durga;Dourga;Durga;wikipedia;
+Mythologies du monde (hors Grece);Durga;Dourga;Durga;excel-brut;X
 Mythologies du monde (hors Grece);Kali;Kali;Kali;wikipedia;
 Mythologies du monde (hors Grece);Lakshmi;Lakshmi;Lakshmi;wikipedia;
 Mythologies du monde (hors Grece);Sarasvati;Sarasvati (déesse);Sarasvati;wikipedia;
@@ -1857,7 +1857,7 @@ Mythologies du monde (hors Grece);Krishna;Krishna;Krishna;wikipedia;
 Mythologies du monde (hors Grece);Rama;Rāma;Rāma;wikipedia;
 Mythologies du monde (hors Grece);Dagda;Dagda;Dagda;wikipedia;
 Mythologies du monde (hors Grece);Morrigan;Morrigan;Morrigan;wikipedia;
-Mythologies du monde (hors Grece);Lugh;Lug (dieu);Lugh;wikipedia;
+Mythologies du monde (hors Grece);Lugh;Lug (dieu);Lugh;excel-brut;X
 Mythologies du monde (hors Grece);Brigid;Brigit;Brigid;excel-brut;X
 Mythologies du monde (hors Grece);Cernunnos;Cernunnos;Cernunnos;wikipedia;
 Mythologies du monde (hors Grece);Amaterasu;Amaterasu;Amaterasu;wikipedia;
@@ -1877,14 +1877,14 @@ Mythologies du monde (hors Grece);Anansi;Anansi;Anansi;wikipedia;
 Mythologies du monde (hors Grece);Pangu;Pangu;Pangu;wikipedia;
 Mythologies du monde (hors Grece);Nuwa;Nuwa;Nuwa;wikipedia;
 Mythologies du monde (hors Grece);Coyote (mythologie amerindienne);Coyote (mythologie);Coyote;excel-brut;X
-Creatures et legendes;Dragon occidental;Dragon européen;Dragon occidental;wikipedia;
-Creatures et legendes;Dragon chinois;Dragon oriental;Dragon chinois;wikipedia;
+Creatures et legendes;Dragon occidental;Dragon européen;Dragon occidental;excel-brut;X
+Creatures et legendes;Dragon chinois;Dragon oriental;Dragon chinois;excel-brut;X
 Creatures et legendes;Phenix;Phénix;Phénix;wikipedia;
 Creatures et legendes;Licorne;Licorne;Licorne;wikipedia;
 Creatures et legendes;Griffon;Griffon (mythologie);Griffon;wikipedia;
 Creatures et legendes;Kraken;Kraken;Kraken;wikipedia;
 Creatures et legendes;Sirene;Sirène (mythologie grecque);Sirène;wikipedia;
-Creatures et legendes;Loup-garou;Lycanthrope;Loup-garou;wikipedia;
+Creatures et legendes;Loup-garou;Lycanthrope;Loup Garou;wikipedia;
 Creatures et legendes;Vampire;Vampire;Vampire;wikipedia;
 Creatures et legendes;Golem;Golem;Golem;wikipedia;
 Creatures et legendes;Chimere;Chimère (mythologie);Chimère;wikipedia;
@@ -1896,19 +1896,19 @@ Creatures et legendes;Yeti;Yéti;Yéti;wikipedia;
 Creatures et legendes;Bigfoot;Bigfoot;Bigfoot;wikipedia;
 Creatures et legendes;Monstre du Loch Ness;Monstre du loch Ness;Monstre du loch Ness;wikipedia;
 Creatures et legendes;Chupacabra;Chupacabra;Chupacabra;wikipedia;
-Creatures et legendes;Mothman;Homme-papillon;Mothman;wikipedia;
+Creatures et legendes;Mothman;Homme-papillon;Mothman;excel-brut;X
 Creatures et legendes;Wendigo;Wendigo;Wendigo;wikipedia;
 Creatures et legendes;Banshee;Banshee;Banshee;wikipedia;
 Creatures et legendes;Leprechaun;Leprechaun;Leprechaun;wikipedia;
 Creatures et legendes;Basilic;Basilic (mythologie);Basilic;wikipedia;
 Creatures et legendes;Salamandre elementaire;Salamandre (animal légendaire);Salamandre elementaire;excel-brut;X
-Creatures et legendes;Roc;Rokh;Roc;wikipedia;
+Creatures et legendes;Roc;Rokh;Roc;excel-brut;X
 Creatures et legendes;Kappa;Kappa (mythologie);Kappa;wikipedia;
 Creatures et legendes;Oni;Oni;Oni;wikipedia;
 Creatures et legendes;Tengu;Tengu (folklore);Tengu;wikipedia;
-Creatures et legendes;Kitsune;Renard dans la culture japonaise;Kitsune;wikipedia;
+Creatures et legendes;Kitsune;Renard dans la culture japonaise;Kitsune;excel-brut;X
 Creatures et legendes;Baba Yaga;Baba Yaga;Baba Yaga;wikipedia;
-Creatures et legendes;Rusalka;Roussalka;Rusalka;wikipedia;
+Creatures et legendes;Rusalka;Roussalka;Rusalka;excel-brut;X
 Creatures et legendes;Selkie;Selkie;Selkie;wikipedia;
 Creatures et legendes;Kelpie;Kelpie;Kelpie;wikipedia;
 Creatures et legendes;Fee (mythologie);Fée;Fée;accents-restaures;
@@ -1926,10 +1926,10 @@ Creatures et legendes;Avalon;Avalon;Avalon;wikipedia;
 Personnages de fiction celebres;Sherlock Holmes;Sherlock Holmes;Sherlock Holmes;wikipedia;
 Personnages de fiction celebres;Dracula;Dracula;Dracula;wikipedia;
 Personnages de fiction celebres;Frankenstein (creature);Monstre de Frankenstein;Frankenstein;excel-brut;X
-Personnages de fiction celebres;Dr Jekyll et Mr Hyde;L'Étrange Cas du docteur Jekyll et de mister Hyde;Dr Jekyll et Mr Hyde;wikipedia;
-Personnages de fiction celebres;Dorian Gray;Le Portrait de Dorian Gray;Dorian Gray;wikipedia;
+Personnages de fiction celebres;Dr Jekyll et Mr Hyde;L'Étrange Cas du docteur Jekyll et de mister Hyde;Dr. Jekyll et Mr. Hyde;wikipedia;
+Personnages de fiction celebres;Dorian Gray;Le Portrait de Dorian Gray;Dorian Gray;excel-brut;X
 Personnages de fiction celebres;Robinson Crusoe;Robinson Crusoé;Robinson Crusoé;wikipedia;
-Personnages de fiction celebres;Gulliver;Les Voyages de Gulliver;Gulliver;wikipedia;
+Personnages de fiction celebres;Gulliver;Les Voyages de Gulliver;Gulliver;excel-brut;X
 Personnages de fiction celebres;Don Quichotte;Don Quichotte;Don Quichotte;wikipedia;
 Personnages de fiction celebres;D'Artagnan;D'Artagnan;D'Artagnan;wikipedia;
 Personnages de fiction celebres;Jean Valjean;Jean Valjean;Jean Valjean;wikipedia;
@@ -1944,7 +1944,7 @@ Personnages de fiction celebres;Peter Pan;Peter Pan;Peter Pan;wikipedia;
 Personnages de fiction celebres;Capitaine Crochet;Capitaine Crochet;Capitaine Crochet;wikipedia;
 Personnages de fiction celebres;Tarzan;Tarzan;Tarzan;wikipedia;
 Personnages de fiction celebres;Sancho Panca;Sancho Panza;Sancho Pança;accents-restaures;
-Personnages de fiction celebres;Ebenezer Scrooge;Un chant de Noël;Ebenezer Scrooge;wikipedia;
+Personnages de fiction celebres;Ebenezer Scrooge;Un chant de Noël;Ebenezer Scrooge;excel-brut;X
 Personnages de fiction celebres;Oliver Twist;Oliver Twist;Oliver Twist;wikipedia;
 Personnages de fiction celebres;Long John Silver;Long John Silver;Long John Silver;wikipedia;
 Personnages de fiction celebres;Frodon Sacquet;Frodon Sacquet;Frodon Sacquet;wikipedia;
@@ -1976,10 +1976,10 @@ Personnages de fiction celebres;Spider-Man;Spider-Man;Spider-Man;wikipedia;
 Personnages de fiction celebres;Iron Man;Iron Man (film, 2008);Iron Man;wikipedia;
 Personnages de fiction celebres;Captain America;Captain America;Captain America;wikipedia;
 Personnages de fiction celebres;Hulk;Hulk;Hulk;wikipedia;
-Personnages de fiction celebres;Thor (Marvel);Thor (comics);Thor;wikipedia;
+Personnages de fiction celebres;Thor (Marvel);Thor (comics);Thor;excel-brut;X
 Personnages de fiction celebres;Wolverine;Wolverine;Wolverine;wikipedia;
 Personnages de fiction celebres;Black Panther;Black Panther (film);Black Panther;wikipedia;
-Personnages de fiction celebres;Doctor Strange;Docteur Strange;Doctor Strange;wikipedia;
+Personnages de fiction celebres;Doctor Strange;Docteur Strange;Doctor Strange;excel-brut;X
 Personnages de fiction celebres;Deadpool;Deadpool;Deadpool;wikipedia;
 Personnages de fiction celebres;Joker (personnage);Joker (personnage);Joker;wikipedia;
 Personnages de fiction celebres;Harley Quinn;Harley Quinn;Harley Quinn;wikipedia;
@@ -1993,7 +1993,7 @@ Personnages de fiction celebres;Professeur X;Professeur Xavier;Professeur X;exce
 Personnages de fiction celebres;Magneto;Magnéto (comics);Magnéto;wikipedia;
 Personnages de fiction celebres;Asterix;Astérix;Astérix;wikipedia;
 Personnages de fiction celebres;Obelix;Obélix;Obélix;wikipedia;
-Personnages de fiction celebres;Tintin;Les Aventures de Tintin;Tintin;wikipedia;
+Personnages de fiction celebres;Tintin;Les Aventures de Tintin;Tintin;excel-brut;X
 Personnages de fiction celebres;Capitaine Haddock;Capitaine Haddock;Capitaine Haddock;wikipedia;
 Personnages de fiction celebres;Lucky Luke;Lucky Luke;Lucky Luke;wikipedia;
 Personnages de fiction celebres;Gaston Lagaffe;Gaston Lagaffe;Gaston Lagaffe;wikipedia;
@@ -2008,7 +2008,7 @@ Personnages de fiction celebres;Aladdin;Aladdin (Disney);Aladdin;wikipedia;
 Personnages de fiction celebres;Le Genie;Génie (Disney);Génie;wikipedia;
 Personnages de fiction celebres;Ariel (La Petite Sirene);Ariel (Disney);Ariel;excel-brut;X
 Personnages de fiction celebres;Elsa (La Reine des neiges);Elsa (Disney);Elsa;excel-brut;X
-Personnages de fiction celebres;Woody (Toy Story);Shérif Woody;Woody;wikipedia;
+Personnages de fiction celebres;Woody (Toy Story);Shérif Woody;Woody;excel-brut;X
 Personnages de fiction celebres;Buzz l'Eclair;Buzz l'Éclair;Buzz l'Éclair;wikipedia;
 Personnages de fiction celebres;Nemo (poisson);Nemo (poisson);Nemo;wikipedia;
 Personnages de fiction celebres;Shrek;Shrek (personnage);Shrek;wikipedia;
@@ -2025,13 +2025,13 @@ Personnages de fiction celebres;Luigi (personnage);Luigi;Luigi;excel-brut;X
 Personnages de fiction celebres;Bowser;Bowser;Bowser;wikipedia;
 Personnages de fiction celebres;Princesse Peach;Princesse Peach;Princesse Peach;wikipedia;
 Personnages de fiction celebres;Link (personnage);Link (The Legend of Zelda);Link;excel-brut;X
-Personnages de fiction celebres;Zelda (personnage);Princesse Zelda;Zelda;wikipedia;
+Personnages de fiction celebres;Zelda (personnage);Princesse Zelda;Zelda;excel-brut;X
 Personnages de fiction celebres;Ganon;Ganon;Ganon;wikipedia;
-Personnages de fiction celebres;Sonic the Hedgehog;Sonic;Sonic the Hedgehog;wikipedia;
+Personnages de fiction celebres;Sonic the Hedgehog;Sonic;Sonic the Hedgehog;excel-brut;X
 Personnages de fiction celebres;Pac-Man;Pac-Man;Pac-Man;wikipedia;
 Personnages de fiction celebres;Kirby (personnage);Kirby (personnage);Kirby;wikipedia;
 Personnages de fiction celebres;Pikachu;Pikachu;Pikachu;wikipedia;
-Personnages de fiction celebres;Master Chief;Spartan John-117;Master Chief;wikipedia;
+Personnages de fiction celebres;Master Chief;Spartan John-117;Master Chief;excel-brut;X
 Personnages de fiction celebres;Lara Croft;Lara Croft;Lara Croft;wikipedia;
 Personnages de fiction celebres;Solid Snake;Solid Snake;Solid Snake;wikipedia;
 Personnages de fiction celebres;Kratos;Kratos (God of War);Kratos;wikipedia;
@@ -2046,7 +2046,7 @@ Personnages de fiction celebres;Donkey Kong;Donkey Kong (personnage);Donkey Kong
 Personnages de fiction celebres;Yoshi;Yoshi;Yoshi;wikipedia;
 Personnages de fiction celebres;Crash Bandicoot;Crash Bandicoot (personnage);Crash Bandicoot;wikipedia;
 Personnages de fiction celebres;Spyro le Dragon;Spyro;Spyro le Dragon;excel-brut;X
-Personnages de fiction celebres;Agent 47;47 (Hitman);Agent 47;wikipedia;
+Personnages de fiction celebres;Agent 47;47 (Hitman);Agent 47;excel-brut;X
 Personnages de fiction celebres;Nathan Drake;Nathan Drake (personnage);Nathan Drake;wikipedia;
 Personnages de fiction celebres;Aloy;Aloy;Aloy;wikipedia;
 Personnages de fiction celebres;Arthur Morgan;Arthur Morgan (Red Dead Redemption II);Arthur Morgan;wikipedia;
@@ -2057,26 +2057,26 @@ Personnages de fiction celebres;Naruto Uzumaki;Naruto Uzumaki;Naruto Uzumaki;wik
 Personnages de fiction celebres;Sasuke Uchiha;Sasuke Uchiwa;Sasuke Uchiha;excel-brut;X
 Personnages de fiction celebres;Luffy;Monkey D. Luffy;Luffy;excel-brut;X
 Personnages de fiction celebres;Zoro;Zoro;Zoro;wikipedia;
-Personnages de fiction celebres;Sangohan;Son Gohan;Sangohan;wikipedia;
+Personnages de fiction celebres;Sangohan;Son Gohan;Sangohan;excel-brut;X
 Personnages de fiction celebres;Vegeta;Vegeta;Vegeta;wikipedia;
 Personnages de fiction celebres;Ichigo Kurosaki;Ichigo Kurosaki;Ichigo Kurosaki;wikipedia;
 Personnages de fiction celebres;Eren Yeager;Eren Jäger;Eren Yeager;excel-brut;X
 Personnages de fiction celebres;Light Yagami;Light Yagami;Light Yagami;wikipedia;
 Personnages de fiction celebres;L (Death Note);L (Death Note);L;wikipedia;
-Personnages de fiction celebres;Edward Elric;Fullmetal Alchemist;Edward Elric;wikipedia;
+Personnages de fiction celebres;Edward Elric;Fullmetal Alchemist;Edward Elric;excel-brut;X
 Personnages de fiction celebres;Totoro;Totoro (personnage);Totoro;wikipedia;
 Personnages de fiction celebres;Sailor Moon;Sailor Moon;Sailor Moon;wikipedia;
-Personnages de fiction celebres;Astroboy;Astro, le petit robot;Astroboy;wikipedia;
+Personnages de fiction celebres;Astroboy;Astro, le petit robot;AstroBoy;wikipedia;
 Personnages de fiction celebres;Doraemon;Doraemon;Doraemon;wikipedia;
 Personnages de fiction celebres;James Bond;James Bond;James Bond;wikipedia;
-Personnages de fiction celebres;Dark Vador;Anakin Skywalker;Dark Vador;wikipedia;
+Personnages de fiction celebres;Dark Vador;Anakin Skywalker;Dark Vador;excel-brut;X
 Personnages de fiction celebres;Luke Skywalker;Luke Skywalker;Luke Skywalker;wikipedia;
 Personnages de fiction celebres;Han Solo;Han Solo;Han Solo;wikipedia;
-Personnages de fiction celebres;Princesse Leia;Leia Organa;Princesse Leia;wikipedia;
+Personnages de fiction celebres;Princesse Leia;Leia Organa;Princesse Leia;excel-brut;X
 Personnages de fiction celebres;Yoda;Yoda;Yoda;wikipedia;
 Personnages de fiction celebres;Indiana Jones;Indiana Jones;Indiana Jones;wikipedia;
 Personnages de fiction celebres;Rocky Balboa;Rocky Balboa;Rocky Balboa;wikipedia;
-Personnages de fiction celebres;Terminator;T-800;Terminator;wikipedia;
+Personnages de fiction celebres;Terminator;T-800;Terminator;excel-brut;X
 Personnages de fiction celebres;Ellen Ripley;Ellen Ripley;Ellen Ripley;wikipedia;
 Personnages de fiction celebres;Neo (Matrix);Neo (Matrix);Neo;wikipedia;
 Personnages de fiction celebres;Forrest Gump;Forrest Gump (personnage);Forrest Gump;wikipedia;
@@ -2086,8 +2086,8 @@ Personnages de fiction celebres;Freddy Krueger;Freddy Krueger;Freddy Krueger;wik
 Personnages de fiction celebres;Jason Voorhees;Jason Voorhees;Jason Voorhees;wikipedia;
 Personnages de fiction celebres;Michael Myers;Michael Myers;Michael Myers;wikipedia;
 Personnages de fiction celebres;Jack Sparrow;Jack Sparrow;Jack Sparrow;wikipedia;
-Personnages de fiction celebres;Wednesday Addams;Mercredi Addams;Wednesday Addams;wikipedia;
-Personnages de fiction celebres;Gomez Addams;La Famille Addams (série télévisée, 1964);Gomez Addams;wikipedia;
+Personnages de fiction celebres;Wednesday Addams;Mercredi Addams;Wednesday Addams;excel-brut;X
+Personnages de fiction celebres;Gomez Addams;La Famille Addams (série télévisée, 1964);Gomez Addams;excel-brut;X
 Personnages de fiction celebres;Walter White;Walter White (personnage);Walter White;wikipedia;
 Personnages de fiction celebres;Tony Soprano;Tony Soprano;Tony Soprano;wikipedia;
 Personnages de fiction celebres;Eleven (Stranger Things);Onze (Stranger Things);Eleven;excel-brut;X
@@ -2129,7 +2129,7 @@ Jeux video cultes;Doom (jeu video);Doom (jeu vidéo, 1993);Doom;excel-brut;X
 Jeux video cultes;Wolfenstein 3D;Wolfenstein 3D;Wolfenstein 3D;wikipedia;
 Jeux video cultes;Civilization;Civilization (jeu vidéo);Civilization;wikipedia;
 Jeux video cultes;Warcraft II;Warcraft II: Tides of Darkness;Warcraft II;excel-brut;X
-Jeux video cultes;Command & Conquer;Command and Conquer;Command & Conquer;wikipedia;
+Jeux video cultes;Command & Conquer;Command and Conquer;Command & Conquer;excel-brut;X
 Jeux video cultes;Final Fantasy VII;Final Fantasy VII;Final Fantasy VII;wikipedia;
 Jeux video cultes;Super Mario 64;Super Mario 64;Super Mario 64;wikipedia;
 Jeux video cultes;The Legend of Zelda: Ocarina of Time;The Legend of Zelda: Ocarina of Time;The Legend of Zelda: Ocarina of Time;wikipedia;
@@ -2147,7 +2147,7 @@ Jeux video cultes;Age of Empires;Age of Empires (jeu vidéo);Age of Empires;wiki
 Jeux video cultes;Halo: Combat Evolved;Halo: Combat Evolved;Halo: Combat Evolved;wikipedia;
 Jeux video cultes;Grand Theft Auto: San Andreas;Grand Theft Auto: San Andreas;Grand Theft Auto: San Andreas;wikipedia;
 Jeux video cultes;World of Warcraft;World of Warcraft;World of Warcraft;wikipedia;
-Jeux video cultes;The Sims;Les Sims;The Sims;wikipedia;
+Jeux video cultes;The Sims;Les Sims;The Sims;excel-brut;X
 Jeux video cultes;Half-Life 2;Half-Life 2;Half-Life 2;wikipedia;
 Jeux video cultes;Shadow of the Colossus;Shadow of the Colossus;Shadow of the Colossus;wikipedia;
 Jeux video cultes;God of War;God of War;God of War;wikipedia;
@@ -2181,7 +2181,7 @@ Jeux video cultes;Cuphead;Cuphead;Cuphead;wikipedia;
 Jeux video cultes;Dishonored;Dishonored;Dishonored;wikipedia;
 Jeux video cultes;Bloodborne;Bloodborne;Bloodborne;wikipedia;
 Jeux video cultes;Elden Ring;Elden Ring;Elden Ring;wikipedia;
-Jeux video cultes;Baldur's Gate 3;Baldur's Gate III;Baldur's Gate 3;wikipedia;
+Jeux video cultes;Baldur's Gate 3;Baldur's Gate III;Baldur's Gate 3;excel-brut;X
 Jeux video cultes;Hades;Hades (jeu vidéo);Hades;wikipedia;
 Jeux video cultes;Outer Wilds;Outer Wilds;Outer Wilds;wikipedia;
 Jeux video cultes;Disco Elysium;Disco Elysium;Disco Elysium;wikipedia;
@@ -2205,21 +2205,21 @@ Films cultes;Le Magicien d'Oz;Le Magicien d'Oz (film, 1939);Magicien d'Oz;wikipe
 Films cultes;Citizen Kane;Citizen Kane;Citizen Kane;wikipedia;
 Films cultes;Casablanca;Casablanca (film);Casablanca;wikipedia;
 Films cultes;La Vie est belle;La vie est belle (film, 1946);Vie est belle;wikipedia;
-Films cultes;Sunset Boulevard;Boulevard du crépuscule;Sunset Boulevard;wikipedia;
+Films cultes;Sunset Boulevard;Boulevard du crépuscule;Sunset Boulevard;excel-brut;X
 Films cultes;Chantons sous la pluie;Chantons sous la pluie;Chantons sous la pluie;wikipedia;
 Films cultes;Fenetre sur cour;Fenêtre sur cour;Fenêtre sur cour;wikipedia;
-Films cultes;Vertigo;Sueurs froides;Vertigo;wikipedia;
+Films cultes;Vertigo;Sueurs froides;Vertigo;excel-brut;X
 Films cultes;Douze Hommes en colere;Douze Hommes en colère (film);Douze Hommes en colère;wikipedia;
 Films cultes;Certains l'aiment chaud;Certains l'aiment chaud;Certains l'aiment chaud;wikipedia;
 Films cultes;A bout de souffle;À bout de souffle;À bout de souffle;wikipedia;
-Films cultes;Psychose (film, 1960);Psychose (film);Psychose;wikipedia;
+Films cultes;Psychose (film, 1960);Psychose (film);Psychose;excel-brut;X
 Films cultes;Lawrence d'Arabie;Lawrence d'Arabie (film);Lawrence d'Arabie;wikipedia;
 Films cultes;2001 l'Odyssee de l'espace;2001, l'Odyssée de l'espace;2001, l'Odyssée de l'espace;wikipedia;
 Films cultes;Le Bon la Brute et le Truand;Le Bon, la Brute et le Truand;Bon, la Brute et le Truand;wikipedia;
 Films cultes;La Grande Vadrouille;La Grande Vadrouille;Grande Vadrouille;wikipedia;
 Films cultes;Bonnie and Clyde;Bonnie and Clyde (chanson);Bonnie and Clyde;wikipedia;
 Films cultes;Le Parrain;Le Parrain (film);Parrain;wikipedia;
-Films cultes;Le Parrain 2;Le Parrain, 2e partie;Parrain 2;wikipedia;
+Films cultes;Le Parrain 2;Le Parrain, 2e partie;Parrain 2;excel-brut;X
 Films cultes;Orange mecanique;Orange mécanique;Orange mécanique;wikipedia;
 Films cultes;L'Exorciste;L'Exorciste (film);Exorciste;wikipedia;
 Films cultes;Les Dents de la mer;Les Dents de la mer;Dents de la mer;wikipedia;
@@ -2234,7 +2234,7 @@ Films cultes;Blade Runner;Blade Runner (film);Blade Runner;wikipedia;
 Films cultes;Retour vers le futur;Retour vers le futur;Retour vers le futur;wikipedia;
 Films cultes;Les Aventuriers de l'arche perdue;Les Aventuriers de l'arche perdue;Aventuriers de l'arche perdue;wikipedia;
 Films cultes;Terminator;Terminator;Terminator;wikipedia;
-Films cultes;Ghostbusters;SOS Fantômes;Ghostbusters;wikipedia;
+Films cultes;Ghostbusters;SOS Fantômes;Ghostbusters;excel-brut;X
 Films cultes;Die Hard;Die Hard;Die Hard;wikipedia;
 Films cultes;Batman (1989);Batman (film, 1989);Batman;excel-brut;X
 Films cultes;Le Cercle des poetes disparus;Le Cercle des poètes disparus;Cercle des poètes disparus;wikipedia;
@@ -2264,16 +2264,16 @@ Films cultes;Old Boy;Old Boy (film, 2003);Old Boy;wikipedia;
 Films cultes;Eternal Sunshine of the Spotless Mind;Eternal Sunshine of the Spotless Mind;Eternal Sunshine of the Spotless Mind;wikipedia;
 Films cultes;No Country for Old Men;No Country for Old Men;No Country for Old Men;wikipedia;
 Films cultes;There Will Be Blood;There Will Be Blood;There Will Be Blood;wikipedia;
-Films cultes;The Dark Knight;The Dark Knight : Le Chevalier noir;The Dark Knight;wikipedia;
-Films cultes;Pan's Labyrinth;Le Labyrinthe de Pan;Pan's Labyrinth;wikipedia;
+Films cultes;The Dark Knight;The Dark Knight : Le Chevalier noir;The Dark Knight;excel-brut;X
+Films cultes;Pan's Labyrinth;Le Labyrinthe de Pan;Pan's Labyrinth;excel-brut;X
 Films cultes;WALL-E;WALL-E;WALL-E;wikipedia;
 Films cultes;Inglourious Basterds;Inglourious Basterds;Inglourious Basterds;wikipedia;
 Films cultes;Inception;Inception;Inception;wikipedia;
 Films cultes;Interstellar;Interstellar;Interstellar;wikipedia;
-Films cultes;Whiplash (film);Whiplash (film, 2014);Whiplash;wikipedia;
+Films cultes;Whiplash (film);Whiplash (film, 2014);Whiplash;excel-brut;X
 Films cultes;La La Land;La La Land (film);La Land;wikipedia;
 Films cultes;Mad Max: Fury Road;Mad Max: Fury Road;Mad Max: Fury Road;wikipedia;
-Films cultes;Parasite (film);Parasite (film, 2019);Parasite;wikipedia;
+Films cultes;Parasite (film);Parasite (film, 2019);Parasite;excel-brut;X
 Films cultes;Get Out (film);Get Out (film);Get Out;wikipedia;
 Films cultes;Blade Runner 2049;Blade Runner 2049;Blade Runner 2049;wikipedia;
 Films cultes;Dunkerque;Dunkerque (film, 2017);Dunkerque;wikipedia;
@@ -2292,23 +2292,23 @@ Films cultes;Princesse Mononoke;Princesse Mononoké;Princesse Mononoké;wikipedi
 Films cultes;Le Voyage de Chihiro;Le Voyage de Chihiro;Voyage de Chihiro;wikipedia;
 Films cultes;Le Chateau ambulant;Le Château ambulant;Château ambulant;wikipedia;
 Films cultes;Le Chateau dans le ciel;Le Château dans le ciel;Château dans le ciel;wikipedia;
-Films cultes;Les 400 Coups;Les Quatre Cents Coups;400 Coups;wikipedia;
+Films cultes;Les 400 Coups;Les Quatre Cents Coups;400 coups;wikipedia;
 Films cultes;Rashomon;Rashōmon (film, 1950);Rashōmon;wikipedia;
 Films cultes;La Dolce Vita;La dolce vita;Dolce vita;wikipedia;
-Films cultes;8 1/2;Huit et demi;8 1/2;wikipedia;
+Films cultes;8 1/2;Huit et demi;8 1/2;excel-brut;X
 Films cultes;Amarcord;Amarcord;Amarcord;wikipedia;
 Films cultes;Solaris (film, 1972);Solaris (film, 1972);Solaris;wikipedia;
 Films cultes;Andrei Roublev;Andreï Roublev (film);Andreï Roublev;wikipedia;
-Films cultes;Tokyo Story;Voyage à Tokyo;Tokyo Story;wikipedia;
+Films cultes;Tokyo Story;Voyage à Tokyo;Tokyo Story;excel-brut;X
 Films cultes;Vivre (film, 1952);Vivre (film, 1952);Vivre;wikipedia;
 Films cultes;La Bataille d'Alger;La Bataille d'Alger;Bataille d'Alger;wikipedia;
 Films cultes;La Haine;La Haine;Haine;wikipedia;
-Films cultes;Amores Perros;Amours chiennes;Amores Perros;wikipedia;
+Films cultes;Amores Perros;Amours chiennes;Amores Perros;excel-brut;X
 Films cultes;La Vie d'Adele;La Vie d'Adèle : Chapitres 1 et 2;Vie d'Adele;excel-brut;X
 Films cultes;The Truman Show;The Truman Show;The Truman Show;wikipedia;
 Films cultes;Gone Girl;Gone Girl;Gone Girl;wikipedia;
 Films cultes;Zodiac (film);Zodiac (film);Zodiac;wikipedia;
 Films cultes;The Social Network;The Social Network;The Social Network;wikipedia;
-Films cultes;The Handmaiden;Mademoiselle (film, 2016);The Handmaiden;wikipedia;
+Films cultes;The Handmaiden;Mademoiselle (film, 2016);The Handmaiden;excel-brut;X
 Films cultes;Memories of Murder;Memories of Murder;Memories of Murder;wikipedia;
-Films cultes;Train to Busan;Dernier train pour Busan;Train to Busan;wikipedia;
+Films cultes;Train to Busan;Dernier train pour Busan;Train to Busan;excel-brut;X
