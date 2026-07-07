@@ -4,11 +4,12 @@
 import { etat, sauvegarder } from './etat.js';
 import { config } from './config.js';
 import { donnees } from './donnees.js';
+import { vitesseTotale, rejouerStation } from './station.js';
 
-// Point d'entrée UNIQUE de la vitesse — la phase C le branchera sur
-// boost_module_1 × boost_module_2 × boost_module_3. Toujours ≥ 1.
+// Point d'entrée UNIQUE de la vitesse : produit des boosts des 3 modules de
+// la Station de Recherche (chacun ≥ 1).
 export function getVitesseTotale() {
-  return 1;
+  return vitesseTotale();
 }
 
 export function initPaquets() {
@@ -18,22 +19,22 @@ export function initPaquets() {
   rattraperPaquets();
 }
 
-// Fait avancer le chargement selon le temps réellement écoulé. La vitesse
-// s'applique à la progression restante : un changement de vitesse en cours
-// de chargement ne repart jamais de zéro.
+// Fait avancer le chargement en suivant le replay de la Station : chaque pas
+// simulé applique la vitesse RÉELLE de ce pas (les boosts évoluent pendant
+// l'absence — stock qui s'épuise, instances qui expirent…). La vitesse
+// s'applique à la progression restante : jamais de retour à zéro.
 export function rattraperPaquets() {
   const p = etat.paquets;
   if (!p) return;
-  const maintenant = Date.now();
-  const dt = Math.max(0, (maintenant - p.lastTs) / 1000);
-  if (dt === 0) return;
   const duree = config.get('dureeBaseSecondes');
-  p.progression += dt * getVitesseTotale() / duree;
-  while (p.progression >= 1) {
-    p.prets += 1;                 // le suivant démarre automatiquement derrière
-    p.progression -= 1;
-  }
-  p.lastTs = maintenant;
+  rejouerStation((dt, vitesse) => {
+    p.progression += dt * vitesse / duree;
+    while (p.progression >= 1) {
+      p.prets += 1;               // le suivant démarre automatiquement derrière
+      p.progression -= 1;
+    }
+  });
+  p.lastTs = Date.now();
   sauvegarder();
 }
 

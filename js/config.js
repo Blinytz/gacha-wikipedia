@@ -36,6 +36,8 @@ export const DEFAUTS = {
     aide: 'Intervalle (s) entre deux mises à jour du boost affiché.' },
   dureeMoyenneFenetreStabilite: { valeur: 18000, section: 'Module 1 — Calibrage 3D',
     aide: 'Intervalle moyen (s) entre deux fenêtres de stabilité (5h = 18000).' },
+  dureeFenetreStabilite: { valeur: 600, section: 'Module 1 — Calibrage 3D',
+    aide: "Durée de base (s) d'une fenêtre de stabilité normale (jackpot ×2-4, turbulence ×1-2)." },
   probabiliteEvenementRadical: { valeur: 0.12, section: 'Module 1 — Calibrage 3D',
     aide: "Chance qu'une fenêtre soit radicale (jackpot ou turbulence) plutôt que normale." },
   energieMax: { valeur: 10000, section: 'Module 1 — Calibrage 3D',

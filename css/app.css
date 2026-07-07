@@ -468,6 +468,68 @@ body {
   border: 1px solid #ffffff22; border-radius: 10px; padding: 10px 12px; font-size: 15px;
 }
 
+/* ---------- Station de Recherche ---------- */
+.entete-station { padding: 12px 14px; }
+.vitesse-totale {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-weight: 700; font-size: 15px; margin-bottom: 10px;
+}
+.vitesse-totale b { font-size: 22px; color: var(--or); }
+.boosts-modules { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+.chip-module {
+  background: var(--fond-3); color: var(--texte-doux);
+  border: 1px solid #ffffff18; border-radius: 10px;
+  padding: 8px 4px; font-size: 11px; font-weight: 700; cursor: pointer;
+  display: flex; flex-direction: column; gap: 2px; align-items: center;
+}
+.chip-module b { font-size: 14px; color: var(--texte); }
+.chip-module.actif { border-color: var(--accent); background: #7c5cff22; color: var(--texte); }
+
+.annonce-fenetre {
+  background: #ffffff0a; border: 1px dashed #ffffff22; border-radius: 10px;
+  padding: 8px 12px; font-size: 13px; color: var(--texte-doux); margin: 4px 0 12px;
+}
+.bloc-signal { margin-bottom: 14px; }
+.libelle-jauge {
+  display: flex; justify-content: space-between; font-size: 13px;
+  color: var(--texte-doux); margin-bottom: 5px;
+}
+.jauge-signal, .jauge-energie {
+  height: 16px; background: #0d0d16; border: 1px solid #ffffff14;
+  border-radius: 999px; overflow: hidden;
+}
+.jauge-signal div {
+  height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, #2b6b8f, var(--accent-2));
+  transition: width .9s linear;
+  box-shadow: 0 0 10px #46c8ff66;
+}
+.jauge-energie div {
+  height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, #7a5c10, var(--or));
+  transition: width .9s linear;
+}
+.ligne-boost-m1 { font-size: 13px; color: var(--texte-doux); margin-top: 8px; }
+.ligne-boost-m1 b { color: var(--or); font-size: 16px; margin: 0 4px; }
+
+.ligne-curseur {
+  display: flex; align-items: center; gap: 10px; padding: 7px 0;
+}
+.nom-curseur { width: 52px; font-size: 13px; font-weight: 700; color: var(--accent-2); }
+.valeur-curseur { width: 44px; text-align: right; font-size: 13px; font-weight: 700; }
+.ligne-curseur input[type=range] {
+  flex: 1; appearance: none; height: 6px; border-radius: 3px;
+  background: #ffffff1c; outline: none;
+}
+.ligne-curseur input[type=range]::-webkit-slider-thumb {
+  appearance: none; width: 26px; height: 26px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border: 2px solid #fff3; cursor: pointer;
+}
+.curseur-energie input[type=range]::-webkit-slider-thumb {
+  background: linear-gradient(135deg, #b8860b, var(--or));
+}
+
 /* vente de doublons (détail de carte) */
 .panneau-vente { width: 100%; text-align: center; }
 .btn-vendre {

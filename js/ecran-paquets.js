@@ -20,8 +20,10 @@ export function rendreEcranPaquets(section, options = {}) {
 
   // Pendant le tick 1s, ne rafraîchir que les valeurs (pas de re-render DOM
   // complet, sinon les clics/animations seraient interrompus).
-  if (options.tick && section.dataset.rendu === 'v6') {
+  if (options.tick && section.dataset.rendu === 'v7') {
     section.querySelector('#temps-restant').textContent = formaterDuree(reste);
+    section.querySelector('#vitesse-paquets').textContent =
+      `×${getVitesseTotale().toFixed(2)}`;
     section.querySelector('#pct-paquet').textContent = `${pct}%`;
     const cercle = section.querySelector('#cercle-progres');
     cercle.style.strokeDashoffset = String(283 * (1 - p.progression));
@@ -30,7 +32,7 @@ export function rendreEcranPaquets(section, options = {}) {
     section.querySelector('#file-prets').classList.toggle('vide', p.prets === 0);
     return;
   }
-  section.dataset.rendu = 'v6';
+  section.dataset.rendu = 'v7';
 
   section.innerHTML = `
     <div class="carte-panneau panneau-chargement">
@@ -48,7 +50,7 @@ export function rendreEcranPaquets(section, options = {}) {
       </div>
       <p class="texte-doux centre">
         Prêt dans <b id="temps-restant">${formaterDuree(reste)}</b><br>
-        Vitesse de recherche : <b>×${getVitesseTotale().toFixed(2)}</b>
+        Vitesse de recherche : <b id="vitesse-paquets">×${getVitesseTotale().toFixed(2)}</b>
       </p>
     </div>
 

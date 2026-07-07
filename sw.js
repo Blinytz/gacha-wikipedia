@@ -9,7 +9,8 @@ const COQUILLE = [
   './', './index.html', './manifest.json', './css/app.css',
   './js/app.js', './js/etat.js', './js/config.js', './js/donnees.js',
   './js/ui.js', './js/eclats.js', './js/carte.js', './js/paquets.js',
-  './js/vente.js', './js/ecran-paquets.js',
+  './js/vente.js', './js/station.js', './js/station-m1.js',
+  './js/station-m2.js', './js/station-m3.js', './js/ecran-paquets.js',
   './js/ecran-collection.js', './js/ecran-station.js', './js/ecran-reglages.js',
   './data/collections.json',
   './icons/icon-192.png', './icons/icon-512.png',
@@ -35,7 +36,9 @@ self.addEventListener('fetch', (ev) => {
   const req = ev.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
   ev.respondWith(
-    fetch(req)
+    // cache: 'no-cache' force la revalidation HTTP — évite de servir un module
+    // JS périmé après une mise à jour (le repli hors-ligne reste le cache SW).
+    fetch(req, { cache: 'no-cache' })
       .then(rep => {
         if (rep.ok) {
           const copie = rep.clone();

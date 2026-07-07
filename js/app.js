@@ -5,7 +5,8 @@ import { chargerDonnees, donnees } from './donnees.js';
 import { formaterNombre } from './ui.js';
 import { rendreEcranPaquets, tickPaquets } from './ecran-paquets.js';
 import { rendreEcranCollection } from './ecran-collection.js';
-import { rendreEcranStation } from './ecran-station.js';
+import { rendreEcranStation, majStationUI } from './ecran-station.js';
+import { initStation } from './station.js';
 import { rendreEcranReglages } from './ecran-reglages.js';
 import { initEclats, tickEclats, tauxActuel } from './eclats.js';
 import { majEclatsUI } from './ecran-reglages.js';
@@ -48,6 +49,7 @@ async function demarrer() {
   document.getElementById('chargement').remove();
 
   initEclats();          // création ou rattrapage hors-ligne du taux
+  initStation();         // création de la Station (rattrapage via tickPaquets)
 
   for (const btn of document.querySelectorAll('#navbar button')) {
     btn.addEventListener('click', () => afficherEcran(btn.dataset.ecran));
@@ -67,6 +69,9 @@ async function demarrer() {
     }
     if (ecranActif === 'reglages') {
       majEclatsUI(document.getElementById('ecran-reglages'));
+    }
+    if (ecranActif === 'station') {
+      majStationUI(document.getElementById('ecran-station'));
     }
     rafraichirEntete();
   }, 1000);
