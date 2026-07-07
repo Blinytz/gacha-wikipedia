@@ -80,6 +80,10 @@ export const DEFAUTS = {
     aide: 'Borne haute du taux de conversion Durée.' },
   vitesseDeriveTauxConversion: { valeur: 21600, section: 'Module 3 — Marché',
     aide: 'Durée caractéristique (s) de dérive des taux de conversion (6h = 21600).' },
+  echelleIntensiteM3: { valeur: 0.005, section: 'Module 3 — Marché',
+    aide: 'Intensité de boost obtenue par unité de capital engagée (à taux ×1).' },
+  echelleDureeM3: { valeur: 120, section: 'Module 3 — Marché',
+    aide: 'Secondes de durée de boost par unité de capital engagée (à taux ×1).' },
 
   // --- Éclats
   tauxEclatsMin: { valeur: 0.7, section: 'Éclats',

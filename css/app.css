@@ -551,6 +551,44 @@ body {
   transition: width .9s linear;
 }
 
+/* Station — Module 3 */
+.panneau-indice h3 { margin: 0; font-size: 15px; }
+.panneau-indice h3 small { color: var(--texte-doux); font-size: 10px; font-weight: 600; }
+.entete-indice {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 8px;
+}
+.entete-indice > b { font-size: 18px; color: var(--accent-2); }
+.graphe-indice {
+  width: 100%; height: 74px; background: #0d0d16;
+  border: 1px solid #ffffff10; border-radius: 8px; display: block;
+}
+.courbe-indice {
+  fill: none; stroke: var(--accent-2); stroke-width: 1.6;
+  stroke-linejoin: round;
+}
+.ligne-mm { stroke: #ffffff38; stroke-dasharray: 4 4; stroke-width: 1; }
+.ligne-portefeuille { font-size: 13px; color: var(--texte-doux); margin: 8px 0; }
+.gain { color: #6dff9e; }
+.perte { color: var(--danger); }
+.rangee-trading { display: flex; gap: 8px; align-items: center; }
+.champ-pct {
+  width: 64px; background: var(--fond); color: var(--texte);
+  border: 1px solid #ffffff22; border-radius: 8px; padding: 8px; font-size: 15px;
+  text-align: right;
+}
+.champ-pct.large { width: 100%; text-align: left; }
+.pct-symbole { color: var(--texte-doux); }
+.btn-mini { flex: 1; padding: 9px 6px; font-size: 13px; }
+.liste-echeances { margin: 6px 0 0; padding-left: 16px; font-size: 13px; }
+.liste-echeances li { margin-bottom: 9px; line-height: 1.4; }
+.detail-echeance { color: var(--texte-doux); font-size: 12px; }
+.ligne-histo { color: var(--texte-doux); }
+.titre-histo { font-size: 13px; margin: 12px 0 2px; color: var(--texte-doux); }
+.liste-boosts { margin: 10px 0 0; padding-left: 16px; font-size: 13px; }
+.liste-boosts li { color: var(--or); margin-bottom: 4px; }
+.liste-boosts li.texte-doux { color: var(--texte-doux); }
+
 /* vente de doublons (détail de carte) */
 .panneau-vente { width: 100%; text-align: center; }
 .btn-vendre {
