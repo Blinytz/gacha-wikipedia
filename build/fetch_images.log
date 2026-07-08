@@ -1,0 +1,94 @@
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (100007488 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (97624880 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:1047: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (93854673 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (163328704 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (178746750 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (98120000 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (100243000 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+C:\Users\flxjr\AppData\Local\Programs\Python\Python311\Lib\site-packages\PIL\Image.py:3452: DecompressionBombWarning: Image size (164290756 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.
+  warnings.warn(
+Indexation des images memo-app…
+== merveilles-du-monde (14 cartes)
+   {'wiki-fr': 14}
+== pilotes-f1-champions-du-monde (35 cartes)
+   {'memo:f1_champions': 35}
+== elements-chimiques (118 cartes)
+  ✗ Erbium
+   {'wiki-fr': 79, 'bing': 16, 'wiki-en': 3, 'ECHEC': 1, 'memo:svg-element': 19} — 1 ÉCHECS
+== corps-celestes (49 cartes)
+   {'wiki-fr': 25, 'bing': 4, 'memo:lunes': 20}
+== dieux-et-figures-mythologiques-grecques (40 cartes)
+   {'memo:mythologie': 33, 'imposée': 1, 'wiki-fr': 6}
+== grands-dirigeants (67 cartes)
+   {'wiki-fr': 58, 'memo:rois_france': 3, 'bing': 4, 'imposée': 2}
+== constellations (85 cartes)
+   {'iau': 80, 'bing': 5}
+== monuments-emblematiques (50 cartes)
+   {'wiki-fr': 48, 'bing': 2}
+== dynasties-et-empires-historiques (42 cartes)
+  ✗ Empire mongol
+  ✗ Empire Gupta
+  ✗ Empire aztèque
+  ✗ Empire inca
+  ✗ Civilisation maya
+   {'wiki-fr': 10, 'memo:civilisations': 9, 'bing': 17, 'ECHEC': 5, 'wiki-en': 1} — 5 ÉCHECS
+== grandes-batailles-historiques (44 cartes)
+   {'wiki-fr': 36, 'bing': 6, 'wiki-en': 1, 'imposée': 1}
+== grandes-guerres (35 cartes)
+  ✗ Guerres médiques
+  ✗ Guerre du Péloponnèse
+  ✗ Guerres civiles romaines
+  ✗ Guerre des Malouines
+   {'ECHEC': 4, 'memo:guerres': 19, 'bing': 2, 'wiki-fr': 10} — 4 ÉCHECS
+== dinosaures-celebres (50 cartes)
+   {'wiki-fr': 48, 'bing': 2}
+== grands-explorateurs (50 cartes)
+   {'memo:grandes_explorations': 18, 'wiki-fr': 30, 'bing': 2}
+== auteurs-celebres (140 cartes)
+   {'wiki-fr': 128, 'memo:philosophes': 5, 'bing': 7}
+== scientifiques-celebres (118 cartes)
+   {'wiki-fr': 71, 'memo:grands_scientifiques': 36, 'bing': 10, 'wiki-en': 1}
+== grands-peintres (70 cartes)
+   {'wiki-fr': 29, 'memo:peintres': 40, 'bing': 1}
+== tableaux-celebres (57 cartes)
+   {'wiki-fr': 39, 'bing': 8, 'imposée': 9, 'wiki-en': 1}
+== inventions-importantes (70 cartes)
+   {'memo:inventions_majeures': 15, 'wiki-fr': 43, 'bing': 10, 'imposée': 1, 'wiki-en': 1}
+== aviateurs-celebres (38 cartes)
+   {'wiki-fr': 33, 'bing': 5}
+== mammiferes (105 cartes)
+   {'wiki-fr': 98, 'bing': 7}
+== oiseaux (71 cartes)
+   {'wiki-fr': 65, 'bing': 6}
+== reptiles-et-amphibiens (40 cartes)
+   {'wiki-fr': 39, 'bing': 1}
+== poissons-et-vie-marine (55 cartes)
+   {'wiki-fr': 50, 'bing': 5}
+== insectes (56 cartes)
+   {'wiki-fr': 51, 'bing': 4, 'imposée': 1}
+== races-de-chien (114 cartes)
+   {'wiki-fr': 98, 'bing': 14, 'imposée': 2}
+== coupes-du-monde-fifa (22 cartes)
+   {'memo:coupes_monde': 22}
+== plus-grands-joueurs-de-football (180 cartes)
+   {'wiki-fr': 160, 'bing': 19, 'wiki-en': 1}
+== mythologies-du-monde-hors-grece (58 cartes)
+   {'wiki-fr': 39, 'bing': 14, 'imposée': 5}
+== creatures-et-legendes (45 cartes)
+   {'wiki-fr': 36, 'bing': 9}
+== personnages-de-fiction-celebres (170 cartes)
+   {'wiki-fr': 134, 'bing': 34, 'wiki-en': 2}
+== jeux-video-cultes (95 cartes)
+   {'wiki-en-cover': 73, 'bing': 20, 'wiki-fr': 2}
+== films-cultes (121 cartes)
+   {'memo:films': 61, 'tmdb': 60}
+Terminé. rapport_images.csv + contact_sheets/ écrits.

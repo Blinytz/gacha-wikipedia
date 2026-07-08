@@ -1,0 +1,6914 @@
+{
+"merveilles-du-monde_pyramide-de-kheops": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_jardins-suspendus-de-babylone": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_statue-chryselephantine-de-zeus-a-olympie": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_temple-d-artemis-a-ephese": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_mausolee-d-halicarnasse": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_colosse-de-rhodes": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_phare-d-alexandrie": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_grande-muraille": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_petra": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_statue-du-christ-redempteur": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_machu-picchu": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_chichen-itza": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_colisee": {
+"source": "wiki-fr"
+},
+"merveilles-du-monde_taj-mahal": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_zagreus": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_hades": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_persephone": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_nyx": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_chaos-cosmogonie": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_erebe": {
+"source": "imposée"
+},
+"dieux-et-figures-mythologiques-grecques_zeus": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_poseidon": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_hera": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_athena": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_ares": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_aphrodite": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_apollon": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_artemis": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_dionysos": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_demeter": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_hermes": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_hestia": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_hecate": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_selene": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_eris": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_nemesis": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_moros-mythologie": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_chronos": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_promethee": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_echidna": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_typhon-mythologie": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_meduse-mythologie": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_scylla-monstre": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_chiron-mythologie": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_achille": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_patrocle": {
+"source": "wiki-fr"
+},
+"dieux-et-figures-mythologiques-grecques_sisyphe": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_orphee": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_eurydice": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_charon-mythologie": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_cerbere": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_hypnos": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_thanatos": {
+"source": "memo:mythologie"
+},
+"dieux-et-figures-mythologiques-grecques_erinyes": {
+"source": "memo:mythologie"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1930": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1934": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1938": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1950": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1954": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1958": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1962": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1966": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1970": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1974": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1978": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1982": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1986": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1990": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1994": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-1998": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-2002": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-2006": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-2010": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-2014": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-2018": {
+"source": "memo:coupes_monde"
+},
+"coupes-du-monde-fifa_coupe-du-monde-de-football-2022": {
+"source": "memo:coupes_monde"
+},
+"pilotes-f1-champions-du-monde_giuseppe-farina": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_juan-manuel-fangio": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_alberto-ascari": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_mike-hawthorn": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jack-brabham": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_phil-hill": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_graham-hill": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jim-clark": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_john-surtees": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_denny-hulme": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jackie-stewart": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jochen-rindt": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_emerson-fittipaldi": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_niki-lauda": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_james-hunt": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_mario-andretti": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jody-scheckter": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_alan-jones": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_nelson-piquet": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_keke-rosberg": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_alain-prost": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_ayrton-senna": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_nigel-mansell": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_michael-schumacher": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_damon-hill": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jacques-villeneuve": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_mika-hakkinen": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_fernando-alonso": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_kimi-raikkonen": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_lewis-hamilton": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_jenson-button": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_sebastian-vettel": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_nico-rosberg": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_max-verstappen": {
+"source": "memo:f1_champions"
+},
+"pilotes-f1-champions-du-monde_lando-norris": {
+"source": "memo:f1_champions"
+},
+"elements-chimiques_hydrogene": {
+"source": "wiki-fr"
+},
+"elements-chimiques_helium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_lithium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_beryllium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_bore": {
+"source": "wiki-fr"
+},
+"elements-chimiques_carbone": {
+"source": "wiki-fr"
+},
+"elements-chimiques_azote": {
+"source": "wiki-fr"
+},
+"elements-chimiques_oxygene": {
+"source": "wiki-fr"
+},
+"elements-chimiques_fluor": {
+"source": "wiki-fr"
+},
+"elements-chimiques_neon": {
+"source": "wiki-fr"
+},
+"elements-chimiques_sodium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_magnesium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_aluminium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_silicium": {
+"source": "bing"
+},
+"elements-chimiques_phosphore": {
+"source": "wiki-fr"
+},
+"elements-chimiques_soufre": {
+"source": "wiki-fr"
+},
+"elements-chimiques_chlore": {
+"source": "wiki-fr"
+},
+"elements-chimiques_argon": {
+"source": "wiki-fr"
+},
+"elements-chimiques_potassium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_calcium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_scandium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_titane": {
+"source": "wiki-fr"
+},
+"elements-chimiques_vanadium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_chrome": {
+"source": "wiki-fr"
+},
+"elements-chimiques_manganese": {
+"source": "wiki-fr"
+},
+"elements-chimiques_fer": {
+"source": "wiki-fr"
+},
+"elements-chimiques_cobalt": {
+"source": "wiki-fr"
+},
+"elements-chimiques_nickel": {
+"source": "wiki-fr"
+},
+"elements-chimiques_cuivre": {
+"source": "wiki-fr"
+},
+"elements-chimiques_zinc": {
+"source": "wiki-fr"
+},
+"elements-chimiques_gallium": {
+"source": "bing"
+},
+"elements-chimiques_germanium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_arsenic": {
+"source": "bing"
+},
+"elements-chimiques_selenium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_brome": {
+"source": "wiki-fr"
+},
+"elements-chimiques_krypton": {
+"source": "wiki-fr"
+},
+"elements-chimiques_rubidium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_strontium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_yttrium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_zirconium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_niobium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_molybdene": {
+"source": "wiki-fr"
+},
+"elements-chimiques_technetium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_ruthenium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_rhodium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_palladium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_argent": {
+"source": "wiki-fr"
+},
+"elements-chimiques_cadmium": {
+"source": "bing"
+},
+"elements-chimiques_indium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_etain": {
+"source": "wiki-fr"
+},
+"elements-chimiques_antimoine": {
+"source": "wiki-fr"
+},
+"elements-chimiques_tellure": {
+"source": "wiki-fr"
+},
+"elements-chimiques_iode": {
+"source": "wiki-fr"
+},
+"elements-chimiques_xenon": {
+"source": "wiki-fr"
+},
+"elements-chimiques_cesium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_baryum": {
+"source": "wiki-fr"
+},
+"elements-chimiques_lanthane": {
+"source": "bing"
+},
+"elements-chimiques_cerium": {
+"source": "bing"
+},
+"elements-chimiques_praseodyme": {
+"source": "bing"
+},
+"elements-chimiques_neodyme": {
+"source": "wiki-fr"
+},
+"elements-chimiques_promethium": {
+"source": "wiki-en"
+},
+"elements-chimiques_samarium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_europium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_gadolinium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_terbium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_dysprosium": {
+"source": "bing"
+},
+"elements-chimiques_holmium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_erbium": {
+"source": "bing-retry"
+},
+"elements-chimiques_thulium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_ytterbium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_lutecium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_hafnium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_tantale-chimie": {
+"source": "wiki-fr"
+},
+"elements-chimiques_tungstene": {
+"source": "wiki-fr"
+},
+"elements-chimiques_rhenium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_osmium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_iridium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_platine": {
+"source": "wiki-fr"
+},
+"elements-chimiques_or": {
+"source": "wiki-fr"
+},
+"elements-chimiques_mercure-chimie": {
+"source": "wiki-fr"
+},
+"elements-chimiques_thallium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_plomb": {
+"source": "wiki-fr"
+},
+"elements-chimiques_bismuth": {
+"source": "wiki-fr"
+},
+"elements-chimiques_polonium": {
+"source": "bing"
+},
+"elements-chimiques_astate": {
+"source": "wiki-fr"
+},
+"elements-chimiques_radon": {
+"source": "bing"
+},
+"elements-chimiques_francium": {
+"source": "bing"
+},
+"elements-chimiques_radium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_actinium": {
+"source": "wiki-en"
+},
+"elements-chimiques_thorium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_protactinium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_uranium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_neptunium": {
+"source": "wiki-en"
+},
+"elements-chimiques_plutonium": {
+"source": "bing"
+},
+"elements-chimiques_americium": {
+"source": "wiki-fr"
+},
+"elements-chimiques_curium": {
+"source": "bing"
+},
+"elements-chimiques_berkelium": {
+"source": "bing"
+},
+"elements-chimiques_californium": {
+"source": "bing"
+},
+"elements-chimiques_einsteinium": {
+"source": "bing"
+},
+"elements-chimiques_fermium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_mendelevium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_nobelium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_lawrencium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_rutherfordium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_dubnium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_seaborgium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_bohrium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_hassium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_meitnerium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_darmstadtium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_roentgenium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_copernicium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_nihonium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_flerovium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_moscovium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_livermorium": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_tennesse": {
+"source": "memo:svg-element"
+},
+"elements-chimiques_oganesson": {
+"source": "memo:svg-element"
+},
+"corps-celestes_mercure-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_venus-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_terre": {
+"source": "wiki-fr"
+},
+"corps-celestes_mars-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_jupiter-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_saturne-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_uranus-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_neptune-planete": {
+"source": "wiki-fr"
+},
+"corps-celestes_1-ceres": {
+"source": "wiki-fr"
+},
+"corps-celestes_pluton-planete-naine": {
+"source": "wiki-fr"
+},
+"corps-celestes_136108-haumea": {
+"source": "bing"
+},
+"corps-celestes_136472-makemake": {
+"source": "wiki-fr"
+},
+"corps-celestes_136199-eris": {
+"source": "bing"
+},
+"corps-celestes_lune": {
+"source": "wiki-fr"
+},
+"corps-celestes_phobos-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_deimos-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_io-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_europe-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_ganymede-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_callisto-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_titan-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_encelade-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_rhea-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_japet-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_dione-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_tethys-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_mimas-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_titania-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_oberon-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_miranda-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_ariel-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_umbriel-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_triton-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_charon-lune": {
+"source": "memo:lunes"
+},
+"corps-celestes_nebuleuse-d-orion": {
+"source": "wiki-fr"
+},
+"corps-celestes_nebuleuse-de-la-tete-de-cheval": {
+"source": "wiki-fr"
+},
+"corps-celestes_nebuleuse-du-crabe": {
+"source": "wiki-fr"
+},
+"corps-celestes_nebuleuse-de-l-aigle": {
+"source": "wiki-fr"
+},
+"corps-celestes_nebuleuse-de-la-lyre": {
+"source": "wiki-fr"
+},
+"corps-celestes_ngc-7293": {
+"source": "bing"
+},
+"corps-celestes_nebuleuse-de-la-rosette": {
+"source": "wiki-fr"
+},
+"corps-celestes_ngc-6302": {
+"source": "wiki-fr"
+},
+"corps-celestes_nebuleuse-de-la-carene": {
+"source": "bing"
+},
+"corps-celestes_nebuleuse-du-cone": {
+"source": "wiki-fr"
+},
+"corps-celestes_sagittarius-a": {
+"source": "wiki-fr"
+},
+"corps-celestes_m87": {
+"source": "wiki-fr"
+},
+"corps-celestes_cygnus-x-1": {
+"source": "wiki-fr"
+},
+"corps-celestes_ton-618": {
+"source": "wiki-fr"
+},
+"corps-celestes_gaia-bh1": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_abraham-lincoln": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_elisabeth-ire-imperatrice-de-russie": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_napoleon-ier": {
+"source": "memo:rois_france"
+},
+"grands-dirigeants_otto-von-bismarck": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_catherine-ii": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_qin-shi-huang": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_cleopatre-vii": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_ramses-ii": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_pericles": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_alexandre-le-grand": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_auguste": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_trajan": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_mohandas-karamchand-gandhi": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_tokugawa-ieyasu": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_saladin": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_darius-ier": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_cyrus-le-grand": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_gengis-khan": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_moctezuma-ier": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_pachacutec": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_k-inich-janaab-pakal-ier": {
+"source": "bing"
+},
+"grands-dirigeants_pierre-ii-empereur-du-bresil": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_askia-mohammed": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_chaka-roi-zoulou": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_haile-selassie-ier": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_christine-de-suede": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_harald-hardrada": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_harald-a-la-dent-bleue": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_guillaume-ier-d-orange-nassau": {
+"source": "bing"
+},
+"grands-dirigeants_isabelle-la-catholique": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_marie-ire-reine-d-angleterre": {
+"source": "bing"
+},
+"grands-dirigeants_casimir-iii-le-grand": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_soliman-le-magnifique": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_justinien-ier": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_theodora-imperatrice-epouse-de-justinien-ier": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_sejong-le-grand": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_jayavarman-vii": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_amanitore": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_alphonse-ier-manikongo": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_robert-ier-roi-d-ecosse": {
+"source": "memo:rois_france"
+},
+"grands-dirigeants_tamar-ire": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_matthias-corvin": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_mansa-moussa": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_hannibal-barca": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_boudica": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_vercingetorix": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_didon": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_gilgamesh": {
+"source": "imposée"
+},
+"grands-dirigeants_louis-xiv": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_charlemagne": {
+"source": "memo:rois_france"
+},
+"grands-dirigeants_frederic-ii-roi-de-prusse": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_pierre-ier-le-grand": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_ivan-le-terrible": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_marie-therese-d-autriche-1717-1780": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_victoria-reine": {
+"source": "bing"
+},
+"grands-dirigeants_wu-zetian": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_kubilai-khan": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_ashoka": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_akbar": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_attila": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_haroun-ar-rachid": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_soundiata-keita": {
+"source": "imposée"
+},
+"grands-dirigeants_njinga-du-ndongo-et-du-matamba": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_piankhy": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_simon-bolivar": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_tecumseh": {
+"source": "wiki-fr"
+},
+"grands-dirigeants_kamehameha-ier": {
+"source": "wiki-fr"
+},
+"constellations_andromede-constellation": {
+"source": "iau"
+},
+"constellations_machine-pneumatique": {
+"source": "iau"
+},
+"constellations_paon-constellation": {
+"source": "iau"
+},
+"constellations_verseau": {
+"source": "iau"
+},
+"constellations_aigle-constellation": {
+"source": "iau"
+},
+"constellations_autel-constellation": {
+"source": "bing"
+},
+"constellations_belier-constellation": {
+"source": "iau"
+},
+"constellations_cocher-constellation": {
+"source": "iau"
+},
+"constellations_bouvier-constellation": {
+"source": "iau"
+},
+"constellations_burin-constellation": {
+"source": "iau"
+},
+"constellations_girafe-constellation": {
+"source": "iau"
+},
+"constellations_cancer-constellation": {
+"source": "iau"
+},
+"constellations_chiens-de-chasse": {
+"source": "iau"
+},
+"constellations_grand-chien": {
+"source": "iau"
+},
+"constellations_petit-chien-constellation": {
+"source": "iau"
+},
+"constellations_capricorne-constellation": {
+"source": "iau"
+},
+"constellations_carene-constellation": {
+"source": "iau"
+},
+"constellations_cassiopee-constellation": {
+"source": "iau"
+},
+"constellations_centaure-constellation": {
+"source": "iau"
+},
+"constellations_cephee-constellation": {
+"source": "iau"
+},
+"constellations_baleine-constellation": {
+"source": "iau"
+},
+"constellations_cameleon-constellation": {
+"source": "iau"
+},
+"constellations_compas-constellation": {
+"source": "iau"
+},
+"constellations_colombe-constellation": {
+"source": "iau"
+},
+"constellations_chevelure-de-berenice": {
+"source": "iau"
+},
+"constellations_couronne-australe": {
+"source": "iau"
+},
+"constellations_couronne-boreale": {
+"source": "iau"
+},
+"constellations_corbeau-constellation": {
+"source": "iau"
+},
+"constellations_coupe-constellation": {
+"source": "iau"
+},
+"constellations_croix-du-sud": {
+"source": "iau"
+},
+"constellations_cygne-constellation": {
+"source": "iau"
+},
+"constellations_dauphin-constellation": {
+"source": "iau"
+},
+"constellations_dorade-constellation": {
+"source": "iau"
+},
+"constellations_dragon-constellation": {
+"source": "iau"
+},
+"constellations_petit-cheval": {
+"source": "bing"
+},
+"constellations_eridan-constellation": {
+"source": "iau"
+},
+"constellations_fourneau-constellation": {
+"source": "iau"
+},
+"constellations_gemeaux": {
+"source": "iau"
+},
+"constellations_grue-constellation": {
+"source": "iau"
+},
+"constellations_hercule-constellation": {
+"source": "iau"
+},
+"constellations_horloge-constellation": {
+"source": "iau"
+},
+"constellations_hydre-constellation": {
+"source": "iau"
+},
+"constellations_hydre-male": {
+"source": "iau"
+},
+"constellations_indien-constellation": {
+"source": "iau"
+},
+"constellations_lezard-constellation": {
+"source": "iau"
+},
+"constellations_lion-constellation": {
+"source": "iau"
+},
+"constellations_petit-lion": {
+"source": "iau"
+},
+"constellations_lievre-constellation": {
+"source": "iau"
+},
+"constellations_balance-constellation": {
+"source": "iau"
+},
+"constellations_loup-constellation": {
+"source": "iau"
+},
+"constellations_lynx-constellation": {
+"source": "iau"
+},
+"constellations_lyre-constellation": {
+"source": "iau"
+},
+"constellations_table-constellation": {
+"source": "bing"
+},
+"constellations_microscope-constellation": {
+"source": "iau"
+},
+"constellations_licorne-constellation": {
+"source": "iau"
+},
+"constellations_mouche-constellation": {
+"source": "iau"
+},
+"constellations_octant-constellation": {
+"source": "iau"
+},
+"constellations_ophiuchus": {
+"source": "iau"
+},
+"constellations_orion-constellation": {
+"source": "iau"
+},
+"constellations_pegase-constellation": {
+"source": "iau"
+},
+"constellations_persee-constellation": {
+"source": "iau"
+},
+"constellations_phenix-constellation": {
+"source": "iau"
+},
+"constellations_peintre-constellation": {
+"source": "iau"
+},
+"constellations_poissons-constellation": {
+"source": "iau"
+},
+"constellations_poisson-austral": {
+"source": "bing"
+},
+"constellations_poupe-constellation": {
+"source": "iau"
+},
+"constellations_boussole-constellation": {
+"source": "iau"
+},
+"constellations_reticule-constellation": {
+"source": "iau"
+},
+"constellations_sagittaire-constellation": {
+"source": "iau"
+},
+"constellations_scorpion-constellation": {
+"source": "iau"
+},
+"constellations_sculpteur-constellation": {
+"source": "iau"
+},
+"constellations_ecu-de-sobieski": {
+"source": "iau"
+},
+"constellations_serpent-constellation": {
+"source": "iau"
+},
+"constellations_sextant-constellation": {
+"source": "iau"
+},
+"constellations_taureau-constellation": {
+"source": "iau"
+},
+"constellations_telescope-constellation": {
+"source": "iau"
+},
+"constellations_triangle-constellation": {
+"source": "bing"
+},
+"constellations_triangle-austral": {
+"source": "iau"
+},
+"constellations_toucan-constellation": {
+"source": "iau"
+},
+"constellations_grande-ourse": {
+"source": "iau"
+},
+"constellations_petite-ourse": {
+"source": "iau"
+},
+"constellations_voiles-constellation": {
+"source": "iau"
+},
+"constellations_vierge-constellation": {
+"source": "iau"
+},
+"constellations_poisson-volant-constellation": {
+"source": "iau"
+},
+"constellations_petit-renard": {
+"source": "iau"
+},
+"monuments-emblematiques_tour-eiffel": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_statue-de-la-liberte": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_big-ben": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_sagrada-familia": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_opera-de-sydney": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_kremlin-de-moscou": {
+"source": "bing"
+},
+"monuments-emblematiques_acropole-d-athenes": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_chateau-de-neuschwanstein": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_mont-rushmore": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_empire-state-building": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_burj-khalifa": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_angkor-vat": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_cite-interdite": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_alhambra-grenade": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_stonehenge": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_chateau-de-himeji": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_porte-de-brandebourg": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_tour-de-pise": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_cathedrale-notre-dame-de-paris": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_le-mont-saint-michel": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_chateau-de-versailles": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_mosquee-bleue": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_sainte-sophie-constantinople": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_palais-de-topkap": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_teotihuacan": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_moai": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_pont-du-golden-gate": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_tour-cn": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_chateau-d-edimbourg": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_palais-de-buckingham": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_cathedrale-de-cologne": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_basilique-saint-pierre": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_forum-romain": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_chateau-de-chambord": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_grande-mosquee-de-djenne": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_temple-du-ciel": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_armee-de-terre-cuite": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_montagne-de-la-table": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_pantheon-rome": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_chateau-de-prague": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_palais-du-potala": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_burj-al-arab": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_karnak": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_vallee-des-rois": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_abou-simbel": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_kinkaku-ji": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_cathedrale-saint-basile-le-bienheureux-de-moscou": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_alcazar-de-seville": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_palmyre": {
+"source": "wiki-fr"
+},
+"monuments-emblematiques_pont-de-brooklyn": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_empire-romain": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_empire-byzantin": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-ottoman": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_achemenides": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-parthe": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_sassanides": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_dynastie-qin": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_dynastie-han": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_dynastie-tang": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_dynastie-song": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_dynastie-ming": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_dynastie-qing": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_empire-mongol": {
+"source": "bing-retry"
+},
+"dynasties-et-empires-historiques_empire-moghol": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-maurya": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-gupta": {
+"source": "bing-retry"
+},
+"dynasties-et-empires-historiques_califat-omeyyade": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_califat-abbasside": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-azteque": {
+"source": "bing-retry"
+},
+"dynasties-et-empires-historiques_empire-inca": {
+"source": "bing-retry"
+},
+"dynasties-et-empires-historiques_civilisation-maya": {
+"source": "bing-retry"
+},
+"dynasties-et-empires-historiques_ancien-empire": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_moyen-empire": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_nouvel-empire": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_assyrie": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_empire-neo-babylonien": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_hittites": {
+"source": "wiki-en"
+},
+"dynasties-et-empires-historiques_royaume-de-koush": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_empire-du-mali": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-songhai": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_empire-du-ghana": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_royaume-zoulou": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_royaume-d-aksoum": {
+"source": "memo:civilisations"
+},
+"dynasties-et-empires-historiques_empire-khmer": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_shogunat-tokugawa": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_empire-britannique": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_empire-espagnol": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_empire-colonial-portugais": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_empire-colonial-francais": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_empire-russe": {
+"source": "bing"
+},
+"dynasties-et-empires-historiques_saint-empire-romain-germanique": {
+"source": "wiki-fr"
+},
+"dynasties-et-empires-historiques_autriche-hongrie": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-marathon": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-des-thermopyles": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-salamine": {
+"source": "wiki-en"
+},
+"grandes-batailles-historiques_bataille-de-gaugameles": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-cannes": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-zama": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-d-actium": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-teutobourg": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-d-andrinople-378": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-poitiers-732": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-d-hastings": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-des-champs-catalauniques-451": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-manzikert": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-hattin": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-courtrai-1302": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-bannockburn": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-crecy": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-d-azincourt": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-castillon": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-nicopolis": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_chute-de-constantinople": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-lepante": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_invincible-armada": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-breitenfeld-1631": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-rocroi": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-poltava": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-yorktown": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-valmy": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-d-austerlitz": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-trafalgar": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-waterloo": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_siege-de-sebastopol-1854-1855": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-gettysburg": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-sedan": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-la-marne-1914": {
+"source": "imposée"
+},
+"grandes-batailles-historiques_bataille-de-verdun": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-la-somme": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-stalingrad": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-midway": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_debarquement-de-normandie": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-des-ardennes": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_bataille-de-dien-bien-phu": {
+"source": "bing"
+},
+"grandes-batailles-historiques_bataille-de-khe-sanh": {
+"source": "wiki-fr"
+},
+"grandes-batailles-historiques_deuxieme-bataille-de-falloujah": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerres-mediques": {
+"source": "bing-retry"
+},
+"grandes-guerres_guerres-puniques": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-du-peloponnese": {
+"source": "bing-retry"
+},
+"grandes-guerres_guerre-des-gaules": {
+"source": "bing"
+},
+"grandes-guerres_guerres-civiles-romaines": {
+"source": "bing-retry2"
+},
+"grandes-guerres_croisade": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-de-cent-ans": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-des-deux-roses": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerres-de-religion-france": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerre-de-trente-ans": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-de-succession-d-espagne": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerre-de-sept-ans": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-d-independance-des-etats-unis": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerres-de-la-revolution-francaise": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerres-napoleoniennes": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-de-secession": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerre-franco-allemande-de-1870": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-des-boers": {
+"source": "wiki-fr"
+},
+"grandes-guerres_premiere-guerre-mondiale": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-civile-russe": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-d-espagne": {
+"source": "memo:guerres"
+},
+"grandes-guerres_seconde-guerre-mondiale": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-civile-chinoise": {
+"source": "wiki-fr"
+},
+"grandes-guerres_seconde-guerre-sino-japonaise": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerre-russo-japonaise": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-de-coree": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-du-vietnam": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-d-algerie": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-froide": {
+"source": "bing"
+},
+"grandes-guerres_guerre-israelo-arabe-de-1948-1949": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerre-du-kippour": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-du-golfe": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-d-irak": {
+"source": "memo:guerres"
+},
+"grandes-guerres_guerre-d-afghanistan-1979-1989": {
+"source": "wiki-fr"
+},
+"grandes-guerres_guerre-des-malouines": {
+"source": "bing-retry"
+},
+"dinosaures-celebres_tyrannosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_velociraptor": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_triceratops": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_stegosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_brachiosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_diplodocus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_spinosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_allosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_ankylosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_parasaurolophus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_iguanodon": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_compsognathus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_archaeopteryx": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_deinonychus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_carnotaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_giganotosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_therizinosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_pachycephalosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_styracosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_dilophosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_baryonyx": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_oviraptor": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_protoceratops": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_maiasaura": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_edmontosaurus": {
+"source": "bing"
+},
+"dinosaures-celebres_corythosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_segnosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_ouranosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_camarasaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_apatosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_supersaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_argentinosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_amargasaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_kentrosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_euoplocephalus": {
+"source": "bing"
+},
+"dinosaures-celebres_nodosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_gallimimus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_struthiomimus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_coelophysis": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_ceratosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_torosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_chasmosaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_microraptor": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_sinosauropteryx": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_yutyrannus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_nanotyrannus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_suchomimus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_herrerasaurus": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_eoraptor": {
+"source": "wiki-fr"
+},
+"dinosaures-celebres_plateosaurus": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_christophe-colomb": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_vasco-de-gama": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_fernand-de-magellan": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_marco-polo": {
+"source": "bing"
+},
+"grands-explorateurs_james-cook": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_amerigo-vespucci": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_jacques-cartier": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_samuel-de-champlain": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_hernan-cortes": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_francisco-pizarro": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_vasco-nunez-de-balboa": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_juan-ponce-de-leon": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_zheng-he": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_ibn-battuta": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_roald-amundsen": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_robert-falcon-scott": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_ernest-shackleton": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_david-livingstone": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_henry-morton-stanley": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_meriwether-lewis": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_william-clark": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_alexander-von-humboldt": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_francis-drake": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_willem-barentsz": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_henry-hudson": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_jean-cabot": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_bartolomeu-dias": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_pedro-alvares-cabral": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_jean-francois-de-la-perouse": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_vitus-bering": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_thor-heyerdahl": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_edmund-hillary": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_tensing-norgay": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_youri-gagarine": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_neil-armstrong": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_buzz-aldrin": {
+"source": "bing"
+},
+"grands-explorateurs_sacagawea": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_mungo-park": {
+"source": "memo:grandes_explorations"
+},
+"grands-explorateurs_richard-francis-burton": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_john-hanning-speke": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_fridtjof-nansen": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_james-bruce-explorateur": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_gertrude-bell": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_freya-stark": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_auguste-piccard": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_jacques-yves-cousteau": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_nellie-bly": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_ida-pfeiffer": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_xuanzang": {
+"source": "wiki-fr"
+},
+"grands-explorateurs_leif-erikson": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_homere": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_sophocle": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_euripide": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_virgile": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_ovide": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_dante-alighieri": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_geoffrey-chaucer": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_francois-rabelais": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_michel-de-montaigne": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_william-shakespeare": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_miguel-de-cervantes": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_moliere": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_jean-racine": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_john-milton": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_jonathan-swift": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_voltaire": {
+"source": "memo:philosophes"
+},
+"auteurs-celebres_jean-jacques-rousseau": {
+"source": "memo:philosophes"
+},
+"auteurs-celebres_denis-diderot": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_johann-wolfgang-von-goethe": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_friedrich-schiller": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_jane-austen": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_walter-scott": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_alexandre-pouchkine": {
+"source": "bing"
+},
+"auteurs-celebres_victor-hugo": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_alexandre-dumas": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_honore-de-balzac": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_stendhal": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_charles-dickens": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_charlotte-bronte": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_emily-bronte": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_nathaniel-hawthorne": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_edgar-allan-poe": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_herman-melville": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_nicolas-gogol": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_ivan-tourgueniev": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_fiodor-dostoievski": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_leon-tolstoi": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_gustave-flaubert": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_emile-zola": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_guy-de-maupassant": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_lewis-carroll": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_mark-twain": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_henry-james": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_anton-tchekhov": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_thomas-hardy-ecrivain": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_oscar-wilde": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_rudyard-kipling": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_marcel-proust": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_franz-kafka": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_james-joyce": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_virginia-woolf": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_d-h-lawrence": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_thomas-mann": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_hermann-hesse": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_f-scott-fitzgerald": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_ernest-hemingway": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_william-faulkner": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_john-steinbeck": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_george-orwell": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_aldous-huxley": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_agatha-christie": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_j-r-r-tolkien": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_c-s-lewis": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_h-p-lovecraft": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_jules-verne": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_h-g-wells": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_mary-shelley": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_bram-stoker": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_albert-camus": {
+"source": "memo:philosophes"
+},
+"auteurs-celebres_jean-paul-sartre": {
+"source": "memo:philosophes"
+},
+"auteurs-celebres_simone-de-beauvoir": {
+"source": "memo:philosophes"
+},
+"auteurs-celebres_gabriel-garcia-marquez": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_jorge-luis-borges": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_julio-cortazar": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_pablo-neruda": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_isabel-allende": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_milan-kundera": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_umberto-eco": {
+"source": "bing"
+},
+"auteurs-celebres_italo-calvino": {
+"source": "bing"
+},
+"auteurs-celebres_toni-morrison": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_maya-angelou": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_kurt-vonnegut": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_philip-k-dick": {
+"source": "bing"
+},
+"auteurs-celebres_isaac-asimov": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_ray-bradbury": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_arthur-c-clarke": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_ursula-k-le-guin": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_stephen-king": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_j-k-rowling": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_george-r-r-martin": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_terry-pratchett": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_neil-gaiman": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_douglas-adams": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_haruki-murakami": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_yukio-mishima": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_kenzaburo-oe": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_naguib-mahfouz": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_chinua-achebe": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_wole-soyinka": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_salman-rushdie": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_kazuo-ishiguro": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_margaret-atwood": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_alice-munro": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_vladimir-nabokov": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_michel-houellebecq": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_amelie-nothomb": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_marguerite-yourcenar": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_marguerite-duras": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_colette": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_george-sand": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_romain-gary": {
+"source": "bing"
+},
+"auteurs-celebres_boris-vian": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_georges-perec": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_raymond-queneau": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_emily-dickinson": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_walt-whitman": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_charles-baudelaire": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_arthur-rimbaud": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_paul-verlaine": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_stephane-mallarme": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_guillaume-apollinaire": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_rainer-maria-rilke": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_t-s-eliot": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_william-butler-yeats": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_federico-garcia-lorca": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_octavio-paz": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_confucius": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_sun-tzu": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_cao-xueqin": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_lu-xun-ecrivain": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_mo-yan": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_rabindranath-tagore": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_munshi-premchand": {
+"source": "bing"
+},
+"auteurs-celebres_ferdowsi": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_rumi": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_omar-khayyam": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_khalil-gibran": {
+"source": "bing"
+},
+"auteurs-celebres_ngugi-wa-thiong-o": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_mariama-ba": {
+"source": "wiki-fr"
+},
+"auteurs-celebres_nawal-el-saadawi": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_aristote": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_archimede": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_euclide": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_pythagore": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_hippocrate": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_claude-ptolemee": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_al-khwarizmi": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_avicenne": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_alhazen": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_leonard-de-vinci": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_nicolas-copernic": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_galilee-savant": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_johannes-kepler": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_francis-bacon-philosophe": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_rene-descartes": {
+"source": "bing"
+},
+"scientifiques-celebres_blaise-pascal": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_isaac-newton": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_gottfried-wilhelm-leibniz": {
+"source": "bing"
+},
+"scientifiques-celebres_robert-hooke": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_antoni-van-leeuwenhoek": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_carl-von-linne": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_benjamin-franklin": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_antoine-lavoisier": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_alessandro-volta": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_andre-marie-ampere": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_michael-faraday": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_charles-darwin": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_gregor-mendel": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_louis-pasteur": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_claude-bernard": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_james-clerk-maxwell": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_dmitri-mendeleiev": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_alfred-nobel": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_wilhelm-rontgen": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_marie-curie": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_pierre-curie": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_max-planck": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_albert-einstein": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_niels-bohr": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_ernest-rutherford": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_werner-heisenberg": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_erwin-schrodinger": {
+"source": "bing"
+},
+"scientifiques-celebres_paul-dirac": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_enrico-fermi": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_robert-oppenheimer": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_richard-feynman": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_stephen-hawking": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_alan-turing": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_john-von-neumann": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_charles-babbage": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_ada-lovelace": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_nikola-tesla": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_thomas-edison": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_alexander-graham-bell": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_guglielmo-marconi": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_carl-benz": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_rudolf-diesel": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_henry-ford": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_sigmund-freud": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_carl-gustav-jung": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_ivan-pavlov": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_jean-piaget": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_alexander-fleming": {
+"source": "bing"
+},
+"scientifiques-celebres_robert-koch": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_edward-jenner": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_florence-nightingale": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_rosalind-franklin": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_james-dewey-watson": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_francis-crick": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_barbara-mcclintock": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_jane-goodall": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_rachel-carson": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_carl-sagan": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_edwin-hubble": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_stephen-jay-gould": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_linus-pauling": {
+"source": "bing"
+},
+"scientifiques-celebres_wernher-von-braun": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_katherine-johnson": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_margaret-hamilton-scientifique": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_grace-hopper": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_tim-berners-lee": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_steve-jobs": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_bill-gates": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_elon-musk": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_nikolaus-otto": {
+"source": "bing"
+},
+"scientifiques-celebres_george-washington-carver": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_louis-braille": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_gustave-eiffel": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_leon-foucault": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_antoine-becquerel": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_irene-joliot-curie": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_lise-meitner": {
+"source": "memo:grands_scientifiques"
+},
+"scientifiques-celebres_emmy-noether": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_srinivasa-ramanujan": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_alan-guth": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_peter-higgs": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_roger-penrose": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_kip-thorne": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_jocelyn-bell": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_vera-rubin": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_katalin-kariko": {
+"source": "bing"
+},
+"scientifiques-celebres_jennifer-doudna": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_emmanuelle-charpentier": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_tu-youyou": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_chien-shiung-wu": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_subrahmanyan-chandrasekhar": {
+"source": "bing"
+},
+"scientifiques-celebres_abdus-salam": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_chandrashekhara-venkata-raman": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_har-gobind-khorana": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_al-biruni": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_al-jazari": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_zhang-heng": {
+"source": "wiki-en"
+},
+"scientifiques-celebres_shen-kuo": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_ada-yonath": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_dorothy-crowfoot-hodgkin": {
+"source": "wiki-fr"
+},
+"scientifiques-celebres_rita-levi-montalcini": {
+"source": "bing"
+},
+"scientifiques-celebres_barbara-liskov": {
+"source": "bing"
+},
+"scientifiques-celebres_hedy-lamarr": {
+"source": "wiki-fr"
+},
+"grands-peintres_giotto-di-bondone": {
+"source": "wiki-fr"
+},
+"grands-peintres_sandro-botticelli": {
+"source": "memo:peintres"
+},
+"grands-peintres_michel-ange": {
+"source": "memo:peintres"
+},
+"grands-peintres_raphael-peintre": {
+"source": "memo:peintres"
+},
+"grands-peintres_titien": {
+"source": "memo:peintres"
+},
+"grands-peintres_jerome-bosch": {
+"source": "wiki-fr"
+},
+"grands-peintres_pieter-brueghel-l-ancien": {
+"source": "wiki-fr"
+},
+"grands-peintres_le-caravage": {
+"source": "memo:peintres"
+},
+"grands-peintres_pierre-paul-rubens": {
+"source": "memo:peintres"
+},
+"grands-peintres_rembrandt": {
+"source": "memo:peintres"
+},
+"grands-peintres_johannes-vermeer": {
+"source": "wiki-fr"
+},
+"grands-peintres_diego-velasquez": {
+"source": "wiki-fr"
+},
+"grands-peintres_francisco-de-goya": {
+"source": "memo:peintres"
+},
+"grands-peintres_jacques-louis-david": {
+"source": "memo:peintres"
+},
+"grands-peintres_eugene-delacroix": {
+"source": "memo:peintres"
+},
+"grands-peintres_william-turner": {
+"source": "wiki-fr"
+},
+"grands-peintres_john-constable": {
+"source": "wiki-fr"
+},
+"grands-peintres_gustave-courbet": {
+"source": "memo:peintres"
+},
+"grands-peintres_edouard-manet": {
+"source": "memo:peintres"
+},
+"grands-peintres_claude-monet": {
+"source": "memo:peintres"
+},
+"grands-peintres_edgar-degas": {
+"source": "memo:peintres"
+},
+"grands-peintres_auguste-renoir": {
+"source": "memo:peintres"
+},
+"grands-peintres_paul-cezanne": {
+"source": "memo:peintres"
+},
+"grands-peintres_camille-pissarro": {
+"source": "wiki-fr"
+},
+"grands-peintres_berthe-morisot": {
+"source": "wiki-fr"
+},
+"grands-peintres_georges-seurat": {
+"source": "memo:peintres"
+},
+"grands-peintres_paul-gauguin": {
+"source": "memo:peintres"
+},
+"grands-peintres_vincent-van-gogh": {
+"source": "memo:peintres"
+},
+"grands-peintres_henri-de-toulouse-lautrec": {
+"source": "wiki-fr"
+},
+"grands-peintres_gustav-klimt": {
+"source": "memo:peintres"
+},
+"grands-peintres_edvard-munch": {
+"source": "memo:peintres"
+},
+"grands-peintres_henri-matisse": {
+"source": "memo:peintres"
+},
+"grands-peintres_pablo-picasso": {
+"source": "memo:peintres"
+},
+"grands-peintres_georges-braque": {
+"source": "wiki-fr"
+},
+"grands-peintres_amedeo-modigliani": {
+"source": "memo:peintres"
+},
+"grands-peintres_marc-chagall": {
+"source": "wiki-fr"
+},
+"grands-peintres_vassily-kandinsky": {
+"source": "memo:peintres"
+},
+"grands-peintres_piet-mondrian": {
+"source": "wiki-fr"
+},
+"grands-peintres_paul-klee": {
+"source": "memo:peintres"
+},
+"grands-peintres_egon-schiele": {
+"source": "wiki-fr"
+},
+"grands-peintres_salvador-dali": {
+"source": "memo:peintres"
+},
+"grands-peintres_rene-magritte": {
+"source": "memo:peintres"
+},
+"grands-peintres_joan-miro": {
+"source": "memo:peintres"
+},
+"grands-peintres_frida-kahlo": {
+"source": "memo:peintres"
+},
+"grands-peintres_diego-rivera": {
+"source": "memo:peintres"
+},
+"grands-peintres_georgia-o-keeffe": {
+"source": "wiki-fr"
+},
+"grands-peintres_edward-hopper": {
+"source": "memo:peintres"
+},
+"grands-peintres_jackson-pollock": {
+"source": "memo:peintres"
+},
+"grands-peintres_mark-rothko": {
+"source": "memo:peintres"
+},
+"grands-peintres_andy-warhol": {
+"source": "memo:peintres"
+},
+"grands-peintres_roy-lichtenstein": {
+"source": "wiki-fr"
+},
+"grands-peintres_francis-bacon-peintre": {
+"source": "memo:peintres"
+},
+"grands-peintres_lucian-freud": {
+"source": "wiki-fr"
+},
+"grands-peintres_david-hockney": {
+"source": "wiki-fr"
+},
+"grands-peintres_jean-michel-basquiat": {
+"source": "memo:peintres"
+},
+"grands-peintres_keith-haring": {
+"source": "wiki-fr"
+},
+"grands-peintres_banksy": {
+"source": "memo:peintres"
+},
+"grands-peintres_hokusai": {
+"source": "wiki-fr"
+},
+"grands-peintres_hiroshige": {
+"source": "wiki-fr"
+},
+"grands-peintres_artemisia-gentileschi": {
+"source": "bing"
+},
+"grands-peintres_frans-hals": {
+"source": "wiki-fr"
+},
+"grands-peintres_antoine-van-dyck": {
+"source": "wiki-fr"
+},
+"grands-peintres_le-greco": {
+"source": "wiki-fr"
+},
+"grands-peintres_francisco-de-zurbaran": {
+"source": "wiki-fr"
+},
+"grands-peintres_nicolas-poussin": {
+"source": "memo:peintres"
+},
+"grands-peintres_jean-honore-fragonard": {
+"source": "wiki-fr"
+},
+"grands-peintres_antoine-watteau": {
+"source": "wiki-fr"
+},
+"grands-peintres_william-blake": {
+"source": "wiki-fr"
+},
+"grands-peintres_caspar-david-friedrich": {
+"source": "memo:peintres"
+},
+"grands-peintres_gustave-moreau": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-joconde": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-cene-leonard-de-vinci": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-naissance-de-venus-botticelli": {
+"source": "bing"
+},
+"tableaux-celebres_le-jugement-dernier-michel-ange": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-creation-d-adam-michel-ange": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_les-epoux-arnolfini": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_le-jardin-des-delices": {
+"source": "bing"
+},
+"tableaux-celebres_la-ronde-de-nuit": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-jeune-fille-a-la-perle": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_les-menines": {
+"source": "bing"
+},
+"tableaux-celebres_la-liberte-guidant-le-peuple": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_le-radeau-de-la-meduse": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-grande-vague-de-kanagawa": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_impression-soleil-levant": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_le-dejeuner-sur-l-herbe": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_olympia-manet": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_bal-du-moulin-de-la-galette-renoir": {
+"source": "bing"
+},
+"tableaux-celebres_la-nuit-etoilee-1889": {
+"source": "bing"
+},
+"tableaux-celebres_les-tournesols": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_le-cri": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-chambre-de-van-gogh-a-arles": {
+"source": "bing"
+},
+"tableaux-celebres_un-dimanche-apres-midi-a-l-ile-de-la-grande-jatte": {
+"source": "bing"
+},
+"tableaux-celebres_les-demoiselles-d-avignon": {
+"source": "imposée"
+},
+"tableaux-celebres_guernica-picasso": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-persistance-de-la-memoire": {
+"source": "imposée"
+},
+"tableaux-celebres_le-fils-de-l-homme-magritte": {
+"source": "imposée"
+},
+"tableaux-celebres_composition-viii": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_american-gothic-wood": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_nighthawks": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_campbell-s-soup-cans": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_number-1-1950-lavender-mist": {
+"source": "wiki-en"
+},
+"tableaux-celebres_les-nympheas": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_le-baiser-klimt": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_composition-avec-jaune-bleu-et-rouge": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_guitare-et-compotier-paris": {
+"source": "imposée"
+},
+"tableaux-celebres_autoportrait-a-l-oreille-bandee-et-a-la-pipe": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-chute-d-icare": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-tour-de-babel-brueghel": {
+"source": "bing"
+},
+"tableaux-celebres_le-triomphe-de-la-mort-nussbaum": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_venus-d-urbin": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_l-ecole-d-athenes": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-vocation-de-saint-matthieu": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_judith-decapitant-holopherne": {
+"source": "imposée"
+},
+"tableaux-celebres_autoportrait-rembrandt-vienne": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-laitiere": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_vue-de-delft": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_saturne-devorant-un-de-ses-fils": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_el-tres-de-mayo-de-1808-en-madrid": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_le-verrou-fragonard": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_l-origine-du-monde": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_les-deux-fridas": {
+"source": "imposée"
+},
+"tableaux-celebres_la-colonne-brisee-kahlo": {
+"source": "imposée"
+},
+"tableaux-celebres_autoportrait-au-collier-d-epines-et-colibri": {
+"source": "imposée"
+},
+"tableaux-celebres_composition-vii": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_broadway-boogie-woogie": {
+"source": "wiki-fr"
+},
+"tableaux-celebres_la-petite-fille-au-ballon": {
+"source": "imposée"
+},
+"tableaux-celebres_les-hasards-heureux-de-l-escarpolette": {
+"source": "wiki-fr"
+},
+"inventions-importantes_roue": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_ecriture": {
+"source": "wiki-fr"
+},
+"inventions-importantes_agriculture": {
+"source": "wiki-fr"
+},
+"inventions-importantes_boussole": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_poudre-noire": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_papier": {
+"source": "wiki-fr"
+},
+"inventions-importantes_imprimerie": {
+"source": "wiki-fr"
+},
+"inventions-importantes_lunette-astronomique": {
+"source": "wiki-fr"
+},
+"inventions-importantes_microscope": {
+"source": "bing"
+},
+"inventions-importantes_machine-a-vapeur": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_paratonnerre": {
+"source": "wiki-fr"
+},
+"inventions-importantes_pile-electrique": {
+"source": "bing"
+},
+"inventions-importantes_telephone": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_photographie": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_le-telephone": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_lampe-a-incandescence": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_phonographe": {
+"source": "wiki-fr"
+},
+"inventions-importantes_dynamo": {
+"source": "wiki-fr"
+},
+"inventions-importantes_automobile": {
+"source": "wiki-fr"
+},
+"inventions-importantes_moteur-a-combustion-interne": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_pneumatique-vehicule": {
+"source": "wiki-fr"
+},
+"inventions-importantes_velo": {
+"source": "wiki-fr"
+},
+"inventions-importantes_avion": {
+"source": "wiki-fr"
+},
+"inventions-importantes_radiocommunication": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_cinema": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_television": {
+"source": "wiki-fr"
+},
+"inventions-importantes_refrigerateur": {
+"source": "wiki-fr"
+},
+"inventions-importantes_lave-linge": {
+"source": "wiki-fr"
+},
+"inventions-importantes_aspirateur": {
+"source": "wiki-fr"
+},
+"inventions-importantes_radar": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_laser": {
+"source": "wiki-fr"
+},
+"inventions-importantes_transistor": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_circuit-integre": {
+"source": "wiki-fr"
+},
+"inventions-importantes_ordinateur-personnel": {
+"source": "imposée"
+},
+"inventions-importantes_internet": {
+"source": "bing"
+},
+"inventions-importantes_world-wide-web": {
+"source": "wiki-en"
+},
+"inventions-importantes_smartphone": {
+"source": "wiki-fr"
+},
+"inventions-importantes_gps-assistant-de-navigation": {
+"source": "wiki-fr"
+},
+"inventions-importantes_vaccin": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_penicilline": {
+"source": "bing"
+},
+"inventions-importantes_anesthesie": {
+"source": "memo:inventions_majeures"
+},
+"inventions-importantes_radiographie": {
+"source": "wiki-fr"
+},
+"inventions-importantes_imagerie-par-resonance-magnetique": {
+"source": "bing"
+},
+"inventions-importantes_stimulateur-cardiaque": {
+"source": "wiki-fr"
+},
+"inventions-importantes_carte-a-puce": {
+"source": "wiki-fr"
+},
+"inventions-importantes_code-barres": {
+"source": "bing"
+},
+"inventions-importantes_fermeture-eclair": {
+"source": "wiki-fr"
+},
+"inventions-importantes_velcro": {
+"source": "bing"
+},
+"inventions-importantes_papier-calque": {
+"source": "wiki-fr"
+},
+"inventions-importantes_stylo-a-bille": {
+"source": "wiki-fr"
+},
+"inventions-importantes_la-machine-a-ecrire": {
+"source": "wiki-fr"
+},
+"inventions-importantes_calculatrice": {
+"source": "wiki-fr"
+},
+"inventions-importantes_four-a-micro-ondes": {
+"source": "wiki-fr"
+},
+"inventions-importantes_climatisation": {
+"source": "wiki-fr"
+},
+"inventions-importantes_ascenseur": {
+"source": "wiki-fr"
+},
+"inventions-importantes_beton-arme": {
+"source": "bing"
+},
+"inventions-importantes_gratte-ciel": {
+"source": "wiki-fr"
+},
+"inventions-importantes_pont-suspendu": {
+"source": "wiki-fr"
+},
+"inventions-importantes_canal-de-suez": {
+"source": "wiki-fr"
+},
+"inventions-importantes_tunnel-sous-la-manche": {
+"source": "bing"
+},
+"inventions-importantes_fusee-astronautique": {
+"source": "wiki-fr"
+},
+"inventions-importantes_satellite-artificiel": {
+"source": "wiki-fr"
+},
+"inventions-importantes_navette-spatiale": {
+"source": "wiki-fr"
+},
+"inventions-importantes_machine-electrique": {
+"source": "wiki-fr"
+},
+"inventions-importantes_turbine": {
+"source": "bing"
+},
+"inventions-importantes_capteur-solaire-photovoltaique": {
+"source": "wiki-fr"
+},
+"inventions-importantes_eolienne": {
+"source": "wiki-fr"
+},
+"inventions-importantes_accumulateur-lithium-ion": {
+"source": "wiki-fr"
+},
+"inventions-importantes_intelligence-artificielle-generative": {
+"source": "wiki-fr"
+},
+"inventions-importantes_impression-3d": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_wilbur-wright": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_orville-wright": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_louis-bleriot": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_alberto-santos-dumont": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_clement-ader": {
+"source": "bing"
+},
+"aviateurs-celebres_charles-lindbergh": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_amelia-earhart": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_howard-hughes": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_charles-nungesser": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_francois-coli": {
+"source": "bing"
+},
+"aviateurs-celebres_jean-mermoz": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_antoine-de-saint-exupery": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_roland-garros": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_georges-guynemer": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_manfred-von-richthofen": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_chuck-yeager": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_valentina-terechkova": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_michael-collins-astronaute": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_amy-johnson": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_bessie-coleman": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_harriet-quimby": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_igor-sikorsky": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_glenn-curtiss": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_juan-de-la-cierva-y-codorniu": {
+"source": "bing"
+},
+"aviateurs-celebres_geoffrey-de-havilland": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_willy-messerschmitt": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_ernst-udet": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_douglas-bader": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_pancho-barnes": {
+"source": "bing"
+},
+"aviateurs-celebres_jacqueline-cochran": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_james-h-doolittle": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_clarence-johnson": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_chesley-sullenberger": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_albert-scott-crossfield": {
+"source": "bing"
+},
+"aviateurs-celebres_sally-ride": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_eileen-collins": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_chris-hadfield": {
+"source": "wiki-fr"
+},
+"aviateurs-celebres_felix-baumgartner": {
+"source": "wiki-fr"
+},
+"mammiferes_lion": {
+"source": "wiki-fr"
+},
+"mammiferes_tigre": {
+"source": "wiki-fr"
+},
+"mammiferes_leopard": {
+"source": "wiki-fr"
+},
+"mammiferes_jaguar": {
+"source": "wiki-fr"
+},
+"mammiferes_guepard": {
+"source": "wiki-fr"
+},
+"mammiferes_puma": {
+"source": "wiki-fr"
+},
+"mammiferes_lynx-boreal": {
+"source": "wiki-fr"
+},
+"mammiferes_ocelot": {
+"source": "wiki-fr"
+},
+"mammiferes_serval": {
+"source": "wiki-fr"
+},
+"mammiferes_caracal": {
+"source": "wiki-fr"
+},
+"mammiferes_chat-des-sables": {
+"source": "wiki-fr"
+},
+"mammiferes_ours-blanc": {
+"source": "wiki-fr"
+},
+"mammiferes_ours-brun": {
+"source": "wiki-fr"
+},
+"mammiferes_ours-noir-d-amerique": {
+"source": "wiki-fr"
+},
+"mammiferes_ours-a-lunettes": {
+"source": "wiki-fr"
+},
+"mammiferes_panda-geant": {
+"source": "wiki-fr"
+},
+"mammiferes_ailurus": {
+"source": "wiki-fr"
+},
+"mammiferes_elephant-d-afrique": {
+"source": "wiki-fr"
+},
+"mammiferes_elephant-d-asie": {
+"source": "wiki-fr"
+},
+"mammiferes_rhinoceros-noir": {
+"source": "wiki-fr"
+},
+"mammiferes_rhinoceros-blanc": {
+"source": "wiki-fr"
+},
+"mammiferes_rhinoceros-de-java": {
+"source": "wiki-fr"
+},
+"mammiferes_hippopotamidae": {
+"source": "wiki-fr"
+},
+"mammiferes_hexaprotodon-liberiensis": {
+"source": "wiki-fr"
+},
+"mammiferes_girafe": {
+"source": "bing"
+},
+"mammiferes_okapi": {
+"source": "wiki-fr"
+},
+"mammiferes_zebre-de-grevy": {
+"source": "wiki-fr"
+},
+"mammiferes_equus-quagga": {
+"source": "wiki-fr"
+},
+"mammiferes_gnou": {
+"source": "wiki-fr"
+},
+"mammiferes_buffle-d-afrique": {
+"source": "wiki-fr"
+},
+"mammiferes_bison-d-amerique": {
+"source": "wiki-fr"
+},
+"mammiferes_bison-d-europe": {
+"source": "wiki-fr"
+},
+"mammiferes_canis-lupus": {
+"source": "wiki-fr"
+},
+"mammiferes_loup-a-criniere": {
+"source": "wiki-fr"
+},
+"mammiferes_loup-rouge": {
+"source": "wiki-fr"
+},
+"mammiferes_renard-roux": {
+"source": "wiki-fr"
+},
+"mammiferes_fennec": {
+"source": "wiki-fr"
+},
+"mammiferes_coyote": {
+"source": "wiki-fr"
+},
+"mammiferes_hyene-tachetee": {
+"source": "wiki-fr"
+},
+"mammiferes_hyene-rayee": {
+"source": "wiki-fr"
+},
+"mammiferes_chacal": {
+"source": "wiki-fr"
+},
+"mammiferes_lycaon-animal": {
+"source": "wiki-fr"
+},
+"mammiferes_gorille-de-l-ouest": {
+"source": "wiki-fr"
+},
+"mammiferes_chimpanze": {
+"source": "wiki-fr"
+},
+"mammiferes_bonobo": {
+"source": "wiki-fr"
+},
+"mammiferes_orang-outan": {
+"source": "wiki-fr"
+},
+"mammiferes_hylobatidae": {
+"source": "wiki-fr"
+},
+"mammiferes_babouin": {
+"source": "wiki-fr"
+},
+"mammiferes_macaque": {
+"source": "wiki-fr"
+},
+"mammiferes_colobe": {
+"source": "wiki-fr"
+},
+"mammiferes_lemur-catta": {
+"source": "bing"
+},
+"mammiferes_aye-aye": {
+"source": "wiki-fr"
+},
+"mammiferes_koala": {
+"source": "wiki-fr"
+},
+"mammiferes_kangourou-roux": {
+"source": "wiki-fr"
+},
+"mammiferes_wallaby": {
+"source": "bing"
+},
+"mammiferes_wombat": {
+"source": "wiki-fr"
+},
+"mammiferes_quokka": {
+"source": "wiki-fr"
+},
+"mammiferes_diable-de-tasmanie": {
+"source": "wiki-fr"
+},
+"mammiferes_ornithorynque": {
+"source": "wiki-fr"
+},
+"mammiferes_echidne": {
+"source": "wiki-fr"
+},
+"mammiferes_paresseux-a-trois-doigts": {
+"source": "wiki-fr"
+},
+"mammiferes_priodontes-maximus": {
+"source": "wiki-fr"
+},
+"mammiferes_manidae": {
+"source": "wiki-fr"
+},
+"mammiferes_tamanoir": {
+"source": "bing"
+},
+"mammiferes_lutrinae": {
+"source": "wiki-fr"
+},
+"mammiferes_castor-d-europe": {
+"source": "wiki-fr"
+},
+"mammiferes_blaireau-europeen": {
+"source": "wiki-fr"
+},
+"mammiferes_ecureuil-roux": {
+"source": "wiki-fr"
+},
+"mammiferes_ecureuil-volant": {
+"source": "wiki-fr"
+},
+"mammiferes_herisson": {
+"source": "wiki-fr"
+},
+"mammiferes_roussette-mammifere": {
+"source": "wiki-fr"
+},
+"mammiferes_desmodontinae": {
+"source": "wiki-fr"
+},
+"mammiferes_baleine-bleue": {
+"source": "wiki-fr"
+},
+"mammiferes_baleine-a-bosse": {
+"source": "wiki-fr"
+},
+"mammiferes_physeteroidea": {
+"source": "wiki-fr"
+},
+"mammiferes_orque": {
+"source": "wiki-fr"
+},
+"mammiferes_grand-dauphin": {
+"source": "wiki-fr"
+},
+"mammiferes_narval": {
+"source": "wiki-fr"
+},
+"mammiferes_beluga-cetace": {
+"source": "wiki-fr"
+},
+"mammiferes_phoque-commun": {
+"source": "wiki-fr"
+},
+"mammiferes_elephant-de-mer": {
+"source": "wiki-fr"
+},
+"mammiferes_otariidae": {
+"source": "wiki-fr"
+},
+"mammiferes_morse-animal": {
+"source": "wiki-fr"
+},
+"mammiferes_suricate": {
+"source": "wiki-fr"
+},
+"mammiferes_furet": {
+"source": "bing"
+},
+"mammiferes_civette": {
+"source": "wiki-fr"
+},
+"mammiferes_hermine": {
+"source": "wiki-fr"
+},
+"mammiferes_mustela-nivalis": {
+"source": "wiki-fr"
+},
+"mammiferes_sanglier": {
+"source": "wiki-fr"
+},
+"mammiferes_cerf-elaphe": {
+"source": "wiki-fr"
+},
+"mammiferes_rangifer-tarandus": {
+"source": "wiki-fr"
+},
+"mammiferes_alces": {
+"source": "wiki-fr"
+},
+"mammiferes_chevreuil": {
+"source": "wiki-fr"
+},
+"mammiferes_saiga": {
+"source": "wiki-fr"
+},
+"mammiferes_gazelle-de-thomson": {
+"source": "wiki-fr"
+},
+"mammiferes_tapir": {
+"source": "bing"
+},
+"mammiferes_chameau-de-bactriane": {
+"source": "wiki-fr"
+},
+"mammiferes_dromadaire": {
+"source": "wiki-fr"
+},
+"mammiferes_lama-animal": {
+"source": "wiki-fr"
+},
+"mammiferes_alpaga": {
+"source": "wiki-fr"
+},
+"mammiferes_cheval-de-przewalski": {
+"source": "wiki-fr"
+},
+"mammiferes_hydrochoerus-hydrochaeris": {
+"source": "wiki-fr"
+},
+"mammiferes_myrmecobius-fasciatus": {
+"source": "wiki-fr"
+},
+"mammiferes_notamacropus-rufogriseus": {
+"source": "wiki-fr"
+},
+"mammiferes_rat-taupe-nu": {
+"source": "bing"
+},
+"oiseaux_aigle-royal": {
+"source": "wiki-fr"
+},
+"oiseaux_balbuzard-pecheur": {
+"source": "wiki-fr"
+},
+"oiseaux_pygargue-a-tete-blanche": {
+"source": "wiki-fr"
+},
+"oiseaux_faucon-pelerin": {
+"source": "wiki-fr"
+},
+"oiseaux_faucon-crecerelle": {
+"source": "wiki-fr"
+},
+"oiseaux_autour-des-palombes": {
+"source": "wiki-fr"
+},
+"oiseaux_milan-noir": {
+"source": "wiki-fr"
+},
+"oiseaux_condor-des-andes": {
+"source": "wiki-fr"
+},
+"oiseaux_vautour-fauve": {
+"source": "bing"
+},
+"oiseaux_vautour-percnoptere": {
+"source": "bing"
+},
+"oiseaux_hibou-grand-duc": {
+"source": "wiki-fr"
+},
+"oiseaux_effraie-des-clochers": {
+"source": "wiki-fr"
+},
+"oiseaux_chouette-hulotte": {
+"source": "wiki-fr"
+},
+"oiseaux_harfang-des-neiges": {
+"source": "wiki-fr"
+},
+"oiseaux_autruche": {
+"source": "wiki-fr"
+},
+"oiseaux_dromaius": {
+"source": "wiki-fr"
+},
+"oiseaux_rhea": {
+"source": "wiki-fr"
+},
+"oiseaux_kiwi-austral": {
+"source": "bing"
+},
+"oiseaux_casoar-a-casque": {
+"source": "wiki-fr"
+},
+"oiseaux_manchot-empereur": {
+"source": "wiki-fr"
+},
+"oiseaux_manchot-adelie": {
+"source": "wiki-fr"
+},
+"oiseaux_manchot-papou": {
+"source": "wiki-fr"
+},
+"oiseaux_flamant-rose": {
+"source": "wiki-fr"
+},
+"oiseaux_cygne-tubercule": {
+"source": "wiki-fr"
+},
+"oiseaux_cygne-noir": {
+"source": "wiki-fr"
+},
+"oiseaux_oie-cendree": {
+"source": "wiki-fr"
+},
+"oiseaux_canard-colvert": {
+"source": "wiki-fr"
+},
+"oiseaux_paon-bleu": {
+"source": "wiki-fr"
+},
+"oiseaux_toucan-toco": {
+"source": "wiki-fr"
+},
+"oiseaux_ara-bleu": {
+"source": "wiki-fr"
+},
+"oiseaux_ara-rouge": {
+"source": "wiki-fr"
+},
+"oiseaux_perroquet-jaco": {
+"source": "wiki-fr"
+},
+"oiseaux_perruche-ondulee": {
+"source": "wiki-fr"
+},
+"oiseaux_cacatoes": {
+"source": "wiki-fr"
+},
+"oiseaux_colibri": {
+"source": "wiki-fr"
+},
+"oiseaux_martin-pecheur-d-europe": {
+"source": "wiki-fr"
+},
+"oiseaux_pelican-blanc": {
+"source": "wiki-fr"
+},
+"oiseaux_albatros-hurleur": {
+"source": "wiki-fr"
+},
+"oiseaux_fregate-superbe": {
+"source": "wiki-fr"
+},
+"oiseaux_fou-de-bassan": {
+"source": "wiki-fr"
+},
+"oiseaux_grue-du-japon": {
+"source": "bing"
+},
+"oiseaux_grue-cendree": {
+"source": "wiki-fr"
+},
+"oiseaux_ibis-sacre": {
+"source": "wiki-fr"
+},
+"oiseaux_cigogne-blanche": {
+"source": "wiki-fr"
+},
+"oiseaux_heron-cendre": {
+"source": "wiki-fr"
+},
+"oiseaux_aigrette-garzette": {
+"source": "wiki-fr"
+},
+"oiseaux_corbeau": {
+"source": "bing"
+},
+"oiseaux_corneille-noire": {
+"source": "wiki-fr"
+},
+"oiseaux_pie-bavarde": {
+"source": "wiki-fr"
+},
+"oiseaux_geai-des-chenes": {
+"source": "wiki-fr"
+},
+"oiseaux_hirondelle-rustique": {
+"source": "wiki-fr"
+},
+"oiseaux_martinet-noir": {
+"source": "wiki-fr"
+},
+"oiseaux_rouge-gorge": {
+"source": "wiki-fr"
+},
+"oiseaux_merle-noir": {
+"source": "wiki-fr"
+},
+"oiseaux_mesange-bleue": {
+"source": "wiki-fr"
+},
+"oiseaux_moineau-domestique": {
+"source": "bing"
+},
+"oiseaux_pinson-des-arbres": {
+"source": "wiki-fr"
+},
+"oiseaux_chardonneret-elegant": {
+"source": "wiki-fr"
+},
+"oiseaux_coucou-gris": {
+"source": "wiki-fr"
+},
+"oiseaux_pic-epeiche": {
+"source": "wiki-fr"
+},
+"oiseaux_pic-vert": {
+"source": "wiki-fr"
+},
+"oiseaux_huppe-fasciee": {
+"source": "wiki-fr"
+},
+"oiseaux_strigops-kakapo": {
+"source": "wiki-fr"
+},
+"oiseaux_dodo-oiseau": {
+"source": "wiki-fr"
+},
+"oiseaux_grand-pingouin": {
+"source": "wiki-fr"
+},
+"oiseaux_colombe": {
+"source": "wiki-fr"
+},
+"oiseaux_pigeon-voyageur": {
+"source": "wiki-fr"
+},
+"oiseaux_grand-geocoucou": {
+"source": "wiki-fr"
+},
+"oiseaux_martin-chasseur-geant": {
+"source": "wiki-fr"
+},
+"oiseaux_menura": {
+"source": "wiki-fr"
+},
+"oiseaux_quetzal-resplendissant": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_crocodile-du-nil": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_crocodile-marin": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_alligator-d-amerique": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_caiman-a-lunettes": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_gavial-du-gange": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_eunectes-murinus": {
+"source": "bing"
+},
+"reptiles-et-amphibiens_python-reticule": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_python-molurus": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_boa-constricteur": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_cobra-royal": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_cobra-cracheur": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_dendroaspis-polylepis": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_vipere-a-cornes": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_vipere-heurtante": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_crotale-diamantin": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_couleuvre-a-collier": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_iguana-iguana": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_iguane-marin-des-galapagos": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_furcifer-pardalis": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_cameleon-commun": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_gecko-leopard": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_varan-du-nil": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_dragon-de-komodo": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_tortue-geante-des-galapagos": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_tortue-luth": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_caretta-caretta": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_tortue-de-floride": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_tortue-boite": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_basiliscus-plumifrons": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_pogona-vitticeps": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_ouaouaron": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_crapaud-commun": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_rhinella-marina": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_andrias-japonicus": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_salamandre-maculee": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_axolotl": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_triton-alpestre": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_rainette-verte": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_ctenosaura-similis": {
+"source": "wiki-fr"
+},
+"reptiles-et-amphibiens_lezard-a-collerette": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_grand-requin-blanc": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_requin-baleine": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_sphyrnidae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_requin-tigre": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_requin-bouledogue": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_ginglymostomatidae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_requin-dormeur": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_scyliorhinidae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_manta-genre": {
+"source": "bing"
+},
+"poissons-et-vie-marine_dasyatis-pastinaca": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_torpille": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_poisson-clown": {
+"source": "bing"
+},
+"poissons-et-vie-marine_acanthuridae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_pterois-volitans": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_poisson-globe": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_mole-poisson": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_pristidae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_exocoetidae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_piranha": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_espadon": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_istiophoridae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_thon-rouge": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_saumon-atlantique": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_truite-arc-en-ciel": {
+"source": "bing"
+},
+"poissons-et-vie-marine_koi": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_anguille-electrique": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_anguille-d-europe": {
+"source": "bing"
+},
+"poissons-et-vie-marine_hippocampe-poisson": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_murene-commune": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_balistes-poisson": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_scaridae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_poisson-ange": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_sphyraena": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_poisson-pierre": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_etoile-de-mer": {
+"source": "bing"
+},
+"poissons-et-vie-marine_echinoidea": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_holothurie": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_pieuvre": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_pieuvre-aux-anneaux-bleus": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_calmar-geant": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_seiche-animal": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_nautile-sous-marin-de-poche": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_cubozoa": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_aurelia-aurita": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_anemone-de-mer": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_faviidae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_acropora-palmata": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_crabe-royal": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_macrocheira-kaempferi": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_homard": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_palinuridae": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_stomatopoda": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_porifera": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_corail-rouge": {
+"source": "wiki-fr"
+},
+"poissons-et-vie-marine_mobulinae": {
+"source": "wiki-fr"
+},
+"insectes_apis-mellifera": {
+"source": "wiki-fr"
+},
+"insectes_bourdon-terrestre": {
+"source": "wiki-fr"
+},
+"insectes_vespula-vulgaris": {
+"source": "wiki-fr"
+},
+"insectes_vespa-crabro": {
+"source": "bing"
+},
+"insectes_vespa-velutina": {
+"source": "wiki-fr"
+},
+"insectes_lasius-niger": {
+"source": "wiki-fr"
+},
+"insectes_formica-rufa": {
+"source": "wiki-fr"
+},
+"insectes_camponotus": {
+"source": "wiki-fr"
+},
+"insectes_fourmi-legionnaire": {
+"source": "wiki-fr"
+},
+"insectes_termite": {
+"source": "wiki-fr"
+},
+"insectes_monarque-papillon": {
+"source": "wiki-fr"
+},
+"insectes_paon-du-jour": {
+"source": "wiki-fr"
+},
+"insectes_machaon-papillon": {
+"source": "wiki-fr"
+},
+"insectes_pieride-du-chou": {
+"source": "wiki-fr"
+},
+"insectes_sphinx-tete-de-mort": {
+"source": "wiki-fr"
+},
+"insectes_moro-sphinx": {
+"source": "wiki-fr"
+},
+"insectes_morpho-helenor": {
+"source": "wiki-fr"
+},
+"insectes_attacus-atlas": {
+"source": "wiki-fr"
+},
+"insectes_bombyx-du-murier": {
+"source": "wiki-fr"
+},
+"insectes_coccinella-septempunctata": {
+"source": "wiki-fr"
+},
+"insectes_dynastinae": {
+"source": "wiki-fr"
+},
+"insectes_goliathus-regius": {
+"source": "bing"
+},
+"insectes_bousier-sacre": {
+"source": "wiki-fr"
+},
+"insectes_melolonthinae": {
+"source": "wiki-fr"
+},
+"insectes_bousier": {
+"source": "wiki-fr"
+},
+"insectes_cetoine-doree": {
+"source": "wiki-fr"
+},
+"insectes_lucanus-cervus": {
+"source": "wiki-fr"
+},
+"insectes_carabe-dore": {
+"source": "wiki-fr"
+},
+"insectes_luciola": {
+"source": "wiki-fr"
+},
+"insectes_criquet-migrateur": {
+"source": "wiki-fr"
+},
+"insectes_tettigonia-viridissima": {
+"source": "wiki-fr"
+},
+"insectes_acheta-domesticus": {
+"source": "wiki-fr"
+},
+"insectes_mante-religieuse": {
+"source": "wiki-fr"
+},
+"insectes_phasme": {
+"source": "wiki-fr"
+},
+"insectes_anax-empereur": {
+"source": "wiki-fr"
+},
+"insectes_zygoptera": {
+"source": "wiki-fr"
+},
+"insectes_cicadidae": {
+"source": "wiki-fr"
+},
+"insectes_palomena-prasina": {
+"source": "wiki-fr"
+},
+"insectes_halyomorpha-halys": {
+"source": "wiki-fr"
+},
+"insectes_aphidoidea": {
+"source": "wiki-fr"
+},
+"insectes_coccoidea": {
+"source": "bing"
+},
+"insectes_culex-pipiens": {
+"source": "wiki-fr"
+},
+"insectes_aedes-albopictus": {
+"source": "wiki-fr"
+},
+"insectes_mouche-domestique": {
+"source": "wiki-fr"
+},
+"insectes_mouche-tse-tse": {
+"source": "wiki-fr"
+},
+"insectes_tabanidae": {
+"source": "wiki-fr"
+},
+"insectes_ctenocephalides-felis": {
+"source": "bing"
+},
+"insectes_pou-de-tete": {
+"source": "wiki-fr"
+},
+"insectes_dermaptera": {
+"source": "wiki-fr"
+},
+"insectes_blatte-americaine": {
+"source": "wiki-fr"
+},
+"insectes_charancon-du-ble": {
+"source": "wiki-fr"
+},
+"insectes_doryphore": {
+"source": "wiki-fr"
+},
+"insectes_chrysope-verte": {
+"source": "wiki-fr"
+},
+"insectes_myrmeleontidae": {
+"source": "wiki-fr"
+},
+"insectes_agaonidae": {
+"source": "imposée"
+},
+"insectes_ephemeroptera": {
+"source": "wiki-fr"
+},
+"races-de-chien_labrador-retriever": {
+"source": "wiki-fr"
+},
+"races-de-chien_golden-retriever": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-allemand": {
+"source": "wiki-fr"
+},
+"races-de-chien_malinois-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_border-collie": {
+"source": "wiki-fr"
+},
+"races-de-chien_colley": {
+"source": "wiki-fr"
+},
+"races-de-chien_caniche": {
+"source": "wiki-fr"
+},
+"races-de-chien_bulldog-anglais": {
+"source": "wiki-fr"
+},
+"races-de-chien_bouledogue": {
+"source": "wiki-fr"
+},
+"races-de-chien_boxer-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_rottweiler": {
+"source": "wiki-fr"
+},
+"races-de-chien_dobermann": {
+"source": "wiki-fr"
+},
+"races-de-chien_dogue-allemand": {
+"source": "wiki-fr"
+},
+"races-de-chien_saint-bernard": {
+"source": "wiki-fr"
+},
+"races-de-chien_terre-neuve-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_husky-de-siberie": {
+"source": "wiki-fr"
+},
+"races-de-chien_malamute-de-l-alaska": {
+"source": "wiki-fr"
+},
+"races-de-chien_samoyede-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_akita-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_shiba-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_chow-chow": {
+"source": "wiki-fr"
+},
+"races-de-chien_shar-pei": {
+"source": "bing"
+},
+"races-de-chien_basset-hound": {
+"source": "wiki-fr"
+},
+"races-de-chien_beagle-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_chien-de-saint-hubert": {
+"source": "bing"
+},
+"races-de-chien_cocker-spaniel": {
+"source": "wiki-fr"
+},
+"races-de-chien_cavalier-king-charles-spaniel": {
+"source": "bing"
+},
+"races-de-chien_jack-russell-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_fox-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_yorkshire-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_bichon-a-poil-frise": {
+"source": "wiki-fr"
+},
+"races-de-chien_bichon-maltais": {
+"source": "wiki-fr"
+},
+"races-de-chien_chihuahua-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_pekinois-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_carlin": {
+"source": "wiki-fr"
+},
+"races-de-chien_teckel": {
+"source": "wiki-fr"
+},
+"races-de-chien_levrier-whippet": {
+"source": "wiki-fr"
+},
+"races-de-chien_levrier-afghan": {
+"source": "wiki-fr"
+},
+"races-de-chien_irish-wolfhound": {
+"source": "wiki-fr"
+},
+"races-de-chien_dalmatien": {
+"source": "wiki-fr"
+},
+"races-de-chien_braque-de-weimar": {
+"source": "wiki-fr"
+},
+"races-de-chien_braque-allemand-a-poil-court": {
+"source": "wiki-fr"
+},
+"races-de-chien_epagneul-breton": {
+"source": "wiki-fr"
+},
+"races-de-chien_epagneul-francais": {
+"source": "wiki-fr"
+},
+"races-de-chien_setter-anglais": {
+"source": "wiki-fr"
+},
+"races-de-chien_setter-irlandais-rouge": {
+"source": "wiki-fr"
+},
+"races-de-chien_pointer-anglais": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-australien": {
+"source": "wiki-fr"
+},
+"races-de-chien_shetland-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-blanc-suisse": {
+"source": "wiki-fr"
+},
+"races-de-chien_bouvier-bernois": {
+"source": "wiki-fr"
+},
+"races-de-chien_bouvier-des-flandres": {
+"source": "wiki-fr"
+},
+"races-de-chien_schnauzer": {
+"source": "wiki-fr"
+},
+"races-de-chien_airedale-terrier": {
+"source": "bing"
+},
+"races-de-chien_bull-terrier": {
+"source": "bing"
+},
+"races-de-chien_staffordshire-bull-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_american-staffordshire-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_american-pit-bull-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_cane-corso": {
+"source": "wiki-fr"
+},
+"races-de-chien_dogue-de-bordeaux": {
+"source": "wiki-fr"
+},
+"races-de-chien_mastiff": {
+"source": "wiki-fr"
+},
+"races-de-chien_fila-brasileiro": {
+"source": "bing"
+},
+"races-de-chien_chien-de-montagne-des-pyrenees": {
+"source": "wiki-fr"
+},
+"races-de-chien_leonberg-chien": {
+"source": "wiki-fr"
+},
+"races-de-chien_spitz-allemand": {
+"source": "wiki-fr"
+},
+"races-de-chien_spitz-japonais": {
+"source": "bing"
+},
+"races-de-chien_spitz-nain": {
+"source": "wiki-fr"
+},
+"races-de-chien_epagneul-nain-continental-papillon": {
+"source": "wiki-fr"
+},
+"races-de-chien_lhassa-apso": {
+"source": "wiki-fr"
+},
+"races-de-chien_shih-tzu": {
+"source": "wiki-fr"
+},
+"races-de-chien_terrier-de-boston": {
+"source": "wiki-fr"
+},
+"races-de-chien_griffon-bruxellois": {
+"source": "bing"
+},
+"races-de-chien_king-charles-spaniel": {
+"source": "wiki-fr"
+},
+"races-de-chien_basenji": {
+"source": "wiki-fr"
+},
+"races-de-chien_xoloitzcuintle": {
+"source": "wiki-fr"
+},
+"races-de-chien_chien-nu-du-perou": {
+"source": "bing"
+},
+"races-de-chien_chien-de-rhodesie-a-crete-dorsale": {
+"source": "wiki-fr"
+},
+"races-de-chien_boerboel": {
+"source": "wiki-fr"
+},
+"races-de-chien_kangal-ville": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-kangal": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-de-beauce": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-picard": {
+"source": "wiki-fr"
+},
+"races-de-chien_barbet-chien": {
+"source": "bing"
+},
+"races-de-chien_epagneul-nain-continental": {
+"source": "imposée"
+},
+"races-de-chien_terrier-ecossais": {
+"source": "wiki-fr"
+},
+"races-de-chien_cairn-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_west-highland-white-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_sealyham-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_norfolk-terrier": {
+"source": "bing"
+},
+"races-de-chien_norwich-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_skye-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_border-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_bedlington-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_terrier-kerry-blue": {
+"source": "wiki-fr"
+},
+"races-de-chien_terrier-irlandais": {
+"source": "wiki-fr"
+},
+"races-de-chien_welsh-terrier": {
+"source": "bing"
+},
+"races-de-chien_manchester-terrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_bichon-havanais": {
+"source": "wiki-fr"
+},
+"races-de-chien_coton-de-tulear": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-hollandais": {
+"source": "wiki-fr"
+},
+"races-de-chien_berger-de-brie": {
+"source": "imposée"
+},
+"races-de-chien_berger-polonais-de-plaine": {
+"source": "wiki-fr"
+},
+"races-de-chien_puli": {
+"source": "wiki-fr"
+},
+"races-de-chien_komondor": {
+"source": "wiki-fr"
+},
+"races-de-chien_chien-loup-tchecoslovaque": {
+"source": "wiki-fr"
+},
+"races-de-chien_chien-loup-de-saarloos": {
+"source": "wiki-fr"
+},
+"races-de-chien_basset-fauve-de-bretagne": {
+"source": "wiki-fr"
+},
+"races-de-chien_basset-bleu-de-gascogne": {
+"source": "wiki-fr"
+},
+"races-de-chien_grand-bleu-de-gascogne": {
+"source": "wiki-fr"
+},
+"races-de-chien_beagle-harrier": {
+"source": "wiki-fr"
+},
+"races-de-chien_chien-a-loutre": {
+"source": "wiki-fr"
+},
+"races-de-chien_chien-noir-et-feu-pour-la-chasse-au-raton-laveur": {
+"source": "wiki-fr"
+},
+"races-de-chien_foxhound-americain": {
+"source": "bing"
+},
+"races-de-chien_foxhound-anglais": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_pele": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_diego-maradona": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_johan-cruyff": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_franz-beckenbauer": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_alfredo-di-stefano": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_ferenc-puskas": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_garrincha": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_bobby-charlton": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_gerd-muller": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_michel-platini": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_zico": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_socrates": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_paulo-roberto-falcao": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_marco-van-basten": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ruud-gullit": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_frank-rijkaard": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_dennis-bergkamp": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_roberto-baggio": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_paolo-maldini": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_franco-baresi": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_lothar-matthaus": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_jurgen-klinsmann": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_lev-yachine": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_eric-cantona": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_raymond-kopa": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_just-fontaine": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_michel-hidalgo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_zinedine-zidane": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ronaldo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ronaldinho": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_rivaldo": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_cafu": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_roberto-carlos-football": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_kaka": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_thierry-henry": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_patrick-vieira": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_marcel-desailly": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_lilian-thuram": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_didier-deschamps": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_fabien-barthez": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_david-beckham": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_steven-gerrard": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_frank-lampard": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_paul-scholes": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ryan-giggs": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_roy-keane": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_alan-shearer": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_wayne-rooney": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_andrea-pirlo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_francesco-totti": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_alessandro-del-piero": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_fabio-cannavaro": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_gianluigi-buffon": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_xavi": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_andres-iniesta": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_sergio-ramos": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_iker-casillas": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_carles-puyol": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_david-villa": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_fernando-torres": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_raul-football": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_luis-figo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_cristiano-ronaldo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_lionel-messi": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_neymar": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_kylian-mbappe": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_karim-benzema": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_antoine-griezmann": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_n-golo-kante": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_paul-pogba": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_raphael-varane": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_hugo-lloris": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_olivier-giroud": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_kevin-de-bruyne": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_eden-hazard": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_romelu-lukaku": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_luka-modric": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ivan-rakitic": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_robert-lewandowski": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_manuel-neuer": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_thomas-muller-football": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_toni-kroos": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_mesut-ozil": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_bastian-schweinsteiger": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_philipp-lahm": {
+"source": "wiki-en"
+},
+"plus-grands-joueurs-de-football_miroslav-klose": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_sergio-aguero": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_angel-di-maria": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_gonzalo-higuain": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_javier-zanetti": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_diego-forlan": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_luis-suarez-football-1987": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_edinson-cavani": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_james-rodriguez": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_radamel-falcao": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_didier-drogba": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_yaya-toure": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_samuel-eto-o": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_george-weah": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_roger-milla": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_jay-jay-okocha": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_michael-essien": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_mohamed-salah": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_sadio-mane": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_riyad-mahrez": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_son-heung-min": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_kaoru-mitoma": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_hidetoshi-nakata": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_park-ji-sung": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_tim-cahill": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_andres-escobar-saldarriaga": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_carlos-valderrama": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_rene-higuita": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_hristo-stoitchkov": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_gheorghe-hagi": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_pavel-nedved": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_zlatan-ibrahimovic": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_henrik-larsson": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_peter-schmeichel": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_rio-ferdinand": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_john-terry-football": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ashley-cole": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_gary-neville": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_michael-owen-football": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_emmanuel-petit": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_youri-djorkaeff": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_bixente-lizarazu": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_robert-pires": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_nicolas-anelka": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_franck-ribery": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_samir-nasri": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_hatem-ben-arfa": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_mathieu-valbuena": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_blaise-matuidi": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_presnel-kimpembe": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_ousmane-dembele": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_adrien-rabiot": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_aurelien-tchouameni": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_eduardo-camavinga": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_erling-haaland": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_vinicius-junior": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_jude-bellingham": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_bukayo-saka": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_phil-foden": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_pedri": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_gavi-football": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_jamal-musiala": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_rodri-football-1996": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_federico-valverde": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_rodrygo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_julian-alvarez": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_cody-gakpo": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_bernardo-silva": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_joao-felix": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_bruno-fernandes-football-1994": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_marcus-rashford": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_harry-kane": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_raheem-sterling": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_jack-grealish": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_declan-rice": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_virgil-van-dijk": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_frenkie-de-jong": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_memphis-depay": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_georginio-wijnaldum": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_arjen-robben": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_wesley-sneijder": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_robin-van-persie": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_edwin-van-der-sar": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_xherdan-shaqiri": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_granit-xhaka": {
+"source": "bing"
+},
+"plus-grands-joueurs-de-football_luka-jovic": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_dusan-tadic": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_christian-pulisic": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_weston-mckennie": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_alphonso-davies": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_achraf-hakimi": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_hakim-ziyech": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_sofyan-amrabat": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_kalidou-koulibaly": {
+"source": "wiki-fr"
+},
+"plus-grands-joueurs-de-football_idrissa-gueye-football-1989": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_odin": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_thor": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_loki": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_freyja": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_freyr": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_baldr": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_tyr": {
+"source": "imposée"
+},
+"mythologies-du-monde-hors-grece_heimdall": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_frigg": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_fenrir": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_jormungand": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_hel-deesse": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_re": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_osiris": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_isis": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_horus": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_anubis": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_seth": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_thot": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_hathor": {
+"source": "imposée"
+},
+"mythologies-du-monde-hors-grece_sekhmet": {
+"source": "imposée"
+},
+"mythologies-du-monde-hors-grece_bastet": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_ptah": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_amon": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_brahma": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_vishnou": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_shiva": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_ganesh": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_hanuman": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_dourga": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_kali": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_lakshmi": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_sarasvati-deesse": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_indra": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_krishna": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_rama": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_dagda": {
+"source": "imposée"
+},
+"mythologies-du-monde-hors-grece_morrigan": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_lug-dieu": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_brigit": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_cernunnos": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_amaterasu": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_susanoo": {
+"source": "imposée"
+},
+"mythologies-du-monde-hors-grece_tsukuyomi": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_izanagi": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_izanami": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_inari-divinite-japonaise": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_quetzalcoatl": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_huitzilopochtli": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_tlaloc": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_xochiquetzal": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_kukulkan": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_peroun": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_veles-mythologie": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_anansi": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_pangu": {
+"source": "wiki-fr"
+},
+"mythologies-du-monde-hors-grece_nuwa": {
+"source": "bing"
+},
+"mythologies-du-monde-hors-grece_coyote-mythologie": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_dragon-europeen": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_dragon-oriental": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_phenix": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_licorne": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_griffon-mythologie": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_kraken": {
+"source": "bing"
+},
+"creatures-et-legendes_sirene-mythologie-grecque": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_lycanthrope": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_vampire": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_golem": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_chimere-mythologie": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_hydre-de-lerne": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_minotaure": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_pegase": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_yeti": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_bigfoot": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_monstre-du-loch-ness": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_chupacabra": {
+"source": "bing"
+},
+"creatures-et-legendes_homme-papillon": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_wendigo": {
+"source": "bing"
+},
+"creatures-et-legendes_banshee": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_leprechaun": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_basilic-mythologie": {
+"source": "bing"
+},
+"creatures-et-legendes_salamandre-animal-legendaire": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_rokh": {
+"source": "bing"
+},
+"creatures-et-legendes_kappa-mythologie": {
+"source": "bing"
+},
+"creatures-et-legendes_oni": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_tengu-folklore": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_renard-dans-la-culture-japonaise": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_baba-yaga": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_roussalka": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_selkie": {
+"source": "bing"
+},
+"creatures-et-legendes_kelpie": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_fee": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_elfe": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_gobelin-folklore": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_troll": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_ogre": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_atlantide": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_el-dorado-film-1966": {
+"source": "bing"
+},
+"creatures-et-legendes_shangri-la": {
+"source": "bing"
+},
+"creatures-et-legendes_camelot": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_eden": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_lemurie": {
+"source": "wiki-fr"
+},
+"creatures-et-legendes_avalon": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sherlock-holmes": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_dracula": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_monstre-de-frankenstein": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_l-etrange-cas-du-docteur-jekyll-et-de-mister-hyde": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_le-portrait-de-dorian-gray": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_robinson-crusoe": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_les-voyages-de-gulliver": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_don-quichotte": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_d-artagnan": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_jean-valjean": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_quasimodo-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_le-comte-de-monte-cristo": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_capitaine-nemo": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_phileas-fogg": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_cyrano-de-bergerac-rostand": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_alice-alice-au-pays-des-merveilles": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_chapelier-fou-comics": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_peter-pan": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_capitaine-crochet": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_tarzan": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sancho-panza": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_un-chant-de-noel": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_oliver-twist": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_long-john-silver": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_frodon-sacquet": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_gandalf": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_aragorn": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_legolas": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_gimli-terre-du-milieu": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sauron": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_gollum": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_bilbon-sacquet": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_harry-potter": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_hermione-granger": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_ron-weasley": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_albus-dumbledore": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_voldemort": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_severus-rogue": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_rubeus-hagrid": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_daenerys-targaryen": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_jon-snow": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_tyrion-lannister": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_geralt-de-riv": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_aslan-narnia": {
+"source": "wiki-en"
+},
+"personnages-de-fiction-celebres_le-sorcier-d-oz": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_dorothy-gale": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_superman": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_batman": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_wonder-woman": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_spider-man": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_iron-man-film-2008": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_captain-america": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_hulk": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_thor-comics": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_wolverine": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_black-panther-film": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_docteur-strange": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_deadpool": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_joker-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_harley-quinn": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_the-flash-film": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_green-lantern": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_aquaman": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_catwoman": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_punisher-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_daredevil": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_professeur-xavier": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_magneto-comics": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_asterix": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_obelix": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_les-aventures-de-tintin": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_capitaine-haddock": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_lucky-luke": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_gaston-lagaffe": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_mickey-mouse": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_donald-duck": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_dingo-disney": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_blanche-neige-disney": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_cendrillon": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_la-belle-au-bois-dormant": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_simba-disney": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_aladdin-disney": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_genie-disney": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_ariel-disney": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_elsa-disney": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sherif-woody": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_buzz-l-eclair": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_nemo-poisson": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_shrek-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_l-ane-shrek": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_homer-simpson": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_bart-simpson": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_bugs-bunny": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_daffy-duck": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_tom-et-jerry": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_scooby-doo": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_astro-le-petit-robot": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_mario-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_luigi": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_bowser": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_princesse-peach": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_link-the-legend-of-zelda": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_princesse-zelda": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_ganon": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sonic": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_kirby-personnage": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_pikachu": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_spartan-john-117": {
+"source": "wiki-en"
+},
+"personnages-de-fiction-celebres_lara-croft": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_solid-snake": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_kratos-god-of-war": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_ezio-auditore-da-firenze": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_gordon-freeman": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_cloud-strife": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sephiroth-final-fantasy": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_chun-li": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_ryu-street-fighter": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_samus-aran": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_donkey-kong-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_yoshi": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_crash-bandicoot-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_spyro": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_47-hitman": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_nathan-drake-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_aloy": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_arthur-morgan-red-dead-redemption-ii": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_commandant-shepard": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_son-goku": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_naruto-uzumaki": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sasuke-uchiwa": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_monkey-d-luffy": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_zoro": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_son-gohan": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_vegeta": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_ichigo-kurosaki": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_eren-jager": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_light-yagami": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_l-death-note": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_fullmetal-alchemist": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_totoro-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_sailor-moon": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_doraemon": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_james-bond": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_anakin-skywalker": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_luke-skywalker": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_han-solo": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_leia-organa": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_yoda": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_indiana-jones": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_rocky-balboa": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_t-800": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_ellen-ripley": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_neo-matrix": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_forrest-gump-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_hannibal-lecter": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_norman-bates": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_freddy-krueger": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_jason-voorhees": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_michael-myers": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_jack-sparrow": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_mercredi-addams": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_la-famille-addams-serie-televisee-1964": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_walter-white-personnage": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_tony-soprano": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_onze-stranger-things": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_cthulhu": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_conan-le-barbare": {
+"source": "wiki-fr"
+},
+"personnages-de-fiction-celebres_elric-de-melnibone": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_fallout": {
+"source": "bing"
+},
+"personnages-de-fiction-celebres_duke-nukem": {
+"source": "wiki-fr"
+},
+"jeux-video-cultes_pong": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_space-invaders": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_pac-man": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_asteroids": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_galaga": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_donkey-kong-jeu-video-1981": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_frogger": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_missile-command": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_defender-jeu-video-1981": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_tetris": {
+"source": "bing"
+},
+"jeux-video-cultes_q-bert": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_super-mario-bros": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_the-legend-of-zelda": {
+"source": "bing"
+},
+"jeux-video-cultes_metroid": {
+"source": "bing"
+},
+"jeux-video-cultes_punch-out": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_excitebike": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_duck-hunt": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_sonic-the-hedgehog": {
+"source": "bing"
+},
+"jeux-video-cultes_street-fighter-ii-the-world-warrior": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_mortal-kombat": {
+"source": "bing"
+},
+"jeux-video-cultes_super-mario-world": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_donkey-kong-country": {
+"source": "bing"
+},
+"jeux-video-cultes_the-legend-of-zelda-a-link-to-the-past": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_chrono-trigger": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_final-fantasy-vi": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_prince-of-persia": {
+"source": "bing"
+},
+"jeux-video-cultes_maniac-mansion": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_simcity": {
+"source": "bing"
+},
+"jeux-video-cultes_myst": {
+"source": "bing"
+},
+"jeux-video-cultes_doom-jeu-video-1993": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_wolfenstein-3d": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_civilization-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_warcraft-ii-tides-of-darkness": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_command-and-conquer": {
+"source": "wiki-fr"
+},
+"jeux-video-cultes_final-fantasy-vii": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_super-mario-64": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_the-legend-of-zelda-ocarina-of-time": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_goldeneye-007": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_resident-evil": {
+"source": "bing"
+},
+"jeux-video-cultes_metal-gear-solid": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_half-life": {
+"source": "bing"
+},
+"jeux-video-cultes_starcraft": {
+"source": "bing"
+},
+"jeux-video-cultes_diablo-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_pokemon-rouge-et-bleu": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_tomb-raider": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_crash-bandicoot": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_spyro-the-dragon": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_age-of-empires-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_halo-combat-evolved": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_grand-theft-auto-san-andreas": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_world-of-warcraft": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_les-sims": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_half-life-2": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_shadow-of-the-colossus": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_god-of-war": {
+"source": "bing"
+},
+"jeux-video-cultes_resident-evil-4": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_portal-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_bioshock": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_call-of-duty-4-modern-warfare": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_the-elder-scrolls-iv-oblivion": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_guitar-hero-serie-de-jeux-video": {
+"source": "wiki-fr"
+},
+"jeux-video-cultes_katamari-damacy": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_ico-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_minecraft": {
+"source": "bing"
+},
+"jeux-video-cultes_dark-souls": {
+"source": "bing"
+},
+"jeux-video-cultes_the-witcher-3-wild-hunt": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_the-elder-scrolls-v-skyrim": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_portal-2": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_journey-jeu-video-2012": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_the-last-of-us": {
+"source": "bing"
+},
+"jeux-video-cultes_undertale": {
+"source": "bing"
+},
+"jeux-video-cultes_overwatch": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_fortnite": {
+"source": "bing"
+},
+"jeux-video-cultes_league-of-legends": {
+"source": "bing"
+},
+"jeux-video-cultes_dota-2": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_stardew-valley": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_celeste-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_hollow-knight": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_the-legend-of-zelda-breath-of-the-wild": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_red-dead-redemption-ii": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_god-of-war-jeu-video-2018": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_cuphead": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_dishonored": {
+"source": "bing"
+},
+"jeux-video-cultes_bloodborne": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_elden-ring": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_baldur-s-gate-iii": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_hades-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_outer-wilds": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_disco-elysium": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_among-us": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_animal-crossing-new-horizons": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_it-takes-two-jeu-video": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_hades-ii": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_balatro": {
+"source": "wiki-en-cover"
+},
+"jeux-video-cultes_no-man-s-sky": {
+"source": "wiki-en-cover"
+},
+"films-cultes_le-voyage-dans-la-lune": {
+"source": "memo:films"
+},
+"films-cultes_naissance-d-une-nation": {
+"source": "memo:films"
+},
+"films-cultes_nosferatu-film-2024": {
+"source": "memo:films"
+},
+"films-cultes_metropolis-film-1927": {
+"source": "memo:films"
+},
+"films-cultes_le-cuirasse-potemkine": {
+"source": "memo:films"
+},
+"films-cultes_la-ruee-vers-l-or": {
+"source": "memo:films"
+},
+"films-cultes_les-temps-modernes-film": {
+"source": "memo:films"
+},
+"films-cultes_le-kid": {
+"source": "tmdb"
+},
+"films-cultes_king-kong": {
+"source": "memo:films"
+},
+"films-cultes_autant-en-emporte-le-vent-film": {
+"source": "memo:films"
+},
+"films-cultes_le-magicien-d-oz-film-1939": {
+"source": "memo:films"
+},
+"films-cultes_citizen-kane": {
+"source": "memo:films"
+},
+"films-cultes_casablanca-film": {
+"source": "memo:films"
+},
+"films-cultes_la-vie-est-belle-film-1946": {
+"source": "memo:films"
+},
+"films-cultes_boulevard-du-crepuscule": {
+"source": "memo:films"
+},
+"films-cultes_chantons-sous-la-pluie": {
+"source": "tmdb"
+},
+"films-cultes_fenetre-sur-cour": {
+"source": "tmdb"
+},
+"films-cultes_sueurs-froides": {
+"source": "memo:films"
+},
+"films-cultes_douze-hommes-en-colere-film": {
+"source": "tmdb"
+},
+"films-cultes_certains-l-aiment-chaud": {
+"source": "tmdb"
+},
+"films-cultes_a-bout-de-souffle": {
+"source": "memo:films"
+},
+"films-cultes_psychose-film": {
+"source": "tmdb"
+},
+"films-cultes_lawrence-d-arabie-film": {
+"source": "memo:films"
+},
+"films-cultes_2001-l-odyssee-de-l-espace": {
+"source": "memo:films"
+},
+"films-cultes_le-bon-la-brute-et-le-truand": {
+"source": "memo:films"
+},
+"films-cultes_la-grande-vadrouille": {
+"source": "tmdb"
+},
+"films-cultes_bonnie-and-clyde-chanson": {
+"source": "memo:films"
+},
+"films-cultes_le-parrain-film": {
+"source": "memo:films"
+},
+"films-cultes_le-parrain-2e-partie": {
+"source": "tmdb"
+},
+"films-cultes_orange-mecanique": {
+"source": "tmdb"
+},
+"films-cultes_l-exorciste-film": {
+"source": "memo:films"
+},
+"films-cultes_les-dents-de-la-mer": {
+"source": "memo:films"
+},
+"films-cultes_star-wars-episode-iv-un-nouvel-espoir": {
+"source": "memo:films"
+},
+"films-cultes_rencontres-du-troisieme-type": {
+"source": "tmdb"
+},
+"films-cultes_apocalypse-now": {
+"source": "memo:films"
+},
+"films-cultes_rocky-film": {
+"source": "memo:films"
+},
+"films-cultes_taxi-driver": {
+"source": "memo:films"
+},
+"films-cultes_alien-film": {
+"source": "memo:films"
+},
+"films-cultes_e-t-l-extra-terrestre": {
+"source": "tmdb"
+},
+"films-cultes_blade-runner-film": {
+"source": "memo:films"
+},
+"films-cultes_retour-vers-le-futur": {
+"source": "tmdb"
+},
+"films-cultes_les-aventuriers-de-l-arche-perdue": {
+"source": "tmdb"
+},
+"films-cultes_terminator": {
+"source": "tmdb"
+},
+"films-cultes_sos-fantomes": {
+"source": "tmdb"
+},
+"films-cultes_die-hard": {
+"source": "memo:films"
+},
+"films-cultes_batman-film-1989": {
+"source": "tmdb"
+},
+"films-cultes_le-cercle-des-poetes-disparus": {
+"source": "tmdb"
+},
+"films-cultes_dirty-dancing": {
+"source": "tmdb"
+},
+"films-cultes_top-gun-film": {
+"source": "tmdb"
+},
+"films-cultes_pulp-fiction": {
+"source": "memo:films"
+},
+"films-cultes_le-silence-des-agneaux-film": {
+"source": "tmdb"
+},
+"films-cultes_forrest-gump": {
+"source": "memo:films"
+},
+"films-cultes_le-roi-lion": {
+"source": "tmdb"
+},
+"films-cultes_jurassic-park": {
+"source": "tmdb"
+},
+"films-cultes_titanic-film-1997": {
+"source": "memo:films"
+},
+"films-cultes_matrix-film": {
+"source": "tmdb"
+},
+"films-cultes_fight-club-film": {
+"source": "memo:films"
+},
+"films-cultes_se7en-chanteur": {
+"source": "memo:films"
+},
+"films-cultes_usual-suspects": {
+"source": "tmdb"
+},
+"films-cultes_american-beauty": {
+"source": "memo:films"
+},
+"films-cultes_il-faut-sauver-le-soldat-ryan": {
+"source": "tmdb"
+},
+"films-cultes_leon-film": {
+"source": "tmdb"
+},
+"films-cultes_la-liste-de-schindler": {
+"source": "tmdb"
+},
+"films-cultes_le-grand-bleu": {
+"source": "tmdb"
+},
+"films-cultes_trainspotting-film": {
+"source": "tmdb"
+},
+"films-cultes_le-seigneur-des-anneaux-serie-de-films": {
+"source": "tmdb"
+},
+"films-cultes_le-fabuleux-destin-d-amelie-poulain": {
+"source": "tmdb"
+},
+"films-cultes_gladiator-film-2000": {
+"source": "memo:films"
+},
+"films-cultes_requiem-for-a-dream": {
+"source": "memo:films"
+},
+"films-cultes_old-boy-film-2003": {
+"source": "tmdb"
+},
+"films-cultes_eternal-sunshine-of-the-spotless-mind": {
+"source": "memo:films"
+},
+"films-cultes_no-country-for-old-men": {
+"source": "memo:films"
+},
+"films-cultes_there-will-be-blood": {
+"source": "memo:films"
+},
+"films-cultes_the-dark-knight-le-chevalier-noir": {
+"source": "memo:films"
+},
+"films-cultes_le-labyrinthe-de-pan": {
+"source": "memo:films"
+},
+"films-cultes_wall-e": {
+"source": "tmdb"
+},
+"films-cultes_inglourious-basterds": {
+"source": "tmdb"
+},
+"films-cultes_inception": {
+"source": "memo:films"
+},
+"films-cultes_interstellar": {
+"source": "tmdb"
+},
+"films-cultes_whiplash-film-2014": {
+"source": "memo:films"
+},
+"films-cultes_la-la-land-film": {
+"source": "memo:films"
+},
+"films-cultes_mad-max-fury-road": {
+"source": "memo:films"
+},
+"films-cultes_parasite-film-2019": {
+"source": "memo:films"
+},
+"films-cultes_get-out-film": {
+"source": "memo:films"
+},
+"films-cultes_blade-runner-2049": {
+"source": "tmdb"
+},
+"films-cultes_dunkerque-film-2017": {
+"source": "tmdb"
+},
+"films-cultes_her-film": {
+"source": "memo:films"
+},
+"films-cultes_django-unchained": {
+"source": "memo:films"
+},
+"films-cultes_gravity-film": {
+"source": "tmdb"
+},
+"films-cultes_the-grand-budapest-hotel": {
+"source": "tmdb"
+},
+"films-cultes_moonlight-film-2016": {
+"source": "memo:films"
+},
+"films-cultes_joker-film-2019": {
+"source": "memo:films"
+},
+"films-cultes_everything-everywhere-all-at-once": {
+"source": "memo:films"
+},
+"films-cultes_oppenheimer-film": {
+"source": "memo:films"
+},
+"films-cultes_dune-film-2021": {
+"source": "tmdb"
+},
+"films-cultes_the-batman": {
+"source": "tmdb"
+},
+"films-cultes_mon-voisin-totoro": {
+"source": "tmdb"
+},
+"films-cultes_princesse-mononoke": {
+"source": "tmdb"
+},
+"films-cultes_le-voyage-de-chihiro": {
+"source": "tmdb"
+},
+"films-cultes_le-chateau-ambulant": {
+"source": "tmdb"
+},
+"films-cultes_le-chateau-dans-le-ciel": {
+"source": "tmdb"
+},
+"films-cultes_les-quatre-cents-coups": {
+"source": "tmdb"
+},
+"films-cultes_rashomon-film-1950": {
+"source": "memo:films"
+},
+"films-cultes_la-dolce-vita": {
+"source": "memo:films"
+},
+"films-cultes_huit-et-demi": {
+"source": "tmdb"
+},
+"films-cultes_amarcord": {
+"source": "tmdb"
+},
+"films-cultes_solaris-film-1972": {
+"source": "tmdb"
+},
+"films-cultes_andrei-roublev-film": {
+"source": "tmdb"
+},
+"films-cultes_voyage-a-tokyo": {
+"source": "memo:films"
+},
+"films-cultes_vivre-film-1952": {
+"source": "tmdb"
+},
+"films-cultes_la-bataille-d-alger": {
+"source": "tmdb"
+},
+"films-cultes_la-haine": {
+"source": "tmdb"
+},
+"films-cultes_amours-chiennes": {
+"source": "memo:films"
+},
+"films-cultes_la-vie-d-adele-chapitres-1-et-2": {
+"source": "tmdb"
+},
+"films-cultes_the-truman-show": {
+"source": "memo:films"
+},
+"films-cultes_gone-girl": {
+"source": "tmdb"
+},
+"films-cultes_zodiac-film": {
+"source": "tmdb"
+},
+"films-cultes_the-social-network": {
+"source": "memo:films"
+},
+"films-cultes_mademoiselle-film-2016": {
+"source": "tmdb"
+},
+"films-cultes_memories-of-murder": {
+"source": "tmdb"
+},
+"films-cultes_dernier-train-pour-busan": {
+"source": "tmdb"
+}
+}

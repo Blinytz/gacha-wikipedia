@@ -63,7 +63,7 @@ def charger_cartes(filtre_col):
     for c in index['collections']:
         if filtre_col and c['slug'] != filtre_col:
             continue
-        d = json.loads((ROOT / 'data' / c['fichier']).read_text(encoding='utf-8'))
+        d = json.loads((ROOT / c['fichier']).read_text(encoding='utf-8'))
         cols.append(d)
     return cols
 
@@ -106,6 +106,9 @@ class Resolveur:
         listes = MEMO_LISTES.get(slug, [])
         cles = [carte['nom'], carte['titrePage'],
                 re.sub(r'\s*\([^)]*\)', '', carte['titrePage'])]
+        # correspondances manuelles (sujets identiques, noms différents)
+        ALIAS = {'les erinyes': 'tisiphone', 'erinyes': 'tisiphone'}
+        cles += [ALIAS[il.norm(c)] for c in list(cles) if il.norm(c) in ALIAS]
         if slug == 'coupes-du-monde-fifa':
             m = re.search(r'(\d{4})', carte['titrePage'])
             if m:
