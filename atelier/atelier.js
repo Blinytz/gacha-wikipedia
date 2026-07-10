@@ -2,8 +2,8 @@
 // notes, éditeur de cadrage et flux d'enregistrement vers GitHub.
 
 import { getToken, setToken, testerToken, getFichierTexte, putFichier,
-         blobVersBase64, enfiler, surFileChangee, reessayerErreurs,
-         DEPOT } from './github.js';
+         supprimerFichier, blobVersBase64, enfiler, surFileChangee,
+         reessayerErreurs, DEPOT } from './github.js';
 import { Editeur } from './editeur.js';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g,
@@ -11,6 +11,29 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g,
 
 const TAGS = ['hors-sujet', 'mauvaise qualité', 'style incohérent',
               'mauvaise page liée', 'recadrer', 'supprimer la carte'];
+
+const RARETES = ['commune', 'rare', 'epique', 'mythique', 'legendaire'];
+const COULEUR_RARETE = { commune: '#8a93a6', rare: '#4aa8ff', epique: '#b05cff',
+                         mythique: '#ff5cd0', legendaire: '#ffd166' };
+
+function slugifier(s) {
+  return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+// Mutation sérialisée d'un fichier data/<col>.json : relecture fraîche
+// (sha + contenu) DANS le job, application, écriture — un conflit relance
+// le job entier, donc jamais d'écrasement entre appareils.
+function jobModifierCollection(colSlug, message, muter) {
+  enfiler(message, async () => {
+    const chemin = `data/${colSlug}.json`;
+    const { texte, sha } = await getFichierTexte(chemin);
+    const d = JSON.parse(texte);
+    muter(d);
+    await putFichier(chemin,
+      btoa(unescape(encodeURIComponent(JSON.stringify(d)))), message, sha);
+  });
+}
 
 let collections = [];          // [{slug, nom, cartes:[...]}]
 let parId = new Map();
@@ -145,12 +168,14 @@ function rendreGrille() {
         const cad = notes.cadrages[c.id];
         const src = apercusLocaux[c.id]
           || (cad ? `${RAW}${c.thumbUrl}?v=${cad.editeLe}` : c.thumbUrl);
-        return `<div class="vignette${sel}" data-id="${esc(c.id)}">
+        return `<div class="vignette${sel}" data-id="${esc(c.id)}"
+                     style="--rar:${COULEUR_RARETE[c.rarete]}">
           <img src="${esc(src)}" loading="lazy" alt="">
           <button class="v-statut ${st}" data-statut="${esc(c.id)}" title="statut">${pastille || '·'}</button>
           ${note}
           <div class="v-nom">${esc(c.nom)}</div>
-          <div class="v-source">${esc(sourcesImages[c.id]?.source || '?')}</div>
+          <div class="v-source"><b class="v-rarete">${esc(c.rarete)}</b> ·
+            ${esc(sourcesImages[c.id]?.source || '?')}</div>
         </div>`;
       }).join('') + '</div>');
   }
@@ -302,6 +327,16 @@ function rendreNotes() {
 function brancherEditeur() {
   editeur = new Editeur($('#ed-conteneur'), $('#ed-image'), $('#ed-canvas-apercu'));
   $('#ed-fermer').addEventListener('click', fermerEditeur);
+  $('#ed-f-enregistrer').addEventListener('click', enregistrerFiche);
+  $('#ed-f-supprimer').addEventListener('click', supprimerCarte);
+  $('#btn-nouvelle').addEventListener('click', modaleNouvelleCarte);
+  $('#ed-copier').addEventListener('click', async () => {
+    if (!carteEnEdition) return;
+    await navigator.clipboard.writeText(carteEnEdition.nom);
+    const b = $('#ed-copier');
+    b.textContent = '✓';
+    setTimeout(() => { b.textContent = '📋'; }, 1200);
+  });
   $('#ed-plus').addEventListener('click', () => editeur.zoomer(1.2));
   $('#ed-moins').addEventListener('click', () => editeur.zoomer(1 / 1.2));
   $('#ed-reset').addEventListener('click', () => editeur.reset());
@@ -347,7 +382,19 @@ async function ouvrirEditeur(carte) {
   remplacementEnCours = false;
   $('#ed-nom').textContent = carte.nom;
   $('#ed-infos').textContent = ` ${carte.collection} · image : ${sourcesImages[carte.id]?.source || '?'}`;
+  // fiche éditable
+  $('#ed-f-nom').value = carte.nom;
+  $('#ed-f-lien').value = carte.lienWikipedia || '';
+  $('#ed-f-rarete').innerHTML = RARETES.map(r =>
+    `<option value="${r}" ${r === carte.rarete ? 'selected' : ''}>${r}</option>`).join('');
   $('#editeur').hidden = false;
+  if (carte._nouvelle) {
+    // carte fraîchement créée : pas encore d'image -> proposer d'en coller une
+    editeur.source = null;
+    $('#ed-image').removeAttribute('src');
+    modaleRemplacement();
+    return;
+  }
   const cad = notes.cadrages[carte.id];
   // ordre : original (raw = frais immédiatement) puis full (raw) puis full
   // relatif — jamais d'échec juste parce que Pages n'a pas fini de republier
@@ -407,11 +454,112 @@ async function chargerRemplacement(blob) {
   remplacementEnCours = true;
 }
 
+/* ---------- fiche : rareté / nom / lien / suppression / création ---------- */
+
+function colSlugDe(carte) { return carte.id.split('_', 1)[0]; }
+
+function enregistrerFiche() {
+  if (!carteEnEdition) return;
+  if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙).'); return; }
+  const carte = carteEnEdition;
+  const nom = $('#ed-f-nom').value.trim();
+  const lien = $('#ed-f-lien').value.trim();
+  const rarete = $('#ed-f-rarete').value;
+  if (!nom) { alert('Le nom ne peut pas être vide.'); return; }
+  if (lien && !/^https?:\/\//.test(lien)) { alert('Le lien doit être une URL complète.'); return; }
+  // maj locale immédiate
+  carte.nom = nom; carte.lienWikipedia = lien; carte.rarete = rarete;
+  jobModifierCollection(colSlugDe(carte), `Atelier : fiche ${carte.id}`, (d) => {
+    const c = d.cartes.find(x => x.id === carte.id);
+    if (!c) throw new Error(`carte ${carte.id} introuvable dans le fichier`);
+    c.nom = nom; c.lienWikipedia = lien; c.rarete = rarete;
+  });
+  $('#ed-nom').textContent = nom;
+  rendreGrille();
+}
+
+function supprimerCarte() {
+  if (!carteEnEdition) return;
+  if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙).'); return; }
+  const carte = carteEnEdition;
+  if (!confirm(`Supprimer définitivement « ${carte.nom} » de ${carte.collection} ?`)) return;
+  const colSlug = colSlugDe(carte);
+  // maj locale immédiate
+  const col = collections.find(c => c.slug === colSlug);
+  col.cartes = col.cartes.filter(c => c.id !== carte.id);
+  parId.delete(carte.id);
+  delete notes.statuts[carte.id];
+  delete notes.cadrages[carte.id];
+  planifierSauvegardeNotes();
+  jobModifierCollection(colSlug, `Atelier : suppression ${carte.id}`, (d) => {
+    d.cartes = d.cartes.filter(c => c.id !== carte.id);
+  });
+  const ch = cheminsDe(carte);
+  enfiler(`images de ${carte.nom} (suppression)`, async () => {
+    for (const p of [ch.thumb, ch.full, ch.orig]) {
+      await supprimerFichier(p, `Atelier : suppression image ${carte.id}`);
+    }
+  });
+  fermerEditeur();
+  rendreGrille();
+}
+
+function modaleNouvelleCarte() {
+  if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙).'); return; }
+  const preselection = $('#f-collection').value;
+  ouvrirModale(`
+    <h3>Nouvelle carte</h3>
+    <label class="doux">Collection</label>
+    <select id="m-col">${collections.map(c =>
+      `<option value="${c.slug}" ${c.slug === preselection ? 'selected' : ''}>${esc(c.nom)}</option>`).join('')}</select>
+    <input id="m-nom" placeholder="Nom de la carte">
+    <input id="m-lien" type="url" placeholder="Lien Wikipédia (https://…)">
+    <label class="doux">Rareté</label>
+    <select id="m-rarete">${RARETES.map(r => `<option>${r}</option>`).join('')}</select>
+    <input id="m-pv" type="number" placeholder="PV (20-340)" value="120" min="1">
+    <div class="m-boutons">
+      <button class="btn btn-primaire" id="m-creer">Créer puis choisir l'image</button>
+      <button class="btn btn-discret" id="m-annuler">Annuler</button>
+    </div>`);
+  $('#m-annuler').onclick = fermerModale;
+  $('#m-creer').onclick = () => {
+    const colSlug = $('#m-col').value;
+    const nom = $('#m-nom').value.trim();
+    const lien = $('#m-lien').value.trim();
+    const rarete = $('#m-rarete').value;
+    const pv = Math.max(1, Math.round(Number($('#m-pv').value) || 120));
+    if (!nom) { alert('Il faut un nom.'); return; }
+    const col = collections.find(c => c.slug === colSlug);
+    let slug = slugifier(nom) || 'carte';
+    while (parId.has(`${colSlug}_${slug}`)) slug += '-b';
+    const carte = {
+      id: `${colSlug}_${slug}`, nom, titrePage: nom,
+      imageUrl: `images/full/${colSlug}/${slug}.webp`,
+      thumbUrl: `images/thumbs/${colSlug}/${slug}.webp`,
+      description: '', collection: col.nom, rarete, pv,
+      lienWikipedia: lien, pageviews: 0,
+      numero: Math.max(0, ...col.cartes.map(c => c.numero || 0)) + 1,
+      _nouvelle: true,
+    };
+    col.cartes.push(carte);
+    parId.set(carte.id, carte);
+    const { _nouvelle, ...carteProre } = carte;
+    jobModifierCollection(colSlug, `Atelier : création ${carte.id}`, (d) => {
+      if (!d.cartes.some(c => c.id === carte.id)) d.cartes.push(carteProre);
+    });
+    fermerModale();
+    rendreGrille();
+    ouvrirEditeur(carte);   // enchaîne sur le choix de l'image
+  };
+}
+
 /* ---------- enregistrement (file GitHub) ---------- */
 
 async function enregistrerCadrage() {
   if (!carteEnEdition) return;
   if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙) avant d’enregistrer.'); return; }
+  if (!editeur.source) { alert('Choisis d’abord une image (🔄 Remplacer).'); return; }
+  delete carteEnEdition._nouvelle;
   const carte = carteEnEdition;
   const chemins = cheminsDe(carte);
   const cadrage = editeur.getCadrage();

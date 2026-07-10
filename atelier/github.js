@@ -60,6 +60,17 @@ export async function putFichier(chemin, base64, message, shaConnu) {
   return (await r.json()).content.sha;
 }
 
+// suppression (best-effort : silencieux si le fichier n'existe pas)
+export async function supprimerFichier(chemin, message) {
+  const sha = await getSha(chemin);
+  if (!sha) return;
+  const r = await fetch(API + chemin, {
+    method: 'DELETE', headers: entetes(),
+    body: JSON.stringify({ message, sha, branch: BRANCHE }),
+  });
+  if (!r.ok && r.status !== 404) throw new Error(`DELETE ${chemin} : HTTP ${r.status}`);
+}
+
 export function blobVersBase64(blob) {
   return new Promise((res, rej) => {
     const fr = new FileReader();

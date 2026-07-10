@@ -32,6 +32,7 @@
   </select>
   <input type="search" id="f-texte" placeholder="🔍 nom de carte…">
   <button id="btn-selection" class="btn">☑ Sélection</button>
+  <button id="btn-nouvelle" class="btn">➕ Nouvelle carte</button>
 </div>
 
 <main>
@@ -50,7 +51,8 @@
 <div id="editeur" class="editeur" hidden>
   <div class="editeur-entete">
     <button class="btn btn-discret" id="ed-fermer">✕ Fermer</button>
-    <div class="ed-titre"><b id="ed-nom"></b><small id="ed-infos"></small></div>
+    <div class="ed-titre"><b id="ed-nom"></b><button id="ed-copier"
+      class="btn-copier" title="Copier le nom">📋</button><small id="ed-infos"></small></div>
     <button class="btn btn-primaire" id="ed-enregistrer">💾 Enregistrer</button>
   </div>
   <div class="editeur-scene" id="ed-scene">
@@ -73,6 +75,18 @@
   </div>
   <p class="ed-aide">Glisse la photo pour la positionner · molette ou pincement
   pour zoomer · le cadre = ce que la carte affichera.</p>
+  <div class="ed-fiche">
+    <h4>Fiche de la carte</h4>
+    <label>Nom affiché <input id="ed-f-nom"></label>
+    <label>Lien Wikipédia <input id="ed-f-lien" type="url"></label>
+    <label>Rareté <select id="ed-f-rarete"></select></label>
+    <div class="m-boutons">
+      <button class="btn btn-primaire" id="ed-f-enregistrer">💾 Enregistrer la fiche</button>
+      <button class="btn btn-danger" id="ed-f-supprimer">🗑 Supprimer la carte</button>
+    </div>
+    <p class="doux">La rareté modifiée ici est définitive (les PV ne changent
+    pas). La suppression retire la carte du jeu et efface ses images.</p>
+  </div>
   <input type="file" id="ed-fichier" accept="image/*" hidden>
 </div>
 

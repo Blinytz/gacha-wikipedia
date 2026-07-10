@@ -50,7 +50,9 @@ h2 { font-size: 15px; margin: 22px 0 8px; }
 h2 small { color: var(--doux); font-weight: 600; }
 .grille { display: grid; grid-template-columns: repeat(auto-fill, minmax(136px, 1fr)); gap: 8px; }
 .vignette { position: relative; background: var(--fond-2); border: 2px solid #ffffff10;
+  border-left: 4px solid var(--rar, #ffffff10);
   border-radius: 10px; padding: 5px; cursor: pointer; }
+.v-rarete { color: var(--rar, var(--doux)); text-transform: uppercase; font-size: 8.5px; }
 .vignette img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 6px;
   background: #0d0d16; display: block; }
 .vignette.selectionnee { border-color: var(--accent-2); box-shadow: 0 0 0 2px #46c8ff55; }
@@ -79,6 +81,12 @@ h2 small { color: var(--doux); font-weight: 600; }
 .ed-titre { flex: 1; min-width: 0; }
 .ed-titre small { display: block; color: var(--doux); font-size: 11px;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.btn-copier { background: none; border: 1px solid #ffffff25; border-radius: 7px;
+  color: var(--texte); cursor: pointer; font-size: 13px; padding: 3px 7px;
+  margin-left: 8px; vertical-align: middle; }
+.vignette { border-left: 4px solid var(--rar, #ffffff10); }
+.v-rarete { color: var(--rar, var(--doux)); text-transform: uppercase;
+  font-size: 8.5px; letter-spacing: .4px; }
 .editeur-scene { display: flex; justify-content: center; padding: 6px 14px; }
 .ed-cadre-conteneur { position: relative; width: min(92vw, 640px); aspect-ratio: 4/3;
   overflow: hidden; border-radius: 10px; background: #05050a;
@@ -97,7 +105,17 @@ h2 small { color: var(--doux); font-weight: 600; }
 .ed-apercu span { display: block; font-size: 10px; color: var(--doux); margin-bottom: 3px; }
 .ed-apercu canvas { border-radius: 8px; border: 1px solid #ffffff22; background: #0d0d16; }
 .ed-actions { display: flex; gap: 8px; flex-wrap: wrap; }
-.ed-aide { text-align: center; color: var(--doux); font-size: 12px; padding: 0 20px 20px; }
+.ed-aide { text-align: center; color: var(--doux); font-size: 12px; padding: 0 20px 8px; }
+.ed-fiche { max-width: 640px; margin: 0 auto 30px; background: var(--fond-2);
+  border: 1px solid #ffffff14; border-radius: 12px; padding: 14px; width: calc(100% - 28px); }
+.ed-fiche h4 { margin: 0 0 8px; font-size: 13px; color: var(--doux); }
+.ed-fiche label { display: block; font-size: 12px; color: var(--doux); margin: 8px 0 2px; }
+.ed-fiche input, .ed-fiche select { width: 100%; background: var(--fond);
+  color: var(--texte); border: 1px solid #ffffff22; border-radius: 8px;
+  padding: 9px 10px; font-size: 14px; }
+.modale-boite select { width: 100%; background: var(--fond); color: var(--texte);
+  border: 1px solid #ffffff22; border-radius: 8px; padding: 9px 10px;
+  font-size: 14px; margin: 4px 0 8px; }
 
 /* ------- notes ------- */
 .note { background: var(--fond-2); border: 1px solid #ffffff12; border-radius: 12px;
