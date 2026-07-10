@@ -291,10 +291,10 @@
   },
   "pilotes-f1-champions-du-monde_max-verstappen": {
    "cx": 0.5,
-   "cy": 0.375,
-   "w": 1,
+   "cy": 0.5,
+   "w": 0.8871111111111112,
    "original": true,
-   "editeLe": 1783713869018
+   "editeLe": 1783722173121
   },
   "pilotes-f1-champions-du-monde_lando-norris": {
    "cx": 0.5,
