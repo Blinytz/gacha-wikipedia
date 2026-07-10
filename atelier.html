@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#12121c">
+<title>Atelier Images — Gacha Wikipedia</title>
+<link rel="icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="atelier/atelier.css">
+</head>
+<body>
+<header id="entete">
+  <div class="titre">🖼️ Atelier <span>Images</span></div>
+  <div id="badge-envoi" class="badge-envoi" hidden></div>
+  <nav id="onglets">
+    <button data-vue="grille" class="actif">Grille</button>
+    <button data-vue="notes">Notes <span id="nb-notes"></span></button>
+    <button data-vue="config">⚙</button>
+  </nav>
+</header>
+
+<div id="barre-filtres" class="barre-filtres">
+  <select id="f-collection"><option value="">Toutes les collections</option></select>
+  <select id="f-source"><option value="">Toutes les sources</option></select>
+  <select id="f-statut">
+    <option value="">Tous les statuts</option>
+    <option value="revoir">⚠ à revoir</option>
+    <option value="ok">✓ vues OK</option>
+    <option value="editee">✂ éditées</option>
+    <option value="note">📝 avec note</option>
+    <option value="aucun">sans statut</option>
+  </select>
+  <input type="search" id="f-texte" placeholder="🔍 nom de carte…">
+  <button id="btn-selection" class="btn">☑ Sélection</button>
+</div>
+
+<main>
+  <section id="vue-grille" class="vue visible"><div id="chargement">Chargement des 2304 cartes…</div></section>
+  <section id="vue-notes" class="vue"></section>
+  <section id="vue-config" class="vue"></section>
+</main>
+
+<div id="barre-selection" class="barre-selection" hidden>
+  <span id="nb-selection">0 sélectionnée(s)</span>
+  <button class="btn btn-primaire" id="btn-note-creer">Créer une note</button>
+  <button class="btn" id="btn-note-ajouter">Ajouter à une note…</button>
+  <button class="btn btn-discret" id="btn-selection-fin">Terminer</button>
+</div>
+
+<div id="editeur" class="editeur" hidden>
+  <div class="editeur-entete">
+    <button class="btn btn-discret" id="ed-fermer">✕ Fermer</button>
+    <div class="ed-titre"><b id="ed-nom"></b><small id="ed-infos"></small></div>
+    <button class="btn btn-primaire" id="ed-enregistrer">💾 Enregistrer</button>
+  </div>
+  <div class="editeur-scene" id="ed-scene">
+    <div class="ed-cadre-conteneur" id="ed-conteneur">
+      <img id="ed-image" alt="" draggable="false">
+      <div class="ed-cadre"></div>
+    </div>
+  </div>
+  <div class="editeur-outils">
+    <div class="ed-zoom">
+      <button class="btn" id="ed-moins">−</button>
+      <button class="btn" id="ed-plus">+</button>
+      <button class="btn btn-discret" id="ed-reset">↺ recadrer auto</button>
+    </div>
+    <div class="ed-apercu"><span>Aperçu carte</span><canvas id="ed-canvas-apercu" width="160" height="120"></canvas></div>
+    <div class="ed-actions">
+      <button class="btn" id="ed-remplacer">🔄 Remplacer l'image…</button>
+      <button class="btn" id="ed-note">📝 Note sur cette carte…</button>
+    </div>
+  </div>
+  <p class="ed-aide">Glisse la photo pour la positionner · molette ou pincement
+  pour zoomer · le cadre = ce que la carte affichera.</p>
+  <input type="file" id="ed-fichier" accept="image/*" hidden>
+</div>
+
+<div id="modale" class="modale" hidden><div class="modale-boite" id="modale-boite"></div></div>
+
+<script type="module" src="atelier/atelier.js"></script>
+</body>
+</html>

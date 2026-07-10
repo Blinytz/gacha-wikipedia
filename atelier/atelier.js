@@ -1,0 +1,513 @@
+// Atelier Images — orchestrateur : grille, filtres, sélection multiple,
+// notes, éditeur de cadrage et flux d'enregistrement vers GitHub.
+
+import { getToken, setToken, testerToken, getFichierTexte, putFichier,
+         blobVersBase64, enfiler, surFileChangee, reessayerErreurs,
+         DEPOT } from './github.js';
+import { Editeur } from './editeur.js';
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g,
+  c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+const TAGS = ['hors-sujet', 'mauvaise qualité', 'style incohérent',
+              'mauvaise page liée', 'recadrer', 'supprimer la carte'];
+
+let collections = [];          // [{slug, nom, cartes:[...]}]
+let parId = new Map();
+let sourcesImages = {};
+let notes = { version: 1, statuts: {}, cadrages: {}, notes: [] };
+let notesSha = null;
+let selection = new Set();
+let modeSelection = false;
+let carteEnEdition = null;
+let editeur = null;
+let remplacementEnCours = false;
+
+const $ = s => document.querySelector(s);
+
+/* ================= chargement ================= */
+
+async function demarrer() {
+  surFileChangee(majBadgeEnvoi);
+  brancherOnglets();
+  rendreConfig();
+  if (!getToken()) { afficherVue('config'); }
+
+  const bust = `?v=${Date.now()}`;
+  const index = await (await fetch('data/collections.json' + bust)).json();
+  const fichiers = await Promise.all(index.collections.map(c =>
+    fetch(c.fichier + bust).then(r => r.json())));
+  collections = fichiers.map(f => ({ slug: f.slug, nom: f.collection, cartes: f.cartes }));
+  for (const col of collections) for (const c of col.cartes) parId.set(c.id, c);
+  try {
+    sourcesImages = await (await fetch('build/images_sources.json' + bust)).json();
+  } catch { sourcesImages = {}; }
+  try {
+    const { texte, sha } = getToken()
+      ? await getFichierTexte('build/notes_atelier.json')
+      : { texte: await (await fetch('build/notes_atelier.json' + bust)).text(), sha: null };
+    if (texte) notes = { ...notes, ...JSON.parse(texte) };
+    notesSha = sha;
+  } catch { /* première utilisation */ }
+
+  remplirFiltres();
+  rendreGrille();
+  rendreNotes();
+  brancherEditeur();
+  brancherSelection();
+}
+
+/* ================= vues / entête ================= */
+
+function afficherVue(nom) {
+  for (const b of document.querySelectorAll('#onglets button')) {
+    b.classList.toggle('actif', b.dataset.vue === nom);
+  }
+  for (const v of document.querySelectorAll('.vue')) {
+    v.classList.toggle('visible', v.id === `vue-${nom}`);
+  }
+}
+
+function brancherOnglets() {
+  for (const b of document.querySelectorAll('#onglets button')) {
+    b.addEventListener('click', () => afficherVue(b.dataset.vue));
+  }
+}
+
+function majBadgeEnvoi({ enAttente, erreurs }) {
+  const el = $('#badge-envoi');
+  el.hidden = enAttente === 0 && erreurs === 0;
+  el.textContent = erreurs ? `⚠ ${erreurs} échec(s) — réessayer` : `⬆ ${enAttente} envoi(s)…`;
+  el.classList.toggle('erreur', erreurs > 0);
+  el.onclick = erreurs ? reessayerErreurs : null;
+}
+
+/* ================= grille ================= */
+
+function statutDe(id) {
+  if (notes.cadrages[id]) return 'editee';
+  return notes.statuts[id] || '';
+}
+
+function aUneNote(id) {
+  return notes.notes.some(n => n.statut === 'ouverte' && n.images.includes(id));
+}
+
+function remplirFiltres() {
+  $('#f-collection').innerHTML = '<option value="">Toutes les collections</option>' +
+    collections.map(c => `<option value="${c.slug}">${esc(c.nom)}</option>`).join('');
+  const sources = [...new Set(Object.values(sourcesImages).map(v => v.source))].sort();
+  $('#f-source').innerHTML = '<option value="">Toutes les sources</option>' +
+    sources.map(s => `<option>${esc(s)}</option>`).join('');
+  for (const id of ['f-collection', 'f-source', 'f-statut', 'f-texte']) {
+    $('#' + id).addEventListener('input', rendreGrille);
+  }
+}
+
+function carteVisible(carte) {
+  const fc = $('#f-collection').value, fs = $('#f-source').value;
+  const ft = $('#f-statut').value, fq = $('#f-texte').value.trim().toLowerCase();
+  if (fs && (sourcesImages[carte.id]?.source || '?') !== fs) return false;
+  if (fq && !carte.nom.toLowerCase().includes(fq)) return false;
+  const st = statutDe(carte.id);
+  if (ft === 'revoir' && st !== 'revoir') return false;
+  if (ft === 'ok' && st !== 'ok') return false;
+  if (ft === 'editee' && st !== 'editee') return false;
+  if (ft === 'note' && !aUneNote(carte.id)) return false;
+  if (ft === 'aucun' && (st || aUneNote(carte.id))) return false;
+  return true;
+}
+
+function rendreGrille() {
+  const fc = $('#f-collection').value;
+  const conteneur = $('#vue-grille');
+  const parts = [];
+  let total = 0;
+  const sommaire = [];
+  for (const col of collections) {
+    if (fc && col.slug !== fc) continue;
+    const visibles = col.cartes.filter(carteVisible);
+    if (!visibles.length) continue;
+    total += visibles.length;
+    sommaire.push(`<a href="#col-${col.slug}">${esc(col.nom)} (${visibles.length})</a>`);
+    parts.push(`<h2 id="col-${col.slug}">${esc(col.nom)} <small>${visibles.length}</small></h2>
+      <div class="grille">` + visibles.map(c => {
+        const st = statutDe(c.id);
+        const pastille = { revoir: '⚠', ok: '✓', editee: '✂' }[st] || '';
+        const note = aUneNote(c.id) ? '<span class="v-note">📝</span>' : '';
+        const sel = selection.has(c.id) ? ' selectionnee' : '';
+        return `<div class="vignette${sel}" data-id="${esc(c.id)}">
+          <img src="${esc(c.thumbUrl)}" loading="lazy" alt="">
+          <button class="v-statut ${st}" data-statut="${esc(c.id)}" title="statut">${pastille || '·'}</button>
+          ${note}
+          <div class="v-nom">${esc(c.nom)}</div>
+          <div class="v-source">${esc(sourcesImages[c.id]?.source || '?')}</div>
+        </div>`;
+      }).join('') + '</div>');
+  }
+  conteneur.innerHTML =
+    `<nav class="sommaire">${sommaire.join('')}</nav>
+     <p class="doux">${total} carte(s) affichée(s)</p>` + parts.join('');
+
+  conteneur.onclick = (ev) => {
+    const btnStatut = ev.target.closest('[data-statut]');
+    if (btnStatut) {
+      const id = btnStatut.dataset.statut;
+      const suite = { '': 'revoir', revoir: 'ok', ok: '' };
+      const st = notes.statuts[id] || '';
+      if (suite[st] === '') delete notes.statuts[id];
+      else notes.statuts[id] = suite[st] ?? 'revoir';
+      planifierSauvegardeNotes();
+      rendreGrille();
+      return;
+    }
+    const vignette = ev.target.closest('.vignette');
+    if (!vignette) return;
+    const id = vignette.dataset.id;
+    if (modeSelection) {
+      if (selection.has(id)) selection.delete(id); else selection.add(id);
+      vignette.classList.toggle('selectionnee');
+      $('#nb-selection').textContent = `${selection.size} sélectionnée(s)`;
+    } else {
+      ouvrirEditeur(parId.get(id));
+    }
+  };
+}
+
+/* ================= sélection multiple + notes groupées ================= */
+
+function brancherSelection() {
+  $('#btn-selection').addEventListener('click', () => {
+    modeSelection = !modeSelection;
+    selection.clear();
+    $('#barre-selection').hidden = !modeSelection;
+    $('#btn-selection').classList.toggle('btn-primaire', modeSelection);
+    $('#nb-selection').textContent = '0 sélectionnée(s)';
+    rendreGrille();
+  });
+  $('#btn-selection-fin').addEventListener('click', () => $('#btn-selection').click());
+  $('#btn-note-creer').addEventListener('click', () => {
+    if (!selection.size) return alert('Sélectionne au moins une image.');
+    modaleNote([...selection]);
+  });
+  $('#btn-note-ajouter').addEventListener('click', () => {
+    if (!selection.size) return alert('Sélectionne au moins une image.');
+    modaleAjoutNote([...selection]);
+  });
+}
+
+function modaleNote(ids, noteExistante = null) {
+  const n = noteExistante;
+  ouvrirModale(`
+    <h3>${n ? 'Modifier la note' : `Nouvelle note (${ids.length} image(s))`}</h3>
+    <div class="tags">${TAGS.map(t => `<label><input type="checkbox" value="${t}"
+      ${n?.tags.includes(t) ? 'checked' : ''}> ${t}</label>`).join('')}</div>
+    <textarea id="m-texte" rows="4" placeholder="Remarques pour Claude…">${esc(n?.texte || '')}</textarea>
+    <div class="m-boutons">
+      <button class="btn btn-primaire" id="m-ok">Enregistrer</button>
+      <button class="btn btn-discret" id="m-annuler">Annuler</button>
+    </div>`);
+  $('#m-ok').onclick = () => {
+    const tags = [...document.querySelectorAll('#modale .tags input:checked')].map(i => i.value);
+    const texte = $('#m-texte').value.trim();
+    if (!tags.length && !texte) return alert('Note vide.');
+    if (n) { n.tags = tags; n.texte = texte; n.majLe = Date.now(); }
+    else notes.notes.push({ id: 'n' + Date.now(), tags, texte, images: [...new Set(ids)],
+                            statut: 'ouverte', creeLe: Date.now(), majLe: Date.now() });
+    planifierSauvegardeNotes();
+    fermerModale(); rendreNotes(); rendreGrille();
+    if (modeSelection) $('#btn-selection').click();
+  };
+  $('#m-annuler').onclick = fermerModale;
+}
+
+function modaleAjoutNote(ids) {
+  const ouvertes = notes.notes.filter(n => n.statut === 'ouverte');
+  if (!ouvertes.length) return modaleNote(ids);
+  ouvrirModale(`
+    <h3>Ajouter ${ids.length} image(s) à une note</h3>
+    <div class="liste-choix">${ouvertes.map(n => `
+      <button class="btn choix-note" data-note="${n.id}">
+        ${esc((n.texte || n.tags.join(', ')).slice(0, 80))}
+        <small>${n.images.length} image(s)</small></button>`).join('')}</div>
+    <div class="m-boutons"><button class="btn btn-discret" id="m-annuler">Annuler</button></div>`);
+  for (const b of document.querySelectorAll('.choix-note')) {
+    b.onclick = () => {
+      const n = notes.notes.find(x => x.id === b.dataset.note);
+      n.images = [...new Set([...n.images, ...ids])];
+      n.majLe = Date.now();
+      planifierSauvegardeNotes();
+      fermerModale(); rendreNotes(); rendreGrille();
+      if (modeSelection) $('#btn-selection').click();
+    };
+  }
+  $('#m-annuler').onclick = fermerModale;
+}
+
+/* ================= écran Notes ================= */
+
+function rendreNotes() {
+  const ouvertes = notes.notes.filter(n => n.statut === 'ouverte');
+  $('#nb-notes').textContent = ouvertes.length ? `(${ouvertes.length})` : '';
+  const bloc = n => `
+    <div class="note ${n.statut}">
+      <div class="note-tags">${n.tags.map(t => `<span>${esc(t)}</span>`).join('')}
+        <small>${new Date(n.creeLe).toLocaleDateString('fr-FR')} · ${n.statut}</small></div>
+      <p>${esc(n.texte) || '<i>(tags seulement)</i>'}</p>
+      <div class="note-images">${n.images.map(id => {
+        const c = parId.get(id);
+        return c ? `<img src="${esc(c.thumbUrl)}" title="${esc(c.nom)}" data-ouvrir="${esc(id)}">` : '';
+      }).join('')}</div>
+      <div class="m-boutons">
+        <button class="btn btn-discret" data-modifier="${n.id}">Modifier</button>
+        <button class="btn btn-discret" data-basculer="${n.id}">
+          ${n.statut === 'ouverte' ? 'Marquer traitée' : 'Rouvrir'}</button>
+        <button class="btn btn-discret" data-supprimer="${n.id}">Supprimer</button>
+      </div>
+    </div>`;
+  $('#vue-notes').innerHTML = notes.notes.length
+    ? [...notes.notes].sort((a, b) => (a.statut === 'ouverte' ? 0 : 1) - (b.statut === 'ouverte' ? 0 : 1)
+        || b.majLe - a.majLe).map(bloc).join('')
+    : '<p class="doux" style="padding:20px">Aucune note. Sélectionne des images dans la grille ou ouvre une carte pour en créer.</p>';
+
+  $('#vue-notes').onclick = (ev) => {
+    const t = ev.target;
+    if (t.dataset.ouvrir) { afficherVue('grille'); ouvrirEditeur(parId.get(t.dataset.ouvrir)); }
+    const n = notes.notes.find(x => x.id === (t.dataset.modifier || t.dataset.basculer || t.dataset.supprimer));
+    if (!n) return;
+    if (t.dataset.modifier) modaleNote(n.images, n);
+    if (t.dataset.basculer) {
+      n.statut = n.statut === 'ouverte' ? 'traitee' : 'ouverte';
+      n.majLe = Date.now();
+      planifierSauvegardeNotes(); rendreNotes();
+    }
+    if (t.dataset.supprimer && confirm('Supprimer cette note ?')) {
+      notes.notes = notes.notes.filter(x => x !== n);
+      planifierSauvegardeNotes(); rendreNotes(); rendreGrille();
+    }
+  };
+}
+
+/* ================= éditeur ================= */
+
+function brancherEditeur() {
+  editeur = new Editeur($('#ed-conteneur'), $('#ed-image'), $('#ed-canvas-apercu'));
+  $('#ed-fermer').addEventListener('click', fermerEditeur);
+  $('#ed-plus').addEventListener('click', () => editeur.zoomer(1.2));
+  $('#ed-moins').addEventListener('click', () => editeur.zoomer(1 / 1.2));
+  $('#ed-reset').addEventListener('click', () => editeur.reset());
+  $('#ed-enregistrer').addEventListener('click', enregistrerCadrage);
+  $('#ed-note').addEventListener('click', () => carteEnEdition && modaleNote([carteEnEdition.id]));
+  $('#ed-remplacer').addEventListener('click', modaleRemplacement);
+  $('#ed-fichier').addEventListener('change', async () => {
+    const f = $('#ed-fichier').files[0];
+    if (f) { await chargerRemplacement(f); $('#ed-fichier').value = ''; }
+  });
+  // coller une image n'importe où dans l'éditeur
+  document.addEventListener('paste', async (ev) => {
+    if ($('#editeur').hidden) return;
+    const item = [...(ev.clipboardData?.items || [])].find(i => i.type.startsWith('image/'));
+    if (item) { ev.preventDefault(); await chargerRemplacement(item.getAsFile()); return; }
+    const texte = ev.clipboardData?.getData('text');
+    if (texte && /^https?:\/\//.test(texte.trim())) {
+      ev.preventDefault();
+      await chargerRemplacementURL(texte.trim());
+    }
+  });
+  // glisser-déposer un fichier
+  const ed = $('#editeur');
+  ed.addEventListener('dragover', ev => ev.preventDefault());
+  ed.addEventListener('drop', async (ev) => {
+    ev.preventDefault();
+    const f = ev.dataTransfer?.files?.[0];
+    if (f && f.type.startsWith('image/')) await chargerRemplacement(f);
+  });
+}
+
+function cheminsDe(carte) {
+  const [col, slug] = [carte.id.split('_', 1)[0], carte.id.split('_').slice(1).join('_')];
+  return {
+    orig: `images/originaux/${col}/${slug}.webp`,
+    full: `images/full/${col}/${slug}.webp`,
+    thumb: `images/thumbs/${col}/${slug}.webp`,
+  };
+}
+
+async function ouvrirEditeur(carte) {
+  carteEnEdition = carte;
+  remplacementEnCours = false;
+  $('#ed-nom').textContent = carte.nom;
+  $('#ed-infos').textContent = ` ${carte.collection} · image : ${sourcesImages[carte.id]?.source || '?'}`;
+  $('#editeur').hidden = false;
+  const cad = notes.cadrages[carte.id];
+  const source = cad?.original ? cheminsDe(carte).orig : carte.imageUrl;
+  try {
+    await editeur.chargerDepuisURL(source + `?v=${Date.now()}`);
+    if (cad) editeur.setCadrage(cad);
+  } catch (e) {
+    alert('Impossible de charger l’image : ' + e.message);
+  }
+}
+
+function fermerEditeur() {
+  $('#editeur').hidden = true;
+  carteEnEdition = null;
+}
+
+function modaleRemplacement() {
+  ouvrirModale(`
+    <h3>Remplacer l'image</h3>
+    <p class="doux">Trois moyens :</p>
+    <input type="url" id="m-url" placeholder="Coller l'URL d'une image puis Entrée…">
+    <p class="doux">— ou colle une image (Ctrl+V) n'importe où dans l'éditeur —</p>
+    <div class="m-boutons">
+      <button class="btn" id="m-fichier">📁 Choisir un fichier…</button>
+      <button class="btn btn-discret" id="m-annuler">Annuler</button>
+    </div>`);
+  $('#m-url').addEventListener('keydown', async (ev) => {
+    if (ev.key === 'Enter' && $('#m-url').value.trim()) {
+      fermerModale();
+      await chargerRemplacementURL($('#m-url').value.trim());
+    }
+  });
+  $('#m-fichier').onclick = () => { fermerModale(); $('#ed-fichier').click(); };
+  $('#m-annuler').onclick = fermerModale;
+}
+
+async function chargerRemplacementURL(url) {
+  // tentative directe (si le serveur accepte CORS), sinon proxy weserv
+  const candidates = [url,
+    'https://images.weserv.nl/?url=' + encodeURIComponent(url.replace(/^https?:\/\//, '')) + '&w=1600'];
+  for (const u of candidates) {
+    try { await editeur.chargerDepuisURL(u); remplacementEnCours = true; return; }
+    catch { /* essaie le suivant */ }
+  }
+  alert('Impossible de charger cette URL (essaie de coller l’image elle-même avec Ctrl+V).');
+}
+
+async function chargerRemplacement(blob) {
+  await editeur.chargerDepuisBlob(blob);
+  remplacementEnCours = true;
+}
+
+/* ---------- enregistrement (file GitHub) ---------- */
+
+async function enregistrerCadrage() {
+  if (!carteEnEdition) return;
+  if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙) avant d’enregistrer.'); return; }
+  const carte = carteEnEdition;
+  const chemins = cheminsDe(carte);
+  const cadrage = editeur.getCadrage();
+  const remplacement = remplacementEnCours;
+  const dejaOriginal = !!notes.cadrages[carte.id]?.original;
+
+  const { full, thumb } = await editeur.exporter();
+  const blobOriginal = (remplacement || !dejaOriginal)
+    ? (remplacement ? await editeur.exporterOriginal()
+                    : await (await fetch(carte.imageUrl + `?v=${Date.now()}`)).blob())
+    : null;
+
+  // maj immédiate de la vignette locale (sans attendre le déploiement Pages)
+  const urlLocale = URL.createObjectURL(thumb);
+  document.querySelectorAll(`.vignette[data-id="${CSS.escape(carte.id)}"] img`)
+    .forEach(im => { im.src = urlLocale; });
+
+  notes.cadrages[carte.id] = { ...cadrage, original: true, editeLe: Date.now() };
+  planifierSauvegardeNotes();
+  rendreGrille();
+
+  enfiler(`images ${carte.nom}`, async () => {
+    if (blobOriginal) {
+      await putFichier(chemins.orig, await blobVersBase64(blobOriginal),
+        `Atelier : original ${carte.id}`);
+    }
+    await putFichier(chemins.full, await blobVersBase64(full),
+      `Atelier : cadrage ${carte.id}`);
+    await putFichier(chemins.thumb, await blobVersBase64(thumb),
+      `Atelier : vignette ${carte.id}`);
+  });
+  fermerEditeur();
+}
+
+/* ---------- sauvegarde des notes/statuts/cadrages ---------- */
+
+let minuterieNotes = null;
+function planifierSauvegardeNotes() {
+  clearTimeout(minuterieNotes);
+  minuterieNotes = setTimeout(() => {
+    if (!getToken()) return;
+    enfiler('notes_atelier.json', async () => {
+      try {
+        notesSha = await putFichier('build/notes_atelier.json',
+          btoa(unescape(encodeURIComponent(JSON.stringify(notes, null, 1)))),
+          'Atelier : notes/statuts/cadrages', notesSha ?? undefined);
+      } catch (e) {
+        if (String(e.message).includes('CONFLIT')) {
+          // fusion basique : on repart du distant et on ré-applique le local
+          const { texte, sha } = await getFichierTexte('build/notes_atelier.json');
+          const distant = texte ? JSON.parse(texte) : {};
+          notes = {
+            ...distant, ...notes,
+            statuts: { ...(distant.statuts || {}), ...notes.statuts },
+            cadrages: { ...(distant.cadrages || {}), ...notes.cadrages },
+            notes: fusionnerNotes(distant.notes || [], notes.notes),
+          };
+          notesSha = await putFichier('build/notes_atelier.json',
+            btoa(unescape(encodeURIComponent(JSON.stringify(notes, null, 1)))),
+            'Atelier : notes (fusion)', sha ?? undefined);
+        } else throw e;
+      }
+    });
+  }, 1200);
+}
+
+function fusionnerNotes(a, b) {
+  const parIdNote = new Map();
+  for (const n of [...a, ...b]) {
+    const existant = parIdNote.get(n.id);
+    if (!existant || n.majLe >= existant.majLe) parIdNote.set(n.id, n);
+  }
+  return [...parIdNote.values()];
+}
+
+/* ================= modale + config ================= */
+
+function ouvrirModale(html) { $('#modale-boite').innerHTML = html; $('#modale').hidden = false; }
+function fermerModale() { $('#modale').hidden = true; }
+$('#modale').addEventListener('click', ev => { if (ev.target.id === 'modale') fermerModale(); });
+
+function rendreConfig() {
+  const ok = !!getToken();
+  $('#vue-config').innerHTML = `
+    <div class="panneau">
+      <h3>Connexion GitHub</h3>
+      <p class="doux">L'atelier écrit directement dans le dépôt <b>${DEPOT}</b>.
+      Il faut un token « personnel (classic) » avec la portée <b>repo</b> :
+      github.com → Settings → Developer settings → Personal access tokens →
+      Generate new token (classic). Le token reste sur CET appareil.</p>
+      <input type="password" id="cfg-token" placeholder="ghp_…" value="${ok ? '••••••••' : ''}">
+      <div class="m-boutons">
+        <button class="btn btn-primaire" id="cfg-ok">Enregistrer et tester</button>
+        ${ok ? '<button class="btn btn-danger" id="cfg-deco">Déconnecter cet appareil</button>' : ''}
+      </div>
+      <p id="cfg-etat" class="doux">${ok ? '🟢 token enregistré' : '🔴 aucun token — lecture seule'}</p>
+      <h3>Mode d'emploi</h3>
+      <p class="doux">1. <b>Grille</b> : repère les intrus, filtre par source
+      (« bing » d'abord), pastille ⚠/✓ pour suivre ta progression.<br>
+      2. <b>Clic sur une image</b> : glisse-la sous le cadre, zoome à la
+      molette ou au pincement, Enregistrer — la carte est republiée (~1 min).<br>
+      3. <b>Remplacer</b> : colle une URL, une image (Ctrl+V) ou un fichier.<br>
+      4. <b>Notes</b> : sélection multiple → note commune pour Claude, qui les
+      traitera en batch (« traite les notes de l'atelier »).</p>
+    </div>`;
+  $('#cfg-ok').onclick = async () => {
+    const v = $('#cfg-token').value.trim();
+    if (v && !v.startsWith('•')) setToken(v);
+    $('#cfg-etat').textContent = '… test en cours';
+    $('#cfg-etat').textContent = (await testerToken().catch(() => false))
+      ? '🟢 token valide — écriture activée' : '🔴 token invalide';
+  };
+  $('#cfg-deco')?.addEventListener('click', () => { setToken(''); rendreConfig(); });
+}
+
+demarrer();
