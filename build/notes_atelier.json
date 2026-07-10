@@ -1,6 +1,14 @@
 {
  "version": 1,
  "statuts": {},
- "cadrages": {},
+ "cadrages": {
+  "merveilles-du-monde_mausolee-d-halicarnasse": {
+   "cx": 0.48827284946236554,
+   "cy": 0.5,
+   "w": 0.7505376344086022,
+   "original": true,
+   "editeLe": 1783711375357
+  }
+ },
  "notes": []
 }
