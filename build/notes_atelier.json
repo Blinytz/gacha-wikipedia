@@ -330,6 +330,13 @@
    "w": 0.75177304964539,
    "original": true,
    "editeLe": 1783714634568
+  },
+  "corps-celestes_charon-lune": {
+   "cx": 0.5,
+   "cy": 0.5,
+   "w": 0.8,
+   "original": true,
+   "editeLe": 1783714648899
   }
  },
  "notes": [
