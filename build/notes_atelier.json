@@ -960,6 +960,13 @@
    "w": 1,
    "original": true,
    "editeLe": 1783718640798
+  },
+  "constellations_poisson-austral": {
+   "cx": 0.5,
+   "cy": 0.5000000000000001,
+   "w": 1,
+   "original": true,
+   "editeLe": 1783718681177
   }
  },
  "notes": [
