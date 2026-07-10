@@ -60,6 +60,46 @@ export async function putFichier(chemin, base64, message, shaConnu) {
   return (await r.json()).content.sha;
 }
 
+// Commit GROUPÉ de plusieurs fichiers en une seule révision (API Git Data) :
+// indispensable pour ne pas déclencher un build GitHub Pages par fichier.
+// fichiers : [{ chemin, base64 }] — base64 null = suppression du fichier.
+export async function commitLot(fichiers, message) {
+  const h = entetes();
+  const base = 'https://api.github.com/repos/' + DEPOT;
+  const refJ = await (await fetch(`${base}/git/ref/heads/${BRANCHE}`,
+                                  { headers: h, cache: 'no-store' })).json();
+  const shaParent = refJ.object.sha;
+  const commitJ = await (await fetch(`${base}/git/commits/${shaParent}`,
+                                     { headers: h })).json();
+  const arbre = [];
+  for (const f of fichiers) {
+    if (f.base64 === null) {
+      arbre.push({ path: f.chemin, mode: '100644', type: 'blob', sha: null });
+    } else {
+      const blobR = await fetch(`${base}/git/blobs`, {
+        method: 'POST', headers: h,
+        body: JSON.stringify({ content: f.base64, encoding: 'base64' }) });
+      if (!blobR.ok) throw new Error(`blob ${f.chemin} : HTTP ${blobR.status}`);
+      arbre.push({ path: f.chemin, mode: '100644', type: 'blob',
+                   sha: (await blobR.json()).sha });
+    }
+  }
+  const treeR = await fetch(`${base}/git/trees`, {
+    method: 'POST', headers: h,
+    body: JSON.stringify({ base_tree: commitJ.tree.sha, tree: arbre }) });
+  if (!treeR.ok) throw new Error(`tree : HTTP ${treeR.status}`);
+  const commitR = await fetch(`${base}/git/commits`, {
+    method: 'POST', headers: h,
+    body: JSON.stringify({ message, tree: (await treeR.json()).sha,
+                           parents: [shaParent] }) });
+  if (!commitR.ok) throw new Error(`commit : HTTP ${commitR.status}`);
+  const majR = await fetch(`${base}/git/refs/heads/${BRANCHE}`, {
+    method: 'PATCH', headers: h,
+    body: JSON.stringify({ sha: (await commitR.json()).sha, force: false }) });
+  if (majR.status === 422) throw new Error('CONFLIT');   // la branche a bougé -> retry
+  if (!majR.ok) throw new Error(`maj ref : HTTP ${majR.status}`);
+}
+
 // suppression (best-effort : silencieux si le fichier n'existe pas)
 export async function supprimerFichier(chemin, message) {
   const sha = await getSha(chemin);

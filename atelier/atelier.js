@@ -2,8 +2,8 @@
 // notes, éditeur de cadrage et flux d'enregistrement vers GitHub.
 
 import { getToken, setToken, testerToken, getFichierTexte, putFichier,
-         supprimerFichier, blobVersBase64, enfiler, surFileChangee,
-         reessayerErreurs, DEPOT } from './github.js';
+         supprimerFichier, commitLot, getSha, blobVersBase64, enfiler,
+         surFileChangee, reessayerErreurs, DEPOT } from './github.js';
 import { Editeur } from './editeur.js';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g,
@@ -496,8 +496,13 @@ function supprimerCarte() {
   });
   const ch = cheminsDe(carte);
   enfiler(`images de ${carte.nom} (suppression)`, async () => {
+    // un seul commit de suppression pour les fichiers existants
+    const fichiers = [];
     for (const p of [ch.thumb, ch.full, ch.orig]) {
-      await supprimerFichier(p, `Atelier : suppression image ${carte.id}`);
+      if (await getSha(p)) fichiers.push({ chemin: p, base64: null });
+    }
+    if (fichiers.length) {
+      await commitLot(fichiers, `Atelier : suppression images ${carte.id}`);
     }
   });
   fermerEditeur();
@@ -581,15 +586,17 @@ async function enregistrerCadrage() {
   planifierSauvegardeNotes();
   rendreGrille();
 
+  // UN SEUL commit pour original+full+vignette : un build Pages au lieu de 3
   enfiler(`images ${carte.nom}`, async () => {
+    const fichiers = [
+      { chemin: chemins.full, base64: await blobVersBase64(full) },
+      { chemin: chemins.thumb, base64: await blobVersBase64(thumb) },
+    ];
     if (blobOriginal) {
-      await putFichier(chemins.orig, await blobVersBase64(blobOriginal),
-        `Atelier : original ${carte.id}`);
+      fichiers.unshift({ chemin: chemins.orig,
+                         base64: await blobVersBase64(blobOriginal) });
     }
-    await putFichier(chemins.full, await blobVersBase64(full),
-      `Atelier : cadrage ${carte.id}`);
-    await putFichier(chemins.thumb, await blobVersBase64(thumb),
-      `Atelier : vignette ${carte.id}`);
+    await commitLot(fichiers, `Atelier : ${carte.id}`);
   });
   fermerEditeur();
 }
