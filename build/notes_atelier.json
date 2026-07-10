@@ -974,6 +974,13 @@
    "w": 1,
    "original": true,
    "editeLe": 1783718734557
+  },
+  "constellations_triangle-constellation": {
+   "cx": 0.5,
+   "cy": 0.5000000000000001,
+   "w": 1,
+   "original": true,
+   "editeLe": 1783718749734
   }
  },
  "notes": [
