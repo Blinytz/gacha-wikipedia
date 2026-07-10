@@ -298,10 +298,10 @@
   },
   "pilotes-f1-champions-du-monde_lando-norris": {
    "cx": 0.5,
-   "cy": 0.3984375,
-   "w": 1,
+   "cy": 0.5,
+   "w": 0.888888888888889,
    "original": true,
-   "editeLe": 1783713891819
+   "editeLe": 1783722181235
   },
   "corps-celestes_136108-haumea": {
    "cx": 0.5,
