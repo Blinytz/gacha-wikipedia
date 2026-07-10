@@ -946,6 +946,13 @@
    "w": 1,
    "original": true,
    "editeLe": 1783718427889
+  },
+  "constellations_autel-constellation": {
+   "cx": 0.5,
+   "cy": 0.5,
+   "w": 1,
+   "original": true,
+   "editeLe": 1783718590419
   }
  },
  "notes": [
