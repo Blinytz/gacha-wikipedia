@@ -22,6 +22,12 @@ let modeSelection = false;
 let carteEnEdition = null;
 let editeur = null;
 let remplacementEnCours = false;
+// aperçus locaux (blob) des cartes éditées cette session : la grille les
+// utilise en priorité, sans attendre la republication GitHub Pages
+const apercusLocaux = {};
+// les fichiers fraîchement committés sont servis IMMÉDIATEMENT par raw
+// (Pages met ~1 min à republier)
+const RAW = `https://raw.githubusercontent.com/${DEPOT}/main/`;
 
 const $ = s => document.querySelector(s);
 
@@ -136,8 +142,11 @@ function rendreGrille() {
         const pastille = { revoir: '⚠', ok: '✓', editee: '✂' }[st] || '';
         const note = aUneNote(c.id) ? '<span class="v-note">📝</span>' : '';
         const sel = selection.has(c.id) ? ' selectionnee' : '';
+        const cad = notes.cadrages[c.id];
+        const src = apercusLocaux[c.id]
+          || (cad ? `${RAW}${c.thumbUrl}?v=${cad.editeLe}` : c.thumbUrl);
         return `<div class="vignette${sel}" data-id="${esc(c.id)}">
-          <img src="${esc(c.thumbUrl)}" loading="lazy" alt="">
+          <img src="${esc(src)}" loading="lazy" alt="">
           <button class="v-statut ${st}" data-statut="${esc(c.id)}" title="statut">${pastille || '·'}</button>
           ${note}
           <div class="v-nom">${esc(c.nom)}</div>
@@ -340,13 +349,21 @@ async function ouvrirEditeur(carte) {
   $('#ed-infos').textContent = ` ${carte.collection} · image : ${sourcesImages[carte.id]?.source || '?'}`;
   $('#editeur').hidden = false;
   const cad = notes.cadrages[carte.id];
-  const source = cad?.original ? cheminsDe(carte).orig : carte.imageUrl;
-  try {
-    await editeur.chargerDepuisURL(source + `?v=${Date.now()}`);
-    if (cad) editeur.setCadrage(cad);
-  } catch (e) {
-    alert('Impossible de charger l’image : ' + e.message);
+  // ordre : original (raw = frais immédiatement) puis full (raw) puis full
+  // relatif — jamais d'échec juste parce que Pages n'a pas fini de republier
+  const sources = [];
+  if (cad?.original) sources.push(RAW + cheminsDe(carte).orig);
+  sources.push(RAW + carte.imageUrl, carte.imageUrl);
+  let chargee = false;
+  for (const s of sources) {
+    try {
+      await editeur.chargerDepuisURL(s + `?v=${Date.now()}`);
+      chargee = true;
+      break;
+    } catch { /* source suivante */ }
   }
+  if (!chargee) { alert('Impossible de charger l’image de cette carte.'); return; }
+  if (cad) editeur.setCadrage(cad);
 }
 
 function fermerEditeur() {
@@ -404,13 +421,13 @@ async function enregistrerCadrage() {
   const { full, thumb } = await editeur.exporter();
   const blobOriginal = (remplacement || !dejaOriginal)
     ? (remplacement ? await editeur.exporterOriginal()
-                    : await (await fetch(carte.imageUrl + `?v=${Date.now()}`)).blob())
+                    : await (await fetch(RAW + carte.imageUrl + `?v=${Date.now()}`)
+                             .catch(() => fetch(carte.imageUrl))).blob())
     : null;
 
-  // maj immédiate de la vignette locale (sans attendre le déploiement Pages)
-  const urlLocale = URL.createObjectURL(thumb);
-  document.querySelectorAll(`.vignette[data-id="${CSS.escape(carte.id)}"] img`)
-    .forEach(im => { im.src = urlLocale; });
+  // aperçu local : la grille l'affichera tant que la session est ouverte,
+  // sans attendre la republication GitHub Pages
+  apercusLocaux[carte.id] = URL.createObjectURL(thumb);
 
   notes.cadrages[carte.id] = { ...cadrage, original: true, editeLe: Date.now() };
   planifierSauvegardeNotes();
