@@ -1439,10 +1439,10 @@
   },
   "dynasties-et-empires-historiques_empire-byzantin": {
    "cx": 0.5,
-   "cy": 0.5,
-   "w": 0.8839506172839506,
+   "cy": 0.40985937499999997,
+   "w": 1,
    "original": true,
-   "editeLe": 1784495862700
+   "editeLe": 1784496458185
   },
   "dynasties-et-empires-historiques_empire-romain": {
    "cx": 0.5,
