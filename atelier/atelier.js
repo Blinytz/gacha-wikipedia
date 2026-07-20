@@ -350,6 +350,8 @@ function brancherEditeur() {
   // coller une image n'importe où dans l'éditeur
   document.addEventListener('paste', async (ev) => {
     if ($('#editeur').hidden) return;
+    // dans un champ de saisie (fiche, notes…), le collage reste normal
+    if (ev.target.closest('input, textarea, select, [contenteditable]')) return;
     const item = [...(ev.clipboardData?.items || [])].find(i => i.type.startsWith('image/'));
     if (item) { ev.preventDefault(); await chargerRemplacement(item.getAsFile()); return; }
     const texte = ev.clipboardData?.getData('text');
