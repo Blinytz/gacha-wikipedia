@@ -601,6 +601,9 @@ function modaleNouvelleCarte() {
       thumbUrl: `images/thumbs/${colSlug}/${slug}.webp`,
       description: '', collection: col.nom, rarete, pv,
       lienWikipedia: lien, pageviews: 0,
+      // le rôle est une propriété de la collection : toute nouvelle carte l'hérite
+      role: combat.roles[colSlug] || 'attaque',
+      tags: [], pvCombat: pv,
       numero: Math.max(0, ...col.cartes.map(c => c.numero || 0)) + 1,
       _nouvelle: true,
     };

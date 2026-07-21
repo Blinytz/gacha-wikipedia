@@ -363,7 +363,13 @@ def main():
             # --- pouvoir
             n = liens.get(t, 0)
             palier = palier_de(n)
-            choix = familles_par_palier.get(palier) or cfg.FAMILLES
+            # le palier fixe le niveau de puissance, le rôle filtre ce qui a du
+            # sens (un Terrain ne se défausse pas, une Défense n'attaque pas)
+            choix = [f for f in (familles_par_palier.get(palier) or [])
+                     if role in f.get('roles', [role])]
+            if not choix:
+                choix = [f for f in cfg.FAMILLES if role in f.get('roles', [role])] \
+                        or cfg.FAMILLES
             famille = choix[hash_int(carte['id']) % len(choix)]
             position = (vues.index(carte.get('pageviews', 0)) / max(1, len(vues) - 1)) if len(vues) > 1 else 0.5
             valeur = valeur_force(carte, famille, position)
