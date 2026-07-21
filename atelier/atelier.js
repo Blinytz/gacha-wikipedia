@@ -5,6 +5,8 @@ import { getToken, setToken, testerToken, getFichierTexte, putFichier,
          supprimerFichier, commitLot, getSha, blobVersBase64, enfiler,
          surFileChangee, reessayerErreurs, DEPOT } from './github.js';
 import { Editeur } from './editeur.js';
+import { combat, chargerCombat, familleParId, textePouvoir, sauverCombat,
+         ajouterAuRegistre, ROLES, LIBELLE_ROLE } from './combat.js';
 
 const esc = s => String(s ?? '').replace(/[&<>"']/g,
   c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -79,6 +81,9 @@ async function demarrer() {
     notesSha = sha;
   } catch { /* première utilisation */ }
 
+  await chargerCombat(bust);
+  remplirDatalists();
+
   remplirFiltres();
   rendreGrille();
   rendreNotes();
@@ -99,7 +104,11 @@ function afficherVue(nom) {
 
 function brancherOnglets() {
   for (const b of document.querySelectorAll('#onglets button')) {
-    b.addEventListener('click', () => afficherVue(b.dataset.vue));
+    b.addEventListener('click', () => {
+      afficherVue(b.dataset.vue);
+      if (b.dataset.vue === 'synergies') rendreSynergies();
+      if (b.dataset.vue === 'collections') rendreCollections();
+    });
   }
 }
 
@@ -330,6 +339,45 @@ function brancherEditeur() {
   $('#ed-f-enregistrer').addEventListener('click', enregistrerFiche);
   $('#ed-f-supprimer').addEventListener('click', supprimerCarte);
   $('#btn-nouvelle').addEventListener('click', modaleNouvelleCarte);
+  // --- tags
+  const ajouterTag = () => {
+    const champ = $('#ed-tag-nouveau');
+    if (carteEnEdition && champ.value.trim()) {
+      if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙).'); return; }
+      ajouterTagACarte(carteEnEdition, champ.value);
+      champ.value = '';
+    }
+  };
+  $('#ed-tag-ajouter').addEventListener('click', ajouterTag);
+  $('#ed-tag-nouveau').addEventListener('keydown', ev => {
+    if (ev.key === 'Enter') { ev.preventDefault(); ajouterTag(); }
+  });
+
+  // --- pouvoir : aperçu en direct + enregistrement
+  for (const id of ['#ed-p-declencheur', '#ed-p-famille', '#ed-p-valeur', '#ed-p-unite']) {
+    $(id).addEventListener('input', majApercuPouvoir);
+    $(id).addEventListener('change', () => {
+      // changer de famille reprend son unité par défaut
+      if (id === '#ed-p-famille') {
+        const f = familleParId($('#ed-p-famille').value);
+        if (f) $('#ed-p-unite').value = f.unite;
+      }
+      majApercuPouvoir();
+    });
+  }
+  $('#ed-p-enregistrer').addEventListener('click', enregistrerPouvoir);
+  $('#ed-p-regenerer').addEventListener('click', () => {
+    if (!carteEnEdition) return;
+    if (!confirmer('Revenir au pouvoir automatique ? Il sera régénéré au prochain passage du script.')) return;
+    const carte = carteEnEdition;
+    delete carte.pouvoirManuel;
+    jobModifierCollection(colSlugDe(carte), `Atelier : pouvoir auto ${carte.id}`, (d) => {
+      const c = d.cartes.find(x => x.id === carte.id);
+      if (c) delete c.pouvoirManuel;
+    });
+    rendrePouvoirCarte(carte);
+  });
+
   $('#ed-copier').addEventListener('click', async () => {
     if (!carteEnEdition) return;
     await navigator.clipboard.writeText(carteEnEdition.nom);
@@ -389,6 +437,10 @@ async function ouvrirEditeur(carte) {
   $('#ed-f-lien').value = carte.lienWikipedia || '';
   $('#ed-f-rarete').innerHTML = RARETES.map(r =>
     `<option value="${r}" ${r === carte.rarete ? 'selected' : ''}>${r}</option>`).join('');
+  $('#ed-f-pv').value = carte.pvCombat ?? '';
+  $('#ed-f-role').value = LIBELLE_ROLE[carte.role || combat.roles[colSlugDe(carte)]] || '—';
+  rendreTagsCarte(carte);
+  rendrePouvoirCarte(carte);
   $('#editeur').hidden = false;
   if (carte._nouvelle) {
     // carte fraîchement créée : pas encore d'image -> proposer d'en coller une
@@ -469,12 +521,16 @@ function enregistrerFiche() {
   const rarete = $('#ed-f-rarete').value;
   if (!nom) { alert('Le nom ne peut pas être vide.'); return; }
   if (lien && !/^https?:\/\//.test(lien)) { alert('Le lien doit être une URL complète.'); return; }
+  const pv = Math.round(Number($('#ed-f-pv').value) / 10) * 10;
+  const pvOk = Number.isFinite(pv) && pv >= 10 && pv <= 500;
   // maj locale immédiate
   carte.nom = nom; carte.lienWikipedia = lien; carte.rarete = rarete;
+  if (pvOk) { carte.pvCombat = pv; carte.pvCombatManuel = true; }
   jobModifierCollection(colSlugDe(carte), `Atelier : fiche ${carte.id}`, (d) => {
     const c = d.cartes.find(x => x.id === carte.id);
     if (!c) throw new Error(`carte ${carte.id} introuvable dans le fichier`);
     c.nom = nom; c.lienWikipedia = lien; c.rarete = rarete;
+    if (pvOk) { c.pvCombat = pv; c.pvCombatManuel = true; }
   });
   $('#ed-nom').textContent = nom;
   rendreGrille();
@@ -673,6 +729,18 @@ function rendreConfig() {
       3. <b>Remplacer</b> : colle une URL, une image (Ctrl+V) ou un fichier.<br>
       4. <b>Notes</b> : sélection multiple → note commune pour Claude, qui les
       traitera en batch (« traite les notes de l'atelier »).</p>
+      <h3>Mode roguelike</h3>
+      <p class="doux">Dans la fiche d'une carte : <b>Tags</b> (auto Wikidata,
+      retirables ; un tag inconnu saisi rejoint la liste commune) et
+      <b>Pouvoir</b> en 3 sections — ① déclencheur, ② famille d'effet
+      (déterminée par les liens sortants de l'article), ③ force (rareté +
+      notoriété). La phrase se recompose en direct.<br>
+      <b>Synergies</b> : chaque tag avec ses cartes ; « Ajouter une carte à ce
+      tag » applique le tag directement sur la carte.<br>
+      <b>Collections</b> : rôle Attaque/Défense/Terrain appliqué à toute la
+      collection (cartes futures incluses) + déclencheur par défaut.<br>
+      Régénération auto : <code>python build/generer_combat.py</code> — les
+      champs marqués manuels ne sont jamais réécrasés.</p>
     </div>`;
   $('#cfg-ok').onclick = async () => {
     const v = $('#cfg-token').value.trim();
@@ -682,6 +750,249 @@ function rendreConfig() {
       ? '🟢 token valide — écriture activée' : '🔴 token invalide';
   };
   $('#cfg-deco')?.addEventListener('click', () => { setToken(''); rendreConfig(); });
+}
+
+/* ================= COMBAT : tags, pouvoirs, synergies, rôles ================= */
+
+function remplirDatalists() {
+  $('#liste-tags-connus').innerHTML =
+    combat.tagsRegistre.map(t => `<option value="${esc(t)}">`).join('');
+  $('#liste-declencheurs').innerHTML =
+    (combat.catalogueDeclencheurs || []).map(t => `<option value="${esc(t)}">`).join('');
+  $('#ed-p-famille').innerHTML = combat.familles.map(f =>
+    `<option value="${f.id}">${esc(f.nom)} — palier ${esc(f.palier)}</option>`).join('');
+}
+
+/* ---------- tags de la carte ---------- */
+
+function rendreTagsCarte(carte) {
+  const tags = carte.tags || [];
+  $('#ed-tags-src').textContent = carte.tagsManuel ? '(modifiés à la main)' : '(auto Wikidata)';
+  $('#ed-tags').innerHTML = tags.length
+    ? tags.map(t => `<span class="puce-tag">${esc(t)}
+        <button data-retirer-tag="${esc(t)}" title="retirer">✕</button></span>`).join('')
+    : '<span class="doux">Aucun tag — la carte reste jouable, sans bonus de synergie.</span>';
+  for (const b of $('#ed-tags').querySelectorAll('[data-retirer-tag]')) {
+    b.addEventListener('click', () => {
+      carte.tags = (carte.tags || []).filter(x => x !== b.dataset.retirerTag);
+      enregistrerTags(carte);
+    });
+  }
+}
+
+function enregistrerTags(carte) {
+  carte.tagsManuel = true;
+  rendreTagsCarte(carte);
+  rendreGrille();
+  jobModifierCollection(colSlugDe(carte), `Atelier : tags ${carte.id}`, (d) => {
+    const c = d.cartes.find(x => x.id === carte.id);
+    if (!c) throw new Error(`carte ${carte.id} introuvable`);
+    c.tags = carte.tags; c.tagsManuel = true;
+  });
+}
+
+// Ajoute un tag à une carte (depuis la fiche ou depuis l'écran Synergies).
+export function ajouterTagACarte(carte, tag) {
+  tag = (tag || '').trim();
+  if (!tag) return;
+  carte.tags = carte.tags || [];
+  if (!carte.tags.includes(tag)) carte.tags.push(tag);
+  if (ajouterAuRegistre(tag)) {           // nouveau tag -> liste commune
+    remplirDatalists();
+    sauverCombat(`Atelier : nouveau tag « ${tag} »`);
+  }
+  enregistrerTags(carte);
+}
+
+/* ---------- pouvoir de la carte ---------- */
+
+function rendrePouvoirCarte(carte) {
+  const p = carte.pouvoir;
+  if (!p) {
+    $('#ed-pouvoir-texte').textContent =
+      'Pas encore généré — lance build/generer_combat.py.';
+    return;
+  }
+  $('#ed-p-declencheur').value = p.declencheur || '';
+  $('#ed-p-famille').value = p.familleId || '';
+  $('#ed-p-valeur').value = p.valeur ?? '';
+  $('#ed-p-unite').value = p.unite ?? '';
+  const f = familleParId(p.familleId);
+  $('#ed-pouvoir-palier').textContent =
+    `${carte.pouvoirManuel ? '(modifié à la main)' : '(auto)'}` +
+    (carte.liensSortants != null ? ` · ${carte.liensSortants} liens sortants` : '') +
+    (f ? ` · palier ${f.palier} · type ${f.type}` : '');
+  $('#ed-p-ciblage').textContent = f ? `Cible : ${f.ciblage}` : '';
+  majApercuPouvoir();
+}
+
+function majApercuPouvoir() {
+  const p = {
+    declencheur: $('#ed-p-declencheur').value.trim(),
+    familleId: $('#ed-p-famille').value,
+    valeur: Number($('#ed-p-valeur').value),
+    unite: $('#ed-p-unite').value.trim(),
+  };
+  $('#ed-pouvoir-texte').textContent = textePouvoir(p);
+  const f = familleParId(p.familleId);
+  $('#ed-p-ciblage').textContent = f ? `Cible : ${f.ciblage}` : '';
+}
+
+function enregistrerPouvoir() {
+  if (!carteEnEdition) return;
+  if (!getToken()) { alert('Configure ton token GitHub (onglet ⚙).'); return; }
+  const carte = carteEnEdition;
+  const f = familleParId($('#ed-p-famille').value);
+  const p = {
+    declencheur: $('#ed-p-declencheur').value.trim(),
+    familleId: $('#ed-p-famille').value,
+    valeur: Number($('#ed-p-valeur').value),
+    unite: $('#ed-p-unite').value.trim() || (f ? f.unite : ''),
+  };
+  if (!p.familleId || !Number.isFinite(p.valeur)) { alert('Famille ou force invalide.'); return; }
+  p.texte = textePouvoir(p);
+  carte.pouvoir = p;
+  carte.pouvoirManuel = true;
+  rendrePouvoirCarte(carte);
+  jobModifierCollection(colSlugDe(carte), `Atelier : pouvoir ${carte.id}`, (d) => {
+    const c = d.cartes.find(x => x.id === carte.id);
+    if (!c) throw new Error(`carte ${carte.id} introuvable`);
+    c.pouvoir = p; c.pouvoirManuel = true;
+  });
+}
+
+/* ---------- écran Synergies ---------- */
+
+function cartesParTag() {
+  const m = new Map();
+  for (const col of collections) {
+    for (const c of col.cartes) {
+      for (const t of c.tags || []) {
+        if (!m.has(t)) m.set(t, []);
+        m.get(t).push(c);
+      }
+    }
+  }
+  return m;
+}
+
+function rendreSynergies() {
+  const m = cartesParTag();
+  const tags = [...new Set([...combat.tagsRegistre, ...m.keys()])]
+    .sort((a, b) => (m.get(b)?.length || 0) - (m.get(a)?.length || 0) || a.localeCompare(b, 'fr'));
+  const total = [...m.values()].reduce((a, l) => a + l.length, 0);
+  $('#vue-synergies').innerHTML = `
+    <p class="doux">${tags.length} tags · ${total} associations. Un tag = un axe
+    de synergie : deux cartes qui le partagent se renforcent en combat.</p>
+    <input type="search" id="filtre-tag" class="champ-filtre" placeholder="🔍 filtrer les tags…">
+    ${tags.map(t => {
+      const cartes = m.get(t) || [];
+      return `<details class="bloc-tag" data-tag="${esc(t)}">
+        <summary>${esc(t)} <b>${cartes.length}</b> carte(s)</summary>
+        <div class="grille-mini">${cartes.map(c => `
+          <div class="mini-syn" data-ouvrir="${esc(c.id)}" title="${esc(c.collection)}">
+            <img src="${esc(apercusLocaux[c.id] || c.thumbUrl)}" loading="lazy" alt="">
+            <span>${esc(c.nom)}</span>
+          </div>`).join('') || '<span class="doux">Aucune carte pour ce tag.</span>'}</div>
+        <button class="btn btn-discret" data-ajouter-a="${esc(t)}">＋ Ajouter une carte à ce tag</button>
+      </details>`;
+    }).join('')}`;
+
+  const filtre = $('#filtre-tag');
+  filtre.addEventListener('input', () => {
+    const q = filtre.value.trim().toLowerCase();
+    for (const d of $('#vue-synergies').querySelectorAll('.bloc-tag')) {
+      d.style.display = !q || d.dataset.tag.toLowerCase().includes(q) ? '' : 'none';
+    }
+  });
+  // onclick (et non addEventListener) : le conteneur survit aux rendus, les
+  // écouteurs s'accumuleraient sinon à chaque passage sur l'onglet
+  $('#vue-synergies').onclick = (ev) => {
+    const ouvrir = ev.target.closest('[data-ouvrir]');
+    if (ouvrir) { afficherVue('grille'); ouvrirEditeur(parId.get(ouvrir.dataset.ouvrir)); return; }
+    const ajout = ev.target.closest('[data-ajouter-a]');
+    if (ajout) modaleChoisirCarte(ajout.dataset.ajouterA);
+  };
+}
+
+// Sélecteur de carte : ajoute le tag choisi à la carte retenue.
+function modaleChoisirCarte(tag) {
+  ouvrirModale(`
+    <h3>Ajouter une carte au tag « ${esc(tag)} »</h3>
+    <input type="search" id="m-rech" placeholder="Chercher une carte…" autofocus>
+    <div class="liste-choix" id="m-resultats"><p class="doux">Tape au moins 2 lettres.</p></div>
+    <div class="m-boutons"><button class="btn btn-discret" id="m-annuler">Fermer</button></div>`);
+  const champ = $('#m-rech');
+  champ.addEventListener('input', () => {
+    const q = champ.value.trim().toLowerCase();
+    if (q.length < 2) { $('#m-resultats').innerHTML = '<p class="doux">Tape au moins 2 lettres.</p>'; return; }
+    const trouves = [];
+    for (const col of collections) {
+      for (const c of col.cartes) {
+        if (c.nom.toLowerCase().includes(q)) trouves.push(c);
+        if (trouves.length >= 40) break;
+      }
+      if (trouves.length >= 40) break;
+    }
+    $('#m-resultats').innerHTML = trouves.length ? trouves.map(c => `
+      <button class="btn choix-note" data-carte="${esc(c.id)}">${esc(c.nom)}
+        <small>${esc(c.collection)}${(c.tags || []).includes(tag) ? ' · déjà taguée' : ''}</small>
+      </button>`).join('') : '<p class="doux">Aucune carte.</p>';
+    for (const b of $('#m-resultats').querySelectorAll('[data-carte]')) {
+      b.addEventListener('click', () => {
+        ajouterTagACarte(parId.get(b.dataset.carte), tag);
+        fermerModale();
+        rendreSynergies();
+      });
+    }
+  });
+  $('#m-annuler').onclick = fermerModale;
+}
+
+/* ---------- écran Collections (rôles + déclencheurs) ---------- */
+
+function rendreCollections() {
+  $('#vue-collections').innerHTML = `
+    <p class="doux">Le rôle s'applique à <b>toute la collection</b>, y compris
+    les cartes ajoutées plus tard. Le déclencheur est la variable ① du pouvoir :
+    le changer ici ne réécrit pas les pouvoirs déjà générés (il sert de défaut
+    aux prochaines générations et aux nouvelles cartes).</p>
+    <table class="table-collections">
+      <tr><th>Collection</th><th>Cartes</th><th>Rôle</th><th>Déclencheur par défaut</th></tr>
+      ${collections.map(col => `
+        <tr>
+          <td>${esc(col.nom)}</td>
+          <td>${col.cartes.length}</td>
+          <td><select data-role="${col.slug}">${ROLES.map(r =>
+            `<option value="${r}" ${combat.roles[col.slug] === r ? 'selected' : ''}
+             >${LIBELLE_ROLE[r]}</option>`).join('')}</select></td>
+          <td><input data-decl="${col.slug}" list="liste-declencheurs"
+                     value="${esc(combat.declencheurs[col.slug] || '')}"></td>
+        </tr>`).join('')}
+    </table>`;
+
+  for (const sel of $('#vue-collections').querySelectorAll('[data-role]')) {
+    sel.addEventListener('change', () => {
+      const slug = sel.dataset.role, role = sel.value;
+      combat.roles[slug] = role;
+      sauverCombat(`Atelier : rôle ${slug} → ${role}`);
+      // applique le rôle à toutes les cartes de la collection
+      const col = collections.find(c => c.slug === slug);
+      for (const c of col.cartes) c.role = role;
+      jobModifierCollection(slug, `Atelier : rôle ${role} sur ${slug}`, (d) => {
+        for (const c of d.cartes) c.role = role;
+      });
+      if (carteEnEdition && colSlugDe(carteEnEdition) === slug) {
+        $('#ed-f-role').value = LIBELLE_ROLE[role];
+      }
+    });
+  }
+  for (const inp of $('#vue-collections').querySelectorAll('[data-decl]')) {
+    inp.addEventListener('change', () => {
+      combat.declencheurs[inp.dataset.decl] = inp.value.trim();
+      sauverCombat(`Atelier : déclencheur ${inp.dataset.decl}`);
+    });
+  }
 }
 
 demarrer();

@@ -113,6 +113,40 @@ h2 small { color: var(--doux); font-weight: 600; }
 .ed-fiche input, .ed-fiche select { width: 100%; background: var(--fond);
   color: var(--texte); border: 1px solid #ffffff22; border-radius: 8px;
   padding: 9px 10px; font-size: 14px; }
+/* --- combat : tags, pouvoir, synergies, collections --- */
+.liste-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 10px; }
+.puce-tag { background: #7c5cff22; border: 1px solid #7c5cff55; color: var(--accent-2);
+  border-radius: 999px; padding: 4px 6px 4px 11px; font-size: 12px; font-weight: 700;
+  display: inline-flex; align-items: center; gap: 4px; }
+.puce-tag button { background: none; border: none; color: var(--doux); cursor: pointer;
+  font-size: 13px; padding: 0 3px; }
+.puce-tag button:hover { color: var(--danger); }
+.phrase-pouvoir { background: #0d0d16; border: 1px solid #ffffff18; border-radius: 10px;
+  padding: 12px 14px; font-size: 14px; line-height: 1.5; margin: 4px 0 12px;
+  border-left: 3px solid var(--or); }
+.ed-fiche h4 small { font-weight: 400; color: var(--doux); font-size: 11px; }
+.ed-fiche label small { font-weight: 400; color: var(--doux); }
+
+.bloc-tag { background: var(--fond-2); border: 1px solid #ffffff12; border-radius: 10px;
+  margin: 8px 0; padding: 4px 12px; }
+.bloc-tag summary { cursor: pointer; font-weight: 700; font-size: 13px; padding: 9px 0; }
+.bloc-tag summary b { color: var(--accent-2); }
+.grille-mini { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
+  gap: 6px; margin: 6px 0 10px; }
+.mini-syn { background: var(--fond-3); border-radius: 8px; padding: 4px; cursor: pointer;
+  text-align: center; }
+.mini-syn img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 5px; }
+.mini-syn span { font-size: 9.5px; display: block; line-height: 1.2; margin-top: 3px;
+  overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+.table-collections { width: 100%; border-collapse: collapse; font-size: 13px; }
+.table-collections th { text-align: left; color: var(--doux); font-size: 11px;
+  padding: 6px 8px; border-bottom: 1px solid #ffffff20; }
+.table-collections td { padding: 6px 8px; border-bottom: 1px solid #ffffff0d; }
+.table-collections select, .table-collections input {
+  background: var(--fond); color: var(--texte); border: 1px solid #ffffff22;
+  border-radius: 7px; padding: 6px 8px; font-size: 12px; width: 100%; }
+
 .modale-boite select { width: 100%; background: var(--fond); color: var(--texte);
   border: 1px solid #ffffff22; border-radius: 8px; padding: 9px 10px;
   font-size: 14px; margin: 4px 0 8px; }

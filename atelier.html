@@ -14,6 +14,8 @@
   <div id="badge-envoi" class="badge-envoi" hidden></div>
   <nav id="onglets">
     <button data-vue="grille" class="actif">Grille</button>
+    <button data-vue="synergies">Synergies</button>
+    <button data-vue="collections">Collections</button>
     <button data-vue="notes">Notes <span id="nb-notes"></span></button>
     <button data-vue="config">⚙</button>
   </nav>
@@ -37,6 +39,8 @@
 
 <main>
   <section id="vue-grille" class="vue visible"><div id="chargement">Chargement des 2304 cartes…</div></section>
+  <section id="vue-synergies" class="vue"></section>
+  <section id="vue-collections" class="vue"></section>
   <section id="vue-notes" class="vue"></section>
   <section id="vue-config" class="vue"></section>
 </main>
@@ -80,12 +84,48 @@
     <label>Nom affiché <input id="ed-f-nom"></label>
     <label>Lien Wikipédia <input id="ed-f-lien" type="url"></label>
     <label>Rareté <select id="ed-f-rarete"></select></label>
+    <label>PV de combat <small>(10 à 500, pas de 10)</small>
+      <input id="ed-f-pv" type="number" min="10" max="500" step="10"></label>
+    <label>Rôle <small>(hérité de la collection, modifiable dans l'onglet Collections)</small>
+      <input id="ed-f-role" disabled></label>
     <div class="m-boutons">
       <button class="btn btn-primaire" id="ed-f-enregistrer">💾 Enregistrer la fiche</button>
       <button class="btn btn-danger" id="ed-f-supprimer">🗑 Supprimer la carte</button>
     </div>
-    <p class="doux">La rareté modifiée ici est définitive (les PV ne changent
-    pas). La suppression retire la carte du jeu et efface ses images.</p>
+    <p class="doux">La rareté modifiée ici est définitive (les PV de collection
+    ne changent pas). La suppression retire la carte du jeu et efface ses images.</p>
+  </div>
+
+  <div class="ed-fiche" id="ed-bloc-tags">
+    <h4>Tags de synergie <small id="ed-tags-src"></small></h4>
+    <div class="liste-tags" id="ed-tags"></div>
+    <div class="rangee-trading">
+      <input id="ed-tag-nouveau" list="liste-tags-connus" placeholder="Ajouter un tag…">
+      <datalist id="liste-tags-connus"></datalist>
+      <button class="btn" id="ed-tag-ajouter">＋</button>
+    </div>
+    <p class="doux">Un tag saisi qui n'existe pas encore rejoint automatiquement
+    la liste commune et devient proposable sur toutes les autres cartes.</p>
+  </div>
+
+  <div class="ed-fiche" id="ed-bloc-pouvoir">
+    <h4>Pouvoir <small id="ed-pouvoir-palier"></small></h4>
+    <p class="phrase-pouvoir" id="ed-pouvoir-texte">—</p>
+    <label>① Déclencheur <small>(par défaut : celui de la collection)</small>
+      <input id="ed-p-declencheur" list="liste-declencheurs">
+      <datalist id="liste-declencheurs"></datalist></label>
+    <label>② Famille d'effet
+      <select id="ed-p-famille"></select></label>
+    <p class="doux" id="ed-p-ciblage"></p>
+    <label>③ Force
+      <span class="rangee-trading">
+        <input id="ed-p-valeur" type="number" step="1" style="flex:1">
+        <input id="ed-p-unite" placeholder="unité" style="flex:1">
+      </span></label>
+    <div class="m-boutons">
+      <button class="btn btn-primaire" id="ed-p-enregistrer">💾 Enregistrer le pouvoir</button>
+      <button class="btn btn-discret" id="ed-p-regenerer">↺ Revenir à l'auto</button>
+    </div>
   </div>
   <input type="file" id="ed-fichier" accept="image/*" hidden>
 </div>
