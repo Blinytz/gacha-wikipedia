@@ -17,7 +17,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 SORTIE_HTML = Path(r'C:\Users\flxjr\Downloads\revue-cartes-gacha.html')
 SORTIE_XLSX = Path(r'C:\Users\flxjr\Downloads\revue-cartes-gacha.xlsx')
-BASE_URL = 'https://blinytz.github.io/gacha-wikipedia/'
+BASE_URL = 'https://blinytz.github.io/wikideck/'
 
 COULEUR_RARETE = {'commune': '#8a93a6', 'rare': '#4aa8ff', 'epique': '#b05cff',
                   'mythique': '#ff5cd0', 'legendaire': '#ffd166'}
@@ -30,7 +30,7 @@ for c in index['collections']:
 
 # ---------------------------------------------------------------- HTML
 parts = ["""<!doctype html><html lang="fr"><meta charset="utf-8">
-<title>Revue des cartes — Gacha Wikipedia</title>
+<title>Revue des cartes — WikiDeck</title>
 <style>
  body{background:#14141e;color:#eceaf6;font-family:system-ui,sans-serif;margin:16px}
  h1{font-size:20px} h2{font-size:16px;margin:26px 0 10px;position:sticky;top:0;
@@ -91,7 +91,7 @@ wb = openpyxl.Workbook()
 ws0 = wb.active
 ws0.title = 'Consignes'
 consignes = [
-    ('Revue finale des cartes — Gacha Wikipedia', 14, True),
+    ('Revue finale des cartes — WikiDeck', 14, True),
     ('', 10, False),
     ('Ouvre revue-cartes-gacha.html (même dossier) pour voir toutes les images.', 10, False),
     ('Ici, remplis uniquement les colonnes jaunes pour ce qui doit changer :', 10, False),

@@ -33,7 +33,7 @@ wb = Workbook()
 ws0 = wb.active
 ws0.title = 'Consignes'
 consignes = [
-    ('Vérification des cartes — Gacha Wikipedia (étape 1)', 14, True),
+    ('Vérification des cartes — WikiDeck (étape 1)', 14, True),
     ('', 10, False),
     ('Chaque ligne = une carte. La résolution automatique a associé chaque nom '
      'de ta liste à un article de fr.wikipedia.org.', 10, False),

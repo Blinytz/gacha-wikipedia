@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Étape 1 — Résolution des titres Wikipedia fr pour les 2 328 cartes.
 
-Lit collections-gacha-wikipedia.xlsx, résout chaque nom d'usage vers le titre
+Lit collections-wikideck.xlsx, résout chaque nom d'usage vers le titre
 exact de l'article fr.wikipedia.org, et produit :
   - build/resolution.json   (résultats machine, consommés par l'étape 2)
   - build/audit.html        (rapport d'audit visuel à vérifier)
@@ -20,9 +20,9 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 ROOT = Path(__file__).resolve().parent.parent
 BUILD = ROOT / 'build'
-XLSX = Path(r'C:\Users\flxjr\Downloads\collections-gacha-wikipedia.xlsx')
+XLSX = Path(r'C:\Users\flxjr\Downloads\collections-wikideck.xlsx')
 API = 'https://fr.wikipedia.org/w/api.php'
-UA = 'gacha-wikipedia-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
+UA = 'wikideck-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
 CACHE_PATH = BUILD / '.cache.pkl'
 SLEEP = 0.08          # pause de politesse entre requêtes non cachées
 BATCH = 20            # limite exlimit de l'API extracts
@@ -540,7 +540,7 @@ def write_outputs(results):
         by_col.setdefault(r['collection'], []).append(r)
 
     parts = ["""<!doctype html><html lang="fr"><meta charset="utf-8">
-<title>Audit résolution des titres — Gacha Wikipedia</title>
+<title>Audit résolution des titres — WikiDeck</title>
 <style>
  body{font-family:system-ui,sans-serif;margin:20px;background:#f7f7f9;color:#1c1c28}
  h1{font-size:22px} h2{font-size:17px;margin:8px 0}

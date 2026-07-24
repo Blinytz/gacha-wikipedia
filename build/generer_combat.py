@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'build'))
 import combat_config as cfg
 
-UA = 'gacha-wikipedia-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
+UA = 'wikideck-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
 CACHE = ROOT / 'build' / '.cache_combat.pkl'
 _cache = pickle.loads(CACHE.read_bytes()) if CACHE.exists() else {}
 _sale = 0

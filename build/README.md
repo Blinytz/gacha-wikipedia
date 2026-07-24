@@ -1,6 +1,6 @@
-# Build — Génération des données Gacha Wikipedia
+# Build — Génération des données WikiDeck
 
-Scripts Python de la phase A. Source : `collections-gacha-wikipedia.xlsx`
+Scripts Python de la phase A. Source : `collections-wikideck.xlsx`
 (32 collections, 2 328 cartes). Aucun de ces scripts n'est utilisé par l'app :
 ils produisent les fichiers statiques de `data/` et `images/`.
 

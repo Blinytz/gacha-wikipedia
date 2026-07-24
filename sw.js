@@ -3,7 +3,7 @@
 // Tout ce qui est servi (shell, data/*.json, images) est mis en cache au vol,
 // donc l'app reste 100% fonctionnelle hors-ligne après la première visite.
 
-const CACHE = 'gacha-wikipedia-v1';
+const CACHE = 'wikideck-v1';
 
 const COQUILLE = [
   './', './index.html', './manifest.json', './css/app.css',

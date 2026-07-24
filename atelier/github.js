@@ -2,7 +2,7 @@
 // Toutes les écritures passent par une file séquentielle avec retries :
 // aucun cadrage ne se perd en silence.
 
-export const DEPOT = 'Blinytz/gacha-wikipedia';
+export const DEPOT = 'Blinytz/wikideck';
 export const BRANCHE = 'main';
 const API = `https://api.github.com/repos/${DEPOT}/contents/`;
 const CLE_TOKEN = 'atelierTokenGitHub';

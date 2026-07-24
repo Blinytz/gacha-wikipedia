@@ -1,4 +1,4 @@
-"""Algorithme partagé rareté/PV — spec « gacha-wikipedia-prompt-claude-code.md ».
+"""Algorithme partagé rareté/PV — spec « wikideck-prompt-claude-code.md ».
 
 Utilisé par make_provisional_data.py (données provisoires, pageviews aléatoires)
 et par generate_cards.py (étape 2, pageviews réels). Toute modification ici

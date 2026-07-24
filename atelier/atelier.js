@@ -1,4 +1,4 @@
-// Atelier Images — orchestrateur : grille, filtres, sélection multiple,
+// Atelier des Cartes — orchestrateur : grille, filtres, sélection multiple,
 // notes, éditeur de cadrage et flux d'enregistrement vers GitHub.
 
 import { getToken, setToken, testerToken, getFichierTexte, putFichier,

@@ -1,6 +1,6 @@
 {
-  "name": "Gacha Wikipédia",
-  "short_name": "Gacha Wikipédia",
+  "name": "WikiDeck",
+  "short_name": "WikiDeck",
   "description": "Collection de cartes gacha générées depuis Wikipédia",
   "lang": "fr",
   "start_url": "./",

@@ -8,9 +8,9 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-MEMO = Path(r'C:\Users\flxjr\OneDrive\Bureau\memo-app')
+MEMO = Path(r'C:\Users\flxjr\OneDrive\Documents\Ecosystème Eclats\apps\memo')
 CHROME = Path(r'C:\Program Files\Google\Chrome\Application\chrome.exe')
-UA_BOT = 'gacha-wikipedia-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
+UA_BOT = 'wikideck-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
 UA_NAV = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
           '(KHTML, like Gecko) Chrome/126.0 Safari/537.36')
 CACHE_PATH = ROOT / 'build' / '.cache_images.pkl'

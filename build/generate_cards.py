@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'build'))
 import rarete_pv
 
-UA = 'gacha-wikipedia-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
+UA = 'wikideck-build/1.0 (projet perso; contact: claude.elk041@passmail.net)'
 CACHE_PV = ROOT / 'build' / '.cache_pageviews.pkl'
 SLEEP = 0.03
 
