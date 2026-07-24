@@ -1,7 +1,7 @@
 {
-  "name": "Gacha Wikipedia",
-  "short_name": "Gacha Wiki",
-  "description": "Collection de cartes gacha générées depuis Wikipedia",
+  "name": "Gacha Wikipédia",
+  "short_name": "Gacha Wikipédia",
+  "description": "Collection de cartes gacha générées depuis Wikipédia",
   "lang": "fr",
   "start_url": "./",
   "scope": "./",

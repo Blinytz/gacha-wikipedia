@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "appId": "gacha-wikipedia",
+  "displayName": "Gacha Wikipédia",
+  "description": "Collection de cartes Wikipédia et atelier de création.",
+  "lifecycle": "construction",
+  "ownership": { "audience": "single-user", "repositoryVisibility": "private", "repository": "Blinytz/gacha-wikipedia" },
+  "data": { "storage": ["localStorage", "files"], "exportAvailable": true, "productionMutationAllowed": false },
+  "eclats": { "mode": "planned", "ledger": "none", "balanceMigration": "forbidden" },
+  "commands": { "install": null, "dev": "python -m http.server 4321", "test": "node build/simulate_boosts.js", "build": null, "lint": null },
+  "integration": { "contractVersion": 1, "status": "manifest-only", "adapter": null }
+}

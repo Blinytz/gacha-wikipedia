@@ -79,7 +79,7 @@ export function importerJSON(texte) {
   const e = JSON.parse(texte);   // lève si invalide — géré par l'appelant
   if (typeof e !== 'object' || e === null || typeof e.version !== 'number'
       || typeof e.cartes !== 'object') {
-    throw new Error("Ce fichier n'est pas une sauvegarde Gacha Wikipedia valide.");
+    throw new Error("Ce fichier n'est pas une sauvegarde Gacha Wikipédia valide.");
   }
   localStorage.setItem(CLE, JSON.stringify(migrer(e)));
 }
